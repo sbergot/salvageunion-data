@@ -6,7 +6,7 @@
         "description": "Ask questions pertaining to mechanical and engineering topics.",
         "effect": "The pilot can ask the Mediator two questions about mechanical and engineering topics, and they must answer truthfully. This ability can also be used to ask for the full stats of any Mech Chassis, System, Module, or Pilot Equipment that the pilot can see and interact with.",
         "apCost": 1,
-        "usage": "Turn Action"
+        "actionType": "Turn"
     },
     {
         "name": "Talk Shop",
@@ -15,8 +15,8 @@
         "description": "Build rapport, and ask favours of other mechanics, salvagers, and workers.",
         "effect": "Detailed effect of Talk Shop.",
         "apCost": 3,
-        "usage": "Turn Action",
-        "range": "Close"
+        "range": "Close",
+        "actionType": "Turn"
     },
     {
         "name": "Mech Acquisition",
@@ -25,7 +25,7 @@
         "description": "Track down and acquire specific Mech parts and Chassis.",
         "effect": "You are able to use your intimate knowledge of engineering to track down and acquire specific Mech parts within wasteland settlements and trading hubs.",
         "apCost": 2,
-        "usage": "Long Action"
+        "actionType": "Long"
     },
     {
         "name": "Mass Field Maintenance",
@@ -34,8 +34,8 @@
         "description": "Repair 4 SP on target Mechs or Vehicles in the field.",
         "effect": "For each Ability Point you spend when you activate this Ability you restore up to 4 SP amongst any number of target Mechs or Vehicles within Range, as long as they have at least 1 SP.",
         "apCost": "Variable",
-        "usage": "Long Action",
-        "range": "Close"
+        "range": "Close",
+        "actionType": "Long"
     },
     {
         "name": "If I cut this wire...",
@@ -44,8 +44,8 @@
         "description": "Damage Systems and Modules on target Mech.",
         "effect": "You can work out exactly where to target a Mech in order to disable its Systems or Modules.",
         "apCost": 2,
-        "usage": "Turn Action",
-        "range": "Close"
+        "range": "Close",
+        "actionType": "Turn"
     },
     {
         "name": "Mass Field Repair",
@@ -54,8 +54,8 @@
         "description": "Repair target Systems and Modules in the field.",
         "effect": "You repair any number of damaged Mech Chassis, Vehicles, Systems, or Modules within Range to Intact Condition.",
         "apCost": "Variable",
-        "usage": "Long Action",
-        "range": "Close"
+        "range": "Close",
+        "actionType": "Long"
     },
     {
         "name": "Jury Rig",
@@ -64,7 +64,7 @@
         "description": "Craft improvised equipment from everyday items.",
         "effect": "You are able to hastily craft improvised equipment from everyday objects taken from your surroundings.",
         "apCost": 2,
-        "usage": "Turn Action"
+        "actionType": "Turn"
     },
     {
         "name": "Mech-Gyver",
@@ -73,7 +73,7 @@
         "description": "Craft Mech Systems and Modules from Scrap in the field.",
         "effect": "Your ability to improvise extends to being able to craft mech parts from scrap in the field.",
         "apCost": 3,
-        "usage": "Short Action"
+        "actionType": "Short"
     },
     {
         "name": "Auto-Turret",
@@ -82,7 +82,7 @@
         "description": "Construct an Immobile Auto-Turret that can be fitted with Systems and Modules.",
         "effect": "You construct an immobile Auto-Turret and train yourself in using it.",
         "apCost": 3,
-        "usage": "Turn Action"
+        "actionType": "Turn"
     },
     {
         "name": "Union Engineer",
@@ -91,7 +91,7 @@
         "description": "Improved repair; gain an additional 4SP when using Repair abilities or Systems.",
         "effect": "You have specialised in getting your hands dirty, you can patch up even the most brutally damaged Mechs with ease, even in the midst of conflict.",
         "apCost": 1,
-        "usage": "Passive"
+        "actionType": "Passive"
     },
     {
         "name": "This one goes to 11...",
@@ -100,8 +100,8 @@
         "description": "Overcharge a Reactor beyond it’s initial capacity to gain additional Pushes.",
         "effect": "You are able to overcharge a Mech Reactor far beyond its usual capacity.",
         "apCost": 3,
-        "usage": "Short Action",
-        "range": "Close"
+        "range": "Close",
+        "actionType": "Short"
     },
     {
         "name": "Mass Energy Recharge",
@@ -110,8 +110,8 @@
         "description": "Restore 10 Energy Points to target Mechs in the field.",
         "effect": "You have gained mastery and intimate knowledge of how a Mech reactor performs, to the point you are able to recharge limited amounts of their energy in the field.",
         "apCost": 4,
-        "usage": "Long Action",
-        "range": "Close"
+        "range": "Close",
+        "actionType": "Long"
     },
     {
         "name": "Tip Top Shape",
@@ -119,7 +119,7 @@
         "level": 1,
         "description": "Your Union Crawler no longer needs to pay upkeep and does not deteriorate.",
         "effect": "You have learned every inch of your Union Crawler, and know it better than the back of your own hand.",
-        "usage": "Passive"
+        "actionType": "Passive"
     },
     {
         "name": "The Full Works",
@@ -128,8 +128,8 @@
         "description": "Fully repair and restore a target Mech and all attached Systems and Modules.",
         "effect": "Your engineering abilities are unparalleled, you can take apart and put back together a Mech at an incredible speed, repairing any faults or issues that may exist within its behemoth Chassis.",
         "apCost": 3,
-        "usage": "Long Action",
-        "range": "Close"
+        "range": "Close",
+        "actionType": "Long"
     },
     {
         "name": "Hacking Kit",
@@ -137,8 +137,11 @@
         "level": 1,
         "description": "Versatile tool for allowing Mech Module hacks on foot and vice-versa.",
         "effect": "You acquire and train in the use of a Hacking Kit that only you can use.",
-        "apCost": "Pilot Equipment",
-        "usage": "Hacking"
+        "traits": [
+            {
+                "type": "pilot equipment"
+            }
+        ]
     },
     {
         "name": "Systems and Software Hacker",
@@ -147,8 +150,8 @@
         "description": "Attempt to destroy Systems and Modules on target Mech.",
         "effect": "You attempt to hack into a System or Module in order to disable, damage, or destroy it in some way.",
         "apCost": "Variable",
-        "usage": "Turn Action",
-        "range": "Medium"
+        "range": "Medium",
+        "actionType": "Turn"
     },
     {
         "name": "Denial of Service Attack",
@@ -157,8 +160,8 @@
         "description": "Attempt to Shutdown target Mech in Range.",
         "effect": "This allows you to flood any number of Mechs or Vehicles in Close Range with numerous false signals, overwhelming them with so much information that they temporarily Shutdown.",
         "apCost": "Variable",
-        "usage": "Turn Action",
-        "range": "Medium"
+        "range": "Medium",
+        "actionType": "Turn"
     },
     {
         "name": "Well actually...",
@@ -167,7 +170,7 @@
         "description": "Ask questions about Systems, Modules, or Technology.",
         "effect": "You can casually answer questions about Systems, Modules, Mechs, or technology even if you do not actually know the answer.",
         "apCost": 1,
-        "usage": "Turn Action"
+        "actionType": "Turn"
     },
     {
         "name": "Techno Babble",
@@ -176,7 +179,7 @@
         "description": "Build rapport and ask favours of other Hackers and technophiles.",
         "effect": "You can effortlessly enunciate a stream of esoteric and mostly incomprehensible thoughts about technology.",
         "apCost": 2,
-        "usage": "Turn Action"
+        "actionType": "Turn"
     },
     {
         "name": "Holo Companion",
@@ -184,8 +187,11 @@
         "level": 3,
         "description": "Construct an intelligent, holographic A.I. companion, projected from a device on your person.",
         "effect": "You have created an intelligent, holographic, A.I. companion that only you can use.",
-        "apCost": "Pilot Equipment",
-        "usage": "Not Applicable"
+        "traits": [
+            {
+                "type": "pilot equipment"
+            }
+        ]
     },
     {
         "name": "Bionic Senses",
@@ -193,7 +199,7 @@
         "level": 1,
         "description": "Gain integrated Thermal Optics, Zoom Optics, or IR Night Vision Optics.",
         "effect": "You gain your choice of integrated Thermal Optics, Zoom Optics, or IR Night Vision Optics.",
-        "usage": "Passive"
+        "actionType": "Passive"
     },
     {
         "name": "Bionic Arms",
@@ -201,7 +207,7 @@
         "level": 2,
         "description": "Gain a set of integrated Bionic Arms. Gives an improved base attack.",
         "effect": "You gain a set of bionic arms, surgically installed to any specification you desire.",
-        "usage": "Passive"
+        "actionType": "Passive"
     },
     {
         "name": "Bionic Legs",
@@ -209,7 +215,7 @@
         "level": 3,
         "description": "Gain a set of integrated Bionic Legs. Gives improved base movement.",
         "effect": "You gain a set of bionic legs, surgically installed to any specification you desire.",
-        "usage": "Passive"
+        "actionType": "Passive"
     },
     {
         "name": "Trojan Horse",
@@ -218,8 +224,8 @@
         "description": "Gain control of a Mech in Range as if it were yours for 10 minutes.",
         "effect": "You have learned how to hack into the root control systems of a Mech in order to pwn them.",
         "apCost": 4,
-        "usage": "Turn Action",
-        "range": "Medium"
+        "range": "Medium",
+        "actionType": "Turn"
     },
     {
         "name": "Counter Hacking",
@@ -228,8 +234,8 @@
         "description": "Attempt to use an Ability with the Hacking Trait as a Reaction to being hacked.",
         "effect": "Your firewalls are bristling with multiple worms which can create backdoors directly into an opposing hacker’s Systems.",
         "apCost": 1,
-        "usage": "Reaction",
-        "range": "Medium"
+        "range": "Medium",
+        "actionType": "Reaction"
     },
     {
         "name": "Worm",
@@ -238,8 +244,8 @@
         "description": "Hack multiple Mechs in Range with a complex worm virus.",
         "effect": "You have programmed a complex worm virus that can traverse through a network of multiple Mechs, causing havoc and chaos amongst their installed Systems and Modules, and even potentially disabling their Chassis entirely.",
         "apCost": "Variable",
-        "usage": "Turn Action",
-        "range": "Medium"
+        "range": "Medium",
+        "actionType": "Turn"
     },
     {
         "name": "Network Takeover",
@@ -248,8 +254,8 @@
         "description": "Hack the entire network of a settlement in range. Control it as you wish.",
         "effect": "You no longer even see the code, you simply see, corpo, construction mech, redhead, base defences.",
         "apCost": 5,
-        "usage": "Turn Action",
-        "range": "Far"
+        "range": "Far",
+        "actionType": "Turn"
     },
     {
         "name": "Spyware",
@@ -258,8 +264,8 @@
         "description": "Permanent and undetectable spyware you can install on a settlement’s network.",
         "effect": "You have developed advanced Spyware which is able to access confidential information from an entire settlement and permanently spy upon them.",
         "apCost": 5,
-        "usage": "Turn Action",
-        "range": "Far"
+        "range": "Far",
+        "actionType": "Turn"
     },
     {
         "name": "Squeeze it in",
@@ -268,8 +274,8 @@
         "description": "Temporariliy increase the cargo capacity of a Mech.",
         "effect": "You always find a way to squeeze that last bit of cargo into a Mech.",
         "apCost": 1,
-        "usage": "Turn Action",
-        "range": "Close"
+        "range": "Close",
+        "actionType": "Turn"
     },
     {
         "name": "Expert Salvager",
@@ -277,7 +283,7 @@
         "level": 2,
         "description": "Gain additional salvage when Area Salvaging. Bypass the die roll when salvaging a Mech.",
         "effect": "You are a dab hand at scouring the wastes for every piece of salvage.",
-        "usage": "Passive"
+        "actionType": "Passive"
     },
     {
         "name": "Emergency Salvage Drop",
@@ -286,7 +292,7 @@
         "description": "Retrieve Chassis, Systems, Modules, Scrap, and Equipment from your Crawler.",
         "effect": "You can call in an emergency salvage drop that deploys from your Union Crawler.",
         "apCost": 3,
-        "usage": "Short Action"
+        "actionType": "Short"
     },
     {
         "name": "Read a Person",
@@ -295,7 +301,7 @@
         "description": "Learn information about an NPC you’re conversing with.",
         "effect": "You have a knack for being able to read people during a conversation.",
         "apCost": 1,
-        "usage": "Turn Action"
+        "actionType": "Turn"
     },
     {
         "name": "Let’s Make a Deal",
@@ -304,7 +310,7 @@
         "description": "Attempt to force a deal through on your terms using leverage.",
         "effect": "You have a knack for being able to make a deal with the staunchest and most hard nosed folk, even in dire situations.",
         "apCost": 1,
-        "usage": "Turn Action"
+        "actionType": "Turn"
     },
     {
         "name": "No Job Too Big",
@@ -313,7 +319,7 @@
         "description": "When reduced to 0 HP or your Mech is reduced to 0 SP, take a Turn Action or Reaction.",
         "effect": "You summon all your reserves in the face of death to finish what you started.",
         "apCost": 2,
-        "usage": "Reaction"
+        "actionType": "Reaction"
     },
     {
         "name": "Folk Song",
@@ -322,7 +328,7 @@
         "description": "Sing a song to set a mood for an audience of NPCs.",
         "effect": "You sing a song that kindles strong feelings in NPCs nearby.",
         "apCost": 1,
-        "usage": "Turn Action"
+        "actionType": "Turn"
     },
     {
         "name": "Behemoth",
@@ -331,8 +337,8 @@
         "description": "Intimidate opponents and force them to accept your demands or flee.",
         "effect": "You strike fear into the hearts of any number of targets within Range.",
         "apCost": 2,
-        "usage": "Turn Action",
-        "range": "Medium"
+        "range": "Medium",
+        "actionType": "Turn"
     },
     {
         "name": "Valiant Speech",
@@ -341,8 +347,8 @@
         "description": "Inspire you allies with a rousing speech which heals and provides them with bonuses.",
         "effect": "You inspire your Allies with a rousing speech.",
         "apCost": 3,
-        "usage": "Short Action",
-        "range": "Medium"
+        "range": "Medium",
+        "actionType": "Short"
     },
     {
         "name": "Beefcake",
@@ -350,7 +356,7 @@
         "level": 1,
         "description": "Increase your size and strength, as well as the size and strength of your Mech.",
         "effect": "Bigger is always better.",
-        "usage": "Passive"
+        "actionType": "Passive"
     },
     {
         "name": "Mechapult Master",
@@ -358,7 +364,7 @@
         "level": 2,
         "description": "Improve your ability with the Mechapult System.",
         "effect": "You have become a master of the sacred art of scrap flinging, making you highly versed at using the Mechapult System.",
-        "usage": "Passive"
+        "actionType": "Passive"
     },
     {
         "name": "Can’t Stop, Won’t Stop",
@@ -367,8 +373,8 @@
         "description": "Gain a special charge attack. Damage is based on cargo carried.",
         "effect": "You have learned to use the momentum and bulk of the vast weight of cargo you can carry to crush your enemies and see them driven before you.",
         "apCost": 3,
-        "usage": "Turn Action",
-        "range": "Medium"
+        "range": "Medium",
+        "actionType": "Turn"
     },
     {
         "name": "Master Salvager",
@@ -377,8 +383,8 @@
         "description": "Restore destroyed Systems Modules, and Mechs to Damaged Condition.",
         "effect": "You are able to take things that are long broken and make them whole again.",
         "apCost": 2,
-        "usage": "Short Action",
-        "range": "Close"
+        "range": "Close",
+        "actionType": "Short"
     },
     {
         "name": "Hauling All Day",
@@ -386,7 +392,7 @@
         "level": 3,
         "description": "Any Mech that you Pilot doubles its Structure Points and Cargo Capacity.",
         "effect": "You’ve been there, seen it all, and can take on just about anything thrown at you.",
-        "usage": "Passive"
+        "actionType": "Passive"
     },
     {
         "name": "Gather Intelligence",
@@ -395,7 +401,7 @@
         "description": "Ask two questions about an area and recieve truthful answers.",
         "effect": "You safely investigate an area to gather information about it.",
         "apCost": 2,
-        "usage": "Short Action"
+        "actionType": "Short"
     },
     {
         "name": "Tail",
@@ -404,8 +410,8 @@
         "description": "Track a target without being seen.",
         "effect": "You are able to track and tail targets with expert skill.",
         "apCost": 2,
-        "usage": "Turn Action",
-        "range": "Long"
+        "range": "Long",
+        "actionType": "Turn"
     },
     {
         "name": "Survey Drone",
@@ -413,8 +419,11 @@
         "level": 3,
         "description": "Gain a Survey Drone that can be equipped with Systems and Modules.",
         "effect": "You acquire and train in the use of a Survey Drone and Drone Controller that only you can use.",
-        "apCost": "Pilot Equipment",
-        "usage": "Not Applicable"
+        "traits": [
+            {
+                "type": "pilot equipment"
+            }
+        ]
     },
     {
         "name": "Silver Tongue",
@@ -423,7 +432,7 @@
         "description": "Glean what motivates an NPC and use it to convince them to do as you wish.",
         "effect": "When you are in conversation with someone, you may appeal to something that motivates them in order to convince them to do something you want.",
         "apCost": 1,
-        "usage": "Turn Action"
+        "actionType": "Turn"
     },
     {
         "name": "Forked Tongue",
@@ -432,7 +441,7 @@
         "description": "Lie with confidence and great skill to fool even the most insightful.",
         "effect": "You are able to weave tall and grandiose tales that can fool even the most wary, cynical, or insightful of wastelanders.",
         "apCost": 1,
-        "usage": "Turn Action"
+        "actionType": "Turn"
     },
     {
         "name": "Persona",
@@ -441,7 +450,7 @@
         "description": "Disguise yourself and create a false identity.",
         "effect": "You carefully prepare a convincing alternate identity.",
         "apCost": "Variable",
-        "usage": "Long Action"
+        "actionType": "Long"
     },
     {
         "name": "You Shot First",
@@ -450,7 +459,7 @@
         "description": "Activate this to act first whenever initiative would be rolled.",
         "effect": "You have a knack for being the first to act in an altercation.",
         "apCost": 2,
-        "usage": "Free Action"
+        "actionType": "Free"
     },
     {
         "name": "Spotter",
@@ -459,8 +468,8 @@
         "description": "Chooose a target in range for an ally to make a free attack against.",
         "effect": "You are able to identify targets and coordinate attacks against them with your allies.",
         "apCost": 2,
-        "usage": "Free Action",
-        "range": "Medium"
+        "range": "Medium",
+        "actionType": "Free"
     },
     {
         "name": "Custom Sniper Rifle",
@@ -468,8 +477,11 @@
         "level": 3,
         "description": "Gain a specialised sniper rifle that only you can use.",
         "effect": "You acquire and train in the use of a Custom Sniper Rifle that only you can use.",
-        "apCost": "Pilot Equipment",
-        "usage": "Not Applicable"
+        "traits": [
+            {
+                "type": "pilot equipment"
+            }
+        ]
     },
     {
         "name": "Flashback",
@@ -478,7 +490,7 @@
         "description": "Activate to retroactively have a solution in place for the current situation.",
         "effect": "You have a knack for preparing for situations in advance, allowing you to get out of all sorts of binds.",
         "apCost": 3,
-        "usage": "Reaction"
+        "actionType": "Reaction"
     },
     {
         "name": "Camo Suit",
@@ -486,8 +498,11 @@
         "level": 2,
         "description": "Gain the use of an advanced Camo Suit that will make you invisible for short periods of time.",
         "effect": "You acquire and train in the use of a specialised Camo Suit that only you can use.",
-        "apCost": "Pilot Equipment",
-        "usage": "Armour"
+        "traits": [
+            {
+                "type": "pilot equipment"
+            }
+        ]
     },
     {
         "name": "Wingsuit",
@@ -495,8 +510,11 @@
         "level": 3,
         "description": "Gain a Wingsuit which allows you to fly.",
         "effect": "You acquire and train in the use of a Wingsuit that only you can use.",
-        "apCost": "Pilot Equipment",
-        "usage": "Armour"
+        "traits": [
+            {
+                "type": "pilot equipment"
+            }
+        ]
     },
     {
         "name": "Wasteland Celebrity",
@@ -505,7 +523,7 @@
         "description": "You are known and respected everywhere and can get assistance when required.",
         "effect": "Your presence is now respected by people everywhere.",
         "apCost": 2,
-        "usage": "Turn Action"
+        "actionType": "Turn"
     },
     {
         "name": "Teleport Beacon",
@@ -514,7 +532,7 @@
         "description": "Gain a beacon and controller. Activate the controller to be teleported to the beacon.",
         "effect": "You acquire and train in the use of a Teleport Beacon that only you can use.",
         "apCost": 3,
-        "usage": "Turn Action"
+        "actionType": "Turn"
     },
     {
         "name": "Wastelander Rapport",
@@ -523,7 +541,7 @@
         "description": "Ask questions of locals and gain assistance when required.",
         "effect": "You have an affinity with the people of the wastes.",
         "apCost": 1,
-        "usage": "Turn Action"
+        "actionType": "Turn"
     },
     {
         "name": "Resourceful",
@@ -532,7 +550,7 @@
         "description": "Find resources in the wastes and limit the effects of environmental conditions.",
         "effect": "You are hardened to surviving out in the wastelands.",
         "apCost": 1,
-        "usage": "Short Action"
+        "actionType": "Short"
     },
     {
         "name": "Custom Missile Launcher",
@@ -540,8 +558,11 @@
         "level": 3,
         "description": "Gain a specialised Missile Launcher that only you can use.",
         "effect": "You acquire and train in the use of a Custom Missile Launcher that only you can use.",
-        "apCost": "Pilot Equipment",
-        "usage": "Not Applicable"
+        "traits": [
+            {
+                "type": "pilot equipment"
+            }
+        ]
     },
     {
         "name": "Provoke",
@@ -550,8 +571,8 @@
         "description": "Taunt a target in Range to focus its attacks on you.",
         "effect": "You provoke any target within Range to focus their attention on you.",
         "apCost": 1,
-        "usage": "Turn Action",
-        "range": "Close"
+        "range": "Close",
+        "actionType": "Turn"
     },
     {
         "name": "Tactical Retreat",
@@ -560,7 +581,7 @@
         "description": "Allow you and your allies to retreat safely to an adjacent Area.",
         "effect": "You use your tactical knowledge to provide you and your Allies cover to safely retreat.",
         "apCost": 2,
-        "usage": "Turn Action"
+        "actionType": "Turn"
     },
     {
         "name": "Counterattack",
@@ -569,7 +590,7 @@
         "description": "Use as a reaction to make a single attack against the target that attacked you.",
         "effect": "When you are attacked you may activate this Ability to make a single attack of your choice against the target that attacked you.",
         "apCost": 3,
-        "usage": "Reaction"
+        "actionType": "Reaction"
     },
     {
         "name": "Charge",
@@ -578,8 +599,8 @@
         "description": "Charge a target within Range and make a Melee attack with bonus damage.",
         "effect": "You charge a target in Range, moving to Close Range of them.",
         "apCost": 1,
-        "usage": "Free Action",
-        "range": "Medium"
+        "range": "Medium",
+        "actionType": "Free"
     },
     {
         "name": "Overpower",
@@ -588,8 +609,8 @@
         "description": "Put and hold a target in a compromised position so that they gain the Vulnerable Trait.",
         "effect": "You overpower a target creature.",
         "apCost": 2,
-        "usage": "Turn Action",
-        "range": "Close"
+        "range": "Close",
+        "actionType": "Turn"
     },
     {
         "name": "Duel",
@@ -598,8 +619,8 @@
         "description": "Compel a target in Range to fight you in single combat.",
         "effect": "You compel a creature in Range to fight you in single combat.",
         "apCost": 3,
-        "usage": "Turn Action",
-        "range": "Close"
+        "range": "Close",
+        "actionType": "Turn"
     },
     {
         "name": "Critical Strike",
@@ -607,7 +628,7 @@
         "level": 1,
         "description": "Gain a ‘Nailed it’ result on attack rolls with a result of 19 - 20.",
         "effect": "You can identify points on an enemy that strike for the utmost amount of carnage.",
-        "usage": "Passive"
+        "actionType": "Passive"
     },
     {
         "name": "Defy Death",
@@ -616,7 +637,7 @@
         "description": "When reduced to 0 SP activate as a Reaction to be reduced to 1 SP instead.",
         "effect": "You have the resilience and survival abilities to weather blows that would otherwise pulverise others into the dust.",
         "apCost": 3,
-        "usage": "Reaction"
+        "actionType": "Reaction"
     },
     {
         "name": "Whirlwind Strike",
@@ -625,7 +646,7 @@
         "description": "Make an attack against all targets in Range with an equipped weapon.",
         "effect": "You have learned to deliver a flurry of attacks against your foes.",
         "apCost": 3,
-        "usage": "Turn Action"
+        "actionType": "Turn"
     },
     {
         "name": "Omega Strike",
@@ -634,7 +655,7 @@
         "description": "Coordinate an attack against a single target. You and each of your allies makes a free attack.",
         "effect": "You coordinate a team wide attack against a target, working perfectly in unison to destroy those standing against you and your allies.",
         "apCost": "Variable",
-        "usage": "Turn Action"
+        "actionType": "Turn"
     },
     {
         "name": "Steel Pact",
@@ -642,7 +663,7 @@
         "level": 3,
         "description": "Form a bond with a weapon. Gain an additional dice roll when attacking with that weapon.",
         "effect": "Choose a Weapon and Weapons System that you own.",
-        "usage": "Passive"
+        "actionType": "Passive"
     },
     {
         "name": "Glanded Stims",
@@ -651,7 +672,7 @@
         "description": "Gain additional actions on your turn, with the risk that you could cause yourself harm.",
         "effect": "Stim glands inserted into your adrenal veins allow you to push yourself beyond your normal means.",
         "apCost": 3,
-        "usage": "Free Action"
+        "actionType": "Free"
     },
     {
         "name": "Modular Face Implant",
@@ -659,7 +680,7 @@
         "level": 2,
         "description": "Install a Module interfaced directly to your brain.",
         "effect": "You undergo complex surgery allowing you to directly install a single Module into your cranium.",
-        "usage": "Passive"
+        "actionType": "Passive"
     },
     {
         "name": "Bionic Endoskeleton",
@@ -667,7 +688,7 @@
         "level": 3,
         "description": "You are now fully bionic, your HP is now SP.",
         "effect": "You undergo a complex and painful mechanical surgery that fully replaces all of your bones with a metal endoskeleton.",
-        "usage": "Passive"
+        "actionType": "Passive"
     },
     {
         "name": "Meld Form",
@@ -675,7 +696,7 @@
         "level": 1,
         "description": "You are now Meld. You can replicate Equipment and make Meld Tendril attacks.",
         "effect": "The Meld called to you from beyond the vast void of time and space.",
-        "usage": "Passive"
+        "actionType": "Passive"
     },
     {
         "name": "Ascension",
@@ -683,7 +704,7 @@
         "level": 3,
         "description": "You are now a virtual being. You control your Mech by wire, and can project your image holographically.",
         "effect": "You have explored the ways of the flesh to their full potential, and have found them lacking.",
-        "usage": "Passive"
+        "actionType": "Passive"
     },
     {
         "name": "Field Fabrication",
@@ -692,7 +713,7 @@
         "description": "Create Systems, Modules and Mech Chassis in the field.",
         "effect": "You are able to use your intimate knowledge of Mech fabrication techniques to craft Mech parts and even entire Chassis in the field.",
         "apCost": 1,
-        "usage": "Turn Action"
+        "actionType": "Turn"
     },
     {
         "name": "Miniaturised EMP",
@@ -701,8 +722,8 @@
         "description": "Gain a mini-EMP that when activated shuts down all electronics in Close Range for 10 mins.",
         "effect": "You acquire and train in the use of a Miniaturised EMP that only you can use.",
         "apCost": 4,
-        "usage": "Turn Action",
-        "range": "Close"
+        "range": "Close",
+        "actionType": "Turn"
     },
     {
         "name": "Chassis Modder",
@@ -710,7 +731,7 @@
         "level": 3,
         "description": "Modify your Mech Chassis to gain the Chassis Ability of another Mech in addition to its own.",
         "effect": "Your intense study and fascination with the core design of Mechs in their multiple forms allows you to modify a Mech Chassis to gain an array of abilities it was not initially designed for.",
-        "usage": "Downtime Action"
+        "actionType": "DownTime"
     },
     {
         "name": "System Miniaturisation",
@@ -718,7 +739,7 @@
         "level": 1,
         "description": "Make Systems smaller to take up fewer slots and be usable as Pilot Equipment.",
         "effect": "Moore’s Law has become your life philosophy. Your talents at fabrication allow you to take even the bulkiest of Mech technology and scale it down to a portable size.",
-        "usage": "Downtime Action"
+        "actionType": "DownTime"
     },
     {
         "name": "Droned Mech Conversion",
@@ -726,7 +747,7 @@
         "level": 3,
         "description": "Your Mech can be piloted remotely up to Far range.",
         "effect": "You install a complex array of electronic equipment, receivers, and transmitters into your Mech.",
-        "usage": "Downtime Action"
+        "actionType": "DownTime"
     },
     {
         "name": "Mecha Companion",
@@ -734,8 +755,12 @@
         "level": 1,
         "description": "Gain a robot familiar. It can be equipped with Systems and Modules.",
         "effect": "You have constructed a mechanical companion.",
-        "apCost": "Pilot Equipment",
-        "usage": "Passive"
+        "actionType": "Passive",
+        "traits": [
+            {
+                "type": "pilot equipment"
+            }
+        ]
     },
     {
         "name": "Snipe",
@@ -744,7 +769,7 @@
         "description": "Deal double damage on your next ranged weapon attack if it hits.",
         "effect": "You sharpen your senses, surpassing normal limits to pick off a target at Range.",
         "apCost": 3,
-        "usage": "Free Action"
+        "actionType": "Free"
     },
     {
         "name": "Infiltration",
@@ -753,7 +778,7 @@
         "description": "Sneak into compounds, settlements and arcos to perform acts of espionage.",
         "effect": "You are unrivalled at being able to infiltrate the most dangerous and well-guarded areas of the wastelands, and carry out acts of assassination, sabotage, or theft, or simply cause chaos, before slipping away unseen.",
         "apCost": 3,
-        "usage": "Long Action"
+        "actionType": "Long"
     },
     {
         "name": "Mecha Packmaster",
@@ -761,8 +786,12 @@
         "level": 1,
         "description": "Gain a second Mecha Companion in addition to your first.",
         "effect": "You have trained to be able to construct and control an additional Mecha Companion.",
-        "apCost": "Pilot Equipment",
-        "usage": "Passive"
+        "actionType": "Passive",
+        "traits": [
+            {
+                "type": "pilot equipment"
+            }
+        ]
     },
     {
         "name": "One with the Wastelands",
@@ -770,7 +799,7 @@
         "level": 3,
         "description": "Ask questions, gain favours and easily navigate the wastes.",
         "effect": "You have gained pure affinity with the wastelands offering you the following benefits.",
-        "usage": "Passive"
+        "actionType": "Passive"
     },
     {
         "name": "Black Market",
@@ -778,7 +807,7 @@
         "level": 1,
         "description": "Gain access to a range of contraband Systems, Modules, and Pilot Equipment.",
         "effect": "You are able to trade for various contraband and illegally acquired goods on the Black Market.",
-        "usage": "Passive"
+        "actionType": "Passive"
     },
     {
         "name": "Pray I don’t alter the deal further...",
@@ -787,7 +816,7 @@
         "description": "Retroactively change the terms of a deal you’ve agreed.",
         "effect": "You may retroactively alter a deal to change one element of it that the other party has to reluctantly agree to.",
         "apCost": 2,
-        "usage": "Turn Action"
+        "actionType": "Turn"
     },
     {
         "name": "Hidden Stash",
@@ -796,7 +825,7 @@
         "description": "Smuggle contraband into even the most secure areas.",
         "effect": "You are an expert at smuggling contraband into any place you desire.",
         "apCost": 3,
-        "usage": "Reaction"
+        "actionType": "Reaction"
     },
     {
         "name": "Knife Missile",
@@ -805,8 +834,8 @@
         "description": "Gain a Knife Missile, a small floating assassination device you control.",
         "effect": "You acquire and train in the use of a Knife Missile that only you can use.",
         "apCost": 3,
-        "usage": "Turn Action",
-        "range": "Far"
+        "range": "Far",
+        "actionType": "Turn"
     },
     {
         "name": "Stealth Field Generator",
@@ -815,8 +844,8 @@
         "description": "This makes you and everything in Close range invisible indefinitely.",
         "effect": "You acquire and train in the use of a Stealth Field Generator that only you can use.",
         "apCost": 4,
-        "usage": "Turn Action",
-        "range": "Close"
+        "range": "Close",
+        "actionType": "Turn"
     },
     {
         "name": "Union Representative",
@@ -824,7 +853,7 @@
         "level": 1,
         "description": "Gain access to and ask questions about settlements and arcos.",
         "effect": "As a Union Rep you act as a liaison and representative between your Union Crawler and other organisations within the wastelands.",
-        "usage": "Passive"
+        "actionType": "Passive"
     },
     {
         "name": "Union Call",
@@ -832,7 +861,7 @@
         "level": 2,
         "description": "Direct other Pilots to carry out missions in exchange for a Scrap reward.",
         "effect": "As a Union Rep you can call upon the aid of other Pilots to support you in a variety of missions.",
-        "usage": "Downtime Action"
+        "actionType": "DownTime"
     },
     {
         "name": "Recruit",
@@ -841,7 +870,7 @@
         "description": "Command an NPC follower who will assist you in your missions.",
         "effect": "You command an NPC who can understand and assist you.",
         "apCost": 4,
-        "usage": "Turn Action"
+        "actionType": "Turn"
     },
     {
         "name": "VIP Beacon",
@@ -849,8 +878,13 @@
         "level": 1,
         "description": "Place a distress beacon to call for aid, which arrives quickly and heavily armed.",
         "effect": "You can place a distress beacon down that will be answered within one hour.",
-        "apCost": "Burn Action",
-        "usage": "Uses"
+        "actionType": "Turn",
+        "traits": [
+            {
+                "type": "uses",
+                "amount": 1
+            }
+        ]
     },
     {
         "name": "Inspirational Union Leader",
@@ -858,7 +892,12 @@
         "level": 3,
         "description": "Inspire your allies and refresh their HP, AP, and heal their minor injuries.",
         "effect": "You are a font of inspiration, courage, and stability for your Salvage Crew, in the face of the wasteland’s myriad dangers.",
-        "apCost": "Burn Action",
-        "usage": "Uses"
+        "actionType": "Turn",
+        "traits": [
+            {
+                "type": "uses",
+                "amount": 1
+            }
+        ]
     }
 ]

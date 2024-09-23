@@ -14,5 +14,9 @@ map("data/abilities.json", d => {
   if (apc === "Downtime Action") {
     delete d.apCost;
   }
+  if (apc == "Pilot Equipment") {
+    d.traits = [{type: "pilot equipment"}]
+    delete d.apCost;
+  }
   return d;
 });

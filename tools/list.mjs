@@ -1,3 +1,6 @@
 import { list } from "./io.mjs"
 
-console.log(list("data/abilities.json", "usage"));
+const name = process.argv[2];
+const property = process.argv[3];
+
+console.log(list(`data/${name}.json`, property));
