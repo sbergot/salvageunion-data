@@ -14,7 +14,7 @@
     "description": "Electronic warfare is a reality of the world we live in, and Hackers are at the forefront, delving into the cybersphere to discover new and ingenious ways to hack into Mech infrastructure, tap into corpo networks, and use corpo tech against their owners.",
     "coreAbilities": ["Hacking", "Electronics", "Augmentation"],
     "hybridClasses": ["Fabricator", "Cyborg"],
-    "advancedAbilities": "Advanced Hacker",
+    "advancedAbilities": "Advanced Hacking",
     "legendaryAbilities": ["Network Takeover", "Spyware"]
   },
   {
@@ -39,7 +39,7 @@
       "Sleuth",
       "Sniper",
       "Survivalist",
-      "Gladiatorial Combat",
+      "Gladitorial Combat",
       "Hacking",
       "Augmentation",
       "Salvaging"
@@ -60,7 +60,7 @@
     "name": "Soldier",
     "type": "core",
     "description": "War and conflict is an ever present factor in the wastelands and whether fighting with sharpened sticks or plasma cannons, soldiers have always been at the forefront of a conflict throughout human history.",
-    "coreAbilities": ["Survivalist", "Gladiatorial Combat", "Tactical Warfare"],
+    "coreAbilities": ["Survivalist", "Gladitorial Combat", "Tactical Warfare"],
     "hybridClasses": ["Ranger", "Cyborg"],
     "advancedAbilities": "Advanced Soldier",
     "legendaryAbilities": ["Steel Pact", "Omega Strike"]
@@ -79,7 +79,7 @@
     "type": "hybrid",
     "description": "You have chosen the path of the Cyborg.",
     "coreClasses": ["Soldier", "Hacker"],
-    "coreAbilities": ["Gladiatorial Combat", "Augmentation", "Cyborg"],
+    "coreAbilities": ["Gladitorial Combat", "Augmentation", "Cyborg"],
     "advancedAbilities": "Cyborg",
     "legendaryAbilities": ["Ascension", "Meld Form"]
   },

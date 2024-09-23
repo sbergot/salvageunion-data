@@ -6,9 +6,7 @@
   "items": {
     "type": "object",
     "properties": {
-      "name": {
-        "type": "string"
-      },
+      "name": {"$ref": "common.schema.json#/definitions/ability"},
       "tree": {"$ref": "common.schema.json#/definitions/tree"},
       "level": {
         "type": "number"
