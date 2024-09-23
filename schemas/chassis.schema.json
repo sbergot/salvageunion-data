@@ -1,0 +1,55 @@
+{
+  "$id": "https://salvage-union.com/chassis.schema.json",
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "title": "abilities",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "stats": {
+        "type": "object",
+        "properties": {
+          "structure_pts": { "type": "number" },
+          "energy_pts": { "type": "number" },
+          "heat_cap": { "type": "number" },
+          "system_slots": { "type": "number" },
+          "module_slots": { "type": "number" },
+          "cargo_cap": { "type": "number" },
+          "tech_level": { "type": "number" },
+          "salvage_value": { "type": "number" }
+        }
+      },
+      "chassis_ability": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "patterns": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "systems": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "modules": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

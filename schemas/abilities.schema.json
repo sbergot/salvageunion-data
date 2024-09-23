@@ -1,5 +1,5 @@
 {
-  "$id": "https://salvage-union.com/person.schema.json",
+  "$id": "https://salvage-union.com/abilities.schema.json",
   "$schema": "https://json-schema.org/draft-07/schema",
   "title": "abilities",
   "type": "array",
@@ -10,6 +10,9 @@
         "type": "string"
       },
       "tree": {
+        "type": "string"
+      },
+      "treeRequirement": {
         "type": "string"
       },
       "level": {

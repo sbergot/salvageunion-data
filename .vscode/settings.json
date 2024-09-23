@@ -5,6 +5,18 @@
         "data/abilities.json"
       ],
       "url": "./schemas/abilities.schema.json"
+    },
+    {
+      "fileMatch": [
+        "data/ability-tree-requirements.json"
+      ],
+      "url": "./schemas/ability-tree-requirements.schema.json"
+    },
+    {
+      "fileMatch": [
+        "data/chassis.json"
+      ],
+      "url": "./schemas/chassis.schema.json"
     }
   ]
 }

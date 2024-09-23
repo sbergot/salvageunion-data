@@ -1,0 +1,16 @@
+{
+  "$id": "https://salvage-union.com/abilities.schema.json",
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "title": "abilities",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "tree": {"type": "string"},
+      "requirement": {
+        "type": "array",
+        "items": {"type": "string"}
+      }
+    }
+  }
+}

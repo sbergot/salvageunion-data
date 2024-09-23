@@ -1,0 +1,82 @@
+[
+  {
+    "tree": "Advanced Engineer",
+    "requirement": ["Mech-Tech"]
+  },
+  {
+    "tree": "Legendary Engineer",
+    "requirement": ["Advanced Engineer"]
+  },
+  {
+    "tree": "Fabricator",
+    "requirement": ["Forging", "Electronics"]
+  },
+  {
+    "tree": "Legendary Fabricator",
+    "requirement": ["Fabricator"]
+  },
+  {
+    "tree": "Advanced Hacking",
+    "requirement": ["Hacking"]
+  },
+  {
+    "tree": "Legendary Hacking",
+    "requirement": ["Advanced Hacking"]
+  },
+  {
+    "tree": "Cyborg",
+    "requirement": ["Augmentation", "Gladitorial Combat"]
+  },
+  {
+    "tree": "Legendary Cyborg",
+    "requirement": ["Cyborg"]
+  },
+  {
+    "tree": "Advanced Soldier",
+    "requirement": ["Tactical Warfare"]
+  },
+  {
+    "tree": "Legendary Soldier",
+    "requirement": ["Advanced Soldier"]
+  },
+  {
+    "tree": "Ranger",
+    "requirement": ["Survivalist", "Sniper"]
+  },
+  {
+    "tree": "Legendary Ranger",
+    "requirement": ["Ranger"]
+  },
+  {
+    "tree": "Advanced Scout",
+    "requirement": ["Recon"]
+  },
+  {
+    "tree": "Legendary Scout",
+    "requirement": ["Advanced Scout"]
+  },
+  {
+    "tree": "Smuggler",
+    "requirement": ["Sleuth", "Salvaging"]
+  },
+  {
+    "tree": "Legendary Smuggler",
+    "requirement": ["Smuggler"]
+  },
+  {
+    "tree": "Advanced Hauler",
+    "requirement": ["Trading"]
+  },
+  {
+    "tree": "Legendary Hauler",
+    "requirement": ["Advanced Hauler"]
+  },
+  {
+    "tree": "Union Rep",
+    "requirement": ["Leadership", "Mechanical Knowledge"]
+  },
+  {
+    "tree": "Legendary Union Rep",
+    "requirement": ["Union Rep"]
+  }
+]
