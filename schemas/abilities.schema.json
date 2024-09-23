@@ -55,7 +55,7 @@
             {
               "type": "object",
               "properties": {
-                "type": { "enum": ["pilot equipment"] }
+                "type": { "enum": ["pilot equipment", "hacking", "melee", "armor"] }
               }
             }
           ]
