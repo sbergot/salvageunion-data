@@ -1,0 +1,34 @@
+{
+  "$id": "https://salvage-union.com/person.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "abilities",
+  "type": "array",
+  "items": {
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "tree": {
+        "type": "string"
+      },
+      "level": {
+        "type": "number"
+      },
+      "description": {
+        "type": "string"
+      },
+      "effect": {
+        "type": "string"
+      },
+      "apCost": {
+        "type": "string"
+      },
+      "usage": {
+        "type": "string"
+      },
+      "range": {
+        "type": "string"
+      }
+    }
+  }
+}
