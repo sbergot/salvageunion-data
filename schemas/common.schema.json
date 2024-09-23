@@ -7,14 +7,19 @@
       "anyOf": [{ "type": "number" }, { "enum": ["Variable"] }]
     },
     "range": {
-      "enum": ["Close", "Medium", "Long", "Far"]
+      "enum": ["Close", "Medium", "Long", "Far", "Close/Long"]
     },
     "damage": {
-      "type": "object",
-      "properties": {
-        "type": { "enum": ["HP", "SP"] },
-        "amount": { "type": "number" }
-      }
+      "anyOf": [
+        {
+          "type": "object",
+          "properties": {
+            "type": { "enum": ["HP", "SP"] },
+            "amount": { "type": "number" }
+          }
+        },
+        { "enum": ["2d20", "X SP"] }
+      ]
     },
     "actionType": {
       "enum": [
@@ -34,7 +39,9 @@
           {
             "type": "object",
             "properties": {
-              "type": { "enum": ["uses", "explosive", "burn"] },
+              "type": {
+                "enum": ["uses", "explosive", "burn", "hot", "multi-attack"]
+              },
               "amount": { "type": "number" }
             }
           },
@@ -68,7 +75,17 @@
                   "optics",
                   "targeter",
                   "hot (x)",
-                  "guided"
+                  "guided",
+                  "jamming",
+                  "pinning",
+                  "escape",
+                  "wield",
+                  "anti-shielding",
+                  "ion",
+                  "amphibious",
+                  "explosive (1d20)",
+                  "heat hpike",
+                  "hot (1d20)"
                 ]
               }
             }
@@ -230,13 +247,13 @@
       ]
     },
     "rollTable": {
-      "type":"object",
+      "type": "object",
       "properties": {
-        "1": {"type": "string"},
-        "20": {"type": "string"},
-        "11-19": {"type": "string"},
-        "6-10": {"type": "string"},
-        "2-5": {"type": "string"}
+        "1": { "type": "string" },
+        "20": { "type": "string" },
+        "11-19": { "type": "string" },
+        "6-10": { "type": "string" },
+        "2-5": { "type": "string" }
       }
     }
   }

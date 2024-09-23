@@ -20,6 +20,12 @@
     },
     {
       "fileMatch": [
+        "data/systems.json"
+      ],
+      "url": "./schemas/systems.schema.json"
+    },
+    {
+      "fileMatch": [
         "data/ability-tree-requirements.json"
       ],
       "url": "./schemas/ability-tree-requirements.schema.json"

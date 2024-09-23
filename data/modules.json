@@ -512,7 +512,7 @@
     "slotsRequired": 1,
     "salvageValue": 2,
     "actionType": "Turn",
-    "traits": [{"type": "hot (x)"}, { "type": "targeter" }],
+    "traits": [{ "type": "hot (x)" }, { "type": "targeter" }],
     "description": "When activated, you must attack with all mounted Weapons Systems on your Mech against any number of targets of your choice within Range. Make and resolve each attack separately. Activating this Module costs an amount of EP equal to the number of Weapon Systems you attacked with and you gain an amount of Heat equal to the amount of Weapons Systems you attacked with."
   },
   {
@@ -616,7 +616,7 @@
     "slotsRequired": 1,
     "salvageValue": 1,
     "actionType": "Free",
-    "traits": [{ "type": "targeter" }, {"type": "guided"}],
+    "traits": [{ "type": "targeter" }, { "type": "guided" }],
     "description": "When activated, a Weapons System of your choice mounted on your Mech gains the Guided Trait meaning it does not need line of sight to hit any target within its Range."
   },
   {
@@ -644,7 +644,7 @@
         "name": "Laser Guidance",
         "apCost": 3,
         "actionType": "Free Action",
-        "traits": [{ "type": "targeter" }, {"type": "guided"}],
+        "traits": [{ "type": "targeter" }, { "type": "guided" }],
         "range": "Long",
         "description": "The next attack you make against that target automatically hits counting as an (11-19) result."
       }

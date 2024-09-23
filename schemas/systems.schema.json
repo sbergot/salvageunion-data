@@ -1,0 +1,28 @@
+{
+  "$id": "https://salvage-union.com/abilities.schema.json",
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "title": "abilities",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": { "type": "string" },
+      "techLevel": { "type": "number" },
+      "slotsRequired": { "type": "number" },
+      "salvageValue": { "type": "number" },
+      "recommended": {"type": "boolean"},
+      "traits": { "$ref": "common.schema.json#/definitions/traits" },
+      "description": {
+        "type": "string"
+      },
+      "notes": {
+        "type": "string"
+      },
+      "apCost": { "$ref": "common.schema.json#/definitions/apCost" },
+      "range": { "$ref": "common.schema.json#/definitions/range" },
+      "damage": { "$ref": "common.schema.json#/definitions/damage" },
+      "rollTable": { "$ref": "common.schema.json#/definitions/rollTable" },
+      "actionType": { "$ref": "common.schema.json#/definitions/actionType" }
+    }
+  }
+}
