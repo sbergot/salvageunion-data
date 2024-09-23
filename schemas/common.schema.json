@@ -3,6 +3,73 @@
   "$schema": "https://json-schema.org/draft-07/schema",
   "title": "common",
   "definitions": {
+    "apCost": {
+      "anyOf": [{ "type": "number" }, { "enum": ["Variable"] }]
+    },
+    "range": {
+      "enum": ["Close", "Medium", "Long", "Far"]
+    },
+    "damage": {
+      "type": "object",
+      "properties": {
+        "type": { "enum": ["HP", "SP"] },
+        "amount": { "type": "number" }
+      }
+    },
+    "actionType": {
+      "enum": [
+        "Passive",
+        "Free",
+        "Reaction",
+        "Turn",
+        "Short",
+        "Long",
+        "DownTime"
+      ]
+    },
+    "traits": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "type": "object",
+            "properties": {
+              "type": { "enum": ["uses", "explosive", "burn"] },
+              "amount": { "type": "number" }
+            }
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "enum": [
+                  "pilot equipment",
+                  "hacking",
+                  "melee",
+                  "armor",
+                  "rigging",
+                  "ballistic",
+                  "unwieldy",
+                  "silent",
+                  "communicator",
+                  "salvaging",
+                  "energy",
+                  "heavy",
+                  "shield",
+                  "hover",
+                  "anti-organic",
+                  "overheat",
+                  "climbing",
+                  "missile",
+                  "deadly",
+                  "flashy"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
     "tree": {
       "enum": [
         "Mechanical Knowledge",

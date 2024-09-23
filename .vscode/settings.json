@@ -8,6 +8,12 @@
     },
     {
       "fileMatch": [
+        "data/equipment.json"
+      ],
+      "url": "./schemas/equipment.schema.json"
+    },
+    {
+      "fileMatch": [
         "data/ability-tree-requirements.json"
       ],
       "url": "./schemas/ability-tree-requirements.schema.json"

@@ -6,21 +6,19 @@
   "items": {
     "type": "object",
     "properties": {
-      "name": { "$ref": "common.schema.json#/definitions/ability" },
-      "tree": { "$ref": "common.schema.json#/definitions/tree" },
-      "level": {
-        "type": "number"
-      },
+      "name": { "type": "string" },
+      "techLevel": { "type": "number" },
+      "traits": { "$ref": "common.schema.json#/definitions/traits" },
       "description": {
         "type": "string"
       },
-      "effect": {
+      "notes": {
         "type": "string"
       },
       "apCost": { "$ref": "common.schema.json#/definitions/apCost" },
       "range": { "$ref": "common.schema.json#/definitions/range" },
-      "actionType": { "$ref": "common.schema.json#/definitions/actionType" },
-      "traits": { "$ref": "common.schema.json#/definitions/traits" }
+      "damage": { "$ref": "common.schema.json#/definitions/damage" },
+      "actionType": { "$ref": "common.schema.json#/definitions/actionType" }
     }
   }
 }
