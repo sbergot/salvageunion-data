@@ -1,6 +1,6 @@
 {
   "$id": "https://salvage-union.com/person.schema.json",
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$schema": "https://json-schema.org/draft-07/schema",
   "title": "abilities",
   "type": "array",
   "items": {
@@ -21,13 +21,16 @@
         "type": "string"
       },
       "apCost": {
-        "type": "string"
+        "anyOf": [
+          { "type": "number" },
+          { "enum": ["Variable", "Pilot Equipment", "Burn Action"] }
+        ]
       },
       "usage": {
         "type": "string"
       },
       "range": {
-        "type": "string"
+        "enum": ["Close", "Medium", "Long", "Far"]
       }
     }
   }
