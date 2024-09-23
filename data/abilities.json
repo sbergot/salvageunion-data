@@ -28,7 +28,7 @@
     },
     {
         "name": "Mass Field Maintenance",
-        "tree": "Forging",
+        "tree": "Mech-Tech",
         "level": 1,
         "description": "Repair 4 SP on target Mechs or Vehicles in the field.",
         "effect": "For each Ability Point you spend when you activate this Ability you restore up to 4 SP amongst any number of target Mechs or Vehicles within Range, as long as they have at least 1 SP.",
@@ -67,7 +67,7 @@
     },
     {
         "name": "Mech-Gyver",
-        "tree": "Mech-Tech",
+        "tree": "Forging",
         "level": 2,
         "description": "Craft Mech Systems and Modules from Scrap in the field.",
         "effect": "Your ability to improvise extends to being able to craft mech parts from scrap in the field.",
@@ -76,7 +76,7 @@
     },
     {
         "name": "Auto-Turret",
-        "tree": "Mech-Tech",
+        "tree": "Forging",
         "level": 3,
         "description": "Construct an Immobile Auto-Turret that can be fitted with Systems and Modules.",
         "effect": "You construct an immobile Auto-Turret and train yourself in using it.",
@@ -109,7 +109,7 @@
     },
     {
         "name": "Mass Energy Recharge",
-        "tree": "Legendary",
+        "tree": "Advanced Engineer",
         "level": 3,
         "description": "Restore 10 Energy Points to target Mechs in the field.",
         "effect": "You have gained mastery and intimate knowledge of how a Mech reactor performs, to the point you are able to recharge limited amounts of their energy in the field.",
@@ -119,7 +119,7 @@
     },
     {
         "name": "Tip Top Shape",
-        "tree": "Legendary",
+        "tree": "Legendary Engineer",
         "level": 1,
         "description": "Your Union Crawler no longer needs to pay upkeep and does not deteriorate.",
         "effect": "You have learned every inch of your Union Crawler, and know it better than the back of your own hand.",
@@ -127,7 +127,7 @@
     },
     {
         "name": "The Full Works",
-        "tree": "Legendary",
+        "tree": "Legendary Engineer",
         "level": 1,
         "description": "Fully repair and restore a target Mech and all attached Systems and Modules.",
         "effect": "Your engineering abilities are unparalleled, you can take apart and put back together a Mech at an incredible speed, repairing any faults or issues that may exist within its behemoth Chassis.",
@@ -281,7 +281,7 @@
     },
     {
         "name": "Network Takeover",
-        "tree": "Legendary",
+        "tree": "Legendary Hacker",
         "level": 1,
         "description": "Hack the entire network of a settlement in range. Control it as you wish.",
         "effect": "You no longer even see the code, you simply see, corpo, construction mech, redhead, base defences.",
@@ -296,7 +296,7 @@
     },
     {
         "name": "Spyware",
-        "tree": "Legendary",
+        "tree": "Legendary Hacker",
         "level": 1,
         "description": "Permanent and undetectable spyware you can install on a settlement’s network.",
         "effect": "You have developed advanced Spyware which is able to access confidential information from an entire settlement and permanently spy upon them.",
@@ -384,7 +384,7 @@
     },
     {
         "name": "Valiant Speech",
-        "tree": "Advanced Hauler",
+        "tree": "Leadership",
         "level": 3,
         "description": "Inspire you allies with a rousing speech which heals and provides them with bonuses.",
         "effect": "You inspire your Allies with a rousing speech.",
@@ -425,7 +425,7 @@
     },
     {
         "name": "Master Salvager",
-        "tree": "Legendary",
+        "tree": "Legendary Hauler",
         "level": 1,
         "description": "Restore destroyed Systems Modules, and Mechs to Damaged Condition.",
         "effect": "You are able to take things that are long broken and make them whole again.",
@@ -435,7 +435,7 @@
     },
     {
         "name": "Hauling All Day",
-        "tree": "Legendary",
+        "tree": "Legendary Hauler",
         "level": 1,
         "description": "Any Mech that you Pilot doubles its Structure Points and Cargo Capacity.",
         "effect": "You’ve been there, seen it all, and can take on just about anything thrown at you.",
@@ -574,7 +574,7 @@
     },
     {
         "name": "Wasteland Celebrity",
-        "tree": "Legendary",
+        "tree": "Legendary Scout",
         "level": 1,
         "description": "You are known and respected everywhere and can get assistance when required.",
         "effect": "Your presence is now respected by people everywhere.",
@@ -583,7 +583,7 @@
     },
     {
         "name": "Teleport Beacon",
-        "tree": "Legendary",
+        "tree": "Legendary Scout",
         "level": 1,
         "description": "Gain a beacon and controller. Activate the controller to be teleported to the beacon.",
         "effect": "You acquire and train in the use of a Teleport Beacon that only you can use.",
@@ -711,7 +711,7 @@
     },
     {
         "name": "Omega Strike",
-        "tree": "Legendary",
+        "tree": "Legendary Soldier",
         "level": 1,
         "description": "Coordinate an attack against a single target. You and each of your allies makes a free attack.",
         "effect": "You coordinate a team wide attack against a target, working perfectly in unison to destroy those standing against you and your allies.",
@@ -720,8 +720,8 @@
     },
     {
         "name": "Steel Pact",
-        "tree": "Legendary",
-        "level": 3,
+        "tree": "Legendary Soldier",
+        "level": 1,
         "description": "Form a bond with a weapon. Gain an additional dice roll when attacking with that weapon.",
         "effect": "Choose a Weapon and Weapons System that you own.",
         "actionType": "Passive"
@@ -753,7 +753,7 @@
     },
     {
         "name": "Meld Form",
-        "tree": "Legendary",
+        "tree": "Legendary Cyborg",
         "level": 1,
         "description": "You are now Meld. You can replicate Equipment and make Meld Tendril attacks.",
         "effect": "The Meld called to you from beyond the vast void of time and space.",
@@ -761,7 +761,7 @@
     },
     {
         "name": "Ascension",
-        "tree": "Legendary",
+        "tree": "Legendary Cyborg",
         "level": 1,
         "description": "You are now a virtual being. You control your Mech by wire, and can project your image holographically.",
         "effect": "You have explored the ways of the flesh to their full potential, and have found them lacking.",
@@ -801,7 +801,7 @@
     },
     {
         "name": "System Miniaturisation",
-        "tree": "Legendary",
+        "tree": "Legendary Fabricator",
         "level": 1,
         "description": "Make Systems smaller to take up fewer slots and be usable as Pilot Equipment.",
         "effect": "Moore’s Law has become your life philosophy. Your talents at fabrication allow you to take even the bulkiest of Mech technology and scale it down to a portable size.",
@@ -809,7 +809,7 @@
     },
     {
         "name": "Droned Mech Conversion",
-        "tree": "Legendary",
+        "tree": "Legendary Fabricator",
         "level": 1,
         "description": "Your Mech can be piloted remotely up to Far range.",
         "effect": "You install a complex array of electronic equipment, receivers, and transmitters into your Mech.",
@@ -847,7 +847,7 @@
     },
     {
         "name": "Mecha Packmaster",
-        "tree": "Legendary",
+        "tree": "Legendary Ranger",
         "level": 1,
         "description": "Gain a second Mecha Companion in addition to your first.",
         "effect": "You have trained to be able to construct and control an additional Mecha Companion.",
@@ -859,7 +859,7 @@
     },
     {
         "name": "One with the Wastelands",
-        "tree": "Legendary",
+        "tree": "Legendary Ranger",
         "level": 1,
         "description": "Ask questions, gain favours and easily navigate the wastes.",
         "effect": "You have gained pure affinity with the wastelands offering you the following benefits.",
@@ -893,7 +893,7 @@
     },
     {
         "name": "Knife Missile",
-        "tree": "Legendary",
+        "tree": "Legendary Smuggler",
         "level": 1,
         "description": "Gain a Knife Missile, a small floating assassination device you control.",
         "effect": "You acquire and train in the use of a Knife Missile that only you can use.",
@@ -908,7 +908,7 @@
     },
     {
         "name": "Stealth Field Generator",
-        "tree": "Legendary",
+        "tree": "Legendary Smuggler",
         "level": 3,
         "description": "This makes you and everything in Close range invisible indefinitely.",
         "effect": "You acquire and train in the use of a Stealth Field Generator that only you can use.",
@@ -948,7 +948,7 @@
     },
     {
         "name": "VIP Beacon",
-        "tree": "Legendary",
+        "tree": "Legendary Union Rep",
         "level": 1,
         "description": "Place a distress beacon to call for aid, which arrives quickly and heavily armed.",
         "effect": "You can place a distress beacon down that will be answered within one hour.",
@@ -962,7 +962,7 @@
     },
     {
         "name": "Inspirational Union Leader",
-        "tree": "Legendary",
+        "tree": "Legendary Union Rep",
         "level": 3,
         "description": "Inspire your allies and refresh their HP, AP, and heal their minor injuries.",
         "effect": "You are a font of inspiration, courage, and stability for your Salvage Crew, in the face of the wasteland’s myriad dangers.",
