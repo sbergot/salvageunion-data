@@ -14,6 +14,12 @@
     },
     {
       "fileMatch": [
+        "data/modules.json"
+      ],
+      "url": "./schemas/modules.schema.json"
+    },
+    {
+      "fileMatch": [
         "data/ability-tree-requirements.json"
       ],
       "url": "./schemas/ability-tree-requirements.schema.json"

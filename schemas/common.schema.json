@@ -62,7 +62,13 @@
                   "climbing",
                   "missile",
                   "deadly",
-                  "flashy"
+                  "flashy",
+                  "scanner",
+                  "heat spike",
+                  "optics",
+                  "targeter",
+                  "hot (x)",
+                  "guided"
                 ]
               }
             }
@@ -222,6 +228,16 @@
         "VIP Beacon",
         "Inspirational Union Leader"
       ]
+    },
+    "rollTable": {
+      "type":"object",
+      "properties": {
+        "1": {"type": "string"},
+        "20": {"type": "string"},
+        "11-19": {"type": "string"},
+        "6-10": {"type": "string"},
+        "2-5": {"type": "string"}
+      }
     }
   }
 }
