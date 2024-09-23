@@ -9,12 +9,7 @@
       "name": {
         "type": "string"
       },
-      "tree": {
-        "type": "string"
-      },
-      "treeRequirement": {
-        "type": "string"
-      },
+      "tree": {"$ref": "common.schema.json#/definitions/tree"},
       "level": {
         "type": "number"
       },

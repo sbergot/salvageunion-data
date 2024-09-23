@@ -6,10 +6,10 @@
   "items": {
     "type": "object",
     "properties": {
-      "tree": {"type": "string"},
+      "tree": {"$ref": "common.schema.json#/definitions/tree"},
       "requirement": {
         "type": "array",
-        "items": {"type": "string"}
+        "items": {"$ref": "common.schema.json#/definitions/tree"}
       }
     }
   }

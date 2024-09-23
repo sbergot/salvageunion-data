@@ -1,0 +1,40 @@
+{
+  "$id": "https://salvage-union.com/chassis.schema.json",
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "title": "abilities",
+  "type": "array",
+  "items": {
+    "anyOf": [
+      {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "type": { "enum": ["core"] },
+          "description": { "type": "string" },
+          "coreAbilities": { "type": "array", "items": { "type": "string" } },
+          "hybridClasses": { "type": "array", "items": { "type": "string" } },
+          "advancedAbilities": { "type": "string" },
+          "legendaryAbilities": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      },
+      {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "type": { "enum": ["hybrid"] },
+          "description": { "type": "string" },
+          "coreClasses": { "type": "array", "items": { "type": "string" } },
+          "coreAbilities": { "type": "array", "items": { "type": "string" } },
+          "advancedAbilities": { "type": "string" },
+          "legendaryAbilities": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    ]
+  }
+}

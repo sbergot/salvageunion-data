@@ -17,6 +17,12 @@
         "data/chassis.json"
       ],
       "url": "./schemas/chassis.schema.json"
+    },
+    {
+      "fileMatch": [
+        "data/classes.json"
+      ],
+      "url": "./schemas/classes.schema.json"
     }
   ]
 }

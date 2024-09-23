@@ -1,0 +1,27 @@
+{
+  "$id": "https://salvage-union.com/chassis.schema.json",
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "title": "common",
+  "definitions": {
+    "tree": {"enum": [
+      "Mechanical Knowledge", "Mech-Tech",
+      "Forging",              "Advanced Engineer",
+      "Legendary Engineer",   "Hacking",
+      "Electronics",          "Augmentation",
+      "Advanced Hacking",     "Legendary Hacker",
+      "Salvaging",            "Trading",
+      "Leadership",           "Advanced Hauler",
+      "Legendary Hauler",     "Recon",
+      "Sleuth",               "Sniper",
+      "Advanced Scout",       "Legendary Scout",
+      "Gladitorial Combat",   "Survivalist",
+      "Tactical Warfare",     "Advanced Soldier",
+      "Legendary Soldier",    "Cyborg",
+      "Legendary Cyborg",     "Fabricator",
+      "Legendary Fabricator", "Ranger",
+      "Legendary Ranger",     "Smuggler",
+      "Legendary Smuggler",   "Union Rep",
+      "Legendary Union Rep"
+    ]}
+  }
+}
