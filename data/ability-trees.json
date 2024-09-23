@@ -1,0 +1,258 @@
+[
+    {
+        "name": "Mechanical Knowledge",
+        "levels": [
+            "Engineering Expertise",
+            "Talk Shop",
+            "Mech Acquisition"
+        ]
+    },
+    {
+        "name": "Forging",
+        "levels": [
+            "Jury Rig",
+            "Mech-Gyver",
+            "Auto-Turret"
+        ]
+    },
+    {
+        "name": "Advanced Engineer",
+        "levels": [
+            "Union Engineer",
+            "This one goes to 11...",
+            "Mass Energy Recharge",
+            "Tip Top Shape",
+            "The Full Works"
+        ]
+    },
+    {
+        "name": "Legendary Engineer",
+        "levels": []
+    },
+    {
+        "name": "Hacking",
+        "levels": [
+            "Hacking Kit",
+            "Systems and Software Hacker",
+            "Denial of Service Attack"
+        ]
+    },
+    {
+        "name": "Electronics",
+        "levels": [
+            "Well actually...",
+            "Techno Babble",
+            "Holo Companion"
+        ]
+    },
+    {
+        "name": "Augmentation",
+        "levels": [
+            "Bionic Senses",
+            "Bionic Arms",
+            "Bionic Legs"
+        ]
+    },
+    {
+        "name": "Advanced Hacking",
+        "levels": [
+            "Trojan Horse",
+            "Counter Hacking",
+            "Worm",
+            "Network Takeover",
+            "Spyware"
+        ]
+    },
+    {
+        "name": "Legendary Hacking",
+        "levels": []
+    },
+    {
+        "name": "Salvaging",
+        "levels": [
+            "Squeeze it in",
+            "Expert Salvager",
+            "Emergency Salvage Drop"
+        ]
+    },
+    {
+        "name": "Trading",
+        "levels": [
+            "Read a Person",
+            "Let’s Make a Deal"
+        ]
+    },
+    {
+        "name": "Leadership",
+        "levels": [
+            "Folk Song",
+            "Behemoth",
+            "No Job Too Big",
+            "Valiant Speech"
+        ]
+    },
+    {
+        "name": "Advanced Hauler",
+        "levels": [
+            "Beefcake",
+            "Mechapult Master",
+            "Can’t Stop, Won’t Stop"
+        ]
+    },
+    {
+        "name": "Legendary Hauler",
+        "levels": [
+            "Master Salvager",
+            "Hauling All Day"
+        ]
+    },
+    {
+        "name": "Recon",
+        "levels": [
+            "Gather Intelligence",
+            "Tail",
+            "Survey Drone"
+        ]
+    },
+    {
+        "name": "Sleuth",
+        "levels": [
+            "Silver Tongue",
+            "Forked Tongue",
+            "Persona"
+        ]
+    },
+    {
+        "name": "Sniper",
+        "levels": [
+            "You Shot First",
+            "Spotter",
+            "Custom Sniper Rifle"
+        ]
+    },
+    {
+        "name": "Advanced Scout",
+        "levels": [
+            "Flashback",
+            "Camo Suit",
+            "Wingsuit",
+            "Wasteland Celebrity",
+            "Teleport Beacon"
+        ]
+    },
+    {
+        "name": "Legendary Scout",
+        "levels": []
+    },
+    {
+        "name": "Survivalist",
+        "levels": [
+            "Wastelander Rapport",
+            "Resourceful"
+        ]
+    },
+    {
+        "name": "Gladitorial Combat",
+        "levels": [
+            "Charge",
+            "Overpower",
+            "Duel"
+        ]
+    },
+    {
+        "name": "Tactical Warfare",
+        "levels": [
+            "Provoke",
+            "Tactical Retreat",
+            "Counterattack"
+        ]
+    },
+    {
+        "name": "Advanced Soldier",
+        "levels": [
+            "Critical Strike",
+            "Defy Death",
+            "Whirlwind Strike",
+            "Steel Pact",
+            "Omega Strike"
+        ]
+    },
+    {
+        "name": "Legendary Soldier",
+        "levels": []
+    },
+    {
+        "name": "Cyborg",
+        "levels": [
+            "Glanded Stims",
+            "Modular Face Implant",
+            "Bionic Endoskeleton",
+            "Meld Form"
+        ]
+    },
+    {
+        "name": "Legendary Cyborg",
+        "levels": [
+            "Ascension"
+        ]
+    },
+    {
+        "name": "Fabricator",
+        "levels": [
+            "System and Module Fabrication",
+            "Chassis Fabrication"
+        ]
+    },
+    {
+        "name": "Legendary Fabricator",
+        "levels": [
+            "Field Fabrication",
+            "Miniaturised EMP",
+            "Chassis Modder",
+            "System Miniaturisation",
+            "Droned Mech Conversion"
+        ]
+    },
+    {
+        "name": "Ranger",
+        "levels": []
+    },
+    {
+        "name": "Legendary Ranger",
+        "levels": [
+            "Mecha Companion",
+            "Snipe",
+            "Infiltration",
+            "Mecha Packmaster",
+            "One with the Wastelands"
+        ]
+    },
+    {
+        "name": "Smuggler",
+        "levels": []
+    },
+    {
+        "name": "Legendary Smuggler",
+        "levels": [
+            "Black Market",
+            "Pray I don’t alter the deal further...",
+            "Hidden Stash",
+            "Knife Missile",
+            "Stealth Field Generator"
+        ]
+    },
+    {
+        "name": "Union Rep",
+        "levels": []
+    },
+    {
+        "name": "Legendary Union Rep",
+        "levels": [
+            "Union Representative",
+            "Union Call",
+            "Recruit",
+            "VIP Beacon",
+            "Inspirational Union Leader"
+        ]
+    }
+]
