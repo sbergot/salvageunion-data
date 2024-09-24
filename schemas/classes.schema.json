@@ -1,7 +1,5 @@
 {
-  "$id": "https://salvage-union.com/chassis.schema.json",
   "$schema": "https://json-schema.org/draft-07/schema",
-  "title": "abilities",
   "type": "array",
   "items": {
     "anyOf": [

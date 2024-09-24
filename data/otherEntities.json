@@ -1,1209 +1,1222 @@
 [
     {
         "category": "Bio-Titans",
-        "entities": [
+        "name": "Scylla",
+        "description": "A gigantic, armoured, arachnid-like predator beast. It has no concept that the war it was designed to fight ended aeons ago, and continues to tear apart anything that enters into its mountainous domain.",
+        "structure_pts": 39,
+        "abilities": [
             {
-                "name": "Scylla",
-                "description": "A gigantic, armoured, arachnid-like predator beast. It has no concept that the war it was designed to fight ended aeons ago, and continues to tear apart anything that enters into its mountainous domain.",
-                "structure_pts": 39,
-                "abilities": [
-                    {
-                        "name": "Scythe Attack",
-                        "description": "Scylla stabs with its forearms attempting to pierce it's prey.",
-                        "range": "Close",
-                        "damage": "4 SP",
-                        "traits": [
-                            "Melee",
-                            "Multi-Attack (2)"
-                        ]
-                    },
-                    {
-                        "name": "Tail Sweep",
-                        "description": "Scylla makes one giant sweeping attack with their tail. This hits every target within Medium Range, dealing 3 SP damage on a hit. Targets hit are knocked Prone and gain the Vulnerable Trait.",
-                        "actionType": "Turn Action",
-                        "traits": [
-                            "Melee"
-                        ]
-                    },
-                    {
-                        "name": "Climb",
-                        "description": "Scylla can effortlessly climb over difficult and vertical terrain, rocky surfaces, and other obstacles.",
-                        "traits": [
-                            "Passive"
-                        ]
-                    },
-                    {
-                        "name": "Armour Plating",
-                        "description": "When Scylla takes damage, instead destroy a layer of Armour Plating and negate all of the damage and any effects.",
-                        "traits": [
-                            "Passive"
-                        ],
-                        "uses": 3
-                    },
-                    {
-                        "name": "Ambush Predator",
-                        "description": "Unless detected, Scylla always acts first in combat.",
-                        "traits": [
-                            "Passive"
-                        ]
-                    },
-                    {
-                        "name": "Titanic Actions",
-                        "description": "Scylla can take three Titanic Actions, choosing from the options below. Only one Titanic Action may be chosen at a time and only at the end of another Pilot's or NPC's turn. Scylla regains spent Titanic Actions at the start of their turn.",
-                        "options": [
-                            "Scylla moves one Range Band.",
-                            "Scylla makes a single Scythe Attack. This does not have the Multi-Attack Trait.",
-                            "Scylla makes a Tail Sweep Attack (Costs 2 Titanic Actions)."
-                        ]
-                    }
+                "name": "Scythe Attack",
+                "description": "Scylla stabs with its forearms attempting to pierce it's prey.",
+                "range": "Close",
+                "damage": "4 SP",
+                "traits": [
+                    "Melee",
+                    "Multi-Attack (2)"
                 ]
             },
             {
-                "name": "Typhon",
-                "description": "Vengeance of the earth. This terrifying spiked worm can even swallow a Colossus whole. Some believe the spirits of miners in the Ferrous Range, who died in industrial accidents, summoned this being in vengeance.",
-                "structure_pts": 67,
-                "abilities": [
-                    {
-                        "name": "Burrower",
-                        "description": "Typhon can move freely on land and traverse underground through earth, even through the hardest of rock deposits. It can burrow into the earth as a Turn Action and unburrow as a Free Action. Whilst burrowed, it cannot be seen or targeted by anything on the ground, but can be spotted via the huge amounts of earth it kicks up.",
-                        "traits": [
-                            "Passive"
-                        ]
-                    },
-                    {
-                        "name": "Armour Plating",
-                        "description": "When Typhon takes damage, instead destroy a layer of Armour Plating and negate all of the damage and any effects.",
-                        "traits": [
-                            "Passive"
-                        ],
-                        "uses": 2
-                    },
-                    {
-                        "name": "Swallow Whole",
-                        "description": "Typhon attempts to swallow a target into its humongous maw. Typhon may have multiple targets swallowed at once.",
-                        "actionType": "Turn Action",
-                        "range": "Close",
-                        "traits": [
-                            "Melee"
-                        ]
-                    },
-                    {
-                        "name": "Spiked Carapace",
-                        "description": "When Typhon unborrows all targets within Close Range of the area it unburrows up to take 5 SP damage from its spiked carapace. In addition, any target that attacks Typhon with an attack that has the Melee Trait takes 3 SP damage on a hit.",
-                        "traits": [
-                            "Passive"
-                        ]
-                    },
-                    {
-                        "name": "Titanic Actions",
-                        "description": "Typhon can take three Titanic Actions, choosing from the options below. Only one Titanic Action may be chosen at a time and only at the end of another Pilot's or NPC's turn. Typhon regains spent Titanic Actions at the start of their turn.",
-                        "options": [
-                            "Typhon uses their Burrower Ability to either burrow or unburrow.",
-                            "Typhon moves one Range Band.",
-                            "Typhon makes a Swallow Whole Attack (Costs three Titanic Actions)."
-                        ]
-                    }
+                "name": "Tail Sweep",
+                "description": "Scylla makes one giant sweeping attack with their tail. This hits every target within Medium Range, dealing 3 SP damage on a hit. Targets hit are knocked Prone and gain the Vulnerable Trait.",
+                "actionType": "Turn Action",
+                "traits": [
+                    "Melee"
                 ]
             },
             {
-                "name": "Chrysalis",
-                "description": "A mammoth flying insect with a wingspan the size of a city and an entrancing song that captures the souls of mortals. Said to inhabit a cave in the Verdant Crescent, it is worshipped by the wastelanders who live there as a god.",
-                "structure_pts": 80,
-                "abilities": [
-                    {
-                        "name": "Flying",
-                        "description": "Chrysalis can fly in the air, moving over all obstacles and terrain. All attacks against Chrysalis when it is flying treat it as though it is in Long Range.",
-                        "traits": [
-                            "Passive"
-                        ]
-                    },
-                    {
-                        "name": "Cluster Energy Bombs",
-                        "description": "Chrysalis scatters a series of glowing cluster bombs upon its foes.",
-                        "actionType": "Turn Action",
-                        "range": "Long",
-                        "damage": "5 SP",
-                        "traits": [
-                            "Energy",
-                            "Explosive (5)",
-                            "Multi-Attack (3)"
-                        ]
-                    },
-                    {
-                        "name": "Entrancing Song",
-                        "description": "Chrysalis emits an entrancing song by vibrating its wings at a series of different frequencies. This Ability affects all targets that can hear Chrysalis within Medium Range including those in a Mech unless it is somehow sound sealed.",
-                        "actionType": "Turn Action",
-                        "uses": 1
-                    },
-                    {
-                        "name": "Cocoon",
-                        "description": "Chrysalis forms itself into a Cocoon. Whilst in the Cocoon it cannot move or take any other actions, but regains 10 SP at the start of each round. The Cocoon has 50 SP; if it is destroyed Chrysalis cannot use this Ability again for 24 hours.",
-                        "actionType": "Turn Action"
-                    },
-                    {
-                        "name": "Birth Pods",
-                        "description": "Chrysalis Lays d20 Egg Sacs in an area within Close Range. At the start of its next turn they are born as a Child of Chrysalis and join the combat. Egg Sacs have 1 SP before they hatch.",
-                        "actionType": "Turn Action",
-                        "uses": 1
-                    },
-                    {
-                        "name": "Titanic Actions",
-                        "description": "Chrysalis can take three Titanic Actions, choosing from the options below. Only one Titanic Action may be chosen at a time and only at the end of another Pilot's or NPC's turn. Chrysalis regains spent Titanic Actions at the start of their turn.",
-                        "options": [
-                            "Chrysalis moves one Range Band.",
-                            "Chrysalis uses their Entrancing Song (Costs 2 Titanic Actions).",
-                            "Chrysalis attacks with Cluster Energy Bomb. This does not have the Multi-Attack Trait.",
-                            "Chrysalis uses its Cocoon Ability (Costs 2 Titanic Actions)."
-                        ]
-                    }
+                "name": "Climb",
+                "description": "Scylla can effortlessly climb over difficult and vertical terrain, rocky surfaces, and other obstacles.",
+                "traits": [
+                    "Passive"
                 ]
             },
             {
-                "name": "Phantom",
-                "description": "A multi-scythed being that can bend itself through reality. Rumoured to have been crafted in the Opus Institute Research Lab in the Frozen Gulf before breaking free to wreak havoc.",
-                "structure_pts": 54,
-                "abilities": [
-                    {
-                        "name": "Nether Teleport",
-                        "description": "Phantom teleports itself to the Nether Zone or teleports from the Nether Zone to the material world. After Phantom uses this Ability it may not act on its next turn.",
-                        "traits": [
-                            "Passive"
-                        ]
-                    },
-                    {
-                        "name": "Phasic Core",
-                        "description": "Phantom is permanently phased. It can move through walls and obstacles and is invisible except for a faint blue outline. Phantom can make attacks whilst phased.",
-                        "traits": [
-                            "Passive"
-                        ]
-                    },
-                    {
-                        "name": "Morph Scythes",
-                        "description": "The molecular structure of a target hit by Phantom's Morph Scythes begins to unravel with bizarre results.",
-                        "actionType": "Turn Action",
-                        "range": "Close",
-                        "damage": "5 SP",
-                        "traits": [
-                            "Melee",
-                            "Multi-Attack (3)"
-                        ]
-                    },
-                    {
-                        "name": "Titanic Actions",
-                        "description": "Phantom can take three Titanic Actions, choosing from the options below. Only one Titanic Action may be chosen at a time and only at the end of another Pilot's or NPC's turn. Phantom regains spent Titanic Actions at the start of their turn.",
-                        "options": [
-                            "Phantom moves one Range Band.",
-                            "Phantom makes a single Morph Scythe Attack. This does not have the Multi-Attack Trait.",
-                            "Phantom uses its Nether Teleport Ability."
-                        ]
-                    }
+                "name": "Armour Plating",
+                "description": "When Scylla takes damage, instead destroy a layer of Armour Plating and negate all of the damage and any effects.",
+                "traits": [
+                    "Passive"
+                ],
+                "uses": 3
+            },
+            {
+                "name": "Ambush Predator",
+                "description": "Unless detected, Scylla always acts first in combat.",
+                "traits": [
+                    "Passive"
                 ]
             },
             {
-                "name": "Electrophorus",
-                "description": "A vast, eel-like Bio-Titan able to harness bioelectric energy. Rumoured to dwell at the deepest point of the world's oceans within the Amara Trench in the Oceanic Rim.",
-                "structure_pts": 96,
-                "abilities": [
-                    {
-                        "name": "Electrified Spines",
-                        "description": "Electrophorus gouges a target with its spines.",
-                        "actionType": "Turn Action",
-                        "range": "Close",
-                        "damage": "8 SP",
-                        "traits": [
-                            "Melee",
-                            "Ion"
-                        ]
-                    },
-                    {
-                        "name": "Static Field",
-                        "description": "Anything that starts its turn or enters within Close Range of the Electrophorus will take 5 SP damage.",
-                        "traits": [
-                            "Passive"
-                        ]
-                    },
-                    {
-                        "name": "Hover",
-                        "description": "Electrophorus is able to use its bioelectric energy to hover over obstacles, creatures, Mechs, and terrain as a Free Action.",
-                        "traits": [
-                            "Passive"
-                        ]
-                    },
-                    {
-                        "name": "Bio-Electric Arc",
-                        "description": "Electrophorus fires an arc of bioelectricity. Choose up to three targets in Medium Range and make a single attack roll. On a successful hit the first target takes 10 SP damage, the second target takes 5 SP damage, and the third target takes 3 SP damage.",
-                        "actionType": "Turn Action",
-                        "range": "Medium",
-                        "traits": [
-                            "Energy"
-                        ]
-                    },
-                    {
-                        "name": "Bio-Electric Shield",
-                        "description": "As a Reaction may when hit by an attack, Electrophorus may trigger its Bio-Electric Shield to deflect the blow.",
-                        "actionType": "Reaction",
-                        "traits": [
-                            "Shield"
-                        ]
-                    },
-                    {
-                        "name": "Titanic Actions",
-                        "description": "Electrophorus can take three Titanic Actions, choosing from the options below. Only one Titanic Action may be chosen at a time and only at the end of another Pilot's or NPC's turn. Electrophorus regains spent Titanic Actions at the start of their turn.",
-                        "options": [
-                            "Electrophorus moves one Range Band.",
-                            "Electrophorus makes a Electrified Spines Attack.",
-                            "Electrophorus makes a Bio-Electric Arc Attack (Uses 2 Titanic Actions)."
-                        ]
-                    }
+                "name": "Titanic Actions",
+                "description": "Scylla can take three Titanic Actions, choosing from the options below. Only one Titanic Action may be chosen at a time and only at the end of another Pilot's or NPC's turn. Scylla regains spent Titanic Actions at the start of their turn.",
+                "options": [
+                    "Scylla moves one Range Band.",
+                    "Scylla makes a single Scythe Attack. This does not have the Multi-Attack Trait.",
+                    "Scylla makes a Tail Sweep Attack (Costs 2 Titanic Actions)."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Bio-Titans",
+        "name": "Typhon",
+        "description": "Vengeance of the earth. This terrifying spiked worm can even swallow a Colossus whole. Some believe the spirits of miners in the Ferrous Range, who died in industrial accidents, summoned this being in vengeance.",
+        "structure_pts": 67,
+        "abilities": [
+            {
+                "name": "Burrower",
+                "description": "Typhon can move freely on land and traverse underground through earth, even through the hardest of rock deposits. It can burrow into the earth as a Turn Action and unburrow as a Free Action. Whilst burrowed, it cannot be seen or targeted by anything on the ground, but can be spotted via the huge amounts of earth it kicks up.",
+                "traits": [
+                    "Passive"
                 ]
             },
             {
-                "name": "Tyrant",
-                "description": "A mammoth, amphibian lizard said to have been born in the aftermath of the first nuclear war. It dwells somewhere deep within The Great Cape and was responsible for the destruction of the Kombu Tech home arco, a coastal city of a million souls.",
-                "structure_pts": 215,
-                "abilities": [
-                    {
-                        "name": "Claw Swipes",
-                        "description": "The Tyrant makes a frenetic series of claw swipes.",
-                        "actionType": "Turn Action",
-                        "range": "Close",
-                        "damage": "10 SP",
-                        "traits": [
-                            "Melee",
-                            "Multi-Attack (2)"
-                        ]
-                    },
-                    {
-                        "name": "Amphibious",
-                        "description": "The Tyrant is able to move swiftly in all bodies of water at any depth as well as on land. It can breathe underwater as well as on land.",
-                        "traits": [
-                            "Passive"
-                        ]
-                    },
-                    {
-                        "name": "Destroyer of Worlds",
-                        "description": "The destructive power of The Tyrant is unparalleled. It will destroy any Arco, City, Settlement, or Crawler within a day of attacking it.",
-                        "traits": [
-                            "Passive"
-                        ]
-                    },
-                    {
-                        "name": "Regeneration",
-                        "description": "The Tyrant regains 10 SP at the start of its turn. This triggers even when reduced to 0 SP.",
-                        "traits": [
-                            "Passive"
-                        ]
-                    },
-                    {
-                        "name": "Tail Swat",
-                        "description": "The Tyrant swipes with its tail, casually knocking over skyscrapers and swatting away projectiles.",
-                        "actionType": "Reaction",
-                        "range": "Medium",
-                        "damage": "15 SP",
-                        "traits": [
-                            "Melee"
-                        ]
-                    },
-                    {
-                        "name": "Rending Bite",
-                        "description": "The Tyrant rips apart a target with a mammoth bite.",
-                        "actionType": "Turn Action",
-                        "range": "Close",
-                        "damage": "20 SP",
-                        "traits": [
-                            "Deadly",
-                            "Melee"
-                        ]
-                    },
-                    {
-                        "name": "Irradiated Beam",
-                        "description": "The Tyrant produces a humongous beam of Irradiated energy from its maw. This must recharge after being fired, and can only be made every other turn. Any target hit by the Irradiated Beam as well as the entire area within Close Range becomes Irradiated.",
-                        "actionType": "Turn Action",
-                        "range": "Long",
-                        "damage": "40 SP",
-                        "traits": [
-                            "Burn (5)",
-                            "Energy",
-                            "Explosive (5)",
-                            "Irradiated"
-                        ]
-                    },
-                    {
-                        "name": "Titanic Actions",
-                        "description": "The Tyrant can take three Titanic Actions, choosing from the options below. Only one Titanic Action may be chosen at a time and only at the end of another Pilot's or NPC's turn. The Tyrant regains spent Titanic Actions at the start of their turn.",
-                        "options": [
-                            "Tyrant moves one Range Band.",
-                            "Tyrant regains 10 SP.",
-                            "Tyrant makes a single Claw Swipe Attack. This does not have the Multi-Attack Trait."
-                        ]
-                    }
+                "name": "Armour Plating",
+                "description": "When Typhon takes damage, instead destroy a layer of Armour Plating and negate all of the damage and any effects.",
+                "traits": [
+                    "Passive"
+                ],
+                "uses": 2
+            },
+            {
+                "name": "Swallow Whole",
+                "description": "Typhon attempts to swallow a target into its humongous maw. Typhon may have multiple targets swallowed at once.",
+                "actionType": "Turn Action",
+                "range": "Close",
+                "traits": [
+                    "Melee"
+                ]
+            },
+            {
+                "name": "Spiked Carapace",
+                "description": "When Typhon unborrows all targets within Close Range of the area it unburrows up to take 5 SP damage from its spiked carapace. In addition, any target that attacks Typhon with an attack that has the Melee Trait takes 3 SP damage on a hit.",
+                "traits": [
+                    "Passive"
+                ]
+            },
+            {
+                "name": "Titanic Actions",
+                "description": "Typhon can take three Titanic Actions, choosing from the options below. Only one Titanic Action may be chosen at a time and only at the end of another Pilot's or NPC's turn. Typhon regains spent Titanic Actions at the start of their turn.",
+                "options": [
+                    "Typhon uses their Burrower Ability to either burrow or unburrow.",
+                    "Typhon moves one Range Band.",
+                    "Typhon makes a Swallow Whole Attack (Costs three Titanic Actions)."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Bio-Titans",
+        "name": "Chrysalis",
+        "description": "A mammoth flying insect with a wingspan the size of a city and an entrancing song that captures the souls of mortals. Said to inhabit a cave in the Verdant Crescent, it is worshipped by the wastelanders who live there as a god.",
+        "structure_pts": 80,
+        "abilities": [
+            {
+                "name": "Flying",
+                "description": "Chrysalis can fly in the air, moving over all obstacles and terrain. All attacks against Chrysalis when it is flying treat it as though it is in Long Range.",
+                "traits": [
+                    "Passive"
+                ]
+            },
+            {
+                "name": "Cluster Energy Bombs",
+                "description": "Chrysalis scatters a series of glowing cluster bombs upon its foes.",
+                "actionType": "Turn Action",
+                "range": "Long",
+                "damage": "5 SP",
+                "traits": [
+                    "Energy",
+                    "Explosive (5)",
+                    "Multi-Attack (3)"
+                ]
+            },
+            {
+                "name": "Entrancing Song",
+                "description": "Chrysalis emits an entrancing song by vibrating its wings at a series of different frequencies. This Ability affects all targets that can hear Chrysalis within Medium Range including those in a Mech unless it is somehow sound sealed.",
+                "actionType": "Turn Action",
+                "uses": 1
+            },
+            {
+                "name": "Cocoon",
+                "description": "Chrysalis forms itself into a Cocoon. Whilst in the Cocoon it cannot move or take any other actions, but regains 10 SP at the start of each round. The Cocoon has 50 SP; if it is destroyed Chrysalis cannot use this Ability again for 24 hours.",
+                "actionType": "Turn Action"
+            },
+            {
+                "name": "Birth Pods",
+                "description": "Chrysalis Lays d20 Egg Sacs in an area within Close Range. At the start of its next turn they are born as a Child of Chrysalis and join the combat. Egg Sacs have 1 SP before they hatch.",
+                "actionType": "Turn Action",
+                "uses": 1
+            },
+            {
+                "name": "Titanic Actions",
+                "description": "Chrysalis can take three Titanic Actions, choosing from the options below. Only one Titanic Action may be chosen at a time and only at the end of another Pilot's or NPC's turn. Chrysalis regains spent Titanic Actions at the start of their turn.",
+                "options": [
+                    "Chrysalis moves one Range Band.",
+                    "Chrysalis uses their Entrancing Song (Costs 2 Titanic Actions).",
+                    "Chrysalis attacks with Cluster Energy Bomb. This does not have the Multi-Attack Trait.",
+                    "Chrysalis uses its Cocoon Ability (Costs 2 Titanic Actions)."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Bio-Titans",
+        "name": "Phantom",
+        "description": "A multi-scythed being that can bend itself through reality. Rumoured to have been crafted in the Opus Institute Research Lab in the Frozen Gulf before breaking free to wreak havoc.",
+        "structure_pts": 54,
+        "abilities": [
+            {
+                "name": "Nether Teleport",
+                "description": "Phantom teleports itself to the Nether Zone or teleports from the Nether Zone to the material world. After Phantom uses this Ability it may not act on its next turn.",
+                "traits": [
+                    "Passive"
+                ]
+            },
+            {
+                "name": "Phasic Core",
+                "description": "Phantom is permanently phased. It can move through walls and obstacles and is invisible except for a faint blue outline. Phantom can make attacks whilst phased.",
+                "traits": [
+                    "Passive"
+                ]
+            },
+            {
+                "name": "Morph Scythes",
+                "description": "The molecular structure of a target hit by Phantom's Morph Scythes begins to unravel with bizarre results.",
+                "actionType": "Turn Action",
+                "range": "Close",
+                "damage": "5 SP",
+                "traits": [
+                    "Melee",
+                    "Multi-Attack (3)"
+                ]
+            },
+            {
+                "name": "Titanic Actions",
+                "description": "Phantom can take three Titanic Actions, choosing from the options below. Only one Titanic Action may be chosen at a time and only at the end of another Pilot's or NPC's turn. Phantom regains spent Titanic Actions at the start of their turn.",
+                "options": [
+                    "Phantom moves one Range Band.",
+                    "Phantom makes a single Morph Scythe Attack. This does not have the Multi-Attack Trait.",
+                    "Phantom uses its Nether Teleport Ability."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Bio-Titans",
+        "name": "Electrophorus",
+        "description": "A vast, eel-like Bio-Titan able to harness bioelectric energy. Rumoured to dwell at the deepest point of the world's oceans within the Amara Trench in the Oceanic Rim.",
+        "structure_pts": 96,
+        "abilities": [
+            {
+                "name": "Electrified Spines",
+                "description": "Electrophorus gouges a target with its spines.",
+                "actionType": "Turn Action",
+                "range": "Close",
+                "damage": "8 SP",
+                "traits": [
+                    "Melee",
+                    "Ion"
+                ]
+            },
+            {
+                "name": "Static Field",
+                "description": "Anything that starts its turn or enters within Close Range of the Electrophorus will take 5 SP damage.",
+                "traits": [
+                    "Passive"
+                ]
+            },
+            {
+                "name": "Hover",
+                "description": "Electrophorus is able to use its bioelectric energy to hover over obstacles, creatures, Mechs, and terrain as a Free Action.",
+                "traits": [
+                    "Passive"
+                ]
+            },
+            {
+                "name": "Bio-Electric Arc",
+                "description": "Electrophorus fires an arc of bioelectricity. Choose up to three targets in Medium Range and make a single attack roll. On a successful hit the first target takes 10 SP damage, the second target takes 5 SP damage, and the third target takes 3 SP damage.",
+                "actionType": "Turn Action",
+                "range": "Medium",
+                "traits": [
+                    "Energy"
+                ]
+            },
+            {
+                "name": "Bio-Electric Shield",
+                "description": "As a Reaction may when hit by an attack, Electrophorus may trigger its Bio-Electric Shield to deflect the blow.",
+                "actionType": "Reaction",
+                "traits": [
+                    "Shield"
+                ]
+            },
+            {
+                "name": "Titanic Actions",
+                "description": "Electrophorus can take three Titanic Actions, choosing from the options below. Only one Titanic Action may be chosen at a time and only at the end of another Pilot's or NPC's turn. Electrophorus regains spent Titanic Actions at the start of their turn.",
+                "options": [
+                    "Electrophorus moves one Range Band.",
+                    "Electrophorus makes a Electrified Spines Attack.",
+                    "Electrophorus makes a Bio-Electric Arc Attack (Uses 2 Titanic Actions)."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Bio-Titans",
+        "name": "Tyrant",
+        "description": "A mammoth, amphibian lizard said to have been born in the aftermath of the first nuclear war. It dwells somewhere deep within The Great Cape and was responsible for the destruction of the Kombu Tech home arco, a coastal city of a million souls.",
+        "structure_pts": 215,
+        "abilities": [
+            {
+                "name": "Claw Swipes",
+                "description": "The Tyrant makes a frenetic series of claw swipes.",
+                "actionType": "Turn Action",
+                "range": "Close",
+                "damage": "10 SP",
+                "traits": [
+                    "Melee",
+                    "Multi-Attack (2)"
+                ]
+            },
+            {
+                "name": "Amphibious",
+                "description": "The Tyrant is able to move swiftly in all bodies of water at any depth as well as on land. It can breathe underwater as well as on land.",
+                "traits": [
+                    "Passive"
+                ]
+            },
+            {
+                "name": "Destroyer of Worlds",
+                "description": "The destructive power of The Tyrant is unparalleled. It will destroy any Arco, City, Settlement, or Crawler within a day of attacking it.",
+                "traits": [
+                    "Passive"
+                ]
+            },
+            {
+                "name": "Regeneration",
+                "description": "The Tyrant regains 10 SP at the start of its turn. This triggers even when reduced to 0 SP.",
+                "traits": [
+                    "Passive"
+                ]
+            },
+            {
+                "name": "Tail Swat",
+                "description": "The Tyrant swipes with its tail, casually knocking over skyscrapers and swatting away projectiles.",
+                "actionType": "Reaction",
+                "range": "Medium",
+                "damage": "15 SP",
+                "traits": [
+                    "Melee"
+                ]
+            },
+            {
+                "name": "Rending Bite",
+                "description": "The Tyrant rips apart a target with a mammoth bite.",
+                "actionType": "Turn Action",
+                "range": "Close",
+                "damage": "20 SP",
+                "traits": [
+                    "Deadly",
+                    "Melee"
+                ]
+            },
+            {
+                "name": "Irradiated Beam",
+                "description": "The Tyrant produces a humongous beam of Irradiated energy from its maw. This must recharge after being fired, and can only be made every other turn. Any target hit by the Irradiated Beam as well as the entire area within Close Range becomes Irradiated.",
+                "actionType": "Turn Action",
+                "range": "Long",
+                "damage": "40 SP",
+                "traits": [
+                    "Burn (5)",
+                    "Energy",
+                    "Explosive (5)",
+                    "Irradiated"
+                ]
+            },
+            {
+                "name": "Titanic Actions",
+                "description": "The Tyrant can take three Titanic Actions, choosing from the options below. Only one Titanic Action may be chosen at a time and only at the end of another Pilot's or NPC's turn. The Tyrant regains spent Titanic Actions at the start of their turn.",
+                "options": [
+                    "Tyrant moves one Range Band.",
+                    "Tyrant regains 10 SP.",
+                    "Tyrant makes a single Claw Swipe Attack. This does not have the Multi-Attack Trait."
                 ]
             }
         ]
     },
     {
         "category": "Meld",
-        "entities": [
+        "name": "Meld Drone",
+        "description": "Meld when they take over a biological organism, around the size of a human. The brain is sludged, only the stem remains, they become a peon of the swarm.",
+        "hp": 3,
+        "salvage_value": 1,
+        "abilities": [
             {
-                "name": "Meld Drone",
-                "description": "Meld when they take over a biological organism, around the size of a human. The brain is sludged, only the stem remains, they become a peon of the swarm.",
-                "hp": 3,
-                "salvage_value": 1,
-                "abilities": [
-                    {
-                        "name": "Bite",
-                        "description": "The Meld Drone mindlessly attacks the target with teeth and claw.",
-                        "range": "Close",
-                        "damage": "2 HP",
-                        "traits": [
-                            "Melee",
-                            "Meld Infection"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Meld Drone Swarm",
-                "description": "A swarm of multiple zombie-like Meld Drones",
-                "hp": 6,
-                "salvage_value": 3,
-                "abilities": [
-                    {
-                        "name": "Devour",
-                        "description": "The Meld Drones bite and claw at a target with all their multitude limbs and maws.",
-                        "range": "Close",
-                        "damage": "3HP",
-                        "traits": [
-                            "Melee",
-                            "Meld Infection",
-                            "Multi-Attack (3)"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Meld Nanoid",
-                "description": "Meld in a small, swift form, about the size of a large wolf with lashing tendrils.",
-                "structure_pts": 5,
-                "salvage_value": 5,
+                "name": "Bite",
+                "description": "The Meld Drone mindlessly attacks the target with teeth and claw.",
+                "range": "Close",
+                "damage": "2 HP",
                 "traits": [
-                    "Fast"
-                ],
-                "abilities": [
-                    {
-                        "name": "Nanoid Tendrils",
-                        "description": "The nanoid lashes out with it's tendrils",
-                        "range": "Close",
-                        "damage": "3 SP",
-                        "traits": [
-                            "Melee",
-                            "Meld Infection"
-                        ]
-                    }
+                    "Melee",
+                    "Meld Infection"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Meld",
+        "name": "Meld Drone Swarm",
+        "description": "A swarm of multiple zombie-like Meld Drones",
+        "hp": 6,
+        "salvage_value": 3,
+        "abilities": [
+            {
+                "name": "Devour",
+                "description": "The Meld Drones bite and claw at a target with all their multitude limbs and maws.",
+                "range": "Close",
+                "damage": "3HP",
+                "traits": [
+                    "Melee",
+                    "Meld Infection",
+                    "Multi-Attack (3)"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Meld",
+        "name": "Meld Nanoid",
+        "description": "Meld in a small, swift form, about the size of a large wolf with lashing tendrils.",
+        "structure_pts": 5,
+        "salvage_value": 5,
+        "traits": [
+            "Fast"
+        ],
+        "abilities": [
+            {
+                "name": "Nanoid Tendrils",
+                "description": "The nanoid lashes out with it's tendrils",
+                "range": "Close",
+                "damage": "3 SP",
+                "traits": [
+                    "Melee",
+                    "Meld Infection"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Meld",
+        "name": "Meld Splitter",
+        "description": "Formless inky darkness, Meld Splitters are around the height of a Mech and made of boundless swarms of coagulated meld.",
+        "structure_pts": 10,
+        "salvage_value": 10,
+        "abilities": [
+            {
+                "name": "Splitter Tendrils",
+                "description": "Huge tendrils lash out at anything nearby.",
+                "range": "Medium",
+                "damage": "4 SP",
+                "traits": [
+                    "Melee",
+                    "Meld Infection",
+                    "Multi-Attack (2)"
                 ]
             },
             {
-                "name": "Meld Splitter",
-                "description": "Formless inky darkness, Meld Splitters are around the height of a Mech and made of boundless swarms of coagulated meld.",
-                "structure_pts": 10,
-                "salvage_value": 10,
-                "abilities": [
-                    {
-                        "name": "Splitter Tendrils",
-                        "description": "Huge tendrils lash out at anything nearby.",
-                        "range": "Medium",
-                        "damage": "4 SP",
-                        "traits": [
-                            "Melee",
-                            "Meld Infection",
-                            "Multi-Attack (2)"
-                        ]
-                    },
-                    {
-                        "name": "Split",
-                        "description": "When a Meld Splitter is reduced to 0 SP it turns into 2 Meld Nanoids. These act at the start of the next round."
-                    }
+                "name": "Split",
+                "description": "When a Meld Splitter is reduced to 0 SP it turns into 2 Meld Nanoids. These act at the start of the next round."
+            }
+        ]
+    },
+    {
+        "category": "Meld",
+        "name": "Meld Behemoth",
+        "description": "The apex Meld, the size of a high rise building. Having assimilated vast quantities of mechanical and biological entities, it becomes a force even the toughest of Mechs struggle to reckon with.",
+        "structure_pts": 60,
+        "abilities": [
+            {
+                "name": "Behemoth Tendrils",
+                "description": "Long reaching tendrils whip around to grab all within reach, either crushing them or drawing them nearer to be assimilated.",
+                "actionType": "Turn Action",
+                "range": "Medium",
+                "damage": "6 SP",
+                "traits": [
+                    "Melee",
+                    "Multi-Attack (2)"
                 ]
             },
             {
-                "name": "Meld Behemoth",
-                "description": "The apex Meld, the size of a high rise building. Having assimilated vast quantities of mechanical and biological entities, it becomes a force even the toughest of Mechs struggle to reckon with.",
-                "structure_pts": 60,
-                "abilities": [
-                    {
-                        "name": "Behemoth Tendrils",
-                        "description": "Long reaching tendrils whip around to grab all within reach, either crushing them or drawing them nearer to be assimilated.",
-                        "actionType": "Turn Action",
-                        "range": "Medium",
-                        "damage": "6 SP",
-                        "traits": [
-                            "Melee",
-                            "Multi-Attack (2)"
-                        ]
-                    },
-                    {
-                        "name": "Assimilation",
-                        "description": "A Meld Behemoth does not infect, instead it absorbs everything it destroys into its mammoth, ever expanding form.",
-                        "actionType": "Turn Action"
-                    },
-                    {
-                        "name": "Titanic Actions",
-                        "description": "The Meld Behemoth can take three Titanic Actions, choosing from the options below. Only one Titanic Action may be chosen at a time and only at the end of another Pilot's or NPC's turn. Meld Behemoth regains spent Titanic Actions at the start of their turn.",
-                        "options": [
-                            "The Meld Behemoth moves one Range Band.",
-                            "The Meld Behemoth makes a single Behemoth Tendrils Attack. This does not have the Multi-Attack Trait.",
-                            "The Meld Behemoth uses the Behemoth Assimilation Ability."
-                        ]
-                    }
+                "name": "Assimilation",
+                "description": "A Meld Behemoth does not infect, instead it absorbs everything it destroys into its mammoth, ever expanding form.",
+                "actionType": "Turn Action"
+            },
+            {
+                "name": "Titanic Actions",
+                "description": "The Meld Behemoth can take three Titanic Actions, choosing from the options below. Only one Titanic Action may be chosen at a time and only at the end of another Pilot's or NPC's turn. Meld Behemoth regains spent Titanic Actions at the start of their turn.",
+                "options": [
+                    "The Meld Behemoth moves one Range Band.",
+                    "The Meld Behemoth makes a single Behemoth Tendrils Attack. This does not have the Multi-Attack Trait.",
+                    "The Meld Behemoth uses the Behemoth Assimilation Ability."
                 ]
             }
         ]
     },
     {
         "category": "Vehicles",
-        "entities": [
+        "name": "Power Loader",
+        "description": "A pneumatically powered heavy loader for moving cargo.",
+        "structure_pts": 1,
+        "tech_level": 1,
+        "salvage_value": 1,
+        "systems": [
+            "Locomotion System",
             {
-                "name": "Power Loader",
-                "description": "A pneumatically powered heavy loader for moving cargo.",
-                "structure_pts": 1,
-                "tech_level": 1,
-                "salvage_value": 1,
-                "systems": [
-                    "Locomotion System",
-                    {
-                        "name": "Rigging Arm",
-                        "count": 2,
-                        "range": "Close",
-                        "damage": "1 SP",
-                        "traits": [
-                            "Melee",
-                            "Load"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Box Wheel",
-                "description": "A four seater box wheel vehicle designed for recreational driving. Not a lot of these nowadays.",
-                "structure_pts": 1,
-                "tech_level": 1,
-                "salvage_value": 1,
-                "systems": [
-                    "Locomotion System Box Wheel"
-                ],
+                "name": "Rigging Arm",
+                "count": 2,
+                "range": "Close",
+                "damage": "1 SP",
                 "traits": [
-                    "Personnel Capacity (4)",
-                    "Wheeled"
+                    "Melee",
+                    "Load"
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "category": "Vehicles",
+        "name": "Box Wheel",
+        "description": "A four seater box wheel vehicle designed for recreational driving. Not a lot of these nowadays.",
+        "structure_pts": 1,
+        "tech_level": 1,
+        "salvage_value": 1,
+        "systems": [
+            "Locomotion System Box Wheel"
+        ],
+        "traits": [
+            "Personnel Capacity (4)",
+            "Wheeled"
+        ]
+    },
+    {
+        "category": "Vehicles",
+        "name": "Fighting Box Wheel",
+        "description": "An improvised fighting vehicle, modified to carry heavy weaponry.",
+        "structure_pts": 2,
+        "tech_level": 1,
+        "salvage_value": 2,
+        "systems": [
+            "Locomotion System",
             {
-                "name": "Fighting Box Wheel",
-                "description": "An improvised fighting vehicle, modified to carry heavy weaponry.",
-                "structure_pts": 2,
-                "tech_level": 1,
-                "salvage_value": 2,
-                "systems": [
-                    "Locomotion System",
-                    {
-                        "name": ".50 Cal Machine Gun",
-                        "range": "Close",
-                        "damage": "2 SP",
-                        "traits": [
-                            "Ballistic",
-                            "Jamming",
-                            "Pinning"
-                        ]
-                    }
-                ],
+                "name": ".50 Cal Machine Gun",
+                "range": "Close",
+                "damage": "2 SP",
                 "traits": [
-                    "Personnel Capacity (6)",
-                    "Wheeled"
+                    "Ballistic",
+                    "Jamming",
+                    "Pinning"
                 ]
-            },
+            }
+        ],
+        "traits": [
+            "Personnel Capacity (6)",
+            "Wheeled"
+        ]
+    },
+    {
+        "category": "Vehicles",
+        "name": "Armoured Box Wheel",
+        "description": "An armoured, wheeled vehicle that carries personnel and provides fire support",
+        "structure_pts": 4,
+        "tech_level": 2,
+        "salvage_value": 3,
+        "systems": [
+            "Locomotion System",
             {
-                "name": "Armoured Box Wheel",
-                "description": "An armoured, wheeled vehicle that carries personnel and provides fire support",
-                "structure_pts": 4,
-                "tech_level": 2,
-                "salvage_value": 3,
-                "systems": [
-                    "Locomotion System",
-                    {
-                        "name": "30mm Autocannon",
-                        "range": "Medium",
-                        "damage": "4 SP",
-                        "traits": [
-                            "Ballistic",
-                            "Jamming"
-                        ]
-                    }
-                ],
+                "name": "30mm Autocannon",
+                "range": "Medium",
+                "damage": "4 SP",
                 "traits": [
-                    "Personnel Capacity (18)",
-                    "Wheeled"
+                    "Ballistic",
+                    "Jamming"
                 ]
-            },
+            }
+        ],
+        "traits": [
+            "Personnel Capacity (18)",
+            "Wheeled"
+        ]
+    },
+    {
+        "category": "Vehicles",
+        "name": "Tank",
+        "description": "A conventional tracked, armoured battle vehicle.",
+        "structure_pts": 6,
+        "tech_level": 3,
+        "salvage_value": 4,
+        "systems": [
+            "Locomotion System",
             {
-                "name": "Tank",
-                "description": "A conventional tracked, armoured battle vehicle.",
-                "structure_pts": 6,
-                "tech_level": 3,
-                "salvage_value": 4,
-                "systems": [
-                    "Locomotion System",
-                    {
-                        "name": "120mm Cannon",
-                        "range": "Long",
-                        "damage": "6 SP",
-                        "traits": [
-                            "Ballistic",
-                            "Explosive (1)"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Rotorcraft",
-                "description": "A flying vehicle that can hover over terrain.",
-                "structure_pts": 3,
-                "tech_level": 4,
-                "salvage_value": 3,
-                "systems": [
-                    "Hover Locomotion System",
-                    {
-                        "name": "Rotary Mini Gun",
-                        "range": "Medium",
-                        "damage": "4 SP",
-                        "traits": [
-                            "Ballistic",
-                            "Hot (1)",
-                            "Jamming",
-                            "Multi-Attack (2)",
-                            "Pinning"
-                        ]
-                    }
-                ],
+                "name": "120mm Cannon",
+                "range": "Long",
+                "damage": "6 SP",
                 "traits": [
-                    "Personnel Capacity (6)",
-                    "Hover"
+                    "Ballistic",
+                    "Explosive (1)"
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "category": "Vehicles",
+        "name": "Rotorcraft",
+        "description": "A flying vehicle that can hover over terrain.",
+        "structure_pts": 3,
+        "tech_level": 4,
+        "salvage_value": 3,
+        "systems": [
+            "Hover Locomotion System",
             {
-                "name": "Machine Gun Turret",
-                "description": "A static gun emplacement.",
-                "structure_pts": 2,
-                "tech_level": 1,
-                "salvage_value": 1,
-                "systems": [
-                    {
-                        "name": ".50 Cal Machine Gun",
-                        "range": "Close",
-                        "damage": "2 SP",
-                        "traits": [
-                            "Ballistic",
-                            "Jamming",
-                            "Pinning"
-                        ]
-                    }
-                ],
+                "name": "Rotary Mini Gun",
+                "range": "Medium",
+                "damage": "4 SP",
                 "traits": [
-                    "Immobile"
+                    "Ballistic",
+                    "Hot (1)",
+                    "Jamming",
+                    "Multi-Attack (2)",
+                    "Pinning"
+                ]
+            }
+        ],
+        "traits": [
+            "Personnel Capacity (6)",
+            "Hover"
+        ]
+    },
+    {
+        "category": "Vehicles",
+        "name": "Machine Gun Turret",
+        "description": "A static gun emplacement.",
+        "structure_pts": 2,
+        "tech_level": 1,
+        "salvage_value": 1,
+        "systems": [
+            {
+                "name": ".50 Cal Machine Gun",
+                "range": "Close",
+                "damage": "2 SP",
+                "traits": [
+                    "Ballistic",
+                    "Jamming",
+                    "Pinning"
+                ]
+            }
+        ],
+        "traits": [
+            "Immobile"
+        ]
+    },
+    {
+        "category": "Drones",
+        "name": "Defacer Drone",
+        "description": "Used for salvaging and crowd control, their distinctive buzzsaw sound has struck fear into many protesters.",
+        "structure_pts": 2,
+        "tech_level": 1,
+        "salvage_value": 1,
+        "systems": [
+            "Hover Locomotion System",
+            {
+                "name": "Chainsaw Arm",
+                "range": "Close",
+                "damage": "2 SP",
+                "traits": [
+                    "Melee",
+                    "Salvaging"
                 ]
             }
         ]
     },
     {
         "category": "Drones",
-        "entities": [
+        "name": "Salvo Drone",
+        "description": "A simple machine gun drone often used to defend areas of strategic importance.",
+        "structure_pts": 3,
+        "tech_level": 1,
+        "salvage_value": 2,
+        "systems": [
+            "Hover Locomotion System",
             {
-                "name": "Defacer Drone",
-                "description": "Used for salvaging and crowd control, their distinctive buzzsaw sound has struck fear into many protesters.",
-                "structure_pts": 2,
-                "tech_level": 1,
-                "salvage_value": 1,
-                "systems": [
-                    "Hover Locomotion System",
-                    {
-                        "name": "Chainsaw Arm",
-                        "range": "Close",
-                        "damage": "2 SP",
-                        "traits": [
-                            "Melee",
-                            "Salvaging"
-                        ]
-                    }
+                "name": ".50 Cal Machine Gun",
+                "range": "Close",
+                "damage": "2 SP",
+                "traits": [
+                    "Ballistic",
+                    "Jamming",
+                    "Pinning"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Drones",
+        "name": "Survey Drone",
+        "description": "An unarmed drone used as a reconnaissance tool.",
+        "structure_pts": 1,
+        "tech_level": 1,
+        "salvage_value": 1,
+        "systems": [
+            "Hover Locomotion System",
+            "Survey Scanner"
+        ]
+    },
+    {
+        "category": "Drones",
+        "name": "Combat Drone",
+        "description": "A laser armed drone used in a defensive capacity.",
+        "structure_pts": 4,
+        "tech_level": 2,
+        "salvage_value": 2,
+        "systems": [
+            "Hover Locomotion System",
+            {
+                "name": "Red Laser",
+                "range": "Medium",
+                "damage": "3 SP",
+                "traits": [
+                    "Energy",
+                    "Hot (1)"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Drones",
+        "name": "Heavy Combat Drone",
+        "description": "A heavily armoured drone designed for battlefield use.",
+        "structure_pts": 5,
+        "tech_level": 3,
+        "salvage_value": 2,
+        "systems": [
+            "Hover Locomotion System",
+            {
+                "name": "30mm Autocannon",
+                "range": "Medium",
+                "damage": "4 SP",
+                "traits": [
+                    "Ballistic",
+                    "Jamming"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Drones",
+        "name": "Walker Drone",
+        "description": "An anthropomorphic, Mech-like drone.",
+        "structure_pts": 6,
+        "tech_level": 2,
+        "salvage_value": 3,
+        "systems": [
+            "Locomotion System",
+            "Articulated Rigging Arm",
+            {
+                "name": "Green Laser",
+                "range": "Medium",
+                "damage": "4 SP",
+                "traits": [
+                    "Energy",
+                    "Hot (2)"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Drones",
+        "name": "Pest Drone",
+        "description": "A versatile multi-legged drone armed with a flamethrower for 'industrial' use.",
+        "structure_pts": 4,
+        "tech_level": 3,
+        "salvage_value": 3,
+        "systems": [
+            "Spider Locomotion System",
+            {
+                "name": "FM-3 Flamethrower",
+                "count": 2,
+                "range": "Close",
+                "damage": "1 SP",
+                "traits": [
+                    "Anti-Organic",
+                    "Burn (1)",
+                    "Multi-Attack (2)",
+                    "Overheat"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Drones",
+        "name": "Hover Drone",
+        "description": "A highly mobile missile platform used in offensive and defensive roles.",
+        "structure_pts": 4,
+        "tech_level": 4,
+        "salvage_value": 3,
+        "systems": [
+            "Hover Locomotion System",
+            {
+                "name": "Missile Pod",
+                "range": "Long",
+                "damage": "8 SP",
+                "traits": [
+                    "Missile",
+                    "Explosive (2)",
+                    "Hot (1)",
+                    "Uses (6)"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Drones",
+        "name": "Needle Drone",
+        "description": "A miniaturised corpo stealth drone developed for black ops and wetwork.",
+        "structure_pts": 2,
+        "tech_level": 4,
+        "salvage_value": 3,
+        "systems": [
+            "Hover Locomotion System",
+            {
+                "name": "Needler",
+                "range": "Close",
+                "damage": "1 SP",
+                "traits": [
+                    "Poison",
+                    "Deadly (Creatures Only)"
                 ]
             },
             {
-                "name": "Salvo Drone",
-                "description": "A simple machine gun drone often used to defend areas of strategic importance.",
-                "structure_pts": 3,
-                "tech_level": 1,
-                "salvage_value": 2,
-                "systems": [
-                    "Hover Locomotion System",
-                    {
-                        "name": ".50 Cal Machine Gun",
-                        "range": "Close",
-                        "damage": "2 SP",
-                        "traits": [
-                            "Ballistic",
-                            "Jamming",
-                            "Pinning"
-                        ]
-                    }
-                ]
-            },
+                "name": "Polycarbonate Stealth Chassis",
+                "description": "The Needle Drone cannot be targeted with anything that uses the Targeter Trait such as targeting Modules. It also cannot be seen by anything with the Optics Trait or Scanner Trait. It does not appear on sensors, radar systems, or scanners and needs direct visual confirmation to be spotted."
+            }
+        ]
+    },
+    {
+        "category": "Creatures",
+        "name": "Irradiated Scorpion",
+        "description": "Mutated beyond their usual size, they have been known to kill entire camps of wasters.",
+        "hp": 4,
+        "abilities": [
             {
-                "name": "Survey Drone",
-                "description": "An unarmed drone used as a reconnaissance tool.",
-                "structure_pts": 1,
-                "tech_level": 1,
-                "salvage_value": 1,
-                "systems": [
-                    "Hover Locomotion System",
-                    "Survey Scanner"
-                ]
-            },
-            {
-                "name": "Combat Drone",
-                "description": "A laser armed drone used in a defensive capacity.",
-                "structure_pts": 4,
-                "tech_level": 2,
-                "salvage_value": 2,
-                "systems": [
-                    "Hover Locomotion System",
-                    {
-                        "name": "Red Laser",
-                        "range": "Medium",
-                        "damage": "3 SP",
-                        "traits": [
-                            "Energy",
-                            "Hot (1)"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Heavy Combat Drone",
-                "description": "A heavily armoured drone designed for battlefield use.",
-                "structure_pts": 5,
-                "tech_level": 3,
-                "salvage_value": 2,
-                "systems": [
-                    "Hover Locomotion System",
-                    {
-                        "name": "30mm Autocannon",
-                        "range": "Medium",
-                        "damage": "4 SP",
-                        "traits": [
-                            "Ballistic",
-                            "Jamming"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Walker Drone",
-                "description": "An anthropomorphic, Mech-like drone.",
-                "structure_pts": 6,
-                "tech_level": 2,
-                "salvage_value": 3,
-                "systems": [
-                    "Locomotion System",
-                    "Articulated Rigging Arm",
-                    {
-                        "name": "Green Laser",
-                        "range": "Medium",
-                        "damage": "4 SP",
-                        "traits": [
-                            "Energy",
-                            "Hot (2)"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Pest Drone",
-                "description": "A versatile multi-legged drone armed with a flamethrower for 'industrial' use.",
-                "structure_pts": 4,
-                "tech_level": 3,
-                "salvage_value": 3,
-                "systems": [
-                    "Spider Locomotion System",
-                    {
-                        "name": "FM-3 Flamethrower",
-                        "count": 2,
-                        "range": "Close",
-                        "damage": "1 SP",
-                        "traits": [
-                            "Anti-Organic",
-                            "Burn (1)",
-                            "Multi-Attack (2)",
-                            "Overheat"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Hover Drone",
-                "description": "A highly mobile missile platform used in offensive and defensive roles.",
-                "structure_pts": 4,
-                "tech_level": 4,
-                "salvage_value": 3,
-                "systems": [
-                    "Hover Locomotion System",
-                    {
-                        "name": "Missile Pod",
-                        "range": "Long",
-                        "damage": "8 SP",
-                        "traits": [
-                            "Missile",
-                            "Explosive (2)",
-                            "Hot (1)",
-                            "Uses (6)"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Needle Drone",
-                "description": "A miniaturised corpo stealth drone developed for black ops and wetwork.",
-                "structure_pts": 2,
-                "tech_level": 4,
-                "salvage_value": 3,
-                "systems": [
-                    "Hover Locomotion System",
-                    {
-                        "name": "Needler",
-                        "range": "Close",
-                        "damage": "1 SP",
-                        "traits": [
-                            "Poison",
-                            "Deadly (Creatures Only)"
-                        ]
-                    },
-                    {
-                        "name": "Polycarbonate Stealth Chassis",
-                        "description": "The Needle Drone cannot be targeted with anything that uses the Targeter Trait such as targeting Modules. It also cannot be seen by anything with the Optics Trait or Scanner Trait. It does not appear on sensors, radar systems, or scanners and needs direct visual confirmation to be spotted."
-                    }
+                "name": "Stinger",
+                "range": "Close",
+                "damage": "2 HP",
+                "traits": [
+                    "Melee",
+                    "Poison",
+                    "Deadly (Creatures Only)"
                 ]
             }
         ]
     },
     {
         "category": "Creatures",
-        "entities": [
+        "name": "Artl",
+        "description": "Burrowing, ambush predators that liquify their prey for easier digestion.",
+        "hp": 2,
+        "traits": [
+            "Burrower"
+        ],
+        "abilities": [
             {
-                "name": "Irradiated Scorpion",
-                "description": "Mutated beyond their usual size, they have been known to kill entire camps of wasters.",
-                "hp": 4,
-                "abilities": [
-                    {
-                        "name": "Stinger",
-                        "range": "Close",
-                        "damage": "2 HP",
-                        "traits": [
-                            "Melee",
-                            "Poison",
-                            "Deadly (Creatures Only)"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Artl",
-                "description": "Burrowing, ambush predators that liquify their prey for easier digestion.",
-                "hp": 2,
+                "name": "Acid Spit",
+                "range": "Medium",
+                "damage": "2 HP",
                 "traits": [
-                    "Burrower"
-                ],
-                "abilities": [
-                    {
-                        "name": "Acid Spit",
-                        "range": "Medium",
-                        "damage": "2 HP",
-                        "traits": [
-                            "Burn (2)"
-                        ]
-                    },
-                    {
-                        "name": "Corrosive Skin Glands",
-                        "description": "When hit by a melee attack, the attacker takes 2 HP damage."
-                    }
+                    "Burn (2)"
                 ]
             },
             {
-                "name": "Chimeripede",
-                "description": "A mutated, radiation scarred amalgamation of flesh.",
-                "hp": 10,
-                "abilities": [
-                    {
-                        "name": "Barbed Tentacles",
-                        "range": "Close",
-                        "damage": "3 HP",
-                        "traits": [
-                            "Melee",
-                            "Pinning",
-                            "Poison",
-                            "Multi-Attack (3)"
-                        ]
-                    }
-                ]
-            },
+                "name": "Corrosive Skin Glands",
+                "description": "When hit by a melee attack, the attacker takes 2 HP damage."
+            }
+        ]
+    },
+    {
+        "category": "Creatures",
+        "name": "Chimeripede",
+        "description": "A mutated, radiation scarred amalgamation of flesh.",
+        "hp": 10,
+        "abilities": [
             {
-                "name": "Wasteland Bear",
-                "description": "Large, hungry, and ferocious, these bears are not just after your picnic basket.",
-                "hp": 5,
-                "abilities": [
-                    {
-                        "name": "Bear Carnage",
-                        "range": "Close",
-                        "damage": "4 HP",
-                        "traits": [
-                            "Melee"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Molebear",
-                "description": "Terrifying, huge burrowing predators known to rend through metal.",
-                "hp": 12,
+                "name": "Barbed Tentacles",
+                "range": "Close",
+                "damage": "3 HP",
                 "traits": [
-                    "Burrower"
-                ],
-                "abilities": [
-                    {
-                        "name": "Iron Claw",
-                        "range": "Close",
-                        "damage": "4 SP",
-                        "traits": [
-                            "Melee"
-                        ]
-                    }
+                    "Melee",
+                    "Pinning",
+                    "Poison",
+                    "Multi-Attack (3)"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Creatures",
+        "name": "Wasteland Bear",
+        "description": "Large, hungry, and ferocious, these bears are not just after your picnic basket.",
+        "hp": 5,
+        "abilities": [
+            {
+                "name": "Bear Carnage",
+                "range": "Close",
+                "damage": "4 HP",
+                "traits": [
+                    "Melee"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Creatures",
+        "name": "Molebear",
+        "description": "Terrifying, huge burrowing predators known to rend through metal.",
+        "hp": 12,
+        "traits": [
+            "Burrower"
+        ],
+        "abilities": [
+            {
+                "name": "Iron Claw",
+                "range": "Close",
+                "damage": "4 SP",
+                "traits": [
+                    "Melee"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Creatures",
+        "name": "Carrion Bird",
+        "description": "Large flying scavengers that feast on flesh and bone.",
+        "hp": 3,
+        "traits": [
+            "Fly"
+        ],
+        "abilities": [
+            {
+                "name": "Talons",
+                "range": "Close",
+                "damage": "3 HP"
+            }
+        ]
+    },
+    {
+        "category": "People",
+        "name": "Wastelander",
+        "description": "Represents the myriad of common denizens of the wastelands.",
+        "hp": 2,
+        "abilities": [
+            {
+                "name": "Improvised Melee Weapon",
+                "range": "Close",
+                "damage": "2 HP",
+                "traits": [
+                    "Melee"
                 ]
             },
             {
-                "name": "Carrion Bird",
-                "description": "Large flying scavengers that feast on flesh and bone.",
-                "hp": 3,
+                "name": "Salvaging Tools"
+            }
+        ]
+    },
+    {
+        "category": "People",
+        "name": "Raider",
+        "description": "Wastelanders who take what they need by force.",
+        "hp": 3,
+        "abilities": [
+            {
+                "name": "Improvised Firearm",
+                "range": "Close",
+                "damage": "3 HP",
                 "traits": [
-                    "Fly"
-                ],
-                "abilities": [
-                    {
-                        "name": "Talons",
-                        "range": "Close",
-                        "damage": "3 HP"
-                    }
+                    "Ballistic",
+                    "Unwieldy"
                 ]
             }
         ]
     },
     {
         "category": "People",
-        "entities": [
+        "name": "Trooper",
+        "description": "Combat trained troops deployed in a wide range of roles.",
+        "hp": 5,
+        "abilities": [
             {
-                "name": "Wastelander",
-                "description": "Represents the myriad of common denizens of the wastelands.",
-                "hp": 2,
-                "abilities": [
-                    {
-                        "name": "Improvised Melee Weapon",
-                        "range": "Close",
-                        "damage": "2 HP",
-                        "traits": [
-                            "Melee"
-                        ]
-                    },
-                    {
-                        "name": "Salvaging Tools"
-                    }
+                "name": "Rifle",
+                "range": "Medium",
+                "damage": "5 HP",
+                "traits": [
+                    "Ballistic"
                 ]
             },
             {
-                "name": "Raider",
-                "description": "Wastelanders who take what they need by force.",
-                "hp": 3,
-                "abilities": [
-                    {
-                        "name": "Improvised Firearm",
-                        "range": "Close",
-                        "damage": "3 HP",
-                        "traits": [
-                            "Ballistic",
-                            "Unwieldy"
-                        ]
-                    }
+                "name": "Portable Comms Unit"
+            }
+        ]
+    },
+    {
+        "category": "People",
+        "name": "Veteran",
+        "description": "A well trained and seasoned soldier deployed on difficult operations.",
+        "hp": 9,
+        "abilities": [
+            {
+                "name": "Green Laser Rifle",
+                "range": "Medium",
+                "damage": "5 HP",
+                "traits": [
+                    "Energy"
                 ]
             },
             {
-                "name": "Trooper",
-                "description": "Combat trained troops deployed in a wide range of roles.",
-                "hp": 5,
-                "abilities": [
-                    {
-                        "name": "Rifle",
-                        "range": "Medium",
-                        "damage": "5 HP",
-                        "traits": [
-                            "Ballistic"
-                        ]
-                    },
-                    {
-                        "name": "Portable Comms Unit"
-                    }
+                "name": "Portable Comms Unit"
+            }
+        ]
+    },
+    {
+        "category": "People",
+        "name": "Combat Pilot",
+        "description": "A combat trained Mech Pilot, such as a Union Salvager.",
+        "hp": 10,
+        "abilities": [
+            {
+                "name": "Pistol",
+                "range": "Close",
+                "damage": "3 HP",
+                "traits": [
+                    "Ballistic"
                 ]
             },
             {
-                "name": "Veteran",
-                "description": "A well trained and seasoned soldier deployed on difficult operations.",
-                "hp": 9,
-                "abilities": [
-                    {
-                        "name": "Green Laser Rifle",
-                        "range": "Medium",
-                        "damage": "5 HP",
-                        "traits": [
-                            "Energy"
-                        ]
-                    },
-                    {
-                        "name": "Portable Comms Unit"
-                    }
+                "name": "Portable Comms Unit"
+            }
+        ]
+    },
+    {
+        "category": "People",
+        "name": "Ace",
+        "description": "A veteran Mech Pilot, usually with Corpo training.",
+        "hp": 16,
+        "abilities": [
+            {
+                "name": "Sniper Rifle",
+                "range": "Long",
+                "damage": "6 HP",
+                "traits": [
+                    "Ballistic"
                 ]
             },
             {
-                "name": "Combat Pilot",
-                "description": "A combat trained Mech Pilot, such as a Union Salvager.",
-                "hp": 10,
-                "abilities": [
-                    {
-                        "name": "Pistol",
-                        "range": "Close",
-                        "damage": "3 HP",
-                        "traits": [
-                            "Ballistic"
-                        ]
-                    },
-                    {
-                        "name": "Portable Comms Unit"
-                    }
-                ]
-            },
-            {
-                "name": "Ace",
-                "description": "A veteran Mech Pilot, usually with Corpo training.",
-                "hp": 16,
-                "abilities": [
-                    {
-                        "name": "Sniper Rifle",
-                        "range": "Long",
-                        "damage": "6 HP",
-                        "traits": [
-                            "Ballistic"
-                        ]
-                    },
-                    {
-                        "name": "Portable Comms Unit"
-                    }
-                ]
+                "name": "Portable Comms Unit"
             }
         ]
     },
     {
         "category": "Squads",
-        "entities": [
+        "name": "Waster Mob",
+        "description": "A mob of wastelanders with improvised weapons.",
+        "hp": 4,
+        "abilities": [
             {
-                "name": "Waster Mob",
-                "description": "A mob of wastelanders with improvised weapons.",
-                "hp": 4,
-                "abilities": [
-                    {
-                        "name": "Improvised Weapons",
-                        "range": "Close",
-                        "damage": "4 HP",
-                        "traits": [
-                            "Melee",
-                            "Multi-Attack (2)"
-                        ]
-                    },
-                    {
-                        "name": "Salvaging Tools"
-                    }
+                "name": "Improvised Weapons",
+                "range": "Close",
+                "damage": "4 HP",
+                "traits": [
+                    "Melee",
+                    "Multi-Attack (2)"
                 ]
             },
             {
-                "name": "Raider Band",
-                "description": "A band of raiders hungry for scrap.",
-                "hp": 6,
-                "abilities": [
-                    {
-                        "name": "Improvised Firearms",
-                        "range": "Close",
-                        "damage": "4 HP",
-                        "traits": [
-                            "Ballistic",
-                            "Multi-Attack (2)"
-                        ]
-                    },
-                    {
-                        "name": "High Tensile Wire"
-                    }
+                "name": "Salvaging Tools"
+            }
+        ]
+    },
+    {
+        "category": "Squads",
+        "name": "Raider Band",
+        "description": "A band of raiders hungry for scrap.",
+        "hp": 6,
+        "abilities": [
+            {
+                "name": "Improvised Firearms",
+                "range": "Close",
+                "damage": "4 HP",
+                "traits": [
+                    "Ballistic",
+                    "Multi-Attack (2)"
                 ]
             },
             {
-                "name": "Rifle Squad",
-                "description": "A group of grunts armed with rifles.",
-                "hp": 10,
-                "abilities": [
-                    {
-                        "name": "Rifles",
-                        "range": "Medium",
-                        "damage": "6 HP",
-                        "traits": [
-                            "Ballistic",
-                            "Jamming",
-                            "Multi-Attack (2)"
-                        ]
-                    },
-                    {
-                        "name": "Portable Comms Unit"
-                    }
+                "name": "High Tensile Wire"
+            }
+        ]
+    },
+    {
+        "category": "Squads",
+        "name": "Rifle Squad",
+        "description": "A group of grunts armed with rifles.",
+        "hp": 10,
+        "abilities": [
+            {
+                "name": "Rifles",
+                "range": "Medium",
+                "damage": "6 HP",
+                "traits": [
+                    "Ballistic",
+                    "Jamming",
+                    "Multi-Attack (2)"
                 ]
             },
             {
-                "name": "Machine Gun Squad",
-                "description": "Combat trained troops armed with a mobile heavy machine gun.",
-                "hp": 10,
-                "abilities": [
-                    {
-                        "name": ".50 Cal Machine Gun",
-                        "range": "Close",
-                        "damage": "3 SP",
-                        "traits": [
-                            "Ballistic",
-                            "Jamming",
-                            "Pinning",
-                            "Multi-Attack (2)"
-                        ]
-                    },
-                    {
-                        "name": "Portable Comms Unit"
-                    },
-                    {
-                        "name": "First Aid Kit"
-                    }
+                "name": "Portable Comms Unit"
+            }
+        ]
+    },
+    {
+        "category": "Squads",
+        "name": "Machine Gun Squad",
+        "description": "Combat trained troops armed with a mobile heavy machine gun.",
+        "hp": 10,
+        "abilities": [
+            {
+                "name": ".50 Cal Machine Gun",
+                "range": "Close",
+                "damage": "3 SP",
+                "traits": [
+                    "Ballistic",
+                    "Jamming",
+                    "Pinning",
+                    "Multi-Attack (2)"
                 ]
             },
             {
-                "name": "Missile Squad",
-                "description": "Combat trained troops armed with a mobile missile launcher.",
-                "hp": 10,
-                "abilities": [
-                    {
-                        "name": "Rocket Launcher",
-                        "range": "Long",
-                        "damage": "6 SP",
-                        "traits": [
-                            "Missile",
-                            "Explosive (1)",
-                            "Multi-Attack (2)",
-                            "Uses (3)"
-                        ]
-                    },
-                    {
-                        "name": "Portable Comms Unit"
-                    },
-                    {
-                        "name": "First Aid Kit"
-                    }
+                "name": "Portable Comms Unit"
+            },
+            {
+                "name": "First Aid Kit"
+            }
+        ]
+    },
+    {
+        "category": "Squads",
+        "name": "Missile Squad",
+        "description": "Combat trained troops armed with a mobile missile launcher.",
+        "hp": 10,
+        "abilities": [
+            {
+                "name": "Rocket Launcher",
+                "range": "Long",
+                "damage": "6 SP",
+                "traits": [
+                    "Missile",
+                    "Explosive (1)",
+                    "Multi-Attack (2)",
+                    "Uses (3)"
                 ]
             },
             {
-                "name": "Elite Blade Squad",
-                "description": "Heavy assault troops armed with energised blades.",
-                "hp": 20,
-                "abilities": [
-                    {
-                        "name": "Monomolecular Sword",
-                        "range": "Close",
-                        "damage": "6 SP",
-                        "traits": [
-                            "Melee",
-                            "Deadly",
-                            "Multi-Attack (2)"
-                        ]
-                    },
-                    {
-                        "name": "Portable Comms Unit"
-                    },
-                    {
-                        "name": "Electro Grappling Hook"
-                    }
+                "name": "Portable Comms Unit"
+            },
+            {
+                "name": "First Aid Kit"
+            }
+        ]
+    },
+    {
+        "category": "Squads",
+        "name": "Elite Blade Squad",
+        "description": "Heavy assault troops armed with energised blades.",
+        "hp": 20,
+        "abilities": [
+            {
+                "name": "Monomolecular Sword",
+                "range": "Close",
+                "damage": "6 SP",
+                "traits": [
+                    "Melee",
+                    "Deadly",
+                    "Multi-Attack (2)"
                 ]
             },
             {
-                "name": "Elite Beam Squad",
-                "description": "Apex troops in heavy armour armed with a big ol' gun.",
-                "hp": 20,
-                "abilities": [
-                    {
-                        "name": "Beta Fission Gun",
-                        "range": "Long",
-                        "damage": "9 SP",
-                        "traits": [
-                            "Burn (2)",
-                            "Energy",
-                            "Explosive (1)",
-                            "Multi-Attack (2)"
-                        ]
-                    },
-                    {
-                        "name": "Portable Comms Unit"
-                    },
-                    {
-                        "name": "Night Vision Optics"
-                    }
+                "name": "Portable Comms Unit"
+            },
+            {
+                "name": "Electro Grappling Hook"
+            }
+        ]
+    },
+    {
+        "category": "Squads",
+        "name": "Elite Beam Squad",
+        "description": "Apex troops in heavy armour armed with a big ol' gun.",
+        "hp": 20,
+        "abilities": [
+            {
+                "name": "Beta Fission Gun",
+                "range": "Long",
+                "damage": "9 SP",
+                "traits": [
+                    "Burn (2)",
+                    "Energy",
+                    "Explosive (1)",
+                    "Multi-Attack (2)"
                 ]
             },
             {
-                "name": "Wasteland Herd",
-                "description": "A herd of wasteland creatures.",
-                "hp": 4,
-                "abilities": [
-                    {
-                        "name": "Stampede",
-                        "range": "Close",
-                        "damage": "3 HP",
-                        "traits": [
-                            "Melee",
-                            "Multi-Attack (2)"
-                        ],
-                        "description": "Creatures hit by this attack are knocked prone."
-                    }
+                "name": "Portable Comms Unit"
+            },
+            {
+                "name": "Night Vision Optics"
+            }
+        ]
+    },
+    {
+        "category": "Squads",
+        "name": "Wasteland Herd",
+        "description": "A herd of wasteland creatures.",
+        "hp": 4,
+        "abilities": [
+            {
+                "name": "Stampede",
+                "range": "Close",
+                "damage": "3 HP",
+                "traits": [
+                    "Melee",
+                    "Multi-Attack (2)"
+                ],
+                "description": "Creatures hit by this attack are knocked prone."
+            }
+        ]
+    },
+    {
+        "category": "Squads",
+        "name": "Drone Squadron",
+        "description": "A swarm of Combat Drones flying in sync.",
+        "structure_pts": 8,
+        "abilities": [
+            {
+                "name": "Red Laser",
+                "range": "Medium",
+                "damage": "4 SP",
+                "traits": [
+                    "Energy",
+                    "Hot (1)",
+                    "Multi-Attack (2)"
                 ]
             },
             {
-                "name": "Drone Squadron",
-                "description": "A swarm of Combat Drones flying in sync.",
-                "structure_pts": 8,
-                "abilities": [
-                    {
-                        "name": "Red Laser",
-                        "range": "Medium",
-                        "damage": "4 SP",
-                        "traits": [
-                            "Energy",
-                            "Hot (1)",
-                            "Multi-Attack (2)"
-                        ]
-                    },
-                    {
-                        "name": "Hover Locomotion System"
-                    }
-                ]
+                "name": "Hover Locomotion System"
             }
         ]
     }

@@ -14,6 +14,12 @@
     },
     {
       "fileMatch": [
+        "data/otherEntities.json"
+      ],
+      "url": "./schemas/otherEntities.schema.json"
+    },
+    {
+      "fileMatch": [
         "data/modules.json"
       ],
       "url": "./schemas/modules.schema.json"
