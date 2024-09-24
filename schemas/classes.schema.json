@@ -6,30 +6,30 @@
       {
         "type": "object",
         "properties": {
-          "name": {"$ref": "common.schema.json#/definitions/class"},
+          "name": {"$ref": "enums.schema.json#/definitions/class"},
           "type": { "enum": ["core"] },
           "description": { "type": "string" },
-          "coreAbilities": { "type": "array", "items": {"$ref": "common.schema.json#/definitions/tree"} },
-          "hybridClasses": { "type": "array", "items": {"$ref": "common.schema.json#/definitions/class"} },
-          "advancedAbilities": {"$ref": "common.schema.json#/definitions/tree"},
+          "coreAbilities": { "type": "array", "items": {"$ref": "enums.schema.json#/definitions/tree"} },
+          "hybridClasses": { "type": "array", "items": {"$ref": "enums.schema.json#/definitions/class"} },
+          "advancedAbilities": {"$ref": "enums.schema.json#/definitions/tree"},
           "legendaryAbilities": {
             "type": "array",
-            "items": {"$ref": "common.schema.json#/definitions/ability"}
+            "items": {"$ref": "enums.schema.json#/definitions/ability"}
           }
         }
       },
       {
         "type": "object",
         "properties": {
-          "name": {"$ref": "common.schema.json#/definitions/class"},
+          "name": {"$ref": "enums.schema.json#/definitions/class"},
           "type": { "enum": ["hybrid"] },
           "description": { "type": "string" },
-          "coreClasses": { "type": "array", "items": {"$ref": "common.schema.json#/definitions/class"} },
-          "coreAbilities": { "type": "array", "items": {"$ref": "common.schema.json#/definitions/tree"} },
-          "advancedAbilities": {"$ref": "common.schema.json#/definitions/tree"},
+          "coreClasses": { "type": "array", "items": {"$ref": "enums.schema.json#/definitions/class"} },
+          "coreAbilities": { "type": "array", "items": {"$ref": "enums.schema.json#/definitions/tree"} },
+          "advancedAbilities": {"$ref": "enums.schema.json#/definitions/tree"},
           "legendaryAbilities": {
             "type": "array",
-            "items": {"$ref": "common.schema.json#/definitions/ability"}
+            "items": {"$ref": "enums.schema.json#/definitions/ability"}
           }
         }
       }

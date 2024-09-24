@@ -4,8 +4,8 @@
   "items": {
     "type": "object",
     "properties": {
-      "name": { "$ref": "common.schema.json#/definitions/ability" },
-      "tree": { "$ref": "common.schema.json#/definitions/tree" },
+      "name": { "$ref": "enums.schema.json#/definitions/ability" },
+      "tree": { "$ref": "enums.schema.json#/definitions/tree" },
       "level": {
         "type": "number"
       },
@@ -16,8 +16,8 @@
         "type": "string"
       },
       "apCost": { "$ref": "common.schema.json#/definitions/apCost" },
-      "range": { "$ref": "common.schema.json#/definitions/range" },
-      "actionType": { "$ref": "common.schema.json#/definitions/actionType" },
+      "range": { "$ref": "enums.schema.json#/definitions/range" },
+      "actionType": { "$ref": "enums.schema.json#/definitions/actionType" },
       "traits": { "$ref": "common.schema.json#/definitions/traits" }
     }
   }

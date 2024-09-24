@@ -17,10 +17,10 @@
         "type": "string"
       },
       "apCost": { "$ref": "common.schema.json#/definitions/apCost" },
-      "range": { "$ref": "common.schema.json#/definitions/range" },
+      "range": { "$ref": "enums.schema.json#/definitions/range" },
       "damage": { "$ref": "common.schema.json#/definitions/damage" },
       "rollTable": { "$ref": "common.schema.json#/definitions/rollTable" },
-      "actionType": { "$ref": "common.schema.json#/definitions/actionType" }
+      "actionType": { "$ref": "enums.schema.json#/definitions/actionType" }
     }
   }
 }

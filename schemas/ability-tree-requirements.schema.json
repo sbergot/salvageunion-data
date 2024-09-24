@@ -4,10 +4,10 @@
   "items": {
     "type": "object",
     "properties": {
-      "tree": {"$ref": "common.schema.json#/definitions/tree"},
+      "tree": {"$ref": "enums.schema.json#/definitions/tree"},
       "requirement": {
         "type": "array",
-        "items": {"$ref": "common.schema.json#/definitions/tree"}
+        "items": {"$ref": "enums.schema.json#/definitions/tree"}
       }
     }
   }
