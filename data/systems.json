@@ -161,7 +161,10 @@
     "salvageValue": 5,
     "range": "Medium",
     "damage": { "type": "SP", "amount": 5 },
-    "traits": [{ "type": "explosive", "amount": 1 }, {"type": "uses", "amount": 5}],
+    "traits": [
+      { "type": "explosive", "amount": 1 },
+      { "type": "uses", "amount": 5 }
+    ],
     "description": "The Herrsch Pattern Miniaturised Mortar lobs an explosive, high velocity round against a target, flaying everything around it with superheated shrapnel."
   },
   {
@@ -295,7 +298,7 @@
     "techLevel": 2,
     "slotsRequired": 1,
     "salvageValue": 1,
-    "traits": [{"type": "uses", "amount": 2}],
+    "traits": [{ "type": "uses", "amount": 2 }],
     "actionType": "Reaction",
     "description": "This System fires a metallic cloud of chaff, made of strips of aluminium and zinc, from your Mech which can detonate missiles harmlessly in flight or scramble targeting systems."
   },
@@ -402,7 +405,7 @@
     "salvageValue": 2,
     "actionType": "Passive",
     "description": "Grants the Mech a Personnel Capacity of 12, or 2 Squads per Personnel Transport Pod mounted.",
-    "personnelCapacity": 12
+    "traits": [{ "type": "personnel capacity", "amount": 12 }]
   },
   {
     "name": "Shotgun Pit",
@@ -449,11 +452,11 @@
     "traits": [
       { "type": "hot", "amount": 1 },
       { "type": "explosive", "amount": 2 },
-      { "type": "missile" }
+      { "type": "missile" },
+      { "type": "uses", "amount": 6 }
     ],
     "description": "Developed as a highly destructive and versatile armament for underwater Mechs, it is not advisable to use these on land unless you have a good plan.",
-    "notes": "When fired in water, Torpedo Tubes are Long Range weapons. When fired out of water they are Close Range weapons.",
-    "uses": 6
+    "notes": "When fired in water, Torpedo Tubes are Long Range weapons. When fired out of water they are Close Range weapons."
   },
   {
     "name": "Tracking Node",
@@ -559,7 +562,7 @@
     "description": "Reduces the Heat of a target Mech in Range to 0.",
     "range": "Close",
     "epCost": 1,
-    "uses": 5
+    "traits": [{ "type": "uses", "amount": 5 }]
   },
   {
     "name": "Electro-Magnetic Shield Projector",
@@ -796,7 +799,7 @@
     "description": "An effective area control tool, when triggered, Anti-Mech Mines attach to Mechs in their vicinity with spider-like clamps and detonate, dealing devastating damage.",
     "range": "Close",
     "epCost": 1,
-    "uses": 5,
+    "traits": [{ "type": "uses", "amount": 5 }],
     "rollTable": {
       "1": "The mines hit an unintended target such as an Ally or something innocent in the area.",
       "20": "Everything in the area is destroyed.",
@@ -1080,10 +1083,10 @@
       { "type": "anti-shielding" },
       { "type": "guided" },
       { "type": "missile" },
-      { "type": "targeter" }
+      { "type": "targeter" },
+      { "type": "uses", "amount": 6 }
     ],
-    "description": "This Weapons System fires a bunker busting torpedo with an explosive charge that burrows into the earth and travels underneath a target, causing a controlled explosion beneath it making it effective against shields.",
-    "uses": 6
+    "description": "This Weapons System fires a bunker busting torpedo with an explosive charge that burrows into the earth and travels underneath a target, causing a controlled explosion beneath it making it effective against shields."
   },
   {
     "name": "Monomolecular Blade",
@@ -1205,7 +1208,9 @@
     "rollTable": {
       "1": "Everything you are attempting to teleport is destroyed or killed.",
       "20": "Copy/Paste error. Everything you attempt to teleport appears on your Crawler. They are also still on your Mech.",
-      "2-19": "Teleport Successful!"
+      "2-5": "Teleport Successful!",
+      "6-10": "Teleport Successful!",
+      "11-19": "Teleport Successful!"
     }
   },
   {
@@ -1235,14 +1240,14 @@
     "actions": [
       {
         "name": "Disintegrate",
-        "epCost": "X",
+        "epCost": "Variable",
         "range": "Close",
         "actionType": "Turn",
         "traits": [{ "type": "shield" }],
         "description": "You extend the Matter Phase Shield outward from you. Everything within Close Range of you except for your own Mech and Pilot takes an amount of SP damage equal to 3× the EP you spend on this Ability."
       },
       {
-        "name": { "type": "shield" },
+        "name": "Shield",
         "epCost": 2,
         "range": "Close",
         "actionType": "Reaction",

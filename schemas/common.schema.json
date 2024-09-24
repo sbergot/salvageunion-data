@@ -26,7 +26,7 @@
             "additionalProperties": false,
             "properties": {
               "type": {
-                "enum": ["uses", "explosive", "burn", "hot", "multi-attack"]
+                "enum": ["uses", "explosive", "burn", "hot", "multi-attack", "personnel capacity"]
               },
               "amount": { "type": "number" }
             }
@@ -56,6 +56,7 @@
                   "climbing",
                   "missile",
                   "deadly",
+                  "deadly (creatures only)",
                   "flashy",
                   "scanner",
                   "heat spike",
@@ -72,7 +73,15 @@
                   "amphibious",
                   "explosive (1d20)",
                   "heat hpike",
-                  "hot (1d20)"
+                  "hot (1d20)",
+                  "wheeled",
+                  "meld infection",
+                  "irradiated",
+                  "fast",
+                  "immobile",
+                  "poison",
+                  "burrower",
+                  "fly"
                 ]
               }
             }

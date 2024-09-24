@@ -13,10 +13,16 @@
           "type": "string"
         },
         "apCost": { "$ref": "common.schema.json#/definitions/apCost" },
-        "epCost": { "type": "number" },
+        "epCost": { "$ref": "common.schema.json#/definitions/apCost" },
         "range": { "$ref": "enums.schema.json#/definitions/range" },
         "actionType": { "$ref": "enums.schema.json#/definitions/actionType" },
-        "traits": { "$ref": "common.schema.json#/definitions/traits" }
+        "traits": { "$ref": "common.schema.json#/definitions/traits" },
+        "damage": { "$ref": "common.schema.json#/definitions/damage" },
+        "options": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "rollTable": { "$ref": "common.schema.json#/definitions/rollTable" }
       }
     }
   }

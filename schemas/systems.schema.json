@@ -20,7 +20,7 @@
         "type": "string"
       },
       "apCost": { "$ref": "common.schema.json#/definitions/apCost" },
-      "epCost": { "type": "number" },
+      "epCost": { "$ref": "common.schema.json#/definitions/apCost" },
       "range": { "$ref": "enums.schema.json#/definitions/range" },
       "damage": { "$ref": "common.schema.json#/definitions/damage" },
       "rollTable": { "$ref": "common.schema.json#/definitions/rollTable" },

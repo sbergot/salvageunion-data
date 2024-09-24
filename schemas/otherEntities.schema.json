@@ -9,6 +9,10 @@
       "name": { "type": "string" },
       "description": { "type": "string" },
       "structure_pts": { "type": "number" },
+      "hp": { "type": "number" },
+      "tech_level": { "type": "number" },
+      "salvage_value": { "type": "number" },
+      "traits": { "$ref": "common.schema.json#/definitions/traits" },
       "abilities": {
         "type": "array",
         "items": { "$ref": "objects.schema.json#/definitions/action" }
