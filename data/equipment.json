@@ -4,7 +4,6 @@
     "techLevel": 1,
     "traits": [{ "type": "uses", "amount": 3 }],
     "range": "Close",
-    "uses": 3,
     "description": "This set of bandages, plasters, gauze, painkillers, and antiseptics allows you to patch up wounds in the field. A target creature of your choice in Range regains 3 Hit Points. If they were on 0 Hit Points this restores them to consciousness with 3 HP.",
     "notes": "*Union Safety Guideline 305.15 recommends each Union Crawler salvage crew equip a First Aid Kit for all active field work.*"
   },
@@ -185,7 +184,6 @@
     "techLevel": 3,
     "traits": [{ "type": "explosive", "amount": 1 }, { "type": "uses", "amount": 3 }],
     "range": "Medium",
-    "uses": 3,
     "description": "A handheld explosive device that can be thrown towards a target dealing high damage in an area.",
     "damage": { "type": "SP", "amount": 4 }
   },
@@ -199,7 +197,6 @@
     "name": "Healing Bio-Foam",
     "techLevel": 3,
     "traits": [{ "type": "uses", "amount": 3 }],
-    "uses": 3,
     "description": "This canister contains an advanced form of bio-foam that when sprayed on a wound forms a rigid layer of biocomposite polymer, sealing the injury.",
     "actions": [
       {
@@ -384,7 +381,6 @@
     "techLevel": 5,
     "traits": [{"type": "burn", "amount:": 2}, { "type": "explosive", "amount": 2 }, {"type": "heavy"}, { "type": "uses", "amount": 3 }],
     "range": "Medium",
-    "uses": 3,
     "description": "This frankly over-designed weapon fires a huge blast of supercharged fission which engulfs an entire area in superheated green flame.",
     "damage": { "type": "SP", "amount": 7 }
   },

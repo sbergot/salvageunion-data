@@ -132,6 +132,7 @@
     "description": "A Mechapult must be loaded with one piece of Scrap to fire. The effect is randomly determined and differs based on the Tech Level of Scrap you choose.",
     "range": "Long",
     "rollTable": {
+      "type": "full",
       "1": "The Mechapult explodes and is destroyed. Deal SP damage equal to 2× the Tech Level of the Scrap to your Mech and everything within Close Range.",
       "2": "The Mechapult overloads collapsing in on itself. Your Mech takes damage equal to the Tech Level of the Scrap and the Mechapult is damaged.",
       "3": "The Mechapult backfires, hitting a random Ally in Range for SP damage equal to the Tech Level of the Scrap.",
@@ -161,9 +162,8 @@
     "salvageValue": 5,
     "range": "Medium",
     "damage": { "type": "SP", "amount": 5 },
-    "traits": [{ "type": "explosive", "amount": 1 }],
-    "description": "The Herrsch Pattern Miniaturised Mortar lobs an explosive, high velocity round against a target, flaying everything around it with superheated shrapnel.",
-    "uses": 5
+    "traits": [{ "type": "explosive", "amount": 1 }, {"type": "uses", "amount": 5}],
+    "description": "The Herrsch Pattern Miniaturised Mortar lobs an explosive, high velocity round against a target, flaying everything around it with superheated shrapnel."
   },
   {
     "name": "Mining Rig",
@@ -296,9 +296,9 @@
     "techLevel": 2,
     "slotsRequired": 1,
     "salvageValue": 1,
+    "traits": [{"type": "uses", "amount": 2}],
     "actionType": "Reaction",
-    "description": "This System fires a metallic cloud of chaff, made of strips of aluminium and zinc, from your Mech which can detonate missiles harmlessly in flight or scramble targeting systems.",
-    "uses": 2
+    "description": "This System fires a metallic cloud of chaff, made of strips of aluminium and zinc, from your Mech which can detonate missiles harmlessly in flight or scramble targeting systems."
   },
   {
     "name": "Dozer Blades",

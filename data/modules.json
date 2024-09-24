@@ -666,8 +666,7 @@
     "slotsRequired": 1,
     "salvageValue": 2,
     "actionType": "Reaction",
-    "description": "When activated, reduce the Heat on your Mech to 0.",
-    "uses": 3
+    "description": "When activated, reduce the Heat on your Mech to 0."
   },
   {
     "name": "Multi-Optics",

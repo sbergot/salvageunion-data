@@ -3,6 +3,7 @@
   "type": "array",
   "items": {
     "type": "object",
+    "additionalProperties": false,
     "properties": {
       "name": { "$ref": "enums.schema.json#/definitions/ability" },
       "tree": { "$ref": "enums.schema.json#/definitions/tree" },

@@ -5,6 +5,7 @@
     "anyOf": [
       {
         "type": "object",
+        "additionalProperties": false,
         "properties": {
           "name": {"$ref": "enums.schema.json#/definitions/class"},
           "type": { "enum": ["core"] },
@@ -20,6 +21,7 @@
       },
       {
         "type": "object",
+        "additionalProperties": false,
         "properties": {
           "name": {"$ref": "enums.schema.json#/definitions/class"},
           "type": { "enum": ["hybrid"] },
