@@ -258,7 +258,7 @@
   {
     "name": "Portable Flamethrower",
     "techLevel": 3,
-    "traits": [{"type": "anti-organic"}, {"type": "burn", "amount:": 2}, {"type": "overheat"}, {"type": "heavy"}],
+    "traits": [{"type": "anti-organic"}, {"type": "burn", "amount": 2}, {"type": "overheat"}, {"type": "heavy"}],
     "range": "Close",
     "description": "This portable flamethrower fires superheated liquid flame at a target.",
     "damage": { "type": "HP", "amount": 2 }
@@ -379,7 +379,7 @@
   {
     "name": "Beta Fission Gun",
     "techLevel": 5,
-    "traits": [{"type": "burn", "amount:": 2}, { "type": "explosive", "amount": 2 }, {"type": "heavy"}, { "type": "uses", "amount": 3 }],
+    "traits": [{"type": "burn", "amount": 2}, { "type": "explosive", "amount": 2 }, {"type": "heavy"}, { "type": "uses", "amount": 3 }],
     "range": "Medium",
     "description": "This frankly over-designed weapon fires a huge blast of supercharged fission which engulfs an entire area in superheated green flame.",
     "damage": { "type": "SP", "amount": 7 }

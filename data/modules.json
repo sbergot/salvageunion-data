@@ -309,28 +309,28 @@
         "name": "Heal",
         "apCost": 2,
         "range": "Close",
-        "actionType": "Short Action",
+        "actionType": "Short",
         "description": "The Auto-Doctor heals a creature within Range up to 10 HP. If they were on 0 HP this restores them to consciousness and heals them to 10 HP."
       },
       {
         "name": "Physio",
         "apCost": 2,
         "range": "Close",
-        "actionType": "Short Action",
+        "actionType": "Short",
         "description": "The Auto-Doctor heals a creature within Range of a single Minor Injury."
       },
       {
         "name": "Therapy",
         "apCost": 2,
         "range": "Close",
-        "actionType": "Short Action",
+        "actionType": "Short",
         "description": "The Auto-Doctor engages its therapeutic and drinks dispensation protocols. A single People who talks through things with the Auto-Doctor feels a lot better about themselves, their life, and the situation they are in."
       },
       {
         "name": "First Aid",
         "apCost": 2,
         "range": "Close",
-        "actionType": "Free Action",
+        "actionType": "Free",
         "description": "The Auto-Doctor heals a creature within Range of up to 4 HP. If they were on 0 HP this restores them to consciousness and heals them 4 HP."
       }
     ]
@@ -364,13 +364,13 @@
       {
         "name": "Coolant Flow",
         "apCost": 2,
-        "actionType": "Free Action",
+        "actionType": "Free",
         "description": "Adjusted valves provide coolant where required. Reduce the Heat of your Mech by 4."
       },
       {
         "name": "Coolant Flush",
         "apCost": 1,
-        "actionType": "Short Action",
+        "actionType": "Short",
         "description": "The coolant system runs through a flush cycle. Reduce the Heat of your Mech to 0."
       }
     ]
@@ -526,19 +526,19 @@
       {
         "name": "Repair",
         "apCost": 2,
-        "actionType": "Free Action",
+        "actionType": "Free",
         "description": "You restore 6 SP to your Mech as long as it has at least 1 SP."
       },
       {
         "name": "System Repair",
         "apCost": 2,
-        "actionType": "Free Action",
+        "actionType": "Free",
         "description": "You repair a single, Tech 4 or lower, damaged System or Module mounted on your Mech to Intact Condition."
       },
       {
         "name": "Coolant Flush",
         "apCost": 2,
-        "actionType": "Free Action",
+        "actionType": "Free",
         "description": "You reduce the Heat of your Mech by 2."
       }
     ]
@@ -629,21 +629,21 @@
       {
         "name": "Pinpoint Targeter",
         "apCost": 3,
-        "actionType": "Turn Action",
+        "actionType": "Turn",
         "traits": [{ "type": "targeter" }],
         "description": "Make an attack at a selected target. If it hits select a system or appendage to be damaged/injured. If you roll a 20 it is destroyed instead. You also deal damage as normal."
       },
       {
         "name": "Multi-Targeter",
-        "apCost": "X",
-        "actionType": "Turn Action",
+        "apCost": "Variable",
+        "actionType": "Turn",
         "traits": [{ "type": "targeter" }],
         "description": "Make an attack with any number of weapons. Each weapon must select a different target. Costs 1 EP per weapon fired."
       },
       {
         "name": "Laser Guidance",
         "apCost": 3,
-        "actionType": "Free Action",
+        "actionType": "Free",
         "traits": [{ "type": "targeter" }, { "type": "guided" }],
         "range": "Long",
         "description": "The next attack you make against that target automatically hits counting as an (11-19) result."

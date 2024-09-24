@@ -18,7 +18,7 @@
             {
                 "name": "Tail Sweep",
                 "description": "Scylla makes one giant sweeping attack with their tail. This hits every target within Medium Range, dealing 3 SP damage on a hit. Targets hit are knocked Prone and gain the Vulnerable Trait.",
-                "actionType": "Turn Action",
+                "actionType": "Turn",
                 "traits": [
                     "Melee"
                 ]
@@ -80,7 +80,7 @@
             {
                 "name": "Swallow Whole",
                 "description": "Typhon attempts to swallow a target into its humongous maw. Typhon may have multiple targets swallowed at once.",
-                "actionType": "Turn Action",
+                "actionType": "Turn",
                 "range": "Close",
                 "traits": [
                     "Melee"
@@ -120,7 +120,7 @@
             {
                 "name": "Cluster Energy Bombs",
                 "description": "Chrysalis scatters a series of glowing cluster bombs upon its foes.",
-                "actionType": "Turn Action",
+                "actionType": "Turn",
                 "range": "Long",
                 "damage": "5 SP",
                 "traits": [
@@ -132,7 +132,7 @@
             {
                 "name": "Entrancing Song",
                 "description": "Chrysalis emits an entrancing song by vibrating its wings at a series of different frequencies. This Ability affects all targets that can hear Chrysalis within Medium Range including those in a Mech unless it is somehow sound sealed.",
-                "actionType": "Turn Action",
+                "actionType": "Turn",
                 "uses": 1
             },
             {
@@ -143,7 +143,7 @@
             {
                 "name": "Birth Pods",
                 "description": "Chrysalis Lays d20 Egg Sacs in an area within Close Range. At the start of its next turn they are born as a Child of Chrysalis and join the combat. Egg Sacs have 1 SP before they hatch.",
-                "actionType": "Turn Action",
+                "actionType": "Turn",
                 "uses": 1
             },
             {
@@ -181,7 +181,7 @@
             {
                 "name": "Morph Scythes",
                 "description": "The molecular structure of a target hit by Phantom's Morph Scythes begins to unravel with bizarre results.",
-                "actionType": "Turn Action",
+                "actionType": "Turn",
                 "range": "Close",
                 "damage": "5 SP",
                 "traits": [
@@ -209,7 +209,7 @@
             {
                 "name": "Electrified Spines",
                 "description": "Electrophorus gouges a target with its spines.",
-                "actionType": "Turn Action",
+                "actionType": "Turn",
                 "range": "Close",
                 "damage": "8 SP",
                 "traits": [
@@ -234,7 +234,7 @@
             {
                 "name": "Bio-Electric Arc",
                 "description": "Electrophorus fires an arc of bioelectricity. Choose up to three targets in Medium Range and make a single attack roll. On a successful hit the first target takes 10 SP damage, the second target takes 5 SP damage, and the third target takes 3 SP damage.",
-                "actionType": "Turn Action",
+                "actionType": "Turn",
                 "range": "Medium",
                 "traits": [
                     "Energy"
@@ -268,7 +268,7 @@
             {
                 "name": "Claw Swipes",
                 "description": "The Tyrant makes a frenetic series of claw swipes.",
-                "actionType": "Turn Action",
+                "actionType": "Turn",
                 "range": "Close",
                 "damage": "10 SP",
                 "traits": [
@@ -310,7 +310,7 @@
             {
                 "name": "Rending Bite",
                 "description": "The Tyrant rips apart a target with a mammoth bite.",
-                "actionType": "Turn Action",
+                "actionType": "Turn",
                 "range": "Close",
                 "damage": "20 SP",
                 "traits": [
@@ -321,7 +321,7 @@
             {
                 "name": "Irradiated Beam",
                 "description": "The Tyrant produces a humongous beam of Irradiated energy from its maw. This must recharge after being fired, and can only be made every other turn. Any target hit by the Irradiated Beam as well as the entire area within Close Range becomes Irradiated.",
-                "actionType": "Turn Action",
+                "actionType": "Turn",
                 "range": "Long",
                 "damage": "40 SP",
                 "traits": [
@@ -436,7 +436,7 @@
             {
                 "name": "Behemoth Tendrils",
                 "description": "Long reaching tendrils whip around to grab all within reach, either crushing them or drawing them nearer to be assimilated.",
-                "actionType": "Turn Action",
+                "actionType": "Turn",
                 "range": "Medium",
                 "damage": "6 SP",
                 "traits": [
