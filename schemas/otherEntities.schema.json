@@ -8,7 +8,11 @@
       "category": { "type": "string" },
       "name": { "type": "string" },
       "description": { "type": "string" },
-      "structure_pts": { "type": "number" }
+      "structure_pts": { "type": "number" },
+      "abilities": {
+        "type": "array",
+        "items": { "$ref": "objects.schema.json#/definitions/action" }
+      }
     }
   }
 }

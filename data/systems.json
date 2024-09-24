@@ -85,10 +85,9 @@
     "slotsRequired": 2,
     "salvageValue": 2,
     "actionType": "Turn",
-    "traits": [{ "type": "pinning" }],
+    "traits": [{ "type": "pinning" }, { "type": "uses", "amount": 5 }],
     "description": "You fire a stream of highly pressurised water at any target or location in Range. This can douse fire and make ground boggy and wet.",
-    "range": "Close",
-    "uses": 5
+    "range": "Close"
   },
   {
     "name": "Hydraulic Crusher",
@@ -227,21 +226,21 @@
         "name": "Patch",
         "epCost": 2,
         "range": "Close",
-        "actionType": "Turn Action",
+        "actionType": "Turn",
         "description": "You restore up to 4 Structure Points to any Mech in Range that has at least 1 SP."
       },
       {
         "name": "System Repair",
         "epCost": 2,
         "range": "Close",
-        "actionType": "Short Action",
+        "actionType": "Short",
         "description": "You repair a damaged Tech 1 System or Module in Range to Intact Condition. It is now usable."
       },
       {
         "name": "Chassis Repair",
         "epCost": 4,
         "range": "Close",
-        "actionType": "Long Action",
+        "actionType": "Long",
         "description": "You repair a damaged Tech 1 Mech Chassis or Vehicle in Range to Intact Condition. It is now usable with 1 SP."
       }
     ]
@@ -320,7 +319,7 @@
         "name": "Pin",
         "epCost": 2,
         "range": "Medium",
-        "actionType": "Turn Action",
+        "actionType": "Turn",
         "traits": [{ "type": "pinning" }],
         "description": "You deal 1 SP damage to the target and it cannot move beyond Medium Range of your Mech whilst the grappling harpoon is attached."
       },
@@ -328,7 +327,7 @@
         "name": "Swing",
         "epCost": 2,
         "range": "Medium",
-        "actionType": "Turn Action",
+        "actionType": "Turn",
         "description": "You may swing or rappel up, down, or over any terrain or obstacle within Range such as a tall building, ravine, or stretch of Irradiated river as long as you have something sturdy to attach the grappling hook to."
       }
     ]
@@ -480,21 +479,21 @@
         "name": "Patch",
         "epCost": 2,
         "range": "Close",
-        "actionType": "Turn Action",
+        "actionType": "Turn",
         "description": "You restore up to 5 Structure Points to any Mech in Range that has at least 1 SP."
       },
       {
         "name": "System Repair",
         "epCost": 2,
         "range": "Close",
-        "actionType": "Short Action",
+        "actionType": "Short",
         "description": "You repair a damaged Tech 1 or Tech 2 System or Module in Range to Intact Condition. It is now usable."
       },
       {
         "name": "Chassis Repair",
         "epCost": 4,
         "range": "Close",
-        "actionType": "Long Action",
+        "actionType": "Long",
         "description": "You repair a damaged Tech 1 or Tech 2 Mech Chassis or Vehicle in Range to Intact Condition. It is now usable with 1 SP."
       }
     ]
@@ -591,21 +590,21 @@
         "name": "Patch",
         "epCost": 2,
         "range": "Close",
-        "actionType": "Turn Action",
+        "actionType": "Turn",
         "description": "You restore up to 6 Structure Points to any Mech in Range that has at least 1 SP."
       },
       {
         "name": "System Repair",
         "epCost": 2,
         "range": "Close",
-        "actionType": "Short Action",
+        "actionType": "Short",
         "description": "You repair a damaged Tech 1, 2, or 3 System or Module in Range to Intact Condition. It is now usable."
       },
       {
         "name": "Chassis Repair",
         "epCost": 4,
         "range": "Close",
-        "actionType": "Long Action",
+        "actionType": "Long",
         "description": "You repair a damaged Tech 1, 2, or 3 Mech Chassis or Vehicle in Range to Intact Condition. It is now usable with 1 SP."
       }
     ]
@@ -769,21 +768,21 @@
         "name": "Patch",
         "epCost": 2,
         "range": "Close",
-        "actionType": "Turn Action",
+        "actionType": "Turn",
         "description": "You restore up to 7 Structure Points to any Mech in Range that has at least 1 SP."
       },
       {
         "name": "System Repair",
         "epCost": 2,
         "range": "Close",
-        "actionType": "Short Action",
+        "actionType": "Short",
         "description": "You repair a damaged Tech 1, 2, 3, or 4 System or Module in Range to Intact Condition. It is now usable."
       },
       {
         "name": "Chassis Repair",
         "epCost": 4,
         "range": "Close",
-        "actionType": "Long Action",
+        "actionType": "Long",
         "description": "You repair a damaged Tech 1, 2, 3, or 4 Mech Chassis or Vehicle in Range to Intact Condition. It is now usable with 1 SP."
       }
     ]
@@ -971,7 +970,7 @@
       {
         "name": "Stabilise",
         "epCost": 3,
-        "actionType": "Turn Action",
+        "actionType": "Turn",
         "description": "You activate the deployment protocols and your mech digs itself into the ground. Whilst stabilised, your Mech gains the Immobile Trait. Your Mech further reduces all damage it takes by 2 SP, to a minimum of 1 whilst stabilised. In addition, the first attack you make on your Turn whilst stabilised deals an additional 2 SP damage."
       }
     ]
@@ -987,21 +986,21 @@
         "name": "Tesla Arc",
         "epCost": 2,
         "range": "Medium",
-        "actionType": "Turn Action",
+        "actionType": "Turn",
         "description": "You may choose up to three different targets in Range. Roll to hit once as normal. On a successful hit, the first target takes 4 SP damage, the second target takes 3 SP damage, and the third target takes 2 SP damage."
       },
       {
         "name": "Tesla Charge",
         "epCost": 3,
         "range": "Close",
-        "actionType": "Turn Action",
+        "actionType": "Turn",
         "description": "You may restore up to 2 EP to a target Mech in Range."
       },
       {
         "name": "Tesla Shield",
         "epCost": 2,
         "range": "Close",
-        "actionType": "Turn Action",
+        "actionType": "Turn",
         "traits": [{ "type": "shield" }],
         "description": "You create an electrical field around your Mech for 10 minutes. Everything within Close Range of you, including Allies, takes 3 SP damage as you activate this Ability. If anything ends its turn in Close Range of you it takes 3 SP damage."
       }
@@ -1238,7 +1237,7 @@
         "name": "Disintegrate",
         "epCost": "X",
         "range": "Close",
-        "actionType": "Turn Action",
+        "actionType": "Turn",
         "traits": [{ "type": "shield" }],
         "description": "You extend the Matter Phase Shield outward from you. Everything within Close Range of you except for your own Mech and Pilot takes an amount of SP damage equal to 3× the EP you spend on this Ability."
       },
@@ -1271,21 +1270,21 @@
         "name": "Patch",
         "epCost": 2,
         "range": "Close",
-        "actionType": "Turn Action",
+        "actionType": "Turn",
         "description": "You restore up to 10 Structure Points to any Mech in Range that has at least 1 SP."
       },
       {
         "name": "System Repair",
         "epCost": 2,
         "range": "Close",
-        "actionType": "Short Action",
+        "actionType": "Short",
         "description": "You repair any damaged System or Module in Range to Intact Condition. It is now usable."
       },
       {
         "name": "Chassis Repair",
         "epCost": 4,
         "range": "Close",
-        "actionType": "Long Action",
+        "actionType": "Long",
         "description": "You repair any damaged Mech Chassis or Vehicle in Range to Intact Condition. It is now usable with 1 SP."
       }
     ]
