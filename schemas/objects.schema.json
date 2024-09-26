@@ -33,7 +33,7 @@
         "techLevel": { "type": "number" },
         "slotsRequired": { "type": "number" },
         "salvageValue": { "type": "number" },
-        "recommended": {"type": "boolean"},
+        "recommended": { "type": "boolean" },
         "traits": { "$ref": "common.schema.json#/definitions/traits" },
         "description": {
           "type": "string"

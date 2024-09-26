@@ -65,7 +65,7 @@
   {
     "name": "Improvised Firearm",
     "techLevel": 1,
-    "traits": [{"type": "ballistic"}, { "type": "unwieldy" }],
+    "traits": [{ "type": "ballistic" }, { "type": "unwieldy" }],
     "range": "Close",
     "description": "This covers any number of improvised firearms such as pipe guns, zip guns, and slam guns. The humble boomstick has got many a salvager out of a sticky situation.",
     "damage": { "type": "HP", "amount": 3 }
@@ -73,7 +73,7 @@
   {
     "name": "Improvised Melee Weapon",
     "techLevel": 1,
-    "traits": [{"type": "melee"}, {"type": "silent"}],
+    "traits": [{ "type": "melee" }, { "type": "silent" }],
     "range": "Close",
     "description": "This covers any number of melee weapons from wrenches and hammers to shards of metal and sharpened metal posts. There are a lot of things you can use to bludgeon, stab, or otherwise injure someone, to be found in the wastes.",
     "damage": { "type": "HP", "amount": 2 }
@@ -81,7 +81,7 @@
   {
     "name": "Portable Comms Unit",
     "techLevel": 1,
-    "traits": [{"type": "communicator"}],
+    "traits": [{ "type": "communicator" }],
     "actionType": "Free",
     "range": "Medium",
     "description": "A handheld communications device that uses a radio frequency. This allows you to communicate with anything that has the Communicator Trait within Range."
@@ -89,7 +89,7 @@
   {
     "name": "Salvaging Tools",
     "techLevel": 1,
-    "traits": [{"type": "salvaging"}],
+    "traits": [{ "type": "salvaging" }],
     "description": "This covers a wide array of tools, from jacks to hammers to angle grinders, that are used in salvaging. This allows your Pilot to salvage in the field, because sometimes you need to get your hands dirty."
   },
   {
@@ -109,7 +109,7 @@
   {
     "name": "Pistol",
     "techLevel": 2,
-    "traits": [{"type": "ballistic"}],
+    "traits": [{ "type": "ballistic" }],
     "range": "Close",
     "description": "This weapon covers a wide variety of standard issue pistols such as revolvers and semi-automatic pistols.",
     "damage": { "type": "HP", "amount": 3 }
@@ -153,7 +153,7 @@
   {
     "name": "Red Laser Pistol",
     "techLevel": 2,
-    "traits": [{"type": "energy"}],
+    "traits": [{ "type": "energy" }],
     "range": "Close",
     "description": "This weapon covers a wide variety of standard issue handheld lasers such as blasters, phasers, and zap guns.",
     "damage": { "type": "HP", "amount": 3 }
@@ -167,14 +167,14 @@
   {
     "name": "Reinforced Polycarbonate Shield",
     "techLevel": 2,
-    "traits": [{"type": "heavy"}, {"type": "shield"}],
+    "traits": [{ "type": "heavy" }, { "type": "shield" }],
     "actionType": "Reaction",
     "description": "Typically used in breaching and boarding actions, as well as for riot control, this large shield protects its wearer from harm. When your Pilot is hit by an attack you may destroy the Reinforced Polycarbonate Shield to take half damage from the attack and suffer none of its effects."
   },
   {
     "name": "Green Laser Rifle",
     "techLevel": 3,
-    "traits": [{"type": "energy"}],
+    "traits": [{ "type": "energy" }],
     "range": "Medium",
     "description": "This weapon covers a wide variety of standard issue shoulder-mounted energy laser rifles such as beam guns, pulse lasers, and ray rifles.",
     "damage": { "type": "HP", "amount": 5 }
@@ -182,7 +182,10 @@
   {
     "name": "Grenade",
     "techLevel": 3,
-    "traits": [{ "type": "explosive", "amount": 1 }, { "type": "uses", "amount": 3 }],
+    "traits": [
+      { "type": "explosive", "amount": 1 },
+      { "type": "uses", "amount": 3 }
+    ],
     "range": "Medium",
     "description": "A handheld explosive device that can be thrown towards a target dealing high damage in an area.",
     "damage": { "type": "SP", "amount": 4 }
@@ -190,7 +193,7 @@
   {
     "name": "Hazard Protection Suit",
     "techLevel": 3,
-    "traits": [{"type": "armor"}, {"type": "heavy"}],
+    "traits": [{ "type": "armor" }, { "type": "heavy" }],
     "description": "This all-purpose bio-hazard suit can protect you from the ravages of the wastes once you are zipped up all comfy inside. The suit protects you from dangerous environmental hazards such as radiation storms, cold snaps, or acid rain. In addition, you take half damage from any severe environmental hazards such as tornadoes, firestorms, or bubbling pools of toxic waste."
   },
   {
@@ -244,13 +247,13 @@
   {
     "name": "Hover Sled",
     "techLevel": 3,
-    "traits": [{"type": "heavy"}, {"type": "hover"}],
+    "traits": [{ "type": "heavy" }, { "type": "hover" }],
     "description": "This floating sled allows you to store cargo on it that your Pilot would not otherwise be able to carry. It ignores any Difficult Terrain or obstacles as it moves, and has a Cargo Capacity of 4 and 3 SP."
   },
   {
     "name": "Melee Armament",
     "techLevel": 3,
-    "traits": [{"type": "melee"}, {"type": "silent"}],
+    "traits": [{ "type": "melee" }, { "type": "silent" }],
     "range": "Close",
     "description": "This covers a wide range of high quality melee weapons that your Pilot can acquire, from standard issue survival knives and hatchets to katanas and claymores.",
     "damage": { "type": "HP", "amount": 4 }
@@ -258,7 +261,12 @@
   {
     "name": "Portable Flamethrower",
     "techLevel": 3,
-    "traits": [{"type": "anti-organic"}, {"type": "burn", "amount": 2}, {"type": "overheat"}, {"type": "heavy"}],
+    "traits": [
+      { "type": "anti-organic" },
+      { "type": "burn", "amount": 2 },
+      { "type": "overheat" },
+      { "type": "heavy" }
+    ],
     "range": "Close",
     "description": "This portable flamethrower fires superheated liquid flame at a target.",
     "damage": { "type": "HP", "amount": 2 }
@@ -266,13 +274,13 @@
   {
     "name": "Reactive Armour",
     "techLevel": 3,
-    "traits": [{"type": "armor"}, {"type": "heavy"}],
+    "traits": [{ "type": "armor" }, { "type": "heavy" }],
     "description": "Layers of reactive heavy carbonate protect a Pilot against various types of damage, from ballistic and laser damage to explosive and shrapnel damage. Reduce all damage your Pilot takes by 1 to a minimum of 1 when this Armour is equipped. Apply this after other modifiers."
   },
   {
     "name": "Rifle",
     "techLevel": 3,
-    "traits": [{"type": "ballistic"}],
+    "traits": [{ "type": "ballistic" }],
     "range": "Medium",
     "description": "This weapon covers a wide variety of standard issue ballistic rifles, including assault rifles, semi-automatic rifles, and bolt-action rifles.",
     "damage": { "type": "HP", "amount": 5 }
@@ -280,7 +288,7 @@
   {
     "name": "Shotgun",
     "techLevel": 3,
-    "traits": [{"type": "ballistic"}],
+    "traits": [{ "type": "ballistic" }],
     "range": "Close",
     "description": "This weapon covers all manner of ballistic firearms designed to discharge small-pellet-like shot at targets. When you hit with this weapon up to one other target of your choice in Close Range takes 2 HP damage.",
     "damage": { "type": "HP", "amount": 4 }
@@ -288,7 +296,7 @@
   {
     "name": "Tranquiliser Rifle",
     "techLevel": 3,
-    "traits": [{"type": "silent"}, { "type": "uses", "amount": 3 }],
+    "traits": [{ "type": "silent" }, { "type": "uses", "amount": 3 }],
     "range": "Medium",
     "description": "This weapon fires a dart loaded with a strong anaesthetic that knocks out the target. If a creature is hit with the tranquiliser rifle they fall unconscious for 10 minutes. Making any attack with this weapon reduces its Uses by 1. This does not affect Bio-Titans or Meld."
   },
@@ -323,7 +331,7 @@
   {
     "name": "Electro Grappling Hook",
     "techLevel": 4,
-    "traits": [{"type": "climbing"}],
+    "traits": [{ "type": "climbing" }],
     "range": "Medium",
     "description": "This gravitonic beam allows the user to attach themselves to surfaces at Range, allowing them to swing or pull themselves towards it. You may use it to attach to any surface within Range."
   },
@@ -337,7 +345,7 @@
   {
     "name": "Portable Multi-Phase Shield",
     "techLevel": 4,
-    "traits": [{"type": "shield"}],
+    "traits": [{ "type": "shield" }],
     "actionType": "Reaction",
     "description": "Favoured by Sakura Wetwork teams, this miniature, wrist-mounted shield can protect you from harm by projecting a forcefield around your Pilot which will absorb some of the incoming attack.",
     "apCost": 2,
@@ -346,7 +354,10 @@
   {
     "name": "Remote Mine",
     "techLevel": 4,
-    "traits": [{ "type": "explosive", "amount": 4 }, { "type": "uses", "amount": 2 }],
+    "traits": [
+      { "type": "explosive", "amount": 4 },
+      { "type": "uses", "amount": 2 }
+    ],
     "range": "Close",
     "description": "An explosive device that can be remotely detonated. You may place and set the Remote Mine as a Turn Action. It can be detonated remotely as a Turn Action from Medium Range. When it detonates, roll to make an attack as normal. On a hit all targets within Range take 4 SP damage.",
     "damage": { "type": "SP", "amount": 4 },
@@ -355,7 +366,12 @@
   {
     "name": "Rocket Launcher",
     "techLevel": 4,
-    "traits": [{ "type": "explosive", "amount": 1 }, {"type": "heavy"}, {"type": "missile"}, { "type": "uses", "amount": 3 }],
+    "traits": [
+      { "type": "explosive", "amount": 1 },
+      { "type": "heavy" },
+      { "type": "missile" },
+      { "type": "uses", "amount": 3 }
+    ],
     "range": "Long",
     "description": "This weapon fires unguided, explosive warheads at its targets and is a great way to make an entrance at your next hoedown.",
     "damage": { "type": "SP", "amount": 5 }
@@ -363,7 +379,7 @@
   {
     "name": "Sniper Rifle",
     "techLevel": 4,
-    "traits": [{"type": "ballistic"}],
+    "traits": [{ "type": "ballistic" }],
     "range": "Long",
     "description": "This weapon covers a wide variety of scoped rifles designed for taking out targets at a distance.",
     "damage": { "type": "HP", "amount": 6 }
@@ -371,7 +387,7 @@
   {
     "name": "Monomolecular Sword",
     "techLevel": 5,
-    "traits": [{"type": "deadly"}, {"type": "melee"}, {"type": "silent"}],
+    "traits": [{ "type": "deadly" }, { "type": "melee" }, { "type": "silent" }],
     "range": "Close",
     "description": "This blade is formed from a super-hardened carbon lattice, held together by an electro-static charge, and honed to the width of a single mole-cule. They give off the smell of ozone in the atmosphere as the moisture in the air is cut.",
     "damage": { "type": "SP", "amount": 4 }
@@ -379,7 +395,12 @@
   {
     "name": "Beta Fission Gun",
     "techLevel": 5,
-    "traits": [{"type": "burn", "amount": 2}, { "type": "explosive", "amount": 2 }, {"type": "heavy"}, { "type": "uses", "amount": 3 }],
+    "traits": [
+      { "type": "burn", "amount": 2 },
+      { "type": "explosive", "amount": 2 },
+      { "type": "heavy" },
+      { "type": "uses", "amount": 3 }
+    ],
     "range": "Medium",
     "description": "This frankly over-designed weapon fires a huge blast of supercharged fission which engulfs an entire area in superheated green flame.",
     "damage": { "type": "SP", "amount": 7 }
@@ -387,7 +408,7 @@
   {
     "name": "Polycarbonate Carapace Armour",
     "techLevel": 5,
-    "traits": [{"type": "armor"}, {"type": "heavy"}],
+    "traits": [{ "type": "armor" }, { "type": "heavy" }],
     "description": "Heavy layers of reinforced carbonate provide excellent protection in the field against all manner of harm one could find in the wastelands. Reduce all damage your Pilot takes by 2 to a minimum of 1 when this Armour is equipped. Apply this after other modifiers."
   },
   {
@@ -421,19 +442,19 @@
   {
     "name": "Anti-Gravity Belt",
     "techLevel": 6,
-    "traits": [{"type": "hover"}],
+    "traits": [{ "type": "hover" }],
     "description": "This belt straps onto your Pilot and allows them to defy the laws of physics. Whilst equipped, this allows your Pilot to levitate, moving over obstacles and terrain, and float onto buildings and other tall structures, gaining the Hover Trait for all of their movement."
   },
   {
     "name": "Executive Corpo Suit",
     "techLevel": 6,
-    "traits": [{"type": "armor"}, {"type": "flashy"}],
+    "traits": [{ "type": "armor" }, { "type": "flashy" }],
     "description": "This pristine suit allows you to dress as a corpo executive from an arco of your choice. You cannot imagine how hard it is to find one of these in good condition within the wastelands."
   },
   {
     "name": "Orbital Lance Controller",
     "techLevel": 6,
-    "traits": [{"type": "energy"}],
+    "traits": [{ "type": "energy" }],
     "actionType": "Turn",
     "range": "Far",
     "description": "This specialised controller allows you to tap into one of the many defunct orbital satellites floating around the globe and call down a one-off laser strike against a target of your choice within Range. You must be able to identify the target, but you do not need to be able to directly see them.",

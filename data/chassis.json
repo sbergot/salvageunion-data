@@ -1,2063 +1,1867 @@
 [
-    {
-        "name": "Mule",
-        "stats": {
-            "structure_pts": 12,
-            "energy_pts": 4,
-            "heat_cap": 6,
-            "system_slots": 16,
-            "module_slots": 2,
-            "cargo_cap": 16,
-            "tech_level": 1,
-            "salvage_value": 7
-        },
-        "chassis_ability": "Integrated Cargo Bay: Increases the Cargo Capacity of the Mule by 10, to 16.",
-        "description": "The 'M-63' Mule was developed by the Opus Institute as one of the first open source Mech blueprints. They remain a ubiquitous presence across the wasteland as a result.",
-        "patterns": [
-            {
-                "name": "Hauler Pattern",
-                "description": "This Mule, favoured by wastelanders and traders alike, is designed for hauling cargo, whilst being armed with some rudimentary defences.",
-                "systems": [
-                    ".50 Cal Machine Gun",
-                    "Escape Hatch",
-                    "Floodlights",
-                    "Locomotion System",
-                    "Loudspeakers",
-                    "Rigging Arm",
-                    "Transport Hold"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Reactor Flare"
-                ]
-            },
-            {
-                "name": "Crusher Pattern",
-                "description": "Clean and simple, this Mule can salvage Scrap, haul it back to a Crawler or wasteland settlement, and defend itself in a pinch from any raiders.",
-                "systems": [
-                    "Red Laser",
-                    "Dozer Blades",
-                    "Escape Hatch",
-                    "Hydraulic Crusher",
-                    "Locomotion System",
-                    "Loudspeakers",
-                    "Rigging Arm"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Survey Scanner"
-                ]
-            },
-            {
-                "name": "Evantis Pattern",
-                "description": "These heavily armed and armoured Mules were used extensively during the Second Corpo War, to ferry cargo between arcos. Many salvager raids were rebuffed by corpos 'Circling the Mules' to create a devastating ring of missile fire.",
-                "systems": [
-                    "Missile Pod",
-                    "Armour Plating",
-                    "Composite Armour",
-                    "Ejection System",
-                    "Locomotion System"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Laser Guidance"
-                ]
-            }
-        ]
+  {
+    "name": "Mule",
+    "stats": {
+      "structure_pts": 12,
+      "energy_pts": 4,
+      "heat_cap": 6,
+      "system_slots": 16,
+      "module_slots": 2,
+      "cargo_cap": 16,
+      "tech_level": 1,
+      "salvage_value": 7
     },
-    {
-        "name": "Mazona",
-        "stats": {
-            "structure_pts": 5,
-            "energy_pts": 10,
-            "heat_cap": 6,
-            "system_slots": 7,
-            "module_slots": 3,
-            "cargo_cap": 6,
-            "tech_level": 1,
-            "salvage_value": 4
-        },
-        "chassis_ability": "Hover Drone: The Mazona has an Integrated Hover Locomotion System which is included in its profile. This allows it to hover over obstacles and terrain.",
-        "description": "The Mazona 'PR1-M3' was created by DronTek Systems in the aftermath of the first Luddite Rebellion. It was designed as a delivery drone that could be piloted by a worker rather than automated.",
-        "patterns": [
-            {
-                "name": "Buzzard Pattern",
-                "description": "Buzzards of the wastes, raiders relish these builds as it lets them overheat larger Mechs whilst stripping the flesh off of anything else.",
-                "systems": [
-                    "FM-3 Flamethrower",
-                    "FM-3 Flamethrower",
-                    "Loudspeakers"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Self-Destruct",
-                    "Weapon Link"
-                ]
-            },
-            {
-                "name": "Scrap Flinger Pattern",
-                "description": "This is not the most orthodox platform for a Mechapult, but who am I to stop you?",
-                "systems": [
-                    "Mechapult",
-                    "Escape Hatch",
-                    "Loudspeakers"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Metal Detector",
-                    "Pinpoint Targeter"
-                ]
-            },
-            {
-                "name": "Stefanus Pattern",
-                "description": "Designed for smuggling and covert reconnaissance, being disguised as a delivery drone allows it to blend into the background within most arcos and settlements undetected.",
-                "systems": [
-                    "Rigging Arm",
-                    "Smuggling Hold"
-                ],
-                "modules": [
-                    "Comms Tapper",
-                    "Eggs Mayhem",
-                    "Reactor Overload"
-                ]
-            }
-        ]
+    "chassis_ability": "Integrated Cargo Bay: Increases the Cargo Capacity of the Mule by 10, to 16.",
+    "description": "The 'M-63' Mule was developed by the Opus Institute as one of the first open source Mech blueprints. They remain a ubiquitous presence across the wasteland as a result.",
+    "patterns": [
+      {
+        "name": "Hauler Pattern",
+        "description": "This Mule, favoured by wastelanders and traders alike, is designed for hauling cargo, whilst being armed with some rudimentary defences.",
+        "systems": [
+          ".50 Cal Machine Gun",
+          "Escape Hatch",
+          "Floodlights",
+          "Locomotion System",
+          "Loudspeakers",
+          "Rigging Arm",
+          "Transport Hold"
+        ],
+        "modules": ["Comms Module", "Reactor Flare"]
+      },
+      {
+        "name": "Crusher Pattern",
+        "description": "Clean and simple, this Mule can salvage Scrap, haul it back to a Crawler or wasteland settlement, and defend itself in a pinch from any raiders.",
+        "systems": [
+          "Red Laser",
+          "Dozer Blades",
+          "Escape Hatch",
+          "Hydraulic Crusher",
+          "Locomotion System",
+          "Loudspeakers",
+          "Rigging Arm"
+        ],
+        "modules": ["Comms Module", "Survey Scanner"]
+      },
+      {
+        "name": "Evantis Pattern",
+        "description": "These heavily armed and armoured Mules were used extensively during the Second Corpo War, to ferry cargo between arcos. Many salvager raids were rebuffed by corpos 'Circling the Mules' to create a devastating ring of missile fire.",
+        "systems": [
+          "Missile Pod",
+          "Armour Plating",
+          "Composite Armour",
+          "Ejection System",
+          "Locomotion System"
+        ],
+        "modules": ["Comms Module", "Laser Guidance"]
+      }
+    ]
+  },
+  {
+    "name": "Mazona",
+    "stats": {
+      "structure_pts": 5,
+      "energy_pts": 10,
+      "heat_cap": 6,
+      "system_slots": 7,
+      "module_slots": 3,
+      "cargo_cap": 6,
+      "tech_level": 1,
+      "salvage_value": 4
     },
-    {
-        "name": "Scrapper",
-        "stats": {
-            "structure_pts": 9,
-            "energy_pts": 9,
-            "heat_cap": 8,
-            "system_slots": 12,
-            "module_slots": 2,
-            "cargo_cap": 6,
-            "tech_level": 1,
-            "salvage_value": 6
-        },
-        "chassis_ability": "Hazard Protected Chassis: The Scrapper suffers no effect or damage from hazardous environmental effects such as radiation storms. In addition, when dealing with severe environmental hazards they may Push once for free to circumvent or resist any effects.",
-        "description": "The 'S-5000' Scrapper was designed by Hodgson & Vasquez, a subsidiary of Evantis Heavy Industries, for trash haulage and waste disposal.",
-        "patterns": [
-            {
-                "name": "Leaky Pattern",
-                "description": "The wasteland Scrapper is vital for survival, allowing repair, defence, and maintenance of a waster settlement even in the harshest of conditions.",
-                "systems": [
-                    "Chainsaw Arm",
-                    "Escape Hatch",
-                    "Locomotion System",
-                    "Riveting Gun",
-                    "Rigging Arm"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Personal Recreation Device"
-                ]
-            },
-            {
-                "name": "Rigger Pattern",
-                "description": "This salvager favoured pattern is built for heavy salvage and repair operations in dangerous conditions.",
-                "systems": [
-                    "Hydraulic Crusher",
-                    "Escape Hatch",
-                    "Locomotion System",
-                    "Transport Hold",
-                    "Welding Laser"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Survey Scanner"
-                ]
-            },
-            {
-                "name": "Sakura Pattern",
-                "description": "This Scrapper has been modified for search and rescue operations, many of which were commissioned following Impact Day to clear the irradiated wreckage of what was once the TDA Council.",
-                "systems": [
-                    "Articulated Rigging Arm",
-                    "Escape Hatch",
-                    "Floodlights",
-                    "High Pressure Hose",
-                    "Locomotion System",
-                    "Loudspeakers",
-                    "Personnel Transport Pod"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "M315 Motion Scanner"
-                ]
-            }
-        ]
+    "chassis_ability": "Hover Drone: The Mazona has an Integrated Hover Locomotion System which is included in its profile. This allows it to hover over obstacles and terrain.",
+    "description": "The Mazona 'PR1-M3' was created by DronTek Systems in the aftermath of the first Luddite Rebellion. It was designed as a delivery drone that could be piloted by a worker rather than automated.",
+    "patterns": [
+      {
+        "name": "Buzzard Pattern",
+        "description": "Buzzards of the wastes, raiders relish these builds as it lets them overheat larger Mechs whilst stripping the flesh off of anything else.",
+        "systems": ["FM-3 Flamethrower", "FM-3 Flamethrower", "Loudspeakers"],
+        "modules": ["Comms Module", "Self-Destruct", "Weapon Link"]
+      },
+      {
+        "name": "Scrap Flinger Pattern",
+        "description": "This is not the most orthodox platform for a Mechapult, but who am I to stop you?",
+        "systems": ["Mechapult", "Escape Hatch", "Loudspeakers"],
+        "modules": ["Comms Module", "Metal Detector", "Pinpoint Targeter"]
+      },
+      {
+        "name": "Stefanus Pattern",
+        "description": "Designed for smuggling and covert reconnaissance, being disguised as a delivery drone allows it to blend into the background within most arcos and settlements undetected.",
+        "systems": ["Rigging Arm", "Smuggling Hold"],
+        "modules": ["Comms Tapper", "Eggs Mayhem", "Reactor Overload"]
+      }
+    ]
+  },
+  {
+    "name": "Scrapper",
+    "stats": {
+      "structure_pts": 9,
+      "energy_pts": 9,
+      "heat_cap": 8,
+      "system_slots": 12,
+      "module_slots": 2,
+      "cargo_cap": 6,
+      "tech_level": 1,
+      "salvage_value": 6
     },
-    {
-        "name": "Spectrum",
-        "stats": {
-            "structure_pts": 17,
-            "energy_pts": 11,
-            "heat_cap": 3,
-            "system_slots": 7,
-            "module_slots": 4,
-            "cargo_cap": 6,
-            "tech_level": 1,
-            "salvage_value": 10
-        },
-        "chassis_ability": "Data Scanner: The Spectrum is a mobile data repository that has all manner of information stored within it. It is able to scan objects to both gain information about them and store that data to access at a later time.",
-        "description": "The 'Z-80A' Spectrum was developed by Advanced Microprocessor Systems (AMS), a subsidiary of Thatcher Steel, as a pilotable, mobile, data centre for use in the establishment of colonies either offworld or within inhospitable locations.",
-        "patterns": [
-            {
-                "name": "Settler Pattern",
-                "description": "Wastelanders who get hold of one of these can far more easily relocate their settlements and glean crucial information about potential settlement sites.",
-                "systems": [
-                    ".50 Cal Machine Gun",
-                    "Escape Hatch",
-                    "Locomotion System"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Reactor Flare",
-                    "Personal Recreation Device",
-                    "Firewall"
-                ]
-            },
-            {
-                "name": "Operator Pattern",
-                "description": "A favourite of hackers, this Spectrum is installed with a suite of offensive and defensive hacks and a flamethrower to deter attackers on foot and overheat enemy Mechs.",
-                "systems": [
-                    "FM-3 Flamethrower",
-                    "Escape Hatch",
-                    "Locomotion System",
-                    "High Gain Antenna"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Reactor Overload",
-                    "Firewall",
-                    "Eggs Mayhem"
-                ]
-            },
-            {
-                "name": "AMS Pattern",
-                "description": "Developed to transport and protect a colony's datacore in the event of a collapse whilst supporting the rest of the convoy.",
-                "systems": [
-                    "Needle Missile Pod",
-                    "Locomotion System",
-                    "Escape Hatch",
-                    "High Gain Antenna"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "ECM Transmitter",
-                    "Firewall",
-                    "Navigation Module"
-                ]
-            }
-        ]
+    "chassis_ability": "Hazard Protected Chassis: The Scrapper suffers no effect or damage from hazardous environmental effects such as radiation storms. In addition, when dealing with severe environmental hazards they may Push once for free to circumvent or resist any effects.",
+    "description": "The 'S-5000' Scrapper was designed by Hodgson & Vasquez, a subsidiary of Evantis Heavy Industries, for trash haulage and waste disposal.",
+    "patterns": [
+      {
+        "name": "Leaky Pattern",
+        "description": "The wasteland Scrapper is vital for survival, allowing repair, defence, and maintenance of a waster settlement even in the harshest of conditions.",
+        "systems": [
+          "Chainsaw Arm",
+          "Escape Hatch",
+          "Locomotion System",
+          "Riveting Gun",
+          "Rigging Arm"
+        ],
+        "modules": ["Comms Module", "Personal Recreation Device"]
+      },
+      {
+        "name": "Rigger Pattern",
+        "description": "This salvager favoured pattern is built for heavy salvage and repair operations in dangerous conditions.",
+        "systems": [
+          "Hydraulic Crusher",
+          "Escape Hatch",
+          "Locomotion System",
+          "Transport Hold",
+          "Welding Laser"
+        ],
+        "modules": ["Comms Module", "Survey Scanner"]
+      },
+      {
+        "name": "Sakura Pattern",
+        "description": "This Scrapper has been modified for search and rescue operations, many of which were commissioned following Impact Day to clear the irradiated wreckage of what was once the TDA Council.",
+        "systems": [
+          "Articulated Rigging Arm",
+          "Escape Hatch",
+          "Floodlights",
+          "High Pressure Hose",
+          "Locomotion System",
+          "Loudspeakers",
+          "Personnel Transport Pod"
+        ],
+        "modules": ["Comms Module", "M315 Motion Scanner"]
+      }
+    ]
+  },
+  {
+    "name": "Spectrum",
+    "stats": {
+      "structure_pts": 17,
+      "energy_pts": 11,
+      "heat_cap": 3,
+      "system_slots": 7,
+      "module_slots": 4,
+      "cargo_cap": 6,
+      "tech_level": 1,
+      "salvage_value": 10
     },
-    {
-        "name": "Thresher",
-        "stats": {
-            "structure_pts": 15,
-            "energy_pts": 6,
-            "heat_cap": 10,
-            "system_slots": 9,
-            "module_slots": 2,
-            "cargo_cap": 6,
-            "tech_level": 1,
-            "salvage_value": 9
-        },
-        "chassis_ability": "Heavily Armoured Chassis: Any attack that rolls a 'Nailed It' (20) result against the Thresher counts as a standard hit (11-19) and does not deal 2× damage or have any other bonus effect.",
-        "description": "The 'T-690' Thresher was designed as a multi-purpose agriculture Mech by Hodgson & Vasquez to aid in the large-scale crop harvesting and forestry operations within the Verdant Crescent.",
-        "patterns": [
-            {
-                "name": "Shepherd Pattern",
-                "description": "Wastelanders do not have a lot to farm, but a settlement that gets hold of one of these can defend itself pretty well from raiders.",
-                "systems": [
-                    "Red Laser",
-                    "Armour Plating",
-                    "Escape Hatch",
-                    "Floodlights",
-                    "Locomotion System"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Zoom Optics"
-                ]
-            },
-            {
-                "name": "Butcher Pattern",
-                "description": "Hacks and burns scrap, Mechs, flesh, and anything else that gets in its way.",
-                "systems": [
-                    "Chainsaw Arm",
-                    "FM-3 Flamethrower",
-                    "Escape Hatch",
-                    "Locomotion System"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Advanced Weapon Link"
-                ]
-            },
-            {
-                "name": "H&V Pattern",
-                "description": "Designed for its original designation as a lumberjack Mech.",
-                "systems": [
-                    "Chainsaw Arm",
-                    "Chainsaw Arm",
-                    "Escape Hatch",
-                    "Locomotion System"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Weapon Link"
-                ]
-            }
+    "chassis_ability": "Data Scanner: The Spectrum is a mobile data repository that has all manner of information stored within it. It is able to scan objects to both gain information about them and store that data to access at a later time.",
+    "description": "The 'Z-80A' Spectrum was developed by Advanced Microprocessor Systems (AMS), a subsidiary of Thatcher Steel, as a pilotable, mobile, data centre for use in the establishment of colonies either offworld or within inhospitable locations.",
+    "patterns": [
+      {
+        "name": "Settler Pattern",
+        "description": "Wastelanders who get hold of one of these can far more easily relocate their settlements and glean crucial information about potential settlement sites.",
+        "systems": [".50 Cal Machine Gun", "Escape Hatch", "Locomotion System"],
+        "modules": [
+          "Comms Module",
+          "Reactor Flare",
+          "Personal Recreation Device",
+          "Firewall"
         ]
+      },
+      {
+        "name": "Operator Pattern",
+        "description": "A favourite of hackers, this Spectrum is installed with a suite of offensive and defensive hacks and a flamethrower to deter attackers on foot and overheat enemy Mechs.",
+        "systems": [
+          "FM-3 Flamethrower",
+          "Escape Hatch",
+          "Locomotion System",
+          "High Gain Antenna"
+        ],
+        "modules": [
+          "Comms Module",
+          "Reactor Overload",
+          "Firewall",
+          "Eggs Mayhem"
+        ]
+      },
+      {
+        "name": "AMS Pattern",
+        "description": "Developed to transport and protect a colony's datacore in the event of a collapse whilst supporting the rest of the convoy.",
+        "systems": [
+          "Needle Missile Pod",
+          "Locomotion System",
+          "Escape Hatch",
+          "High Gain Antenna"
+        ],
+        "modules": [
+          "Comms Module",
+          "ECM Transmitter",
+          "Firewall",
+          "Navigation Module"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Thresher",
+    "stats": {
+      "structure_pts": 15,
+      "energy_pts": 6,
+      "heat_cap": 10,
+      "system_slots": 9,
+      "module_slots": 2,
+      "cargo_cap": 6,
+      "tech_level": 1,
+      "salvage_value": 9
     },
-    {
-        "name": "Forge",
-        "stats": {
-            "structure_pts": 16,
-            "energy_pts": 13,
-            "heat_cap": 10,
-            "system_slots": 15,
-            "module_slots": 4,
-            "cargo_cap": 6,
-            "tech_level": 2,
-            "salvage_value": 10
-        },
-        "chassis_ability": "Integrated Epoxy Printer",
-        "description": "Developed by Osiris Construction as a fabrication Mech for rapid construction and repair in the field, while also providing defense.",
-        "patterns": [
-            {
-                "name": "Beam Pattern",
-                "description": "Effective arco siege Mech used by rebels during the Second Corpo War.",
-                "systems": [
-                    "Blue Mining Laser",
-                    "Escape Hatch",
-                    "Locomotion System",
-                    "Rigging Arm",
-                    "Welding Laser"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Energy Cell",
-                    "Reactor Safety Protocols",
-                    "Damage Assessor"
-                ]
-            },
-            {
-                "name": "Steamroller Pattern",
-                "description": "Designed to clear minefields and construct warning signs in dangerous areas.",
-                "systems": [
-                    "Green Laser",
-                    "Hydraulic Crusher",
-                    "Dozer Blades",
-                    "Escape Hatch",
-                    "Floodlights",
-                    "Locomotion System"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Deep Survey Scanner",
-                    "Metal Detector",
-                    "Survey Scanner"
-                ]
-            },
-            {
-                "name": "Osiris Pattern",
-                "description": "Used to build barricades against protestors.",
-                "systems": [
-                    "30mm Autocannon",
-                    "Escape Hatch",
-                    "Fabrication Arm",
-                    "High Pressure Hose",
-                    "Locomotion System",
-                    "Smoke Machine"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Damage Assessor",
-                    "Sonic Screecher",
-                    "Video Recording Array"
-                ]
-            }
-        ]
+    "chassis_ability": "Heavily Armoured Chassis: Any attack that rolls a 'Nailed It' (20) result against the Thresher counts as a standard hit (11-19) and does not deal 2× damage or have any other bonus effect.",
+    "description": "The 'T-690' Thresher was designed as a multi-purpose agriculture Mech by Hodgson & Vasquez to aid in the large-scale crop harvesting and forestry operations within the Verdant Crescent.",
+    "patterns": [
+      {
+        "name": "Shepherd Pattern",
+        "description": "Wastelanders do not have a lot to farm, but a settlement that gets hold of one of these can defend itself pretty well from raiders.",
+        "systems": [
+          "Red Laser",
+          "Armour Plating",
+          "Escape Hatch",
+          "Floodlights",
+          "Locomotion System"
+        ],
+        "modules": ["Comms Module", "Zoom Optics"]
+      },
+      {
+        "name": "Butcher Pattern",
+        "description": "Hacks and burns scrap, Mechs, flesh, and anything else that gets in its way.",
+        "systems": [
+          "Chainsaw Arm",
+          "FM-3 Flamethrower",
+          "Escape Hatch",
+          "Locomotion System"
+        ],
+        "modules": ["Comms Module", "Advanced Weapon Link"]
+      },
+      {
+        "name": "H&V Pattern",
+        "description": "Designed for its original designation as a lumberjack Mech.",
+        "systems": [
+          "Chainsaw Arm",
+          "Chainsaw Arm",
+          "Escape Hatch",
+          "Locomotion System"
+        ],
+        "modules": ["Comms Module", "Weapon Link"]
+      }
+    ]
+  },
+  {
+    "name": "Forge",
+    "stats": {
+      "structure_pts": 16,
+      "energy_pts": 13,
+      "heat_cap": 10,
+      "system_slots": 15,
+      "module_slots": 4,
+      "cargo_cap": 6,
+      "tech_level": 2,
+      "salvage_value": 10
     },
-    {
-        "name": "Gopher",
-        "stats": {
-            "structure_pts": 14,
-            "energy_pts": 10,
-            "heat_cap": 8,
-            "system_slots": 12,
-            "module_slots": 3,
-            "cargo_cap": 12,
-            "tech_level": 2,
-            "salvage_value": 4
-        },
-        "chassis_ability": "Integrated Expanded Transport Hold",
-        "description": "Originally designed as a battlefield cargo Mech by the Opus Institute for rapid supply shuttling in combat zones.",
-        "patterns": [
-            {
-                "name": "Legion Pattern",
-                "description": "Designed for hunting and killing, favored by a raider group called The Legion.",
-                "systems": [
-                    "Green Laser",
-                    "Escape Hatch",
-                    "Locomotion System",
-                    "Nanofibre Net Launcher",
-                    "Tracking Node"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Evasion Protocol",
-                    "M315 Motion Scanner"
-                ]
-            },
-            {
-                "name": "Longsaddle Pattern",
-                "description": "Designed for reconnaissance and sniping, famously used in the Battle of Bracken Ridge.",
-                "systems": [
-                    "Long Barrelled Green Laser",
-                    "Chaff Launcher",
-                    "Ejection System",
-                    "Smoke Machine",
-                    "Locomotion System"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Evasion Protocols",
-                    "Laser Guidance"
-                ]
-            },
-            {
-                "name": "Opus Pattern",
-                "description": "Designed for its original purpose of quickly moving cargo on and off the battlefield while providing combat support.",
-                "systems": [
-                    "Red Pulse Laser",
-                    "Ejection System",
-                    "High Gain Antenna",
-                    "Locomotion System",
-                    "Transport Hold"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Evasion Protocols",
-                    "ECM Transmitter"
-                ]
-            }
+    "chassis_ability": "Integrated Epoxy Printer",
+    "description": "Developed by Osiris Construction as a fabrication Mech for rapid construction and repair in the field, while also providing defense.",
+    "patterns": [
+      {
+        "name": "Beam Pattern",
+        "description": "Effective arco siege Mech used by rebels during the Second Corpo War.",
+        "systems": [
+          "Blue Mining Laser",
+          "Escape Hatch",
+          "Locomotion System",
+          "Rigging Arm",
+          "Welding Laser"
+        ],
+        "modules": [
+          "Comms Module",
+          "Energy Cell",
+          "Reactor Safety Protocols",
+          "Damage Assessor"
         ]
+      },
+      {
+        "name": "Steamroller Pattern",
+        "description": "Designed to clear minefields and construct warning signs in dangerous areas.",
+        "systems": [
+          "Green Laser",
+          "Hydraulic Crusher",
+          "Dozer Blades",
+          "Escape Hatch",
+          "Floodlights",
+          "Locomotion System"
+        ],
+        "modules": [
+          "Comms Module",
+          "Deep Survey Scanner",
+          "Metal Detector",
+          "Survey Scanner"
+        ]
+      },
+      {
+        "name": "Osiris Pattern",
+        "description": "Used to build barricades against protestors.",
+        "systems": [
+          "30mm Autocannon",
+          "Escape Hatch",
+          "Fabrication Arm",
+          "High Pressure Hose",
+          "Locomotion System",
+          "Smoke Machine"
+        ],
+        "modules": [
+          "Comms Module",
+          "Damage Assessor",
+          "Sonic Screecher",
+          "Video Recording Array"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gopher",
+    "stats": {
+      "structure_pts": 14,
+      "energy_pts": 10,
+      "heat_cap": 8,
+      "system_slots": 12,
+      "module_slots": 3,
+      "cargo_cap": 12,
+      "tech_level": 2,
+      "salvage_value": 4
     },
-    {
-        "name": "Hussar",
-        "stats": {
-            "structure_pts": 12,
-            "energy_pts": 10,
-            "heat_cap": 12,
-            "system_slots": 12,
-            "module_slots": 3,
-            "cargo_cap": 6,
-            "tech_level": 2,
-            "salvage_value": 6
-        },
-        "chassis_ability": "Fast: The Hussar can move an additional Range band on its turn as a Free Action. In addition, it moves twice as fast across the Campaign, Area, and Region Maps.",
-        "description": "The 'V-IG83' Hussar was designed as a general purpose light-combat Mech by Contour Aerospace that was relatively cheap for the corpo to mass produce. Able to rapidly mobilise against threats, they were primarily used as a 'peacekeeping' force by Contour Aerospace security detachments during the Oceanic Expanse. They fell into disuse following the war and have since become a Mech utilised by wasters of all kinds, due to their speed, cheap cost and hit and run capabilities.",
-        "patterns": [
-            {
-                "name": "Mauler Pattern",
-                "description": "This raider favoured Mech pattern is renowned for its pilots using the oldest trick in the book - call out a distress signal and then blast the first unsuspecting mark who responds into bits for the scrap.",
-                "systems": [
-                    "M2-X Mauler",
-                    "Chaff Launcher",
-                    "Escape Hatch",
-                    "Floodlights",
-                    "Locomotion System",
-                    "Loudspeakers",
-                    "Nanofibre Net Launcher"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Sleeping Beauty",
-                    "Offensive Protocols"
-                ]
-            },
-            {
-                "name": "Piggyback Pattern",
-                "description": "It is always nice to have a friend, and your buddy piggybacking one of these is in for a hell of a ride.",
-                "systems": [
-                    "30mm Autocannon",
-                    "Escape Hatch",
-                    "Locomotion System",
-                    "Shotgun Pit",
-                    "Tracking Node"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Evasion Protocols",
-                    "Survey Scanner"
-                ]
-            },
-            {
-                "name": "Contour Pattern",
-                "description": "The stock Contour build is designed to get in fast and strip a vital component off of a foe before retreating ready to do it again.",
-                "systems": [
-                    "Red Pulse Laser",
-                    "Chaff Launcher",
-                    "Ejection System",
-                    "Locomotion System",
-                    "Target Painter"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Dash Protocols",
-                    "Pinpoint Targeter"
-                ]
-            }
-        ]
+    "chassis_ability": "Integrated Expanded Transport Hold",
+    "description": "Originally designed as a battlefield cargo Mech by the Opus Institute for rapid supply shuttling in combat zones.",
+    "patterns": [
+      {
+        "name": "Legion Pattern",
+        "description": "Designed for hunting and killing, favored by a raider group called The Legion.",
+        "systems": [
+          "Green Laser",
+          "Escape Hatch",
+          "Locomotion System",
+          "Nanofibre Net Launcher",
+          "Tracking Node"
+        ],
+        "modules": ["Comms Module", "Evasion Protocol", "M315 Motion Scanner"]
+      },
+      {
+        "name": "Longsaddle Pattern",
+        "description": "Designed for reconnaissance and sniping, famously used in the Battle of Bracken Ridge.",
+        "systems": [
+          "Long Barrelled Green Laser",
+          "Chaff Launcher",
+          "Ejection System",
+          "Smoke Machine",
+          "Locomotion System"
+        ],
+        "modules": ["Comms Module", "Evasion Protocols", "Laser Guidance"]
+      },
+      {
+        "name": "Opus Pattern",
+        "description": "Designed for its original purpose of quickly moving cargo on and off the battlefield while providing combat support.",
+        "systems": [
+          "Red Pulse Laser",
+          "Ejection System",
+          "High Gain Antenna",
+          "Locomotion System",
+          "Transport Hold"
+        ],
+        "modules": ["Comms Module", "Evasion Protocols", "ECM Transmitter"]
+      }
+    ]
+  },
+  {
+    "name": "Hussar",
+    "stats": {
+      "structure_pts": 12,
+      "energy_pts": 10,
+      "heat_cap": 12,
+      "system_slots": 12,
+      "module_slots": 3,
+      "cargo_cap": 6,
+      "tech_level": 2,
+      "salvage_value": 6
     },
-    {
-        "name": "Jackhammer",
-        "stats": {
-            "structure_pts": 18,
-            "energy_pts": 7,
-            "heat_cap": 13,
-            "system_slots": 15,
-            "module_slots": 3,
-            "cargo_cap": 6,
-            "tech_level": 2,
-            "salvage_value": 6
-        },
-        "chassis_ability": "Reinforced Chassis: The Jackhammer rolls on this alternate Critical Damage Table:\nROLL THE DIE:\n20: The Jackhammer is Intact and operational with 1 SP. The Pilot is unharmed.\n11-19: The Jackhammer is temporarily Shutdown and becomes inoperable. At the end of its next turn it activates and becomes operational with 1 SP. The Pilot is unharmed.\n6 - 10: As per 11-19, but a random Module on the Jackhammer is also Damaged.\n2 - 5: As per 11-19, but a random System on the Jackhammer is also Damaged.\n1: The Jackhammer Mech Chassis is damaged. All of its mounted Systems, Modules, and any carried Cargo are destroyed. The Pilot survives in the reinforced cockpit.",
-        "description": "The 'BG-288' Jackhammer was commissioned by the Terrestrial Democratic Alliance and constructed by Thatcher Steel. The Jackhammer was built in response to a series of costly uranium mining accidents on off-world colonies, due to lax worker safety protocols, in which a slew of mining Mechs were destroyed in tunnel collapses and the worker pilots tragically killed. The reinforced chassis of the Jackhammer was designed to protect the Mech's expensive reactor and core systems in the event of an accident which immobilised or crushed the Mech. That it happened to also protect the worker pilot was of secondary consideration to the corpo.",
-        "patterns": [
-            {
-                "name": "Ironmonger Pattern",
-                "description": "Designed to be placed in the centre of a settlement during a siege, it can repair damage via its welding laser whilst returning mortar fire.",
-                "systems": [
-                    "Mini Mortar",
-                    "Escape Hatch",
-                    "Floodlights",
-                    "Locomotion System",
-                    "Loudspeaker",
-                    "Rigging Arm",
-                    "Welding Laser"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Damage Assessor",
-                    "Reactor Flare"
-                ]
-            },
-            {
-                "name": "Maggie Pattern",
-                "description": "A pattern endorsed by the Engineering Union for its flexibility and support in the field.",
-                "systems": [
-                    "30mm Autocannon",
-                    "Refractive Shield Projector",
-                    "Ejection System",
-                    "Floodlights",
-                    "Locomotion System",
-                    "Welding Laser"
-                ],
-                "modules": [
-                    "Barometric Sensor",
-                    "Comms Module",
-                    "Eggs Mayhem"
-                ]
-            },
-            {
-                "name": "Stefanus Pattern",
-                "description": "Boasts a complex array of arm attachments that made a lot more sense to the Stefanus techs who used these as modular worker Mechs.",
-                "systems": [
-                    "Chainsaw Arm",
-                    "Articulated Rigging Arm",
-                    "Articulated Rigging Arm",
-                    "Fabrication Arm",
-                    "Locomotion System",
-                    "Loudspeakers"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Damage Assessor",
-                    "Electro-Magnetic Self-Destruct"
-                ]
-            }
-        ]
+    "chassis_ability": "Fast: The Hussar can move an additional Range band on its turn as a Free Action. In addition, it moves twice as fast across the Campaign, Area, and Region Maps.",
+    "description": "The 'V-IG83' Hussar was designed as a general purpose light-combat Mech by Contour Aerospace that was relatively cheap for the corpo to mass produce. Able to rapidly mobilise against threats, they were primarily used as a 'peacekeeping' force by Contour Aerospace security detachments during the Oceanic Expanse. They fell into disuse following the war and have since become a Mech utilised by wasters of all kinds, due to their speed, cheap cost and hit and run capabilities.",
+    "patterns": [
+      {
+        "name": "Mauler Pattern",
+        "description": "This raider favoured Mech pattern is renowned for its pilots using the oldest trick in the book - call out a distress signal and then blast the first unsuspecting mark who responds into bits for the scrap.",
+        "systems": [
+          "M2-X Mauler",
+          "Chaff Launcher",
+          "Escape Hatch",
+          "Floodlights",
+          "Locomotion System",
+          "Loudspeakers",
+          "Nanofibre Net Launcher"
+        ],
+        "modules": ["Comms Module", "Sleeping Beauty", "Offensive Protocols"]
+      },
+      {
+        "name": "Piggyback Pattern",
+        "description": "It is always nice to have a friend, and your buddy piggybacking one of these is in for a hell of a ride.",
+        "systems": [
+          "30mm Autocannon",
+          "Escape Hatch",
+          "Locomotion System",
+          "Shotgun Pit",
+          "Tracking Node"
+        ],
+        "modules": ["Comms Module", "Evasion Protocols", "Survey Scanner"]
+      },
+      {
+        "name": "Contour Pattern",
+        "description": "The stock Contour build is designed to get in fast and strip a vital component off of a foe before retreating ready to do it again.",
+        "systems": [
+          "Red Pulse Laser",
+          "Chaff Launcher",
+          "Ejection System",
+          "Locomotion System",
+          "Target Painter"
+        ],
+        "modules": ["Comms Module", "Dash Protocols", "Pinpoint Targeter"]
+      }
+    ]
+  },
+  {
+    "name": "Jackhammer",
+    "stats": {
+      "structure_pts": 18,
+      "energy_pts": 7,
+      "heat_cap": 13,
+      "system_slots": 15,
+      "module_slots": 3,
+      "cargo_cap": 6,
+      "tech_level": 2,
+      "salvage_value": 6
     },
-    {
-        "name": "Kraken",
-        "stats": {
-            "structure_pts": 24,
-            "energy_pts": 10,
-            "heat_cap": 14,
-            "system_slots": 18,
-            "module_slots": 3,
-            "cargo_cap": 6,
-            "tech_level": 2,
-            "salvage_value": 14
-        },
-        "chassis_ability": "Integrated Amphibious Locomotion System: The Kraken has an integral Advanced Amphibious Locomotion System included in its profile. This allows the Kraken to operate indefinitely in underwater conditions at significant depths whilst also being able to walk on land. Its sealed Chassis is also airtight and watertight.",
-        "description": "The 'USM-53' Kraken was developed by Aegean Dynamics as one of the first hybrid land and water Mechs. Able to carry a large crew to the depths of ocean trenches, it proved instrumental in the construction and repair of underwater fibre net pipelines which were a vulnerable target during the cyberwars. It has a reputation for being a chunky Mech on land, but its pilots often extol its comfortable environmental systems which keeps it both airtight and watertight. When on land this also keeps it protected from wasteland debris, dust, and dangerous gases.",
-        "patterns": [
-            {
-                "name": "Blackbeard Pattern",
-                "description": "The last report from Crawler #383 was of this Kraken surfacing near their docked Crawler and a horde of raiders storming out of its hatches.",
-                "systems": [
-                    "Mini Mortar",
-                    ".50 Cal Machine Gun",
-                    "Escape Hatch",
-                    "Floodlights",
-                    "Grappling Harpoon",
-                    "High Gain Antenna",
-                    "Loudspeakers",
-                    "Personnel Transport Pod",
-                    "Transport Hold"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Navigation Module",
-                    "Reactor Flare"
-                ]
-            },
-            {
-                "name": "Saboteur Pattern",
-                "description": "Used extensively during the cyberwars by hired salvager crews on both sides to destroy undersea cables, generators, and oil mining rigs.",
-                "systems": [
-                    "Torpedo Tubes",
-                    ".50 Cal Machine Gun",
-                    "Chaff Launcher",
-                    "Chainsaw Arm",
-                    "Escape Hatch",
-                    "Floodlights",
-                    "Personnel Transport Pod",
-                    "Rigging Arm"
-                ],
-                "modules": [
-                    "ECM Transmitter",
-                    "Firewall",
-                    "Comms Module"
-                ]
-            },
-            {
-                "name": "Aegean Pattern",
-                "description": "The original pattern, developed for land and sea combat. Salvagers first got this blueprint as a result of an Aegean Kraken whose crew mutinied and flipped sides to the Unions during the Wasteland Reclamation.",
-                "systems": [
-                    "Torpedo Tubes",
-                    "Long Barrelled Green Laser",
-                    "Chaff Launcher",
-                    "Chaff Launcher",
-                    "Refractive Shield Projector",
-                    "Escape Hatch",
-                    "Personnel Transport Pod"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Multi-Targeter",
-                    "Thermal Optics"
-                ]
-            }
+    "chassis_ability": "Reinforced Chassis: The Jackhammer rolls on this alternate Critical Damage Table:\nROLL THE DIE:\n20: The Jackhammer is Intact and operational with 1 SP. The Pilot is unharmed.\n11-19: The Jackhammer is temporarily Shutdown and becomes inoperable. At the end of its next turn it activates and becomes operational with 1 SP. The Pilot is unharmed.\n6 - 10: As per 11-19, but a random Module on the Jackhammer is also Damaged.\n2 - 5: As per 11-19, but a random System on the Jackhammer is also Damaged.\n1: The Jackhammer Mech Chassis is damaged. All of its mounted Systems, Modules, and any carried Cargo are destroyed. The Pilot survives in the reinforced cockpit.",
+    "description": "The 'BG-288' Jackhammer was commissioned by the Terrestrial Democratic Alliance and constructed by Thatcher Steel. The Jackhammer was built in response to a series of costly uranium mining accidents on off-world colonies, due to lax worker safety protocols, in which a slew of mining Mechs were destroyed in tunnel collapses and the worker pilots tragically killed. The reinforced chassis of the Jackhammer was designed to protect the Mech's expensive reactor and core systems in the event of an accident which immobilised or crushed the Mech. That it happened to also protect the worker pilot was of secondary consideration to the corpo.",
+    "patterns": [
+      {
+        "name": "Ironmonger Pattern",
+        "description": "Designed to be placed in the centre of a settlement during a siege, it can repair damage via its welding laser whilst returning mortar fire.",
+        "systems": [
+          "Mini Mortar",
+          "Escape Hatch",
+          "Floodlights",
+          "Locomotion System",
+          "Loudspeaker",
+          "Rigging Arm",
+          "Welding Laser"
+        ],
+        "modules": ["Comms Module", "Damage Assessor", "Reactor Flare"]
+      },
+      {
+        "name": "Maggie Pattern",
+        "description": "A pattern endorsed by the Engineering Union for its flexibility and support in the field.",
+        "systems": [
+          "30mm Autocannon",
+          "Refractive Shield Projector",
+          "Ejection System",
+          "Floodlights",
+          "Locomotion System",
+          "Welding Laser"
+        ],
+        "modules": ["Barometric Sensor", "Comms Module", "Eggs Mayhem"]
+      },
+      {
+        "name": "Stefanus Pattern",
+        "description": "Boasts a complex array of arm attachments that made a lot more sense to the Stefanus techs who used these as modular worker Mechs.",
+        "systems": [
+          "Chainsaw Arm",
+          "Articulated Rigging Arm",
+          "Articulated Rigging Arm",
+          "Fabrication Arm",
+          "Locomotion System",
+          "Loudspeakers"
+        ],
+        "modules": [
+          "Comms Module",
+          "Damage Assessor",
+          "Electro-Magnetic Self-Destruct"
         ]
+      }
+    ]
+  },
+  {
+    "name": "Kraken",
+    "stats": {
+      "structure_pts": 24,
+      "energy_pts": 10,
+      "heat_cap": 14,
+      "system_slots": 18,
+      "module_slots": 3,
+      "cargo_cap": 6,
+      "tech_level": 2,
+      "salvage_value": 14
     },
-    {
-        "name": "Magpie",
-        "stats": {
-            "structure_pts": 15,
-            "energy_pts": 12,
-            "heat_cap": 10,
-            "system_slots": 15,
-            "module_slots": 3,
-            "cargo_cap": 6,
-            "tech_level": 2,
-            "salvage_value": 5
-        },
-        "chassis_ability": "Hot Swap Universal Mounts: The Magpie allows you to mount and dismount Systems on it in the field significantly faster. This uses the normal rules for mounting, but increases the speed and versatility. A Pilot may Mount a System on the Magpie as a Short Action (10 minutes). A Mech, including the Magpie itself, may Mount a System on the Magpie as a Turn Action.",
-        "description": "The 'Type 43' Magpie was developed by Thatcher Steel on behalf of Stefanus as an industrial worker Mech. Its universal mounting points allowed for rapid transition between the various complex servo arms needed during the development and roll out of the Stefanus Prion Chassis. This means its parts can be rapidly hot swapped in the field, even in a combat situation making it something of a holy grail for salvagers, though less so for its namesake.",
-        "patterns": [
-            {
-                "name": "Ironmonger Pattern",
-                "description": "Designed to be placed in the centre of a settlement during a siege, it can repair damage via its welding laser whilst returning mortar fire.",
-                "systems": [
-                    "Mini Mortar",
-                    "Escape Hatch",
-                    "Floodlights",
-                    "Locomotion System",
-                    "Loudspeaker",
-                    "Rigging Arm",
-                    "Welding Laser"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Damage Assessor",
-                    "Reactor Flare"
-                ]
-            },
-            {
-                "name": "Maggie Pattern",
-                "description": "A pattern endorsed by the Engineering Union for its flexibility and support in the field.",
-                "systems": [
-                    "30mm Autocannon",
-                    "Refractive Shield Projector",
-                    "Ejection System",
-                    "Floodlights",
-                    "Locomotion System",
-                    "Welding Laser"
-                ],
-                "modules": [
-                    "Barometric Sensor",
-                    "Comms Module",
-                    "Eggs Mayhem"
-                ]
-            },
-            {
-                "name": "Stefanus Pattern",
-                "description": "Boasts a complex array of arm attachments that made a lot more sense to the Stefanus techs who used these as modular worker Mechs.",
-                "systems": [
-                    "Chainsaw Arm",
-                    "Articulated Rigging Arm",
-                    "Articulated Rigging Arm",
-                    "Fabrication Arm",
-                    "Locomotion System",
-                    "Loudspeakers"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Damage Assessor",
-                    "Electro-Magnetic Self-Destruct"
-                ]
-            }
-        ]
+    "chassis_ability": "Integrated Amphibious Locomotion System: The Kraken has an integral Advanced Amphibious Locomotion System included in its profile. This allows the Kraken to operate indefinitely in underwater conditions at significant depths whilst also being able to walk on land. Its sealed Chassis is also airtight and watertight.",
+    "description": "The 'USM-53' Kraken was developed by Aegean Dynamics as one of the first hybrid land and water Mechs. Able to carry a large crew to the depths of ocean trenches, it proved instrumental in the construction and repair of underwater fibre net pipelines which were a vulnerable target during the cyberwars. It has a reputation for being a chunky Mech on land, but its pilots often extol its comfortable environmental systems which keeps it both airtight and watertight. When on land this also keeps it protected from wasteland debris, dust, and dangerous gases.",
+    "patterns": [
+      {
+        "name": "Blackbeard Pattern",
+        "description": "The last report from Crawler #383 was of this Kraken surfacing near their docked Crawler and a horde of raiders storming out of its hatches.",
+        "systems": [
+          "Mini Mortar",
+          ".50 Cal Machine Gun",
+          "Escape Hatch",
+          "Floodlights",
+          "Grappling Harpoon",
+          "High Gain Antenna",
+          "Loudspeakers",
+          "Personnel Transport Pod",
+          "Transport Hold"
+        ],
+        "modules": ["Comms Module", "Navigation Module", "Reactor Flare"]
+      },
+      {
+        "name": "Saboteur Pattern",
+        "description": "Used extensively during the cyberwars by hired salvager crews on both sides to destroy undersea cables, generators, and oil mining rigs.",
+        "systems": [
+          "Torpedo Tubes",
+          ".50 Cal Machine Gun",
+          "Chaff Launcher",
+          "Chainsaw Arm",
+          "Escape Hatch",
+          "Floodlights",
+          "Personnel Transport Pod",
+          "Rigging Arm"
+        ],
+        "modules": ["ECM Transmitter", "Firewall", "Comms Module"]
+      },
+      {
+        "name": "Aegean Pattern",
+        "description": "The original pattern, developed for land and sea combat. Salvagers first got this blueprint as a result of an Aegean Kraken whose crew mutinied and flipped sides to the Unions during the Wasteland Reclamation.",
+        "systems": [
+          "Torpedo Tubes",
+          "Long Barrelled Green Laser",
+          "Chaff Launcher",
+          "Chaff Launcher",
+          "Refractive Shield Projector",
+          "Escape Hatch",
+          "Personnel Transport Pod"
+        ],
+        "modules": ["Comms Module", "Multi-Targeter", "Thermal Optics"]
+      }
+    ]
+  },
+  {
+    "name": "Magpie",
+    "stats": {
+      "structure_pts": 15,
+      "energy_pts": 12,
+      "heat_cap": 10,
+      "system_slots": 15,
+      "module_slots": 3,
+      "cargo_cap": 6,
+      "tech_level": 2,
+      "salvage_value": 5
     },
-    {
-        "name": "Mirrorball",
-        "stats": {
-            "structure_pts": 16,
-            "energy_pts": 14,
-            "heat_cap": 8,
-            "system_slots": 12,
-            "module_slots": 3,
-            "cargo_cap": 6,
-            "tech_level": 2,
-            "salvage_value": 8
-        },
-        "chassis_ability": "Integrated Advanced Shield Dome: The Mirror Ball can project a glowing, protective energy field around its Chassis.",
-        "description": "The 'V6.10.3' Mirror Ball was developed by Aeon as a mobile shield Mech designed to protect machinery and workers within inhospitable locations. During the 'Great Exodus' Mirrorball units were used effectively as a rearguard against corpo harriers by the first salvagers who fled their home arcos to forge a destiny of their own. Its nickname derives from the sparkling ball of energy that surrounds and protects it when it is operational.",
-        "patterns": [
-            {
-                "name": "Junker Pattern",
-                "description": "A high-utility build that aids wastelanders in the arduous rigours of day to day life, repairing their settlements and protecting them from raiders and acid storms alike.",
-                "systems": [
-                    "Red Laser",
-                    "Cargo Pod",
-                    "Escape Hatch",
-                    "Locomotion System",
-                    "Personnel Transport Pod",
-                    "Welding Laser"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Navigation Module",
-                    "Reactor Flare"
-                ]
-            },
-            {
-                "name": "Reclaimer Pattern",
-                "description": "A salvager-build designed for salvage operations in extreme wasteland conditions.",
-                "systems": [
-                    "Hydraulic Crusher",
-                    "Locomotion System",
-                    "Escape Hatch",
-                    "Rigging Arm",
-                    "Radiation Sealing"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Survey Scanner",
-                    "Video Projection Array"
-                ]
-            },
-            {
-                "name": "Sentinel Pattern",
-                "description": "Evantis converted many of these Mechs into mobile, shielded missile platforms as a last gasp in the Colonial Wars.",
-                "systems": [
-                    "Missile Pod",
-                    "Ejector Pod",
-                    "Locomotion System"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "IR Night Vision Optics",
-                    "Laser Guidance"
-                ]
-            }
+    "chassis_ability": "Hot Swap Universal Mounts: The Magpie allows you to mount and dismount Systems on it in the field significantly faster. This uses the normal rules for mounting, but increases the speed and versatility. A Pilot may Mount a System on the Magpie as a Short Action (10 minutes). A Mech, including the Magpie itself, may Mount a System on the Magpie as a Turn Action.",
+    "description": "The 'Type 43' Magpie was developed by Thatcher Steel on behalf of Stefanus as an industrial worker Mech. Its universal mounting points allowed for rapid transition between the various complex servo arms needed during the development and roll out of the Stefanus Prion Chassis. This means its parts can be rapidly hot swapped in the field, even in a combat situation making it something of a holy grail for salvagers, though less so for its namesake.",
+    "patterns": [
+      {
+        "name": "Ironmonger Pattern",
+        "description": "Designed to be placed in the centre of a settlement during a siege, it can repair damage via its welding laser whilst returning mortar fire.",
+        "systems": [
+          "Mini Mortar",
+          "Escape Hatch",
+          "Floodlights",
+          "Locomotion System",
+          "Loudspeaker",
+          "Rigging Arm",
+          "Welding Laser"
+        ],
+        "modules": ["Comms Module", "Damage Assessor", "Reactor Flare"]
+      },
+      {
+        "name": "Maggie Pattern",
+        "description": "A pattern endorsed by the Engineering Union for its flexibility and support in the field.",
+        "systems": [
+          "30mm Autocannon",
+          "Refractive Shield Projector",
+          "Ejection System",
+          "Floodlights",
+          "Locomotion System",
+          "Welding Laser"
+        ],
+        "modules": ["Barometric Sensor", "Comms Module", "Eggs Mayhem"]
+      },
+      {
+        "name": "Stefanus Pattern",
+        "description": "Boasts a complex array of arm attachments that made a lot more sense to the Stefanus techs who used these as modular worker Mechs.",
+        "systems": [
+          "Chainsaw Arm",
+          "Articulated Rigging Arm",
+          "Articulated Rigging Arm",
+          "Fabrication Arm",
+          "Locomotion System",
+          "Loudspeakers"
+        ],
+        "modules": [
+          "Comms Module",
+          "Damage Assessor",
+          "Electro-Magnetic Self-Destruct"
         ]
+      }
+    ]
+  },
+  {
+    "name": "Mirrorball",
+    "stats": {
+      "structure_pts": 16,
+      "energy_pts": 14,
+      "heat_cap": 8,
+      "system_slots": 12,
+      "module_slots": 3,
+      "cargo_cap": 6,
+      "tech_level": 2,
+      "salvage_value": 8
     },
-    {
-        "name": "Atlas",
-        "stats": {
-            "structure_pts": 30,
-            "energy_pts": 10,
-            "heat_cap": 14,
-            "system_slots": 21,
-            "module_slots": 2,
-            "cargo_cap": 30,
-            "tech_level": 3,
-            "salvage_value": 12
-        },
-        "chassis_ability": "Integrated Colossal Cargo Bay: Increases the Cargo Capacity of the Atlas by 24, to 30",
-        "description": "The 'MK8' Atlas was developed by Evantis Heavy Industries as a mobile, heavily armoured, resupply base. When Evantis switched their Mech production to focus on their Colossus Chassis during the midst of the First Corpo War, it made the Atlas technically the smallest Mech they still produced. This led to the Atlas being known colloquially as the 'Evantis Scout'.",
-        "patterns": [
-            {
-                "name": "Thunder Storm Pattern",
-                "description": "A cheap build favoured by wasters. Bristling with machine guns, even if it overheats from firing them, nothing should be left standing afterwards.",
-                "systems": [
-                    ".50 Cal Machine Gun",
-                    ".50 Cal Machine Gun",
-                    ".50 Cal Machine Gun",
-                    ".50 Cal Machine Gun",
-                    ".50 Cal Machine Gun",
-                    ".50 Cal Machine Gun",
-                    "Armour Plating",
-                    "Escape Hatch",
-                    "Locomotion System",
-                    "Personnel Transport Pod",
-                    "Shotgun Pit"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Weapon Link"
-                ]
-            },
-            {
-                "name": "Bastion Pattern",
-                "description": "This Atlas build is designed to strip an area clean of salvage whilst pounding any would-be attackers with missile and autocannon fire.",
-                "systems": [
-                    "30mm Autocannon",
-                    "Missile Pod",
-                    "Locomotion System",
-                    "Ejection System",
-                    "Prawn Sifter"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Metal Detector"
-                ]
-            },
-            {
-                "name": "Evantis Pattern",
-                "description": "Terrifying when you consider this is not even intended to be a combat Mech. Evantis utilises these as a 'cost effective' defensive measure in their numerous field bases in the Arid Steppes.",
-                "systems": [
-                    "Railgun",
-                    "Armour Plating",
-                    "Ejection System",
-                    "Module Switch",
-                    "Spider Locomotion System"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Coolant Flow Manifold",
-                    "Emergency Power Conduit"
-                ]
-            }
-        ]
+    "chassis_ability": "Integrated Advanced Shield Dome: The Mirror Ball can project a glowing, protective energy field around its Chassis.",
+    "description": "The 'V6.10.3' Mirror Ball was developed by Aeon as a mobile shield Mech designed to protect machinery and workers within inhospitable locations. During the 'Great Exodus' Mirrorball units were used effectively as a rearguard against corpo harriers by the first salvagers who fled their home arcos to forge a destiny of their own. Its nickname derives from the sparkling ball of energy that surrounds and protects it when it is operational.",
+    "patterns": [
+      {
+        "name": "Junker Pattern",
+        "description": "A high-utility build that aids wastelanders in the arduous rigours of day to day life, repairing their settlements and protecting them from raiders and acid storms alike.",
+        "systems": [
+          "Red Laser",
+          "Cargo Pod",
+          "Escape Hatch",
+          "Locomotion System",
+          "Personnel Transport Pod",
+          "Welding Laser"
+        ],
+        "modules": ["Comms Module", "Navigation Module", "Reactor Flare"]
+      },
+      {
+        "name": "Reclaimer Pattern",
+        "description": "A salvager-build designed for salvage operations in extreme wasteland conditions.",
+        "systems": [
+          "Hydraulic Crusher",
+          "Locomotion System",
+          "Escape Hatch",
+          "Rigging Arm",
+          "Radiation Sealing"
+        ],
+        "modules": ["Comms Module", "Survey Scanner", "Video Projection Array"]
+      },
+      {
+        "name": "Sentinel Pattern",
+        "description": "Evantis converted many of these Mechs into mobile, shielded missile platforms as a last gasp in the Colonial Wars.",
+        "systems": ["Missile Pod", "Ejector Pod", "Locomotion System"],
+        "modules": ["Comms Module", "IR Night Vision Optics", "Laser Guidance"]
+      }
+    ]
+  },
+  {
+    "name": "Atlas",
+    "stats": {
+      "structure_pts": 30,
+      "energy_pts": 10,
+      "heat_cap": 14,
+      "system_slots": 21,
+      "module_slots": 2,
+      "cargo_cap": 30,
+      "tech_level": 3,
+      "salvage_value": 12
     },
-    {
-        "name": "Brawler",
-        "stats": {
-            "structure_pts": 25,
-            "energy_pts": 10,
-            "heat_cap": 14,
-            "system_slots": 16,
-            "module_slots": 3,
-            "cargo_cap": 6,
-            "tech_level": 3,
-            "salvage_value": 5
-        },
-        "chassis_ability": "Close Range Protocols: The Brawler deals an additional 2 SP damage when it makes an attack at any target within Close Range of it. This bonus is applied before other modifiers.",
-        "description": "The 'GC-C21' Brawler is a combat Mech favoured by corpo mercs due to its relatively low scrip debt cost. The Terrestrial Democratic Alliance began to mass produce Brawlers during the Second Corpo War, and deployed them in the siege of the Central Wastes where they obliterated the Herrsch home arco. They later became one of the first combat Mechs to be produced as an open source blueprint by the Opus Institute.",
-        "patterns": [
-            {
-                "name": "Rifleman Pattern",
-                "description": "A straightforward build designed to pound targets with autocannons. Effectively utilised by the waster settlement of Broken Reach in the Arid Steppes to fend off a Contour incursion into their territory.",
-                "systems": [
-                    "30mm Autocannon",
-                    "30mm Autocannon",
-                    "Ejection System",
-                    "Electro-Magnetic Shield Projector",
-                    "Locomotion System"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Reactor Safety Protocols",
-                    "Weapon Link"
-                ]
-            },
-            {
-                "name": "Ironmask Pattern",
-                "description": "Osiris pit fighters are sealed into these and made to fight it out for the amusement of the execs.",
-                "systems": [
-                    "Mech Melee Armament (Iron Spear)",
-                    "Armoured Shield",
-                    "Articulated Rigging Arm",
-                    "Articulated Rigging Arm",
-                    "Locomotion System",
-                    "Vectored Thrust Unit"
-                ],
-                "modules": [
-                    "Electro-Magnetic Self-Destruct",
-                    "Offensive Protocols",
-                    "Pinpoint Targeter"
-                ]
-            },
-            {
-                "name": "Gladiator Pattern",
-                "description": "A popular entry level build amongst corpo contractor pilots who accrue enough debt to purchase one and pay off their interest through violence.",
-                "systems": [
-                    "Missile Pod",
-                    "Mech Melee Armament (Steel Axe)",
-                    "Articulated Rigging Arm",
-                    "Ejection System",
-                    "Locomotion System"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Laser Guidance",
-                    "Offensive Protocols"
-                ]
-            }
+    "chassis_ability": "Integrated Colossal Cargo Bay: Increases the Cargo Capacity of the Atlas by 24, to 30",
+    "description": "The 'MK8' Atlas was developed by Evantis Heavy Industries as a mobile, heavily armoured, resupply base. When Evantis switched their Mech production to focus on their Colossus Chassis during the midst of the First Corpo War, it made the Atlas technically the smallest Mech they still produced. This led to the Atlas being known colloquially as the 'Evantis Scout'.",
+    "patterns": [
+      {
+        "name": "Thunder Storm Pattern",
+        "description": "A cheap build favoured by wasters. Bristling with machine guns, even if it overheats from firing them, nothing should be left standing afterwards.",
+        "systems": [
+          ".50 Cal Machine Gun",
+          ".50 Cal Machine Gun",
+          ".50 Cal Machine Gun",
+          ".50 Cal Machine Gun",
+          ".50 Cal Machine Gun",
+          ".50 Cal Machine Gun",
+          "Armour Plating",
+          "Escape Hatch",
+          "Locomotion System",
+          "Personnel Transport Pod",
+          "Shotgun Pit"
+        ],
+        "modules": ["Comms Module", "Weapon Link"]
+      },
+      {
+        "name": "Bastion Pattern",
+        "description": "This Atlas build is designed to strip an area clean of salvage whilst pounding any would-be attackers with missile and autocannon fire.",
+        "systems": [
+          "30mm Autocannon",
+          "Missile Pod",
+          "Locomotion System",
+          "Ejection System",
+          "Prawn Sifter"
+        ],
+        "modules": ["Comms Module", "Metal Detector"]
+      },
+      {
+        "name": "Evantis Pattern",
+        "description": "Terrifying when you consider this is not even intended to be a combat Mech. Evantis utilises these as a 'cost effective' defensive measure in their numerous field bases in the Arid Steppes.",
+        "systems": [
+          "Railgun",
+          "Armour Plating",
+          "Ejection System",
+          "Module Switch",
+          "Spider Locomotion System"
+        ],
+        "modules": [
+          "Comms Module",
+          "Coolant Flow Manifold",
+          "Emergency Power Conduit"
         ]
+      }
+    ]
+  },
+  {
+    "name": "Brawler",
+    "stats": {
+      "structure_pts": 25,
+      "energy_pts": 10,
+      "heat_cap": 14,
+      "system_slots": 16,
+      "module_slots": 3,
+      "cargo_cap": 6,
+      "tech_level": 3,
+      "salvage_value": 5
     },
-    {
-        "name": "Little Sestra",
-        "stats": {
-            "structure_pts": 15,
-            "energy_pts": 8,
-            "heat_cap": 10,
-            "system_slots": 9,
-            "module_slots": 3,
-            "cargo_cap": 6,
-            "tech_level": 3,
-            "salvage_value": 7
-        },
-        "chassis_ability": "Sestra Drone Controller: The Little Sestra comes with a single Sestra Drone that it controls up to Far Range. Roll on the A.I. Personality Table for the drone's personality. The Sestra Drone acts separately to the Little Sestra on its own turn, and is controlled by the Pilot. It functions effectively as a Mech, but cannot Push. It can be installed with Systems and Modules and restores its SP and EP in a T3 or higher Mech Bay during Downtime. If the Drone is damaged it can be repaired as though it was a Mech. If it is destroyed you may craft a new Sestra Drone for 2 Tech 3 Scrap as per the crafting rules. The Little Sestra may have one active Sestra Drone at a time.",
-        "description": "The 'НC-15' Little Sestra is a Mech designed by DronTek Systems to control a Sestra Drone in the field. Little Sestra Mechs are utilised for reconnaissance or in larger numbers to support DronTek's Big Brother Mechs in battle. Sestra Mechs were utilised effectively in the First Corpo War to pick off retreating Evantis forces following their failed invasion of the Northern Wastes. The majority of remote drones are unusable in the wastes, but the Little Sestra's high end, specialised drone controller continues to function where others have failed.",
-        "patterns": [
-            {
-                "name": "Surveyor Pattern",
-                "description": "Utilised by wastelanders and corpos alike to scout out and survey terrain, salvaging spots, and enemy positions.",
-                "systems": [
-                    "Green Laser",
-                    "Escape Hatch",
-                    "Locomotion System",
-                    "Tracking Node"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Reactor Flare"
-                ],
-                "drone": {
-                    "systems": [
-                        "Long Barrelled Green Laser",
-                        "High Gain Antenna",
-                        "Cargo Pod"
-                    ],
-                    "modules": [
-                        "Survey Scanner",
-                        "M315 Motion Scanner"
-                    ]
-                }
-            },
-            {
-                "name": "Scrounger Pattern",
-                "description": "With a drone friend in tow, you'll never get lonely when out salvaging in the wastes.",
-                "systems": [
-                    "Articulated Rigging Arm",
-                    "Escape Hatch",
-                    "Fabrication Arm",
-                    "Locomotion System"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Metal Detector"
-                ],
-                "drone": {
-                    "systems": [
-                        "Red Laser",
-                        "Fabrication Arm",
-                        "High Gain Antenna"
-                    ],
-                    "modules": [
-                        "Survey Scanner",
-                        "Damage Assessor"
-                    ]
-                }
-            },
-            {
-                "name": "DronTek Pattern",
-                "description": "A spotter and sniper combo developed for a battlefield support role alongside the corpos' larger Mech and drone lances.",
-                "systems": [
-                    "Green Laser",
-                    "Ejection System",
-                    "High Gain Antenna",
-                    "Locomotion System"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Zoom Optics"
-                ],
-                "drone": {
-                    "systems": [
-                        "Rail Rifle"
-                    ],
-                    "modules": [
-                        "Reactor Overload",
-                        "Laser Guidance"
-                    ]
-                }
-            }
+    "chassis_ability": "Close Range Protocols: The Brawler deals an additional 2 SP damage when it makes an attack at any target within Close Range of it. This bonus is applied before other modifiers.",
+    "description": "The 'GC-C21' Brawler is a combat Mech favoured by corpo mercs due to its relatively low scrip debt cost. The Terrestrial Democratic Alliance began to mass produce Brawlers during the Second Corpo War, and deployed them in the siege of the Central Wastes where they obliterated the Herrsch home arco. They later became one of the first combat Mechs to be produced as an open source blueprint by the Opus Institute.",
+    "patterns": [
+      {
+        "name": "Rifleman Pattern",
+        "description": "A straightforward build designed to pound targets with autocannons. Effectively utilised by the waster settlement of Broken Reach in the Arid Steppes to fend off a Contour incursion into their territory.",
+        "systems": [
+          "30mm Autocannon",
+          "30mm Autocannon",
+          "Ejection System",
+          "Electro-Magnetic Shield Projector",
+          "Locomotion System"
+        ],
+        "modules": ["Comms Module", "Reactor Safety Protocols", "Weapon Link"]
+      },
+      {
+        "name": "Ironmask Pattern",
+        "description": "Osiris pit fighters are sealed into these and made to fight it out for the amusement of the execs.",
+        "systems": [
+          "Mech Melee Armament (Iron Spear)",
+          "Armoured Shield",
+          "Articulated Rigging Arm",
+          "Articulated Rigging Arm",
+          "Locomotion System",
+          "Vectored Thrust Unit"
+        ],
+        "modules": [
+          "Electro-Magnetic Self-Destruct",
+          "Offensive Protocols",
+          "Pinpoint Targeter"
         ]
+      },
+      {
+        "name": "Gladiator Pattern",
+        "description": "A popular entry level build amongst corpo contractor pilots who accrue enough debt to purchase one and pay off their interest through violence.",
+        "systems": [
+          "Missile Pod",
+          "Mech Melee Armament (Steel Axe)",
+          "Articulated Rigging Arm",
+          "Ejection System",
+          "Locomotion System"
+        ],
+        "modules": ["Comms Module", "Laser Guidance", "Offensive Protocols"]
+      }
+    ]
+  },
+  {
+    "name": "Little Sestra",
+    "stats": {
+      "structure_pts": 15,
+      "energy_pts": 8,
+      "heat_cap": 10,
+      "system_slots": 9,
+      "module_slots": 3,
+      "cargo_cap": 6,
+      "tech_level": 3,
+      "salvage_value": 7
     },
-    {
-        "name": "Mantis",
-        "stats": {
-            "structure_pts": 15,
-            "energy_pts": 17,
-            "heat_cap": 7,
-            "system_slots": 9,
-            "module_slots": 6,
-            "cargo_cap": 6,
-            "tech_level": 3,
-            "salvage_value": 7
-        },
-        "chassis_ability": "Integrated Frog Prince Module: This specialised hacking module developed for the Mantis allows you to take control of defensive and security systems. 2EP Turn Action // Range: Medium // Hacking. You take control of one of the following devices within Range, whilst it is under your control you may send it commands such as attack, move, activate, or power down/up as well as read any data it receives. You may not take other actions whilst it is under your control. Relinquishing control is a Free Action. • Security Cameras (Free Action to Command) • Automated Doors (Free Action to Command) • Lights (Free Action to Command) • Defensive Turrets (Turn Action to Command) • Drones (Turn Action to Command) When this Module is activated you may pay 1 EP per additional device you would like to control.",
-        "description": "Developed as a collaboration between the software arm of Stefanus Industries and Sakura Futures, the 'MCS-1337' Mantis was designed as a lightweight hacking Mech. Rarely deployed on the battlefield, it has primarily been utilised in a series of Black Ops operations, most notably during the endless intra-corporate cold wars. With its high energy capacity and a wide array of Module customisation options you sometimes just have to respect corpo engineering.",
-        "patterns": [
-            {
-                "name": "Painter Pattern",
-                "description": "A salvager build designed for area surveillance, support, and target acquisition.",
-                "systems": [
-                    ".50 Cal Machine Gun",
-                    "Ejection System",
-                    "High Gain Antenna",
-                    "Locomotion System",
-                    "Target Painter"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "M315 Motion Scanner",
-                    "Metal Detector",
-                    "Navigation Module",
-                    "Reactor Overload",
-                    "Survey Scanner"
-                ]
-            },
-            {
-                "name": "Battery Pattern",
-                "description": "A mobile recharge platform able to power up other Mechs on the go whilst providing a suite of support roles.",
-                "systems": [
-                    "Locomotion System",
-                    "Tesla Coils",
-                    "Laser Anti-Missile System"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Encrypted Comms",
-                    "ECM Transmitter",
-                    "Energy Cell",
-                    "Energy Cell",
-                    "Sonic Screecher"
-                ]
-            },
-            {
-                "name": "Stefanus Pattern",
-                "description": "A versatile combat hacker able to transmit encrypted comms back to their home base whilst disrupting opposing forces with a variety of hacking tools and guided missile strikes.",
-                "systems": [
-                    "Needle Missile Pod",
-                    "Escape Hatch",
-                    "Locomotion System",
-                    "Radomes"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Eggs Mayhem",
-                    "Encrypted Comms",
-                    "Firewall",
-                    "Mech Scrambler",
-                    "Reactor Overload"
-                ]
-            }
-        ]
+    "chassis_ability": "Sestra Drone Controller: The Little Sestra comes with a single Sestra Drone that it controls up to Far Range. Roll on the A.I. Personality Table for the drone's personality. The Sestra Drone acts separately to the Little Sestra on its own turn, and is controlled by the Pilot. It functions effectively as a Mech, but cannot Push. It can be installed with Systems and Modules and restores its SP and EP in a T3 or higher Mech Bay during Downtime. If the Drone is damaged it can be repaired as though it was a Mech. If it is destroyed you may craft a new Sestra Drone for 2 Tech 3 Scrap as per the crafting rules. The Little Sestra may have one active Sestra Drone at a time.",
+    "description": "The 'НC-15' Little Sestra is a Mech designed by DronTek Systems to control a Sestra Drone in the field. Little Sestra Mechs are utilised for reconnaissance or in larger numbers to support DronTek's Big Brother Mechs in battle. Sestra Mechs were utilised effectively in the First Corpo War to pick off retreating Evantis forces following their failed invasion of the Northern Wastes. The majority of remote drones are unusable in the wastes, but the Little Sestra's high end, specialised drone controller continues to function where others have failed.",
+    "patterns": [
+      {
+        "name": "Surveyor Pattern",
+        "description": "Utilised by wastelanders and corpos alike to scout out and survey terrain, salvaging spots, and enemy positions.",
+        "systems": [
+          "Green Laser",
+          "Escape Hatch",
+          "Locomotion System",
+          "Tracking Node"
+        ],
+        "modules": ["Comms Module", "Reactor Flare"],
+        "drone": {
+          "systems": [
+            "Long Barrelled Green Laser",
+            "High Gain Antenna",
+            "Cargo Pod"
+          ],
+          "modules": ["Survey Scanner", "M315 Motion Scanner"]
+        }
+      },
+      {
+        "name": "Scrounger Pattern",
+        "description": "With a drone friend in tow, you'll never get lonely when out salvaging in the wastes.",
+        "systems": [
+          "Articulated Rigging Arm",
+          "Escape Hatch",
+          "Fabrication Arm",
+          "Locomotion System"
+        ],
+        "modules": ["Comms Module", "Metal Detector"],
+        "drone": {
+          "systems": ["Red Laser", "Fabrication Arm", "High Gain Antenna"],
+          "modules": ["Survey Scanner", "Damage Assessor"]
+        }
+      },
+      {
+        "name": "DronTek Pattern",
+        "description": "A spotter and sniper combo developed for a battlefield support role alongside the corpos' larger Mech and drone lances.",
+        "systems": [
+          "Green Laser",
+          "Ejection System",
+          "High Gain Antenna",
+          "Locomotion System"
+        ],
+        "modules": ["Comms Module", "Zoom Optics"],
+        "drone": {
+          "systems": ["Rail Rifle"],
+          "modules": ["Reactor Overload", "Laser Guidance"]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Mantis",
+    "stats": {
+      "structure_pts": 15,
+      "energy_pts": 17,
+      "heat_cap": 7,
+      "system_slots": 9,
+      "module_slots": 6,
+      "cargo_cap": 6,
+      "tech_level": 3,
+      "salvage_value": 7
     },
-    {
-        "name": "Photon",
-        "stats": {
-            "structure_pts": 20,
-            "energy_pts": 10,
-            "heat_cap": 12,
-            "system_slots": 15,
-            "module_slots": 4,
-            "cargo_cap": 6,
-            "tech_level": 3,
-            "salvage_value": 8
-        },
-        "chassis_ability": "Solar Reactor: As a Long Action you may fully restore the Energy Points of the Photon to its maximum value. You must be in an area of sunlight to do this. You may only use this Ability once every 24 hours.",
-        "description": "The Photon was a byproduct of numerous aborted attempts to create clean energy reactors as global temperatures began to routinely rise to 50 degrees Celsius. Stefanus Corporation commissioned Noel Sküm, a populist tech mogul, to develop clean energy reactors that would fuel the vast mainframes within their home arco. Instead, he used the funds to build the 'EM-28' Photon, which whilst flashy and powerful was expensive, over designed and failed to gain mass adoption. When the venture with Sküm failed, the Stefanus Corporation instead moved their home arco to the frozen Forgotten Tundra.",
-        "patterns": [
-            {
-                "name": "Stitcher Pattern",
-                "description": "Designed as a repair and medical support Mech that operates within the rugged terrain of the likes of the Ferrous Range, Northern Wastes, and Arid Steppes.",
-                "systems": [
-                    "Green Laser",
-                    "Articulated Rigging Arm",
-                    "Fabrication Arm",
-                    "Escape Hatch",
-                    "Spider Locomotion System"
-                ],
-                "modules": [
-                    "Auto-Doctor",
-                    "Comms Module",
-                    "Energy Cell"
-                ]
-            },
-            {
-                "name": "Needler Pattern",
-                "description": "This Stefanus developed Photon build combines a hacking suite alongside a Needle Missile array and was deployed in their failed invasion of the Central Wastes during the Second Corpo War.",
-                "systems": [
-                    "Needle Missile Pod",
-                    "Needle Missile Pod",
-                    "Needle Missile Pod",
-                    "Capacitance Bank",
-                    "Locomotion System"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Eggs Mayhem",
-                    "Mech Scrambler",
-                    "Multi-Targeter"
-                ]
-            },
-            {
-                "name": "Sküm Pattern",
-                "description": "The Photon proves a powerful platform for the energy hungry Tesla Coils System due to its ability to recharge in the field.",
-                "systems": [
-                    "Red Laser",
-                    "Capacitance Bank",
-                    "Escape Hatch",
-                    "Locomotion System",
-                    "Tesla Coils"
-                ],
-                "modules": [
-                    "Auto-Repair Droid",
-                    "Comms Module",
-                    "Energy Cell",
-                    "Energy Cell"
-                ]
-            }
+    "chassis_ability": "Integrated Frog Prince Module: This specialised hacking module developed for the Mantis allows you to take control of defensive and security systems. 2EP Turn Action // Range: Medium // Hacking. You take control of one of the following devices within Range, whilst it is under your control you may send it commands such as attack, move, activate, or power down/up as well as read any data it receives. You may not take other actions whilst it is under your control. Relinquishing control is a Free Action. • Security Cameras (Free Action to Command) • Automated Doors (Free Action to Command) • Lights (Free Action to Command) • Defensive Turrets (Turn Action to Command) • Drones (Turn Action to Command) When this Module is activated you may pay 1 EP per additional device you would like to control.",
+    "description": "Developed as a collaboration between the software arm of Stefanus Industries and Sakura Futures, the 'MCS-1337' Mantis was designed as a lightweight hacking Mech. Rarely deployed on the battlefield, it has primarily been utilised in a series of Black Ops operations, most notably during the endless intra-corporate cold wars. With its high energy capacity and a wide array of Module customisation options you sometimes just have to respect corpo engineering.",
+    "patterns": [
+      {
+        "name": "Painter Pattern",
+        "description": "A salvager build designed for area surveillance, support, and target acquisition.",
+        "systems": [
+          ".50 Cal Machine Gun",
+          "Ejection System",
+          "High Gain Antenna",
+          "Locomotion System",
+          "Target Painter"
+        ],
+        "modules": [
+          "Comms Module",
+          "M315 Motion Scanner",
+          "Metal Detector",
+          "Navigation Module",
+          "Reactor Overload",
+          "Survey Scanner"
         ]
+      },
+      {
+        "name": "Battery Pattern",
+        "description": "A mobile recharge platform able to power up other Mechs on the go whilst providing a suite of support roles.",
+        "systems": [
+          "Locomotion System",
+          "Tesla Coils",
+          "Laser Anti-Missile System"
+        ],
+        "modules": [
+          "Comms Module",
+          "Encrypted Comms",
+          "ECM Transmitter",
+          "Energy Cell",
+          "Energy Cell",
+          "Sonic Screecher"
+        ]
+      },
+      {
+        "name": "Stefanus Pattern",
+        "description": "A versatile combat hacker able to transmit encrypted comms back to their home base whilst disrupting opposing forces with a variety of hacking tools and guided missile strikes.",
+        "systems": [
+          "Needle Missile Pod",
+          "Escape Hatch",
+          "Locomotion System",
+          "Radomes"
+        ],
+        "modules": [
+          "Comms Module",
+          "Eggs Mayhem",
+          "Encrypted Comms",
+          "Firewall",
+          "Mech Scrambler",
+          "Reactor Overload"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Photon",
+    "stats": {
+      "structure_pts": 20,
+      "energy_pts": 10,
+      "heat_cap": 12,
+      "system_slots": 15,
+      "module_slots": 4,
+      "cargo_cap": 6,
+      "tech_level": 3,
+      "salvage_value": 8
     },
-    {
-        "name": "Solo",
-        "stats": {
-            "structure_pts": 16,
-            "energy_pts": 13,
-            "heat_cap": 10,
-            "system_slots": 12,
-            "module_slots": 4,
-            "cargo_cap": 6,
-            "tech_level": 3,
-            "salvage_value": 4
-        },
-        "chassis_ability": "Polycarbonate Stealth Chassis: The Solo cannot be targeted with anything that uses the Targeter Trait such as targeting Modules. It also cannot be seen by anything with the Optics Trait or Scanner Trait. It does not appear on sensors, radar systems, or scanners, and needs clear and direct visual confirmation to be spotted.",
-        "description": "The 'S-1300' Solo was designed by Sakura for use in wetwork operations due to its capability to smuggle deadly weaponry close to exposed targets, whilst avoiding radar and scanning systems. As a result of its design, it has become prized by smugglers across the wastes who utilise its Chassis to ferry all manner of contraband through the various arcos and militarised checkpoints dotted around the wastelands.",
-        "patterns": [
-            {
-                "name": "Smuggler Pattern",
-                "description": "A versatile build for smugglers of the wastelands transporting patented goods or ferrying arco refugees to safe zones.",
-                "systems": [
-                    ".50 Cal Machine Gun",
-                    "Escape Hatch",
-                    "High Gain Antenna",
-                    "Locomotion System",
-                    "Personnel Transport Pod",
-                    "Smuggling Hold"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Concealed Equipment Locker",
-                    "Encrypted Comms",
-                    "Voice Modulator"
-                ]
-            },
-            {
-                "name": "Infiltrator Pattern",
-                "description": "Designed to blend into the background in an arco and perform hacking and reconnaissance missions unseen.",
-                "systems": [
-                    "Ejection System",
-                    "High Gain Antenna",
-                    "Industrial Body Kit (Mule)",
-                    "Locomotion System",
-                    "Smoke Machine",
-                    "Tracking Node"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Comms Tapper",
-                    "Eggs Mayhem",
-                    "Voice Modulator"
-                ]
-            },
-            {
-                "name": "Sakura Pattern",
-                "description": "Developed for lone wetwork, a Mech of this pattern was said to be responsible for the assassination of President Nadine Kureigh in the First Corpo War and the Fall of Nations.",
-                "systems": [
-                    "Rail Rifle",
-                    "Ejection System",
-                    "High Gain Antenna",
-                    "Locomotion System"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "ECM Transmitter",
-                    "Encrypted Comms",
-                    "Laser Guidance"
-                ]
-            }
+    "chassis_ability": "Solar Reactor: As a Long Action you may fully restore the Energy Points of the Photon to its maximum value. You must be in an area of sunlight to do this. You may only use this Ability once every 24 hours.",
+    "description": "The Photon was a byproduct of numerous aborted attempts to create clean energy reactors as global temperatures began to routinely rise to 50 degrees Celsius. Stefanus Corporation commissioned Noel Sküm, a populist tech mogul, to develop clean energy reactors that would fuel the vast mainframes within their home arco. Instead, he used the funds to build the 'EM-28' Photon, which whilst flashy and powerful was expensive, over designed and failed to gain mass adoption. When the venture with Sküm failed, the Stefanus Corporation instead moved their home arco to the frozen Forgotten Tundra.",
+    "patterns": [
+      {
+        "name": "Stitcher Pattern",
+        "description": "Designed as a repair and medical support Mech that operates within the rugged terrain of the likes of the Ferrous Range, Northern Wastes, and Arid Steppes.",
+        "systems": [
+          "Green Laser",
+          "Articulated Rigging Arm",
+          "Fabrication Arm",
+          "Escape Hatch",
+          "Spider Locomotion System"
+        ],
+        "modules": ["Auto-Doctor", "Comms Module", "Energy Cell"]
+      },
+      {
+        "name": "Needler Pattern",
+        "description": "This Stefanus developed Photon build combines a hacking suite alongside a Needle Missile array and was deployed in their failed invasion of the Central Wastes during the Second Corpo War.",
+        "systems": [
+          "Needle Missile Pod",
+          "Needle Missile Pod",
+          "Needle Missile Pod",
+          "Capacitance Bank",
+          "Locomotion System"
+        ],
+        "modules": [
+          "Comms Module",
+          "Eggs Mayhem",
+          "Mech Scrambler",
+          "Multi-Targeter"
         ]
+      },
+      {
+        "name": "Sküm Pattern",
+        "description": "The Photon proves a powerful platform for the energy hungry Tesla Coils System due to its ability to recharge in the field.",
+        "systems": [
+          "Red Laser",
+          "Capacitance Bank",
+          "Escape Hatch",
+          "Locomotion System",
+          "Tesla Coils"
+        ],
+        "modules": [
+          "Auto-Repair Droid",
+          "Comms Module",
+          "Energy Cell",
+          "Energy Cell"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Solo",
+    "stats": {
+      "structure_pts": 16,
+      "energy_pts": 13,
+      "heat_cap": 10,
+      "system_slots": 12,
+      "module_slots": 4,
+      "cargo_cap": 6,
+      "tech_level": 3,
+      "salvage_value": 4
     },
-    {
-        "name": "Terra",
-        "stats": {
-            "structure_pts": 23,
-            "energy_pts": 12,
-            "heat_cap": 13,
-            "system_slots": 18,
-            "module_slots": 3,
-            "cargo_cap": 6,
-            "tech_level": 3,
-            "salvage_value": 9
-        },
-        "chassis_ability": "Terraforming Bubble: 2EP Turn Action - When activated, the Terra projects a safe, oxygenated, and habitable atmospheric bubble around it for 1 hour, or until shut off as a Free Action. Within the bubble gravity levels, pressure, heat, and other environmental factors are comparable to an Earth-like planet. This extends to Medium Range, and everything within it is safe from all harmful environmental effects irrespective of their severity.",
-        "description": "Designed as a terraforming Mech by Kombu Technology, the 'T-246' Terra is able to project a human habitable atmospheric bubble around it, making it invaluable in the process of colony formation. As the space elevators dotting the globe began to be destroyed or fell into disrepair, the Terra found a new use in the wastelands in creating habitable zones for wastelanders. It is utilised efficiently by salvagers for picking apart wreckage within hazardous zones.",
-        "patterns": [
-            {
-                "name": "Sifter Pattern",
-                "description": "A favourite of salvagers who want to plunder the rad soaked ruins, as it can protect the entire crew in a hot zone.",
-                "systems": [
-                    "Rotary Minigun",
-                    "Escape Hatch",
-                    "Fabrication Arm",
-                    "Locomotion System",
-                    "Prawn Sifter"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Energy Cell",
-                    "Metal Detector"
-                ]
-            },
-            {
-                "name": "Deployer Pattern",
-                "description": "Originally developed by the engineer team of Crawler #104 on their expedition to the Frozen Gulf as a means to protect their Crawler once deployed, and survive the sub-zero conditions.",
-                "systems": [
-                    "Blue Mining Laser",
-                    "Anti-Mech Mine Layer",
-                    "Articulated Rigging Arm",
-                    "Escape Hatch",
-                    "Locomotion System"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "IR Night Vision Optics",
-                    "Emergency Power Conduit"
-                ]
-            },
-            {
-                "name": "Kombu Pattern",
-                "description": "Originally developed for outerworld excavation, it is now utilised in numerous wasteland hot zones ripe for rare earth mining where the ozone has been breached.",
-                "systems": [
-                    "Heavy Duty Mining Rig",
-                    "Ejection System",
-                    "Locomotion System",
-                    "Rigging Arm",
-                    "Transport Hold",
-                    "Fabrication Arm"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Deep Survey Scanner",
-                    "Energy Cell"
-                ]
-            }
+    "chassis_ability": "Polycarbonate Stealth Chassis: The Solo cannot be targeted with anything that uses the Targeter Trait such as targeting Modules. It also cannot be seen by anything with the Optics Trait or Scanner Trait. It does not appear on sensors, radar systems, or scanners, and needs clear and direct visual confirmation to be spotted.",
+    "description": "The 'S-1300' Solo was designed by Sakura for use in wetwork operations due to its capability to smuggle deadly weaponry close to exposed targets, whilst avoiding radar and scanning systems. As a result of its design, it has become prized by smugglers across the wastes who utilise its Chassis to ferry all manner of contraband through the various arcos and militarised checkpoints dotted around the wastelands.",
+    "patterns": [
+      {
+        "name": "Smuggler Pattern",
+        "description": "A versatile build for smugglers of the wastelands transporting patented goods or ferrying arco refugees to safe zones.",
+        "systems": [
+          ".50 Cal Machine Gun",
+          "Escape Hatch",
+          "High Gain Antenna",
+          "Locomotion System",
+          "Personnel Transport Pod",
+          "Smuggling Hold"
+        ],
+        "modules": [
+          "Comms Module",
+          "Concealed Equipment Locker",
+          "Encrypted Comms",
+          "Voice Modulator"
         ]
+      },
+      {
+        "name": "Infiltrator Pattern",
+        "description": "Designed to blend into the background in an arco and perform hacking and reconnaissance missions unseen.",
+        "systems": [
+          "Ejection System",
+          "High Gain Antenna",
+          "Industrial Body Kit (Mule)",
+          "Locomotion System",
+          "Smoke Machine",
+          "Tracking Node"
+        ],
+        "modules": [
+          "Comms Module",
+          "Comms Tapper",
+          "Eggs Mayhem",
+          "Voice Modulator"
+        ]
+      },
+      {
+        "name": "Sakura Pattern",
+        "description": "Developed for lone wetwork, a Mech of this pattern was said to be responsible for the assassination of President Nadine Kureigh in the First Corpo War and the Fall of Nations.",
+        "systems": [
+          "Rail Rifle",
+          "Ejection System",
+          "High Gain Antenna",
+          "Locomotion System"
+        ],
+        "modules": [
+          "Comms Module",
+          "ECM Transmitter",
+          "Encrypted Comms",
+          "Laser Guidance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Terra",
+    "stats": {
+      "structure_pts": 23,
+      "energy_pts": 12,
+      "heat_cap": 13,
+      "system_slots": 18,
+      "module_slots": 3,
+      "cargo_cap": 6,
+      "tech_level": 3,
+      "salvage_value": 9
     },
-    {
-        "name": "Aegis",
-        "stats": {
-            "structure_pts": 24,
-            "energy_pts": 16,
-            "heat_cap": 14,
-            "system_slots": 18,
-            "module_slots": 5,
-            "cargo_cap": 6,
-            "tech_level": 4,
-            "salvage_value": 8
-        },
-        "chassis_ability": "Integrated Advanced Shield Projector: XEP Reaction // Range: Medium // Shield - When a target within Range is hit by an attack or something that would deal damage, you may activate the Advanced Shield Projector. The damage of the attack is reduced by 3× the amount of Energy Points you expend on this Ability. If this reduces the damage to 0 or less the attack also has no additional effects.",
-        "description": "The 'V8.12.5' Aegis was developed by Aeon as a combat Mech intended to protect trade convoys or VIP corporate personnel against attack and ambush. The energy absorbers which power its Advanced Shield Projector were developed atop the great cloud spire of the corporation's home arco. Aegis units were subsequently utilised in the rebuilding of the Central Wastes following Impact Day, its shielding protecting construction units from debris, solar flares, and rival corpo attacks.",
-        "patterns": [
-            {
-                "name": "Giant Dad Pattern",
-                "description": "Named affectionately by the people of World's End within the Frozen Gulf, this Mech was near worshipped as the protector deity of the settlement.",
-                "systems": [
-                    "120mm Cannon",
-                    "Mech Melee Armament (Great Sword)",
-                    "Armour Plating",
-                    "Articulated Rigging Arm",
-                    "Ejection System",
-                    "Locomotion System"
-                ],
-                "modules": [
-                    "Auto-Doctor",
-                    "Auto-Repair Droid",
-                    "Comms Module"
-                ]
-            },
-            {
-                "name": "Escort Pattern",
-                "description": "Designed to escort high value targets between arcos, its array of shielding protects a convoy from even the harshest of onslaughts.",
-                "systems": [
-                    "CACB Laser",
-                    "Ejector Pod",
-                    "Laser Anti-Missile System",
-                    "Locomotion System",
-                    "Capacitance Bank"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Dash Protocols",
-                    "Energy Cell",
-                    "Laser Guidance",
-                    "Thermal Optics"
-                ]
-            },
-            {
-                "name": "Aeon Pattern",
-                "description": "A deadly mix of offensive and defensive power, this high-tech corpo pattern was used effectively by Aeon during their hostile takeover of Herrsch, making them the dominant player in the Verdant Crescent.",
-                "systems": [
-                    "Railgun",
-                    "Ejector Pod",
-                    "Locomotion System",
-                    "Vectored Thrust Unit"
-                ],
-                "modules": [
-                    "Advanced Reactor Safety Protocols",
-                    "Comms Module",
-                    "Laser Guidance",
-                    "Offensive Protocols"
-                ]
-            }
+    "chassis_ability": "Terraforming Bubble: 2EP Turn Action - When activated, the Terra projects a safe, oxygenated, and habitable atmospheric bubble around it for 1 hour, or until shut off as a Free Action. Within the bubble gravity levels, pressure, heat, and other environmental factors are comparable to an Earth-like planet. This extends to Medium Range, and everything within it is safe from all harmful environmental effects irrespective of their severity.",
+    "description": "Designed as a terraforming Mech by Kombu Technology, the 'T-246' Terra is able to project a human habitable atmospheric bubble around it, making it invaluable in the process of colony formation. As the space elevators dotting the globe began to be destroyed or fell into disrepair, the Terra found a new use in the wastelands in creating habitable zones for wastelanders. It is utilised efficiently by salvagers for picking apart wreckage within hazardous zones.",
+    "patterns": [
+      {
+        "name": "Sifter Pattern",
+        "description": "A favourite of salvagers who want to plunder the rad soaked ruins, as it can protect the entire crew in a hot zone.",
+        "systems": [
+          "Rotary Minigun",
+          "Escape Hatch",
+          "Fabrication Arm",
+          "Locomotion System",
+          "Prawn Sifter"
+        ],
+        "modules": ["Comms Module", "Energy Cell", "Metal Detector"]
+      },
+      {
+        "name": "Deployer Pattern",
+        "description": "Originally developed by the engineer team of Crawler #104 on their expedition to the Frozen Gulf as a means to protect their Crawler once deployed, and survive the sub-zero conditions.",
+        "systems": [
+          "Blue Mining Laser",
+          "Anti-Mech Mine Layer",
+          "Articulated Rigging Arm",
+          "Escape Hatch",
+          "Locomotion System"
+        ],
+        "modules": [
+          "Comms Module",
+          "IR Night Vision Optics",
+          "Emergency Power Conduit"
         ]
+      },
+      {
+        "name": "Kombu Pattern",
+        "description": "Originally developed for outerworld excavation, it is now utilised in numerous wasteland hot zones ripe for rare earth mining where the ozone has been breached.",
+        "systems": [
+          "Heavy Duty Mining Rig",
+          "Ejection System",
+          "Locomotion System",
+          "Rigging Arm",
+          "Transport Hold",
+          "Fabrication Arm"
+        ],
+        "modules": ["Comms Module", "Deep Survey Scanner", "Energy Cell"]
+      }
+    ]
+  },
+  {
+    "name": "Aegis",
+    "stats": {
+      "structure_pts": 24,
+      "energy_pts": 16,
+      "heat_cap": 14,
+      "system_slots": 18,
+      "module_slots": 5,
+      "cargo_cap": 6,
+      "tech_level": 4,
+      "salvage_value": 8
     },
-    {
-        "name": "Colossus",
-        "stats": {
-            "structure_pts": 36,
-            "energy_pts": 12,
-            "heat_cap": 16,
-            "system_slots": 24,
-            "module_slots": 4,
-            "cargo_cap": 6,
-            "tech_level": 4,
-            "salvage_value": 16
-        },
-        "chassis_ability": "Eradication Protocols: If the Colossus rolls a 'Nailed It' result (20) with an attack roll, it deals 4× damage instead of 2× damage. Heavily Armoured Chassis: Any attack that rolls a 'Nailed It' (20) result against the Colossus counts as a standard hit (11-19) and does not deal 2× damage or have any other bonus effect.",
-        "description": "The 'Mk7' Colossus is the main battle Mech of Evantis Industries, and sums them up as a corpo. It is big, dumb, and gets the job done. They are still manufactured in the Evantis home arco of Haven and its surrounding smog soaked sprawl. These were rolled out in droves during the First Corpo War, their thunderous advance captured entire arcos whose resources and facilities were fed into the guzzling industrial maw of Evantis.",
-        "patterns": [
-            {
-                "name": "Sellsword Pattern",
-                "description": "Corpo mercs dream of being in enough debt to be leased one of these, those who have shed enough blood to do so are deeply in the thrall of their corporate masters and should be terminated without prejudice.",
-                "systems": [
-                    "Rotary Minigun",
-                    "Rotary Minigun",
-                    "Ejection System",
-                    "Multi-Phase Shield",
-                    "Locomotion System"
-                ],
-                "modules": [
-                    "Auto-Repair Droid",
-                    "Alpha Strike Module",
-                    "Comms Module"
-                ]
-            },
-            {
-                "name": "Alien Hunter Pattern",
-                "description": "At the height of the Meld Crisis, desperate to deal with the alien threat as it swarmed towards Haven, Evantis hired a salvager crew to find a solution to the arco's defence. A plucky salvager by the name of Apex worked out this build, and her crew managed to force the Meld back to the Nanite Sea.",
-                "systems": [
-                    "Blue Beam Laser",
-                    "Needle Missile Pod",
-                    "Automated Turret System - Green Laser",
-                    "Stabilising",
-                    "Locomotion System",
-                    "Ejection System"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Electro-Magnetic Self-Destruct",
-                    "He 2 Coolant Flush",
-                    "Offensive Protocols"
-                ]
-            },
-            {
-                "name": "Evantis Pattern",
-                "description": "The main Mech of the Evantis line, hundreds of these crushed the nation forces in the Siege of the Central Wastes during the First Corpo War.",
-                "systems": [
-                    "Railgun",
-                    "Railgun",
-                    "Stabilising",
-                    "Locomotion System",
-                    "Ejection System"
-                ],
-                "modules": [
-                    "Advanced Targeting Array",
-                    "Comms Module",
-                    "Coolant Flow Manifold"
-                ]
-            }
+    "chassis_ability": "Integrated Advanced Shield Projector: XEP Reaction // Range: Medium // Shield - When a target within Range is hit by an attack or something that would deal damage, you may activate the Advanced Shield Projector. The damage of the attack is reduced by 3× the amount of Energy Points you expend on this Ability. If this reduces the damage to 0 or less the attack also has no additional effects.",
+    "description": "The 'V8.12.5' Aegis was developed by Aeon as a combat Mech intended to protect trade convoys or VIP corporate personnel against attack and ambush. The energy absorbers which power its Advanced Shield Projector were developed atop the great cloud spire of the corporation's home arco. Aegis units were subsequently utilised in the rebuilding of the Central Wastes following Impact Day, its shielding protecting construction units from debris, solar flares, and rival corpo attacks.",
+    "patterns": [
+      {
+        "name": "Giant Dad Pattern",
+        "description": "Named affectionately by the people of World's End within the Frozen Gulf, this Mech was near worshipped as the protector deity of the settlement.",
+        "systems": [
+          "120mm Cannon",
+          "Mech Melee Armament (Great Sword)",
+          "Armour Plating",
+          "Articulated Rigging Arm",
+          "Ejection System",
+          "Locomotion System"
+        ],
+        "modules": ["Auto-Doctor", "Auto-Repair Droid", "Comms Module"]
+      },
+      {
+        "name": "Escort Pattern",
+        "description": "Designed to escort high value targets between arcos, its array of shielding protects a convoy from even the harshest of onslaughts.",
+        "systems": [
+          "CACB Laser",
+          "Ejector Pod",
+          "Laser Anti-Missile System",
+          "Locomotion System",
+          "Capacitance Bank"
+        ],
+        "modules": [
+          "Comms Module",
+          "Dash Protocols",
+          "Energy Cell",
+          "Laser Guidance",
+          "Thermal Optics"
         ]
+      },
+      {
+        "name": "Aeon Pattern",
+        "description": "A deadly mix of offensive and defensive power, this high-tech corpo pattern was used effectively by Aeon during their hostile takeover of Herrsch, making them the dominant player in the Verdant Crescent.",
+        "systems": [
+          "Railgun",
+          "Ejector Pod",
+          "Locomotion System",
+          "Vectored Thrust Unit"
+        ],
+        "modules": [
+          "Advanced Reactor Safety Protocols",
+          "Comms Module",
+          "Laser Guidance",
+          "Offensive Protocols"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Colossus",
+    "stats": {
+      "structure_pts": 36,
+      "energy_pts": 12,
+      "heat_cap": 16,
+      "system_slots": 24,
+      "module_slots": 4,
+      "cargo_cap": 6,
+      "tech_level": 4,
+      "salvage_value": 16
     },
-    {
-        "name": "Consul",
-        "stats": {
-            "structure_pts": 15,
-            "energy_pts": 16,
-            "heat_cap": 12,
-            "system_slots": 12,
-            "module_slots": 5,
-            "cargo_cap": 6,
-            "tech_level": 4,
-            "salvage_value": 3
-        },
-        "chassis_ability": "Flashy: The Consul has the Flashy Trait. It looks incredibly impressive, never being less than mint and pristine to onlookers, and fills them with much awe and admiration. Morph Sphere: This advanced anti-matter tech developed by Ascension PLC enables the Consul to reconstruct its form into a spherical mechanical ball around People size. 2EP Turn Action - When activated, the Consul transforms into a sphere that encases the Pilot or passenger. As a sphere, the Consul gains the Fast Trait, which it can make use of immediately after transforming. The sphere is quick and mobile, and slightly flexible, able to squeeze into tunnels and other hard to enter spots whilst transformed. The Consul cannot attack or activate any Systems whilst transformed but may activate Modules. When in this form the Consul takes up only 3 Cargo Slots if carried. The Consul may transform from a sphere back into its standard form as a Free Action at no EP cost.",
-        "description": "Consul Mechs are designed to be utilised as diplomatic envoys and are often used by corporate council members. They are a means for corpos to flex their wealth, power, and prestige when dealing with other corpos and diplomatic entities whilst maintaining a veneer of civility and decorum. As a result, they come in a vast array of different designs as befits the branding of the corpo, with the only commonality being that they are all, in a means unique to their corpo, incredibly flashy. Their inbuilt Morph Sphere technology further allows their pilot, typically a high ranking corpo exec, to rapidly exit an area in a dangerous situation.",
-        "patterns": [
-            {
-                "name": "Primus Pattern",
-                "description": "This pattern is piloted by the Prime Union Rep who has a seat on the corporate council. Whilst salvagers cannot compete with the influence of the Big Five, our seat on the Corporate Council does allow us to maintain our salvage rights.",
-                "systems": [
-                    "Articulated Rigging Arm",
-                    "Articulated Rigging Arm",
-                    "Locomotion System",
-                    "Vectored Thrust Unit"
-                ],
-                "modules": [
-                    "DDR Module",
-                    "Encrypted Comms",
-                    "Personal Recreation Device",
-                    "Video Projection Array",
-                    "Video Recording Array"
-                ]
-            },
-            {
-                "name": "VIP Pattern",
-                "description": "Sometimes a VIP, usually a corpo exec, will insist on travelling in one of these as part of a convoy to show that they are not 'afraid' of any would-be assassin. Since the VIP Pattern Consul stands out from the rest of Mechs in the convoy, its presence actually makes the task of the assassin a lot easier and the job of the escorts, usually salvagers, a lot harder, but who are we to argue with someone paying in scrap?",
-                "systems": [
-                    "Green Laser",
-                    "Ejector Pod",
-                    "Hover Locomotion System"
-                ],
-                "modules": [
-                    "Auto-Repair Droid",
-                    "Comms Module",
-                    "Dash Protocols",
-                    "Reactor Safety Protocols"
-                ]
-            },
-            {
-                "name": "Terminator Pattern",
-                "description": "During the Colonial War of Independence, a corporate colonial agent infiltrated the TDA Council in a Mech of this pattern. Whilst weapons were banned, nobody detected the Self-Destruct. The ensuing explosion killed the entire TDA Council, decapitating the head from the snake.",
-                "systems": [
-                    "Articulated Rigging Arm",
-                    "Articulated Rigging Arm",
-                    "High Gain Antenna",
-                    "Locomotion System",
-                    "Ejector Pod"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Encrypted Comms",
-                    "Firewall",
-                    "Personal Recreation Device",
-                    "Self-Destruct"
-                ]
-            }
+    "chassis_ability": "Eradication Protocols: If the Colossus rolls a 'Nailed It' result (20) with an attack roll, it deals 4× damage instead of 2× damage. Heavily Armoured Chassis: Any attack that rolls a 'Nailed It' (20) result against the Colossus counts as a standard hit (11-19) and does not deal 2× damage or have any other bonus effect.",
+    "description": "The 'Mk7' Colossus is the main battle Mech of Evantis Industries, and sums them up as a corpo. It is big, dumb, and gets the job done. They are still manufactured in the Evantis home arco of Haven and its surrounding smog soaked sprawl. These were rolled out in droves during the First Corpo War, their thunderous advance captured entire arcos whose resources and facilities were fed into the guzzling industrial maw of Evantis.",
+    "patterns": [
+      {
+        "name": "Sellsword Pattern",
+        "description": "Corpo mercs dream of being in enough debt to be leased one of these, those who have shed enough blood to do so are deeply in the thrall of their corporate masters and should be terminated without prejudice.",
+        "systems": [
+          "Rotary Minigun",
+          "Rotary Minigun",
+          "Ejection System",
+          "Multi-Phase Shield",
+          "Locomotion System"
+        ],
+        "modules": ["Auto-Repair Droid", "Alpha Strike Module", "Comms Module"]
+      },
+      {
+        "name": "Alien Hunter Pattern",
+        "description": "At the height of the Meld Crisis, desperate to deal with the alien threat as it swarmed towards Haven, Evantis hired a salvager crew to find a solution to the arco's defence. A plucky salvager by the name of Apex worked out this build, and her crew managed to force the Meld back to the Nanite Sea.",
+        "systems": [
+          "Blue Beam Laser",
+          "Needle Missile Pod",
+          "Automated Turret System - Green Laser",
+          "Stabilising",
+          "Locomotion System",
+          "Ejection System"
+        ],
+        "modules": [
+          "Comms Module",
+          "Electro-Magnetic Self-Destruct",
+          "He 2 Coolant Flush",
+          "Offensive Protocols"
         ]
+      },
+      {
+        "name": "Evantis Pattern",
+        "description": "The main Mech of the Evantis line, hundreds of these crushed the nation forces in the Siege of the Central Wastes during the First Corpo War.",
+        "systems": [
+          "Railgun",
+          "Railgun",
+          "Stabilising",
+          "Locomotion System",
+          "Ejection System"
+        ],
+        "modules": [
+          "Advanced Targeting Array",
+          "Comms Module",
+          "Coolant Flow Manifold"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Consul",
+    "stats": {
+      "structure_pts": 15,
+      "energy_pts": 16,
+      "heat_cap": 12,
+      "system_slots": 12,
+      "module_slots": 5,
+      "cargo_cap": 6,
+      "tech_level": 4,
+      "salvage_value": 3
     },
-    {
-        "name": "Drop Bear",
-        "stats": {
-            "structure_pts": 26,
-            "energy_pts": 14,
-            "heat_cap": 14,
-            "system_slots": 16,
-            "module_slots": 4,
-            "cargo_cap": 6,
-            "tech_level": 4,
-            "salvage_value": 7
-        },
-        "chassis_ability": "Integrated Advanced Vectored Thrust Unit: The Drop Bear has an Integrated Advanced Vectored Thrust Unit. This acts as a standard Vectored Thrust Unit System. In addition, when the Drop Bear activates the Advanced VTU System it can move an additional Range Band, ignoring all obstacles, Mechs, and terrain, and still move on its turn as normal.",
-        "description": "The 'V-TX15' Drop Bear was designed by Contour Aerospace as a means to return aerial dominance to its rightful place in the battlefield. The great rocky eyrie where the Contour home arco is situated in the Oceanic Rim is perfectly suited to maximise the speed and aerial capability of the Drop Bear. Vast flocks of these are said to patrol the rocky fortress and surrounding wastelands. The distinct saw-like buzzing sound of its VTU System is often the last thing the victims hear before being shredded by fire and then picked apart for salvage. Originally named the 'Dragoon' by Contour, this Mech was 'affectionately' nicknamed the Drop Bear by local salvagers who came into contact with the Mech.",
-        "patterns": [
-            {
-                "name": "Scavenger Pattern",
-                "description": "An aerial reconnaissance build designed to find diamonds in the rough.",
-                "systems": [
-                    "Needle Missile Pod",
-                    "Articulated Rigging Arm",
-                    "Ejection System",
-                    "Grav Assisted Cargo Bay",
-                    "High Gain Antenna",
-                    "Locomotion System"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Metal Detector",
-                    "Survey Scanner",
-                    "Thermal Optics"
-                ]
-            },
-            {
-                "name": "Chumba Pattern",
-                "description": "Designed to get in close and fire an array of low tech, but potent weapons at a target's vulnerable points.",
-                "systems": [
-                    "FM-3 Flamethrower",
-                    ".50 Cal Machine Gun",
-                    "M2-X Mauler",
-                    "Ejection System",
-                    "Locomotion System"
-                ],
-                "modules": [
-                    "Alpha Strike Module",
-                    "Comms Module",
-                    "Coolant Flow Manifold",
-                    "Multi-Targeter"
-                ]
-            },
-            {
-                "name": "Contour Pattern",
-                "description": "The stock build, named by the salvagers who have to deal with them as a constant threat. Mechs of this pattern swarm in patrols around the great peak of the Contour home arco.",
-                "systems": [
-                    "Missile Pod",
-                    ".50 Cal Machine Gun",
-                    ".50 Cal Machine Gun",
-                    ".50 Cal Machine Gun",
-                    "Ejection System",
-                    "High Gain Antenna",
-                    "Laser Anti-Missile System",
-                    "Locomotion System"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Laser Guidance",
-                    "Mech Scrambler",
-                    "Thermal Optics"
-                ]
-            }
+    "chassis_ability": "Flashy: The Consul has the Flashy Trait. It looks incredibly impressive, never being less than mint and pristine to onlookers, and fills them with much awe and admiration. Morph Sphere: This advanced anti-matter tech developed by Ascension PLC enables the Consul to reconstruct its form into a spherical mechanical ball around People size. 2EP Turn Action - When activated, the Consul transforms into a sphere that encases the Pilot or passenger. As a sphere, the Consul gains the Fast Trait, which it can make use of immediately after transforming. The sphere is quick and mobile, and slightly flexible, able to squeeze into tunnels and other hard to enter spots whilst transformed. The Consul cannot attack or activate any Systems whilst transformed but may activate Modules. When in this form the Consul takes up only 3 Cargo Slots if carried. The Consul may transform from a sphere back into its standard form as a Free Action at no EP cost.",
+    "description": "Consul Mechs are designed to be utilised as diplomatic envoys and are often used by corporate council members. They are a means for corpos to flex their wealth, power, and prestige when dealing with other corpos and diplomatic entities whilst maintaining a veneer of civility and decorum. As a result, they come in a vast array of different designs as befits the branding of the corpo, with the only commonality being that they are all, in a means unique to their corpo, incredibly flashy. Their inbuilt Morph Sphere technology further allows their pilot, typically a high ranking corpo exec, to rapidly exit an area in a dangerous situation.",
+    "patterns": [
+      {
+        "name": "Primus Pattern",
+        "description": "This pattern is piloted by the Prime Union Rep who has a seat on the corporate council. Whilst salvagers cannot compete with the influence of the Big Five, our seat on the Corporate Council does allow us to maintain our salvage rights.",
+        "systems": [
+          "Articulated Rigging Arm",
+          "Articulated Rigging Arm",
+          "Locomotion System",
+          "Vectored Thrust Unit"
+        ],
+        "modules": [
+          "DDR Module",
+          "Encrypted Comms",
+          "Personal Recreation Device",
+          "Video Projection Array",
+          "Video Recording Array"
         ]
+      },
+      {
+        "name": "VIP Pattern",
+        "description": "Sometimes a VIP, usually a corpo exec, will insist on travelling in one of these as part of a convoy to show that they are not 'afraid' of any would-be assassin. Since the VIP Pattern Consul stands out from the rest of Mechs in the convoy, its presence actually makes the task of the assassin a lot easier and the job of the escorts, usually salvagers, a lot harder, but who are we to argue with someone paying in scrap?",
+        "systems": ["Green Laser", "Ejector Pod", "Hover Locomotion System"],
+        "modules": [
+          "Auto-Repair Droid",
+          "Comms Module",
+          "Dash Protocols",
+          "Reactor Safety Protocols"
+        ]
+      },
+      {
+        "name": "Terminator Pattern",
+        "description": "During the Colonial War of Independence, a corporate colonial agent infiltrated the TDA Council in a Mech of this pattern. Whilst weapons were banned, nobody detected the Self-Destruct. The ensuing explosion killed the entire TDA Council, decapitating the head from the snake.",
+        "systems": [
+          "Articulated Rigging Arm",
+          "Articulated Rigging Arm",
+          "High Gain Antenna",
+          "Locomotion System",
+          "Ejector Pod"
+        ],
+        "modules": [
+          "Comms Module",
+          "Encrypted Comms",
+          "Firewall",
+          "Personal Recreation Device",
+          "Self-Destruct"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Drop Bear",
+    "stats": {
+      "structure_pts": 26,
+      "energy_pts": 14,
+      "heat_cap": 14,
+      "system_slots": 16,
+      "module_slots": 4,
+      "cargo_cap": 6,
+      "tech_level": 4,
+      "salvage_value": 7
     },
-    {
-        "name": "Vorpal",
-        "stats": {
-            "structure_pts": 18,
-            "energy_pts": 12,
-            "heat_cap": 15,
-            "system_slots": 15,
-            "module_slots": 4,
-            "cargo_cap": 6,
-            "tech_level": 4,
-            "salvage_value": 4
-        },
-        "chassis_ability": "Heat Efficient Reactor: Everytime the Vorpal gains Heat, reduce the amount gained to 1. Treat each source of Heat separately when using this Ability. For example if the Vorpal fires a Blue Mining Laser with the Hot (3) Trait it gains 1 Heat instead of 3. If the Vorpal then chooses to Push it would gain an additional 1 Heat instead of 2 for the Push.",
-        "description": "The 'V-X 113.5' Vorpal is a highly heat efficient Mech designed to mount vastly oversized mining lasers for use in heavy duty excavation operations. Designed by Thatcher Steel, the Vorpal was so efficient that the majority of uranium mines within the Ferrous Range were rapidly stripped bare. Thatcher Steel then pulled out and pumped resources into its space elevator program to start off-world mining. This left the various worker satellite colonies to fend for themselves. Many of these miner settlements were said to have joined up together in one of the first examples of a proto Salvage Union using scrapped Mechs to retake swathes of Thatcher Steel territory and declare it independent.",
-        "patterns": [
-            {
-                "name": "Fissure Pattern",
-                "description": "The original mining pattern by Thatcher Steel, used to breach the hardest to reach rare earth deposits within the Ferrous Range.",
-                "systems": [
-                    "Blue Mining Laser",
-                    "Articulated Rigging Arm",
-                    "Escape Hatch",
-                    "Locomotion System",
-                    "Target Painter"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Laser Guidance",
-                    "Reactor Safety Protocols",
-                    "Thermal Optics"
-                ]
-            },
-            {
-                "name": "Zap Pattern",
-                "description": "The Beam Laser is a risky beast to slap onto a Mech, but it does find a home on the Vorpal, which can manage its tremendous heat potential and deliver earth shattering blows as a result.",
-                "systems": [
-                    "Blue Beam Laser",
-                    "Locomotion System",
-                    "Ejection System",
-                    "Aeon Shield Dome"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "MRSI Co-Ordinator",
-                    "Multi-Optics"
-                ]
-            },
-            {
-                "name": "Laser Boat Pattern",
-                "description": "A scavenged together, waster build, sometimes all you have is a handful of red lasers, a prayer, and a high tech, heat efficient, mining Mech.",
-                "systems": [
-                    "Red Laser",
-                    "Red Laser",
-                    "Red Laser",
-                    "Red Laser",
-                    "Locomotion System",
-                    "Escape Hatch"
-                ],
-                "modules": [
-                    "Advanced Reactor Safety Protocols",
-                    "Comms Module",
-                    "Weapon Link"
-                ]
-            }
+    "chassis_ability": "Integrated Advanced Vectored Thrust Unit: The Drop Bear has an Integrated Advanced Vectored Thrust Unit. This acts as a standard Vectored Thrust Unit System. In addition, when the Drop Bear activates the Advanced VTU System it can move an additional Range Band, ignoring all obstacles, Mechs, and terrain, and still move on its turn as normal.",
+    "description": "The 'V-TX15' Drop Bear was designed by Contour Aerospace as a means to return aerial dominance to its rightful place in the battlefield. The great rocky eyrie where the Contour home arco is situated in the Oceanic Rim is perfectly suited to maximise the speed and aerial capability of the Drop Bear. Vast flocks of these are said to patrol the rocky fortress and surrounding wastelands. The distinct saw-like buzzing sound of its VTU System is often the last thing the victims hear before being shredded by fire and then picked apart for salvage. Originally named the 'Dragoon' by Contour, this Mech was 'affectionately' nicknamed the Drop Bear by local salvagers who came into contact with the Mech.",
+    "patterns": [
+      {
+        "name": "Scavenger Pattern",
+        "description": "An aerial reconnaissance build designed to find diamonds in the rough.",
+        "systems": [
+          "Needle Missile Pod",
+          "Articulated Rigging Arm",
+          "Ejection System",
+          "Grav Assisted Cargo Bay",
+          "High Gain Antenna",
+          "Locomotion System"
+        ],
+        "modules": [
+          "Comms Module",
+          "Metal Detector",
+          "Survey Scanner",
+          "Thermal Optics"
         ]
+      },
+      {
+        "name": "Chumba Pattern",
+        "description": "Designed to get in close and fire an array of low tech, but potent weapons at a target's vulnerable points.",
+        "systems": [
+          "FM-3 Flamethrower",
+          ".50 Cal Machine Gun",
+          "M2-X Mauler",
+          "Ejection System",
+          "Locomotion System"
+        ],
+        "modules": [
+          "Alpha Strike Module",
+          "Comms Module",
+          "Coolant Flow Manifold",
+          "Multi-Targeter"
+        ]
+      },
+      {
+        "name": "Contour Pattern",
+        "description": "The stock build, named by the salvagers who have to deal with them as a constant threat. Mechs of this pattern swarm in patrols around the great peak of the Contour home arco.",
+        "systems": [
+          "Missile Pod",
+          ".50 Cal Machine Gun",
+          ".50 Cal Machine Gun",
+          ".50 Cal Machine Gun",
+          "Ejection System",
+          "High Gain Antenna",
+          "Laser Anti-Missile System",
+          "Locomotion System"
+        ],
+        "modules": [
+          "Comms Module",
+          "Laser Guidance",
+          "Mech Scrambler",
+          "Thermal Optics"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vorpal",
+    "stats": {
+      "structure_pts": 18,
+      "energy_pts": 12,
+      "heat_cap": 15,
+      "system_slots": 15,
+      "module_slots": 4,
+      "cargo_cap": 6,
+      "tech_level": 4,
+      "salvage_value": 4
     },
-    {
-        "name": "Carrier",
-        "stats": {
-            "structure_pts": 35,
-            "energy_pts": 16,
-            "heat_cap": 12,
-            "system_slots": 21,
-            "module_slots": 5,
-            "cargo_cap": 6,
-            "tech_level": 4,
-            "salvage_value": 9
-        },
-        "chassis_ability": "Integrated Mech Bay: The Carrier has an integrated Tech 4 Mech Bay which can carry up to 5 Tech 4 or lower Mechs in an active and ready state. This acts as a Tech 4 Mech Bay allowing you to fully heal the SP, EP, and Heat of all Mechs within it over a week of Downtime and mount or remove any number of Systems or Modules as well as anything else the Mech Bay would be capable of.",
-        "description": "Developed by Contour Aerospace as a mobile Mech carrier. The 'TJG-93' Carrier can launch Mechs from its mammoth bays, and acts as a mobile recharge and resupply base. It has proven invaluable for salvagers able to scrap one together as it effectively acts as a support crawler, allowing Pilots to operate for longer periods of time away from the Union Crawler and get to the hardest to reach places to claim sweet, sweet salvage.",
-        "patterns": [
-            {
-                "name": "Crawler Pattern",
-                "description": "A Crawler away from home, this Carrier is able to support a salvage team on an extended foray into the wastes.",
-                "systems": [
-                    "Plasma Cannon",
-                    "Articulated Rigging Arm",
-                    "Escape Hatch",
-                    "Fabrication Bay",
-                    "Spider Locomotion System"
-                ],
-                "modules": [
-                    "Auto-Doctor",
-                    "Comms Module",
-                    "Damage Assessor",
-                    "Holo Projector"
-                ]
-            },
-            {
-                "name": "Scuttler Pattern",
-                "description": "Designed for extended salvaging operations, the Experimental Teleportation Hold of this pattern enables the Mech to feed their Crawler a steady stream of scrap whilst out in the field.",
-                "systems": [
-                    "120mm Cannon",
-                    "Experimental Teleportation Hold",
-                    "Ejection System",
-                    "Locomotion System",
-                    "Prawn Sifter"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "IR Night Vision Optics",
-                    "Navigation Module",
-                    "Metal Detector",
-                    "Survey Scanner"
-                ]
-            },
-            {
-                "name": "Rallier Pattern",
-                "description": "Designed to protect and support its Mech cargo via heavy fire support, shielding, and hacking.",
-                "systems": [
-                    "Plasma Cannon",
-                    "Mole Torpedo",
-                    "Escape Hatch",
-                    "Locomotion System",
-                    "Multi-Phase Shield"
-                ],
-                "modules": [
-                    "Mech Scrambler",
-                    "Multi-Optics",
-                    "Neuralink Communicator"
-                ]
-            }
+    "chassis_ability": "Heat Efficient Reactor: Everytime the Vorpal gains Heat, reduce the amount gained to 1. Treat each source of Heat separately when using this Ability. For example if the Vorpal fires a Blue Mining Laser with the Hot (3) Trait it gains 1 Heat instead of 3. If the Vorpal then chooses to Push it would gain an additional 1 Heat instead of 2 for the Push.",
+    "description": "The 'V-X 113.5' Vorpal is a highly heat efficient Mech designed to mount vastly oversized mining lasers for use in heavy duty excavation operations. Designed by Thatcher Steel, the Vorpal was so efficient that the majority of uranium mines within the Ferrous Range were rapidly stripped bare. Thatcher Steel then pulled out and pumped resources into its space elevator program to start off-world mining. This left the various worker satellite colonies to fend for themselves. Many of these miner settlements were said to have joined up together in one of the first examples of a proto Salvage Union using scrapped Mechs to retake swathes of Thatcher Steel territory and declare it independent.",
+    "patterns": [
+      {
+        "name": "Fissure Pattern",
+        "description": "The original mining pattern by Thatcher Steel, used to breach the hardest to reach rare earth deposits within the Ferrous Range.",
+        "systems": [
+          "Blue Mining Laser",
+          "Articulated Rigging Arm",
+          "Escape Hatch",
+          "Locomotion System",
+          "Target Painter"
+        ],
+        "modules": [
+          "Comms Module",
+          "Laser Guidance",
+          "Reactor Safety Protocols",
+          "Thermal Optics"
         ]
+      },
+      {
+        "name": "Zap Pattern",
+        "description": "The Beam Laser is a risky beast to slap onto a Mech, but it does find a home on the Vorpal, which can manage its tremendous heat potential and deliver earth shattering blows as a result.",
+        "systems": [
+          "Blue Beam Laser",
+          "Locomotion System",
+          "Ejection System",
+          "Aeon Shield Dome"
+        ],
+        "modules": ["Comms Module", "MRSI Co-Ordinator", "Multi-Optics"]
+      },
+      {
+        "name": "Laser Boat Pattern",
+        "description": "A scavenged together, waster build, sometimes all you have is a handful of red lasers, a prayer, and a high tech, heat efficient, mining Mech.",
+        "systems": [
+          "Red Laser",
+          "Red Laser",
+          "Red Laser",
+          "Red Laser",
+          "Locomotion System",
+          "Escape Hatch"
+        ],
+        "modules": [
+          "Advanced Reactor Safety Protocols",
+          "Comms Module",
+          "Weapon Link"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Carrier",
+    "stats": {
+      "structure_pts": 35,
+      "energy_pts": 16,
+      "heat_cap": 12,
+      "system_slots": 21,
+      "module_slots": 5,
+      "cargo_cap": 6,
+      "tech_level": 4,
+      "salvage_value": 9
     },
-    {
-        "name": "Eidolon",
-        "stats": {
-            "structure_pts": 21,
-            "energy_pts": 15,
-            "heat_cap": 12,
-            "system_slots": 15,
-            "module_slots": 7,
-            "cargo_cap": 6,
-            "tech_level": 5,
-            "salvage_value": 5
-        },
-        "chassis_ability": "Polycarbonate Stealth Chassis: The Eidolon can not be targeted with anything that uses the Targeter Trait such as targeting Modules. It also can not be seen by anything with the Optics Trait or Scanner Trait. It does not appear on sensors, radar systems, or scanners.\n\nStealth Projector: 4EP Turn Action\nWhen activated, the Stealth Projector makes the Eidolon effectively invisible. It cannot be spotted via any form of visual confirmation. This effect lasts for 1 hour or until the Eidolon Pilot deactivates it as a Free Action.",
-        "description": "The peak of Sakura stealth technology, the 'E-1T2' Eidolon has a polycarbonate stealth Chassis combined with integrated stealth projectors which when activated make it for all intents and purposes invisible. Sabotage by this Mech is considered responsible for the year long blackout of Cothon, the Osiris home arco during the corpo cold war. It is difficult for advanced electronics to detect the Eidolon, but their stealth systems can be foiled by some surprisingly low tech solutions. Shrapnel and other explosives, even a simple hose can all outline the void the Eidolon occupies.",
-        "patterns": [
-            {
-                "name": "Commando Pattern",
-                "description": "A build designed to infiltrate an area and deal as much damage to infrastructure as possible whilst relaying vital intelligence back to command.",
-                "systems": [
-                    "FM-3 Flamethrower",
-                    "Ion Cannon",
-                    "Ejection System",
-                    "Locomotion System",
-                    "Radomes"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Eggs Mayhem",
-                    "Firewall",
-                    "Holo Projector",
-                    "Mech Scrambler",
-                    "Reactor Overload",
-                    "Thermal Optics"
-                ]
-            },
-            {
-                "name": "Iron Lung Pattern",
-                "description": "Used by Stefanus to chart hostile environments, the Pilots, typically convicts, are locked in the Eidolon without an Escape Hatch. They are then tasked with charting multiple navigation points and relaying the information back to Stefanus. Records show that none have returned alive.",
-                "systems": [
-                    "Amphibious Locomotion System",
-                    "Articulated Rigging Arm",
-                    "High Gain Antenna",
-                    "Radiation Sealing",
-                    "Transport Hold"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Electro-Magnetic Self-Destruct",
-                    "Encrypted Comms",
-                    "Multi-Optics",
-                    "Navigation Module",
-                    "Personal Recreation Device"
-                ]
-            },
-            {
-                "name": "Sakura Pattern",
-                "description": "Designed as a close-range assassin that materialises from thin air to enact a termination contract for their corporate masters.",
-                "systems": [
-                    "Monomolecular Blade",
-                    "Articulated Rigging Arm",
-                    "Locomotion System",
-                    "Escape Hatch",
-                    "Multi-Phase Shield"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Electro-Magnetic Self-Destruct",
-                    "Matter Phaser",
-                    "Multi-Optics",
-                    "Offensive Protocols"
-                ]
-            }
+    "chassis_ability": "Integrated Mech Bay: The Carrier has an integrated Tech 4 Mech Bay which can carry up to 5 Tech 4 or lower Mechs in an active and ready state. This acts as a Tech 4 Mech Bay allowing you to fully heal the SP, EP, and Heat of all Mechs within it over a week of Downtime and mount or remove any number of Systems or Modules as well as anything else the Mech Bay would be capable of.",
+    "description": "Developed by Contour Aerospace as a mobile Mech carrier. The 'TJG-93' Carrier can launch Mechs from its mammoth bays, and acts as a mobile recharge and resupply base. It has proven invaluable for salvagers able to scrap one together as it effectively acts as a support crawler, allowing Pilots to operate for longer periods of time away from the Union Crawler and get to the hardest to reach places to claim sweet, sweet salvage.",
+    "patterns": [
+      {
+        "name": "Crawler Pattern",
+        "description": "A Crawler away from home, this Carrier is able to support a salvage team on an extended foray into the wastes.",
+        "systems": [
+          "Plasma Cannon",
+          "Articulated Rigging Arm",
+          "Escape Hatch",
+          "Fabrication Bay",
+          "Spider Locomotion System"
+        ],
+        "modules": [
+          "Auto-Doctor",
+          "Comms Module",
+          "Damage Assessor",
+          "Holo Projector"
         ]
+      },
+      {
+        "name": "Scuttler Pattern",
+        "description": "Designed for extended salvaging operations, the Experimental Teleportation Hold of this pattern enables the Mech to feed their Crawler a steady stream of scrap whilst out in the field.",
+        "systems": [
+          "120mm Cannon",
+          "Experimental Teleportation Hold",
+          "Ejection System",
+          "Locomotion System",
+          "Prawn Sifter"
+        ],
+        "modules": [
+          "Comms Module",
+          "IR Night Vision Optics",
+          "Navigation Module",
+          "Metal Detector",
+          "Survey Scanner"
+        ]
+      },
+      {
+        "name": "Rallier Pattern",
+        "description": "Designed to protect and support its Mech cargo via heavy fire support, shielding, and hacking.",
+        "systems": [
+          "Plasma Cannon",
+          "Mole Torpedo",
+          "Escape Hatch",
+          "Locomotion System",
+          "Multi-Phase Shield"
+        ],
+        "modules": ["Mech Scrambler", "Multi-Optics", "Neuralink Communicator"]
+      }
+    ]
+  },
+  {
+    "name": "Eidolon",
+    "stats": {
+      "structure_pts": 21,
+      "energy_pts": 15,
+      "heat_cap": 12,
+      "system_slots": 15,
+      "module_slots": 7,
+      "cargo_cap": 6,
+      "tech_level": 5,
+      "salvage_value": 5
     },
-    {
-        "name": "Neura-Phage",
-        "stats": {
-            "structure_pts": 29,
-            "energy_pts": 11,
-            "heat_cap": 13,
-            "system_slots": 18,
-            "module_slots": 6,
-            "cargo_cap": 6,
-            "tech_level": 15,
-            "salvage_value": 9
-        },
-        "chassis_ability": "Cybernetic Neuralink: The Neura-Phage connects directly to the Pilot with an advanced neuralink mesh that allows their thoughts to be directly translated to the actions of the Mech, merging them into one entity. They may spend their Pilot Ability Points on any Energy Point Abilities the Neura-Phage has access to. They may spend their Energy Points on any Pilot Abilities their Pilot has access to that the Neura-Phage would reasonably be able to perform. In addition, they always count as having a Neuralink Communicator installed in their Mech.",
-        "description": "The 'AUG-440' Neura-Phage is a fully neuralinked Mech that connects directly to a Pilot's nervous system. This allows for direct one-to-one control of the Mech as though it was their own body, making pilot and machine as one. Developed at the end of the Second Corpo War by Ascension PLC, the Neura-Phage mech was purchased by numerous other corpos and deployed as the last lines of defence in their home arcos. The reasoning behind this deployment was that any Pilot who would wire themselves directly to their Mechs were significantly devoted to their corpo. In practice, many often had little choice in the matter with many corpos recruiting Neura-Phage Pilots from terminally wounded veterans or Pilots who would otherwise be captured and killed by enemy forces.",
-        "patterns": [
-            {
-                "name": "Screamer Pattern",
-                "description": "Corpo Pilots who die in enough debt are forced into these cages to pay it off in perpetuity. Even in death you will still work.",
-                "systems": [
-                    "Monomolecular Blade",
-                    "Ion Cannon",
-                    "Rigging Arm",
-                    "Multi-Phase Shield",
-                    "Locomotion System"
-                ],
-                "modules": [
-                    "Advanced Targeting Array",
-                    "Omega Push Module",
-                    "Advanced Reactor Safety Protocols"
-                ]
-            },
-            {
-                "name": "Breacher Pattern",
-                "description": "Used by members of the fanatical Aeon Unit known as the Breachers, wherever an arco or settlement is being besieged, this Mech will be on the frontlines.",
-                "systems": [
-                    "120mm Heavy Autocannon",
-                    "Locomotion System",
-                    "Electro-Magnetic Shield Projector"
-                ],
-                "modules": [
-                    "Advanced Targeting Array",
-                    "Reaction Protocols",
-                    "Advanced Reactor Safety Protocols"
-                ]
-            },
-            {
-                "name": "Ascension Pattern",
-                "description": "According to the Quantum Writ, the path of Ascension will free you from the mortal sufferings of flesh.",
-                "systems": [
-                    "Railgun",
-                    "Ion Cannon",
-                    "Locomotion System",
-                    "Reflective Shielding"
-                ],
-                "modules": [
-                    "Auto-Repair Droid",
-                    "Holo Projector",
-                    "Reaction Protocols",
-                    "Weapon Guidance"
-                ]
-            }
+    "chassis_ability": "Polycarbonate Stealth Chassis: The Eidolon can not be targeted with anything that uses the Targeter Trait such as targeting Modules. It also can not be seen by anything with the Optics Trait or Scanner Trait. It does not appear on sensors, radar systems, or scanners.\n\nStealth Projector: 4EP Turn Action\nWhen activated, the Stealth Projector makes the Eidolon effectively invisible. It cannot be spotted via any form of visual confirmation. This effect lasts for 1 hour or until the Eidolon Pilot deactivates it as a Free Action.",
+    "description": "The peak of Sakura stealth technology, the 'E-1T2' Eidolon has a polycarbonate stealth Chassis combined with integrated stealth projectors which when activated make it for all intents and purposes invisible. Sabotage by this Mech is considered responsible for the year long blackout of Cothon, the Osiris home arco during the corpo cold war. It is difficult for advanced electronics to detect the Eidolon, but their stealth systems can be foiled by some surprisingly low tech solutions. Shrapnel and other explosives, even a simple hose can all outline the void the Eidolon occupies.",
+    "patterns": [
+      {
+        "name": "Commando Pattern",
+        "description": "A build designed to infiltrate an area and deal as much damage to infrastructure as possible whilst relaying vital intelligence back to command.",
+        "systems": [
+          "FM-3 Flamethrower",
+          "Ion Cannon",
+          "Ejection System",
+          "Locomotion System",
+          "Radomes"
+        ],
+        "modules": [
+          "Comms Module",
+          "Eggs Mayhem",
+          "Firewall",
+          "Holo Projector",
+          "Mech Scrambler",
+          "Reactor Overload",
+          "Thermal Optics"
         ]
+      },
+      {
+        "name": "Iron Lung Pattern",
+        "description": "Used by Stefanus to chart hostile environments, the Pilots, typically convicts, are locked in the Eidolon without an Escape Hatch. They are then tasked with charting multiple navigation points and relaying the information back to Stefanus. Records show that none have returned alive.",
+        "systems": [
+          "Amphibious Locomotion System",
+          "Articulated Rigging Arm",
+          "High Gain Antenna",
+          "Radiation Sealing",
+          "Transport Hold"
+        ],
+        "modules": [
+          "Comms Module",
+          "Electro-Magnetic Self-Destruct",
+          "Encrypted Comms",
+          "Multi-Optics",
+          "Navigation Module",
+          "Personal Recreation Device"
+        ]
+      },
+      {
+        "name": "Sakura Pattern",
+        "description": "Designed as a close-range assassin that materialises from thin air to enact a termination contract for their corporate masters.",
+        "systems": [
+          "Monomolecular Blade",
+          "Articulated Rigging Arm",
+          "Locomotion System",
+          "Escape Hatch",
+          "Multi-Phase Shield"
+        ],
+        "modules": [
+          "Comms Module",
+          "Electro-Magnetic Self-Destruct",
+          "Matter Phaser",
+          "Multi-Optics",
+          "Offensive Protocols"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Neura-Phage",
+    "stats": {
+      "structure_pts": 29,
+      "energy_pts": 11,
+      "heat_cap": 13,
+      "system_slots": 18,
+      "module_slots": 6,
+      "cargo_cap": 6,
+      "tech_level": 15,
+      "salvage_value": 9
     },
-    {
-        "name": "Iron Wyrm",
-        "stats": {
-            "structure_pts": 46,
-            "energy_pts": 15,
-            "heat_cap": 19,
-            "system_slots": 24,
-            "module_slots": 5,
-            "cargo_cap": 6,
-            "tech_level": 6,
-            "salvage_value": 17
-        },
-        "chassis_ability": "Burrower: 2EP Turn Action\nWhen you activate this Ability, the Iron Wyrm can burrow and move underneath the ground. It can burrow through sand, stone, and earth as well as basic metal and stone structures such as bunkers. The Iron Wyrm remains burrowed until it unborrows as a Turn Action where it emerges at a point of the Pilot's choice within Close Range of it. When burrowed, the Iron Wyrm cannot be targeted by anything on the ground, however it cannot see anything on the ground either. Its location can be verified with a Deep Survey Scanner.\nThe burrowing Ability of the Iron Wyrm enables it to create tunnels behind it that are large enough for a Mech to fit through.",
-        "description": "The 'EPBM-S11' Iron Wyrm is a mammoth tunnelling Mech capable of subterranean operations. It was designed as a joint venture between Sakura Futures, Herrsch Manufacturing, and Thatcher Steel in order to construct a vast tunnel network that would connect the Ferrous Range with the Central Wastes. Nobody knows whether the project was completed or what the current state of the tunnel network is, but some say the tunnels still exist and that they are filled with salvage just lying around. ready to be plundered. They also say that the tunnels are inhabited by those who have not seen the red sun for generations.",
-        "patterns": [
-            {
-                "name": "Churner Pattern",
-                "description": "This original pattern was utilised in the aborted construction of an intended high speed trade network connecting the Ferrous Range with the Central Wastes.",
-                "systems": [
-                    "Heavy Duty Mining Rig",
-                    "AFF Coolant Foam",
-                    "Dozer Blades",
-                    "Escape Hatch",
-                    "Grav Assisted Cargo Bay",
-                    "High Gain Antenna",
-                    "Prawn Sifter"
-                ],
-                "modules": [
-                    "Auto-Repair Droid",
-                    "Comms Module",
-                    "Navigation Module",
-                    "Thermal Optics"
-                ]
-            },
-            {
-                "name": "Sapper Pattern",
-                "description": "Developed for military use, this pattern was designed for a hostile takeover of a competitors arco. Drilling through the foundations to deliver a deadly payload of firepower while supporting a strike team.",
-                "systems": [
-                    "Mole Torpedo",
-                    "30mm Autocannon",
-                    "30mm Autocannon",
-                    "Ejection System",
-                    "Multi-Phase Shield"
-                ],
-                "modules": [
-                    "Advanced Targeting",
-                    "Comms Module",
-                    "Multi-Optics"
-                ]
-            },
-            {
-                "name": "M.A.D. Pattern",
-                "description": "It is rumoured that each of the 'Big Five' corporate council members have one of these ready to be deployed in the event their arco is attacked to ensure mutual annihilation with their attackers.",
-                "systems": [
-                    "N15 Fat Boy",
-                    "Mole Torpedo",
-                    "Multi-Phase Shield",
-                    "Radomes"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Encrypted Comms",
-                    "Laser Guidance",
-                    "Navigation Module",
-                    "Thermal Optics"
-                ]
-            }
+    "chassis_ability": "Cybernetic Neuralink: The Neura-Phage connects directly to the Pilot with an advanced neuralink mesh that allows their thoughts to be directly translated to the actions of the Mech, merging them into one entity. They may spend their Pilot Ability Points on any Energy Point Abilities the Neura-Phage has access to. They may spend their Energy Points on any Pilot Abilities their Pilot has access to that the Neura-Phage would reasonably be able to perform. In addition, they always count as having a Neuralink Communicator installed in their Mech.",
+    "description": "The 'AUG-440' Neura-Phage is a fully neuralinked Mech that connects directly to a Pilot's nervous system. This allows for direct one-to-one control of the Mech as though it was their own body, making pilot and machine as one. Developed at the end of the Second Corpo War by Ascension PLC, the Neura-Phage mech was purchased by numerous other corpos and deployed as the last lines of defence in their home arcos. The reasoning behind this deployment was that any Pilot who would wire themselves directly to their Mechs were significantly devoted to their corpo. In practice, many often had little choice in the matter with many corpos recruiting Neura-Phage Pilots from terminally wounded veterans or Pilots who would otherwise be captured and killed by enemy forces.",
+    "patterns": [
+      {
+        "name": "Screamer Pattern",
+        "description": "Corpo Pilots who die in enough debt are forced into these cages to pay it off in perpetuity. Even in death you will still work.",
+        "systems": [
+          "Monomolecular Blade",
+          "Ion Cannon",
+          "Rigging Arm",
+          "Multi-Phase Shield",
+          "Locomotion System"
+        ],
+        "modules": [
+          "Advanced Targeting Array",
+          "Omega Push Module",
+          "Advanced Reactor Safety Protocols"
         ]
+      },
+      {
+        "name": "Breacher Pattern",
+        "description": "Used by members of the fanatical Aeon Unit known as the Breachers, wherever an arco or settlement is being besieged, this Mech will be on the frontlines.",
+        "systems": [
+          "120mm Heavy Autocannon",
+          "Locomotion System",
+          "Electro-Magnetic Shield Projector"
+        ],
+        "modules": [
+          "Advanced Targeting Array",
+          "Reaction Protocols",
+          "Advanced Reactor Safety Protocols"
+        ]
+      },
+      {
+        "name": "Ascension Pattern",
+        "description": "According to the Quantum Writ, the path of Ascension will free you from the mortal sufferings of flesh.",
+        "systems": [
+          "Railgun",
+          "Ion Cannon",
+          "Locomotion System",
+          "Reflective Shielding"
+        ],
+        "modules": [
+          "Auto-Repair Droid",
+          "Holo Projector",
+          "Reaction Protocols",
+          "Weapon Guidance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Iron Wyrm",
+    "stats": {
+      "structure_pts": 46,
+      "energy_pts": 15,
+      "heat_cap": 19,
+      "system_slots": 24,
+      "module_slots": 5,
+      "cargo_cap": 6,
+      "tech_level": 6,
+      "salvage_value": 17
     },
-    {
-        "name": "Leviathan",
-        "stats": {
-            "structure_pts": 76,
-            "energy_pts": 14,
-            "heat_cap": 18,
-            "system_slots": 36,
-            "module_slots": 6,
-            "cargo_cap": 6,
-            "tech_level": 6,
-            "salvage_value": 20
-        },
-        "chassis_ability": "Juggernaut: The Leviathan may fire up to 2 Weapons Systems in a turn as a single Turn Action. Resolve each attack separately.\n\nEradication Protocols: If the Leviathan rolls a 'Nailed It' result (20) with an attack roll, it deals 4× damage instead of 2× damage.\n\nHeavily Armoured Chassis: Any 'Nailed It' (20) result made against the Leviathan counts as a standard hit (11-19) and does not deal 2× damage or have any other bonus effect.",
-        "description": "The pinnacle of the Evantis range, the 'Mk3' Leviathan is currently the only general release Super Heavy Mech available to buy on the Corpo Net. Enormously powerful, it can be fitted with a veritable arsenal of lasers, missiles, and cannons, as well as enough Modules to make those shots count. It uses a modified reactor from a 1,000 tonne terraforming rig, and is so heavily armoured that nothing short of a tactical nuke can take it out. If you find yourself against one of these, you will either need a madcap plan under your belt to stop it or a good pair of running boots.",
-        "patterns": [
-            {
-                "name": "Destroyer Pattern",
-                "description": "A mobile bastion bristling with an array of weapons that it brings to bear as the lynchpin of the Evantis battle line.",
-                "systems": [
-                    ".50 Cal Machine Gun",
-                    ".50 Cal Machine Gun",
-                    ".50 Cal Machine Gun",
-                    ".50 Cal Machine Gun",
-                    ".50 Cal Machine Gun",
-                    ".50 Cal Machine Gun",
-                    "Red Laser",
-                    "Red Laser",
-                    "Red Laser",
-                    "30mm Autocannon",
-                    "30mm Autocannon",
-                    "Ejector Pod",
-                    "Locomotion System"
-                ],
-                "modules": [
-                    "Alpha Strike Module",
-                    "Comms Module",
-                    "Multi-Targeter",
-                    "Offensive Protocols",
-                    "Reactor Safety Protocols"
-                ]
-            },
-            {
-                "name": "Annihilator Pattern",
-                "description": "These blueprints were found on a successful salvager infiltration of a Sakura black site. The Mech Pattern was a covert collaboration between Evantis and Sakura to design a Mech that could mount two Experimental Particle Beam Cannons. May the hammer guide whoever encounters this in the field.",
-                "systems": [
-                    "Experimental Particle Beam Cannon",
-                    "Experimental Particle Beam Cannon",
-                    "Matter Phase Shield",
-                    "Nanite Repair Arm",
-                    "Stabilising Locomotion System"
-                ],
-                "modules": [
-                    "Advanced Targeting",
-                    "Comms Module",
-                    "Coolant Flow Manifold",
-                    "Firewall",
-                    "Reactor Safety Protocols"
-                ]
-            },
-            {
-                "name": "Evantis Pattern",
-                "description": "The original Leviathan build mounted with the pinnacle of Evantis ballistic technology. Recorded as having 41 confirmed kills during the Battle of the Ice Shelf where TDA forces were pushed back to the brink of the Frozen Gulf.",
-                "systems": [
-                    "120mm Heavy Autocannon",
-                    "120mm Heavy Autocannon",
-                    "Stabilising Locomotion System",
-                    "Ejector Pod"
-                ],
-                "modules": [
-                    "Advanced Targeting",
-                    "Alpha Strike Module",
-                    "Comms Module",
-                    "Coolant Flow Manifold",
-                    "Firewall"
-                ]
-            }
+    "chassis_ability": "Burrower: 2EP Turn Action\nWhen you activate this Ability, the Iron Wyrm can burrow and move underneath the ground. It can burrow through sand, stone, and earth as well as basic metal and stone structures such as bunkers. The Iron Wyrm remains burrowed until it unborrows as a Turn Action where it emerges at a point of the Pilot's choice within Close Range of it. When burrowed, the Iron Wyrm cannot be targeted by anything on the ground, however it cannot see anything on the ground either. Its location can be verified with a Deep Survey Scanner.\nThe burrowing Ability of the Iron Wyrm enables it to create tunnels behind it that are large enough for a Mech to fit through.",
+    "description": "The 'EPBM-S11' Iron Wyrm is a mammoth tunnelling Mech capable of subterranean operations. It was designed as a joint venture between Sakura Futures, Herrsch Manufacturing, and Thatcher Steel in order to construct a vast tunnel network that would connect the Ferrous Range with the Central Wastes. Nobody knows whether the project was completed or what the current state of the tunnel network is, but some say the tunnels still exist and that they are filled with salvage just lying around. ready to be plundered. They also say that the tunnels are inhabited by those who have not seen the red sun for generations.",
+    "patterns": [
+      {
+        "name": "Churner Pattern",
+        "description": "This original pattern was utilised in the aborted construction of an intended high speed trade network connecting the Ferrous Range with the Central Wastes.",
+        "systems": [
+          "Heavy Duty Mining Rig",
+          "AFF Coolant Foam",
+          "Dozer Blades",
+          "Escape Hatch",
+          "Grav Assisted Cargo Bay",
+          "High Gain Antenna",
+          "Prawn Sifter"
+        ],
+        "modules": [
+          "Auto-Repair Droid",
+          "Comms Module",
+          "Navigation Module",
+          "Thermal Optics"
         ]
+      },
+      {
+        "name": "Sapper Pattern",
+        "description": "Developed for military use, this pattern was designed for a hostile takeover of a competitors arco. Drilling through the foundations to deliver a deadly payload of firepower while supporting a strike team.",
+        "systems": [
+          "Mole Torpedo",
+          "30mm Autocannon",
+          "30mm Autocannon",
+          "Ejection System",
+          "Multi-Phase Shield"
+        ],
+        "modules": ["Advanced Targeting", "Comms Module", "Multi-Optics"]
+      },
+      {
+        "name": "M.A.D. Pattern",
+        "description": "It is rumoured that each of the 'Big Five' corporate council members have one of these ready to be deployed in the event their arco is attacked to ensure mutual annihilation with their attackers.",
+        "systems": [
+          "N15 Fat Boy",
+          "Mole Torpedo",
+          "Multi-Phase Shield",
+          "Radomes"
+        ],
+        "modules": [
+          "Comms Module",
+          "Encrypted Comms",
+          "Laser Guidance",
+          "Navigation Module",
+          "Thermal Optics"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Leviathan",
+    "stats": {
+      "structure_pts": 76,
+      "energy_pts": 14,
+      "heat_cap": 18,
+      "system_slots": 36,
+      "module_slots": 6,
+      "cargo_cap": 6,
+      "tech_level": 6,
+      "salvage_value": 20
     },
-    {
-        "name": "Shaitan",
-        "stats": {
-            "structure_pts": 21,
-            "energy_pts": 20,
-            "heat_cap": 14,
-            "system_slots": 15,
-            "module_slots": 10,
-            "cargo_cap": 6,
-            "tech_level": 6,
-            "salvage_value": 6
-        },
-        "chassis_ability": "Integrated VTU System: The Shaitan has an integrated Vectored Thrust Unit System which is included in its profile. This functions as a standard VTU System.\n\nFlashy: The Shaitan has the Flashy Trait. It is incredibly stunning to look at and fills onlookers with awe and admiration.\n\nFast: The Shaitan can move an additional Range Band on its turn as a free action. In addition, it moves twice as fast across the Campaign, Area, and Region Maps.\n\nPolycarbonate Stealth Chassis: The Shaitan cannot be targeted with anything that uses the Targeter Trait such as targeting Modules. It also cannot be seen by anything with the Optics Trait or Scanner Trait. It does not appear on sensors, radar systems, or scanners and needs direct visual confirmation to be spotted.",
-        "description": "The 'v3.94.0' Shaitan is a custom crafted and over-designed Mech favoured by corpo execs who want to play. It packs an exec body suit, custom branding, high speed actuators, gold plated gyroscopes, and an array of hood ornaments. Even its bells have whistles. It can hit a max top speed that rivals all but the fastest of pure mil-tech design, and has a polycarb Chassis as well as integrated VTU for extra mileage. It contains frankly too many Module slots, allowing it to pack in extended comms, advanced optics, and multiple recreational devices.",
-        "patterns": [
-            {
-                "name": "Skimmer Pattern",
-                "description": "Beloved by thrill-seekers, the Shaitan's intense speeds and manoeuvrability are an exquisite experience for those riding stick, and especially for those riding shotgun.",
-                "systems": [
-                    "Rail Rifle",
-                    "Ejection System",
-                    "High Gain Antenna",
-                    "Locomotion System",
-                    "Loudspeakers",
-                    "Shotgun Pit"
-                ],
-                "modules": [
-                    "Comms Module",
-                    "Coolant Flow Manifold",
-                    "Dash Protocols",
-                    "Encrypted Comms",
-                    "Evasion Protocols",
-                    "Multi-Optics",
-                    "Personal Recreation Device",
-                    "Reaction Protocols",
-                    "Reactor Safety Protocols"
-                ]
-            },
-            {
-                "name": "X-Zero Pattern",
-                "description": "A blur of static, this Shaitan is utilised in lightning speed M2 races across the corpo race circuits.",
-                "systems": [
-                    "Ejection System",
-                    "Grappling Harpoon",
-                    "Hover Locomotion System",
-                    "Tesla Coils"
-                ],
-                "modules": [
-                    "Auto-Repair Droid",
-                    "Dash Protocols",
-                    "Energy Cell",
-                    "Multi-Optics",
-                    "Neuralink Communicator",
-                    "Personal Recreation Device",
-                    "Reactor Safety Protocols"
-                ]
-            },
-            {
-                "name": "Diplomat Pattern",
-                "description": "When a Consul does not quite extol how much of a flashy son of a gun you are arriving at a corporate council meeting in, then a Shaitan will.",
-                "systems": [
-                    "Articulated Rigging Arm",
-                    "Articulated Rigging Arm",
-                    "Ejector Pod",
-                    "Locomotion System",
-                    "Radomes"
-                ],
-                "modules": [
-                    "Advanced Reactor Safety Protocols",
-                    "Comms Module",
-                    "Coolant Flow Manifold",
-                    "Dash Protocols",
-                    "DDR Module",
-                    "Encrypted Comms",
-                    "Personal Recreation Device",
-                    "Video Projection Array",
-                    "Video Recording Array"
-                ]
-            }
+    "chassis_ability": "Juggernaut: The Leviathan may fire up to 2 Weapons Systems in a turn as a single Turn Action. Resolve each attack separately.\n\nEradication Protocols: If the Leviathan rolls a 'Nailed It' result (20) with an attack roll, it deals 4× damage instead of 2× damage.\n\nHeavily Armoured Chassis: Any 'Nailed It' (20) result made against the Leviathan counts as a standard hit (11-19) and does not deal 2× damage or have any other bonus effect.",
+    "description": "The pinnacle of the Evantis range, the 'Mk3' Leviathan is currently the only general release Super Heavy Mech available to buy on the Corpo Net. Enormously powerful, it can be fitted with a veritable arsenal of lasers, missiles, and cannons, as well as enough Modules to make those shots count. It uses a modified reactor from a 1,000 tonne terraforming rig, and is so heavily armoured that nothing short of a tactical nuke can take it out. If you find yourself against one of these, you will either need a madcap plan under your belt to stop it or a good pair of running boots.",
+    "patterns": [
+      {
+        "name": "Destroyer Pattern",
+        "description": "A mobile bastion bristling with an array of weapons that it brings to bear as the lynchpin of the Evantis battle line.",
+        "systems": [
+          ".50 Cal Machine Gun",
+          ".50 Cal Machine Gun",
+          ".50 Cal Machine Gun",
+          ".50 Cal Machine Gun",
+          ".50 Cal Machine Gun",
+          ".50 Cal Machine Gun",
+          "Red Laser",
+          "Red Laser",
+          "Red Laser",
+          "30mm Autocannon",
+          "30mm Autocannon",
+          "Ejector Pod",
+          "Locomotion System"
+        ],
+        "modules": [
+          "Alpha Strike Module",
+          "Comms Module",
+          "Multi-Targeter",
+          "Offensive Protocols",
+          "Reactor Safety Protocols"
         ]
-    }
+      },
+      {
+        "name": "Annihilator Pattern",
+        "description": "These blueprints were found on a successful salvager infiltration of a Sakura black site. The Mech Pattern was a covert collaboration between Evantis and Sakura to design a Mech that could mount two Experimental Particle Beam Cannons. May the hammer guide whoever encounters this in the field.",
+        "systems": [
+          "Experimental Particle Beam Cannon",
+          "Experimental Particle Beam Cannon",
+          "Matter Phase Shield",
+          "Nanite Repair Arm",
+          "Stabilising Locomotion System"
+        ],
+        "modules": [
+          "Advanced Targeting",
+          "Comms Module",
+          "Coolant Flow Manifold",
+          "Firewall",
+          "Reactor Safety Protocols"
+        ]
+      },
+      {
+        "name": "Evantis Pattern",
+        "description": "The original Leviathan build mounted with the pinnacle of Evantis ballistic technology. Recorded as having 41 confirmed kills during the Battle of the Ice Shelf where TDA forces were pushed back to the brink of the Frozen Gulf.",
+        "systems": [
+          "120mm Heavy Autocannon",
+          "120mm Heavy Autocannon",
+          "Stabilising Locomotion System",
+          "Ejector Pod"
+        ],
+        "modules": [
+          "Advanced Targeting",
+          "Alpha Strike Module",
+          "Comms Module",
+          "Coolant Flow Manifold",
+          "Firewall"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shaitan",
+    "stats": {
+      "structure_pts": 21,
+      "energy_pts": 20,
+      "heat_cap": 14,
+      "system_slots": 15,
+      "module_slots": 10,
+      "cargo_cap": 6,
+      "tech_level": 6,
+      "salvage_value": 6
+    },
+    "chassis_ability": "Integrated VTU System: The Shaitan has an integrated Vectored Thrust Unit System which is included in its profile. This functions as a standard VTU System.\n\nFlashy: The Shaitan has the Flashy Trait. It is incredibly stunning to look at and fills onlookers with awe and admiration.\n\nFast: The Shaitan can move an additional Range Band on its turn as a free action. In addition, it moves twice as fast across the Campaign, Area, and Region Maps.\n\nPolycarbonate Stealth Chassis: The Shaitan cannot be targeted with anything that uses the Targeter Trait such as targeting Modules. It also cannot be seen by anything with the Optics Trait or Scanner Trait. It does not appear on sensors, radar systems, or scanners and needs direct visual confirmation to be spotted.",
+    "description": "The 'v3.94.0' Shaitan is a custom crafted and over-designed Mech favoured by corpo execs who want to play. It packs an exec body suit, custom branding, high speed actuators, gold plated gyroscopes, and an array of hood ornaments. Even its bells have whistles. It can hit a max top speed that rivals all but the fastest of pure mil-tech design, and has a polycarb Chassis as well as integrated VTU for extra mileage. It contains frankly too many Module slots, allowing it to pack in extended comms, advanced optics, and multiple recreational devices.",
+    "patterns": [
+      {
+        "name": "Skimmer Pattern",
+        "description": "Beloved by thrill-seekers, the Shaitan's intense speeds and manoeuvrability are an exquisite experience for those riding stick, and especially for those riding shotgun.",
+        "systems": [
+          "Rail Rifle",
+          "Ejection System",
+          "High Gain Antenna",
+          "Locomotion System",
+          "Loudspeakers",
+          "Shotgun Pit"
+        ],
+        "modules": [
+          "Comms Module",
+          "Coolant Flow Manifold",
+          "Dash Protocols",
+          "Encrypted Comms",
+          "Evasion Protocols",
+          "Multi-Optics",
+          "Personal Recreation Device",
+          "Reaction Protocols",
+          "Reactor Safety Protocols"
+        ]
+      },
+      {
+        "name": "X-Zero Pattern",
+        "description": "A blur of static, this Shaitan is utilised in lightning speed M2 races across the corpo race circuits.",
+        "systems": [
+          "Ejection System",
+          "Grappling Harpoon",
+          "Hover Locomotion System",
+          "Tesla Coils"
+        ],
+        "modules": [
+          "Auto-Repair Droid",
+          "Dash Protocols",
+          "Energy Cell",
+          "Multi-Optics",
+          "Neuralink Communicator",
+          "Personal Recreation Device",
+          "Reactor Safety Protocols"
+        ]
+      },
+      {
+        "name": "Diplomat Pattern",
+        "description": "When a Consul does not quite extol how much of a flashy son of a gun you are arriving at a corporate council meeting in, then a Shaitan will.",
+        "systems": [
+          "Articulated Rigging Arm",
+          "Articulated Rigging Arm",
+          "Ejector Pod",
+          "Locomotion System",
+          "Radomes"
+        ],
+        "modules": [
+          "Advanced Reactor Safety Protocols",
+          "Comms Module",
+          "Coolant Flow Manifold",
+          "Dash Protocols",
+          "DDR Module",
+          "Encrypted Comms",
+          "Personal Recreation Device",
+          "Video Projection Array",
+          "Video Recording Array"
+        ]
+      }
+    ]
+  }
 ]
