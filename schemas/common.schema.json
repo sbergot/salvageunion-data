@@ -81,7 +81,8 @@
                   "immobile",
                   "poison",
                   "burrower",
-                  "fly"
+                  "fly",
+                  "load"
                 ]
               }
             }

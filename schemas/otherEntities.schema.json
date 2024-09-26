@@ -16,6 +16,10 @@
       "abilities": {
         "type": "array",
         "items": { "$ref": "objects.schema.json#/definitions/action" }
+      },
+      "systems": {
+        "type": "array",
+        "items": { "$ref": "objects.schema.json#/definitions/system" }
       }
     }
   }
