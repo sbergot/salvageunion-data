@@ -47,6 +47,12 @@
         "data/classes.json"
       ],
       "url": "./schemas/classes.schema.json"
+    },
+    {
+      "fileMatch": [
+        "data/tables.json"
+      ],
+      "url": "./schemas/tables.schema.json"
     }
   ]
 }
