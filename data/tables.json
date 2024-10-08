@@ -27,8 +27,8 @@
     "rollTable": {
       "20": "Miraculous Survival: You survive against the odds. You have 1 HP, remain conscious and can act normally.",
       "11-19": "Unconscious: You are stable at 0 HP, but unconscious and cannot move or take actions until you gain at least 1 HP. You will regain consciousness naturally in 1 hour and get back up with 1 HP.",
-      "6-10": "Minor Injury: You suffer a Minor Injury such as a sprain, burns, or minor concussion. Your Max HP is reduced by 1 until healed in a Tech 3 - 4 Med Bay. In addition, you are Unconscious. Apply the result of 11 - 19.",
-      "2-5": "Major Injury: You suffer a Major Injury such as permanent scarring, broken ribs, or internal injuries. Your Max HP is reduced by 2 until healed in a Tech 5 - 6 Med Bay. In addition, you are Unconscious. Apply the result of 11-19.",
+      "6-10": "Minor Injury: You suffer a Minor Injury such as a sprain, burns, or minor concussion. Your Max HP is reduced by 1 until healed in a Tech 3-4 Med Bay. In addition, you are Unconscious. Apply the result of 11-19.",
+      "2-5": "Major Injury: You suffer a Major Injury such as permanent scarring, broken ribs, or internal injuries. Your Max HP is reduced by 2 until healed in a Tech 5-6 Med Bay. In addition, you are Unconscious. Apply the result of 11-19.",
       "1": "Fatal Injury: Your Pilot suffers a fatal injury and dies."
     }
   },
