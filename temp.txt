@@ -1,0 +1,12 @@
+20: You can ask the Mediator five questions
+about it and they must give you true answers.
+11 - 19: You can ask the Mediator three ques-
+tions about it and they must give you true
+answers.
+6 - 10: You can ask the Mediator two questions
+about it. One of these answers must be true, but
+the other can be false.
+2 - 5: You do not actually know, and must make
+up a convincing answer to save your pride.
+1: You do not know the answer, and everyone
+realises this.

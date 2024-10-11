@@ -19,6 +19,7 @@
       "apCost": { "$ref": "common.schema.json#/definitions/apCost" },
       "range": { "$ref": "enums.schema.json#/definitions/range" },
       "actionType": { "$ref": "enums.schema.json#/definitions/actionType" },
+      "rollTable": { "$ref": "common.schema.json#/definitions/rollTable" },
       "traits": { "$ref": "common.schema.json#/definitions/traits" }
     }
   }
