@@ -115,6 +115,18 @@
           "type": "object",
           "additionalProperties": false,
           "properties": {
+            "type": { "enum": ["standard2"] },
+            "1": { "type": "string" },
+            "19-20": { "type": "string" },
+            "11-18": { "type": "string" },
+            "6-10": { "type": "string" },
+            "2-5": { "type": "string" }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
             "type": { "enum": ["full"] },
             "1": { "type": "string" },
             "2": { "type": "string" },
