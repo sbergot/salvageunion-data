@@ -16,21 +16,21 @@
       {
         "name": "Patch",
         "actionType": "Turn",
-        "apCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "description": "When activated, a target Mech or Vehicle of your choice in Range with at least 1 SP regains 2 SP."
       },
       {
         "name": "System Repair",
         "actionType": "Short",
-        "apCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "description": "You repair a damaged Tech 1 System or Module in Range to Intact Condition. It is now usable."
       },
       {
         "name": "Chassis Repair",
         "actionType": "Long",
-        "apCost": 4,
+        "activationCost": 4,
         "range": "Close",
         "description": "You repair a damaged Tech 1 Mech Chassis or Vehicle in Range to Intact Condition. It is now usable with 1 SP."
       }
@@ -130,21 +130,21 @@
       {
         "name": "Patch",
         "actionType": "Turn",
-        "apCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "description": "When activated, a target Mech or Vehicle of your choice in Range with at least 1 SP regains 3 SP."
       },
       {
         "name": "System Repair",
         "actionType": "Short",
-        "apCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "description": "You repair a damaged Tech 1 or 2 System or Module in Range to Intact Condition. It is now usable."
       },
       {
         "name": "Chassis Repair",
         "actionType": "Long",
-        "apCost": 4,
+        "activationCost": 4,
         "range": "Close",
         "description": "You repair a damaged Tech 1 or 2 Mech Chassis or Vehicle in Range to Intact Condition. It is now usable with 1 SP."
       }
@@ -224,21 +224,21 @@
       {
         "name": "Patch",
         "actionType": "Turn",
-        "apCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "description": "You restore up to 4 SP to a target Mech in Range with at least 1 SP."
       },
       {
         "name": "System Repair",
         "actionType": "Short",
-        "apCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "description": "You repair a damaged Tech 1, 2, or 3 System or Module in Range to Intact Condition."
       },
       {
         "name": "Chassis Repair",
         "actionType": "Long",
-        "apCost": 4,
+        "activationCost": 4,
         "range": "Close",
         "description": "You repair a damaged Tech 1, 2, or 3 Mech Chassis or Vehicle in Range to Intact Condition. It is now usable with 1 SP."
       }
@@ -308,21 +308,21 @@
       {
         "name": "Patch",
         "actionType": "Turn",
-        "apCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "description": "You restore up to 5 SP to a target Mech in Range with at least 1 SP."
       },
       {
         "name": "System Repair",
         "actionType": "Short",
-        "apCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "description": "You repair a damaged Tech 1, 2, 3, or 4 System or Module in Range to Intact Condition. It is now usable."
       },
       {
         "name": "Chassis Repair",
         "actionType": "Long",
-        "apCost": 4,
+        "activationCost": 4,
         "range": "Close",
         "description": "You repair a damaged Tech 1, 2, 3, or 4 Mech Chassis or Vehicle in Range to Intact Condition. It is now usable with 1 SP."
       }
@@ -348,7 +348,7 @@
     "traits": [{ "type": "shield" }],
     "actionType": "Reaction",
     "description": "Favoured by Sakura Wetwork teams, this miniature, wrist-mounted shield can protect you from harm by projecting a forcefield around your Pilot which will absorb some of the incoming attack.",
-    "apCost": 2,
+    "activationCost": 2,
     "notes": "When you are hit by an attack you may activate your Portable Multi-Phase Shield to prevent the hit. \n\nROLL THE DIE:\n\n20: The attack deals no damage.\n\n11 - 19: The forcefield partially absorbs some of the hit, you take half damage from the attack.\n\n6 - 10: The forcefield absorbs the blow, but is destroyed. You take no damage from the attack and your Portable Multi-Phase Shield is destroyed.\n\n2 - 5: The force field fails and the attack hits as normal.\n\n1: The attack hits as normal and the shield overloads. Your Portable Multi-Phase Shield is destroyed."
   },
   {
@@ -419,21 +419,21 @@
       {
         "name": "Patch",
         "actionType": "Turn",
-        "apCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "description": "You restore up to 6 SP to a target Mech in Range with at least 1 SP."
       },
       {
         "name": "System Repair",
         "actionType": "Short",
-        "apCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "description": "You repair a damaged Tech 1, 2, 3, 4, or 5 System or Module in Range to Intact Condition. It is now usable."
       },
       {
         "name": "Chassis Repair",
         "actionType": "Long",
-        "apCost": 4,
+        "activationCost": 4,
         "range": "Close",
         "description": "You repair a damaged Tech 1, 2, 3, 4, or 5 Mech Chassis or Vehicle in Range to Intact Condition. It is now usable with 1 SP."
       }
@@ -468,21 +468,21 @@
       {
         "name": "Patch",
         "actionType": "Turn",
-        "apCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "description": "You restore up to 8 SP to a target Mech in Range with at least 1 SP."
       },
       {
         "name": "System Repair",
         "actionType": "Short",
-        "apCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "description": "You repair any damaged System or Module in Range to Intact Condition. It is now usable."
       },
       {
         "name": "Chassis Repair",
         "actionType": "Long",
-        "apCost": 4,
+        "activationCost": 4,
         "range": "Close",
         "description": "You repair any damaged Mech Chassis in Range to Intact Condition. It is now usable with 1 SP."
       }

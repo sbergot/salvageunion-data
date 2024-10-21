@@ -5,7 +5,7 @@
     "level": 1,
     "description": "Ask questions pertaining to mechanical and engineering topics.",
     "effect": "The pilot can ask the Mediator two questions about mechanical and engineering topics, and they must answer truthfully. This ability can also be used to ask for the full stats of any Mech Chassis, System, Module, or Pilot Equipment that the pilot can see and interact with.",
-    "apCost": 1,
+    "activationCost": 1,
     "actionType": "Turn"
   },
   {
@@ -14,7 +14,7 @@
     "level": 2,
     "description": "Build rapport, and ask favours of other mechanics, salvagers, and workers.",
     "effect": "Detailed effect of Talk Shop.",
-    "apCost": 3,
+    "activationCost": 3,
     "actionType": "Turn"
   },
   {
@@ -23,7 +23,7 @@
     "level": 3,
     "description": "Track down and acquire specific Mech parts and Chassis.",
     "effect": "You are able to use your intimate knowledge of engineering to track down and acquire specific Mech parts within wasteland settlements and trading hubs.",
-    "apCost": 2,
+    "activationCost": 2,
     "actionType": "Long"
   },
   {
@@ -32,7 +32,7 @@
     "level": 1,
     "description": "Repair 4 SP on target Mechs or Vehicles in the field.",
     "effect": "For each Ability Point you spend when you activate this Ability you restore up to 4 SP amongst any number of target Mechs or Vehicles within Range, as long as they have at least 1 SP.",
-    "apCost": "Variable",
+    "activationCost": "Variable",
     "range": "Close",
     "actionType": "Long"
   },
@@ -42,7 +42,7 @@
     "level": 2,
     "description": "Damage Systems and Modules on target Mech.",
     "effect": "You can work out exactly where to target a Mech in order to disable its Systems or Modules.",
-    "apCost": 2,
+    "activationCost": 2,
     "range": "Close",
     "actionType": "Turn"
   },
@@ -52,7 +52,7 @@
     "level": 3,
     "description": "Repair target Systems and Modules in the field.",
     "effect": "You repair any number of damaged Mech Chassis, Vehicles, Systems, or Modules within Range to Intact Condition.",
-    "apCost": "Variable",
+    "activationCost": "Variable",
     "range": "Close",
     "actionType": "Long"
   },
@@ -62,7 +62,7 @@
     "level": 1,
     "description": "Craft improvised equipment from everyday items.",
     "effect": "You are able to hastily craft improvised equipment from everyday objects taken from your surroundings.",
-    "apCost": 2,
+    "activationCost": 2,
     "actionType": "Turn"
   },
   {
@@ -71,7 +71,7 @@
     "level": 2,
     "description": "Craft Mech Systems and Modules from Scrap in the field.",
     "effect": "Your ability to improvise extends to being able to craft mech parts from scrap in the field.",
-    "apCost": 3,
+    "activationCost": 3,
     "actionType": "Short"
   },
   {
@@ -80,7 +80,7 @@
     "level": 3,
     "description": "Construct an Immobile Auto-Turret that can be fitted with Systems and Modules.",
     "effect": "You construct an immobile Auto-Turret and train yourself in using it.",
-    "apCost": 3,
+    "activationCost": 3,
     "actionType": "Turn",
     "traits": [
       {
@@ -94,7 +94,7 @@
     "level": 1,
     "description": "Improved repair; gain an additional 4SP when using Repair abilities or Systems.",
     "effect": "You have specialised in getting your hands dirty, you can patch up even the most brutally damaged Mechs with ease, even in the midst of conflict.",
-    "apCost": 1,
+    "activationCost": 1,
     "actionType": "Passive"
   },
   {
@@ -103,7 +103,7 @@
     "level": 2,
     "description": "Overcharge a Reactor beyond it’s initial capacity to gain additional Pushes.",
     "effect": "You are able to overcharge a Mech Reactor far beyond its usual capacity.",
-    "apCost": 3,
+    "activationCost": 3,
     "range": "Close",
     "actionType": "Short"
   },
@@ -113,7 +113,7 @@
     "level": 3,
     "description": "Restore 10 Energy Points to target Mechs in the field.",
     "effect": "You have gained mastery and intimate knowledge of how a Mech reactor performs, to the point you are able to recharge limited amounts of their energy in the field.",
-    "apCost": 4,
+    "activationCost": 4,
     "range": "Close",
     "actionType": "Long"
   },
@@ -131,7 +131,7 @@
     "level": 1,
     "description": "Fully repair and restore a target Mech and all attached Systems and Modules.",
     "effect": "Your engineering abilities are unparalleled, you can take apart and put back together a Mech at an incredible speed, repairing any faults or issues that may exist within its behemoth Chassis.",
-    "apCost": 3,
+    "activationCost": 3,
     "range": "Close",
     "actionType": "Long"
   },
@@ -156,7 +156,7 @@
     "level": 2,
     "description": "Attempt to destroy Systems and Modules on target Mech.",
     "effect": "You attempt to hack into a System or Module in order to disable, damage, or destroy it in some way.",
-    "apCost": 2,
+    "activationCost": 2,
     "range": "Medium",
     "actionType": "Turn",
     "traits": [
@@ -178,7 +178,7 @@
     "level": 3,
     "description": "Attempt to Shutdown target Mech in Range.",
     "effect": "This allows you to flood any number of Mechs or Vehicles in Close Range with numerous false signals, overwhelming them with so much information that they temporarily Shutdown. This costs 1 AP per Mech or Vehicle you target",
-    "apCost": "Variable",
+    "activationCost": "Variable",
     "range": "Medium",
     "actionType": "Turn",
     "traits": [
@@ -200,7 +200,7 @@
     "level": 1,
     "description": "Ask questions about Systems, Modules, or Technology.",
     "effect": "You can casually answer questions about Systems, Modules, Mechs, or technology even if you do not actually know the answer.",
-    "apCost": 1,
+    "activationCost": 1,
     "actionType": "Turn",
     "rollTable": {
       "20": "You can ask the Mediator five questions about it and they must give you true answers.",
@@ -216,7 +216,7 @@
     "level": 2,
     "description": "Build rapport and ask favours of other Hackers and technophiles.",
     "effect": "You can effortlessly enunciate a stream of esoteric and mostly incomprehensible thoughts about technology.",
-    "apCost": 2,
+    "activationCost": 2,
     "actionType": "Turn"
   },
   {
@@ -261,7 +261,7 @@
     "level": 1,
     "description": "Gain control of a Mech in Range as if it were yours for 10 minutes.",
     "effect": "You have learned how to hack into the root control systems of a Mech in order to pwn them.",
-    "apCost": 4,
+    "activationCost": 4,
     "range": "Medium",
     "actionType": "Turn",
     "traits": [
@@ -276,7 +276,7 @@
     "level": 2,
     "description": "Attempt to use an Ability with the Hacking Trait as a Reaction to being hacked.",
     "effect": "Your firewalls are bristling with multiple worms which can create backdoors directly into an opposing hacker’s Systems.",
-    "apCost": 1,
+    "activationCost": 1,
     "range": "Medium",
     "actionType": "Reaction",
     "traits": [
@@ -298,7 +298,7 @@
     "level": 3,
     "description": "Hack multiple Mechs in Range with a complex worm virus.",
     "effect": "You have programmed a complex worm virus that can traverse through a network of multiple Mechs, causing havoc and chaos amongst their installed Systems and Modules, and even potentially disabling their Chassis entirely.",
-    "apCost": "Variable",
+    "activationCost": "Variable",
     "range": "Medium",
     "actionType": "Turn",
     "traits": [
@@ -320,7 +320,7 @@
     "level": 1,
     "description": "Hack the entire network of a settlement in range. Control it as you wish.",
     "effect": "You no longer even see the code, you simply see, corpo, construction mech, redhead, base defences.",
-    "apCost": 5,
+    "activationCost": 5,
     "range": "Far",
     "actionType": "Turn",
     "traits": [
@@ -335,7 +335,7 @@
     "level": 1,
     "description": "Permanent and undetectable spyware you can install on a settlement’s network.",
     "effect": "You have developed advanced Spyware which is able to access confidential information from an entire settlement and permanently spy upon them.",
-    "apCost": 5,
+    "activationCost": 5,
     "range": "Far",
     "actionType": "Turn",
     "traits": [
@@ -350,7 +350,7 @@
     "level": 1,
     "description": "Temporariliy increase the cargo capacity of a Mech.",
     "effect": "You always find a way to squeeze that last bit of cargo into a Mech.",
-    "apCost": 1,
+    "activationCost": 1,
     "range": "Close",
     "actionType": "Turn"
   },
@@ -368,7 +368,7 @@
     "level": 3,
     "description": "Retrieve Chassis, Systems, Modules, Scrap, and Equipment from your Crawler.",
     "effect": "You can call in an emergency salvage drop that deploys from your Union Crawler.",
-    "apCost": 3,
+    "activationCost": 3,
     "actionType": "Short"
   },
   {
@@ -377,7 +377,7 @@
     "level": 1,
     "description": "Learn information about an NPC you’re conversing with.",
     "effect": "You have a knack for being able to read people during a conversation.",
-    "apCost": 1,
+    "activationCost": 1,
     "actionType": "Turn"
   },
   {
@@ -386,7 +386,7 @@
     "level": 2,
     "description": "Attempt to force a deal through on your terms using leverage.",
     "effect": "You have a knack for being able to make a deal with the staunchest and most hard nosed folk, even in dire situations.",
-    "apCost": 1,
+    "activationCost": 1,
     "actionType": "Turn",
     "rollTable": {
       "20": "The deal is accepted and you may ask for an additional request.",
@@ -402,7 +402,7 @@
     "level": 3,
     "description": "When reduced to 0 HP or your Mech is reduced to 0 SP, take a Turn Action or Reaction.",
     "effect": "You summon all your reserves in the face of death to finish what you started.",
-    "apCost": 2,
+    "activationCost": 2,
     "actionType": "Reaction"
   },
   {
@@ -411,7 +411,7 @@
     "level": 1,
     "description": "Sing a song to set a mood for an audience of NPCs.",
     "effect": "You sing a song that kindles strong feelings in NPCs nearby.",
-    "apCost": 1,
+    "activationCost": 1,
     "actionType": "Turn"
   },
   {
@@ -420,7 +420,7 @@
     "level": 2,
     "description": "Intimidate opponents and force them to accept your demands or flee.",
     "effect": "You strike fear into the hearts of any number of targets within Range.",
-    "apCost": 2,
+    "activationCost": 2,
     "range": "Medium",
     "actionType": "Turn",
     "rollTable": {
@@ -437,7 +437,7 @@
     "level": 3,
     "description": "Inspire you allies with a rousing speech which heals and provides them with bonuses.",
     "effect": "You inspire your Allies with a rousing speech.",
-    "apCost": 3,
+    "activationCost": 3,
     "actionType": "Short"
   },
   {
@@ -454,7 +454,7 @@
     "level": 2,
     "description": "Improve your ability with the Mechapult System.",
     "effect": "You have become a master of the sacred art of scrap flinging, making you highly versed at using the Mechapult System.",
-    "apCost": 1,
+    "activationCost": 1,
     "actionType": "Free"
   },
   {
@@ -463,7 +463,7 @@
     "level": 3,
     "description": "Gain a special charge attack. Damage is based on cargo carried.",
     "effect": "You have learned to use the momentum and bulk of the vast weight of cargo you can carry to crush your enemies and see them driven before you.",
-    "apCost": 3,
+    "activationCost": 3,
     "range": "Medium",
     "actionType": "Turn",
     "traits": [
@@ -478,7 +478,7 @@
     "level": 1,
     "description": "Restore destroyed Systems Modules, and Mechs to Damaged Condition.",
     "effect": "You are able to take things that are long broken and make them whole again.",
-    "apCost": 2,
+    "activationCost": 2,
     "range": "Close",
     "actionType": "Short"
   },
@@ -496,7 +496,7 @@
     "level": 1,
     "description": "Ask two questions about an area and recieve truthful answers.",
     "effect": "You safely investigate an area to gather information about it.",
-    "apCost": 2,
+    "activationCost": 2,
     "actionType": "Short"
   },
   {
@@ -505,7 +505,7 @@
     "level": 2,
     "description": "Track a target without being seen.",
     "effect": "You are able to track and tail targets with expert skill.",
-    "apCost": 2,
+    "activationCost": 2,
     "range": "Long",
     "actionType": "Turn"
   },
@@ -527,7 +527,7 @@
     "level": 1,
     "description": "Glean what motivates an NPC and use it to convince them to do as you wish.",
     "effect": "When you are in conversation with someone, you may appeal to something that motivates them in order to convince them to do something you want.",
-    "apCost": 1,
+    "activationCost": 1,
     "actionType": "Turn"
   },
   {
@@ -536,7 +536,7 @@
     "level": 2,
     "description": "Lie with confidence and great skill to fool even the most insightful.",
     "effect": "You are able to weave tall and grandiose tales that can fool even the most wary, cynical, or insightful of wastelanders.",
-    "apCost": 1,
+    "activationCost": 1,
     "actionType": "Turn"
   },
   {
@@ -545,7 +545,7 @@
     "level": 3,
     "description": "Disguise yourself and create a false identity.",
     "effect": "You carefully prepare a convincing alternate identity.",
-    "apCost": "Variable",
+    "activationCost": "Variable",
     "actionType": "Long"
   },
   {
@@ -554,7 +554,7 @@
     "level": 1,
     "description": "Activate this to act first whenever initiative would be rolled.",
     "effect": "You have a knack for being the first to act in an altercation.",
-    "apCost": 2,
+    "activationCost": 2,
     "actionType": "Free"
   },
   {
@@ -563,7 +563,7 @@
     "level": 2,
     "description": "Chooose a target in range for an ally to make a free attack against.",
     "effect": "You are able to identify targets and coordinate attacks against them with your allies.",
-    "apCost": 2,
+    "activationCost": 2,
     "range": "Medium",
     "actionType": "Free"
   },
@@ -585,7 +585,7 @@
     "level": 1,
     "description": "Activate to retroactively have a solution in place for the current situation.",
     "effect": "You have a knack for preparing for situations in advance, allowing you to get out of all sorts of binds.",
-    "apCost": 3,
+    "activationCost": 3,
     "actionType": "Reaction"
   },
   {
@@ -594,7 +594,7 @@
     "level": 2,
     "description": "Gain the use of an advanced Camo Suit that will make you invisible for short periods of time.",
     "effect": "You acquire and train in the use of a specialised Camo Suit that only you can use.",
-    "apCost": 3,
+    "activationCost": 3,
     "actionType": "Turn",
     "traits": [
       {
@@ -611,7 +611,7 @@
     "level": 3,
     "description": "Gain a Wingsuit which allows you to fly.",
     "effect": "You acquire and train in the use of a Wingsuit that only you can use.",
-    "apCost": 1,
+    "activationCost": 1,
     "traits": [
       {
         "type": "pilot equipment"
@@ -627,7 +627,7 @@
     "level": 1,
     "description": "You are known and respected everywhere and can get assistance when required.",
     "effect": "Your presence is now respected by people everywhere.",
-    "apCost": 2,
+    "activationCost": 2,
     "actionType": "Turn"
   },
   {
@@ -636,7 +636,7 @@
     "level": 1,
     "description": "Gain a beacon and controller. Activate the controller to be teleported to the beacon.",
     "effect": "You acquire and train in the use of a Teleport Beacon that only you can use.",
-    "apCost": 2,
+    "activationCost": 2,
     "actionType": "Turn",
     "traits": [
       {
@@ -650,7 +650,7 @@
     "level": 1,
     "description": "Charge a target within Range and make a Melee attack with bonus damage.",
     "effect": "You charge a target in Range, moving to Close Range of them.",
-    "apCost": 1,
+    "activationCost": 1,
     "range": "Medium",
     "actionType": "Free"
   },
@@ -660,7 +660,7 @@
     "level": 2,
     "description": "Put and hold a target in a compromised position so that they gain the Vulnerable Trait.",
     "effect": "You overpower a target creature.",
-    "apCost": 2,
+    "activationCost": 2,
     "range": "Close",
     "actionType": "Turn"
   },
@@ -670,7 +670,7 @@
     "level": 3,
     "description": "Compel a target in Range to fight you in single combat.",
     "effect": "You compel a creature in Range to fight you in single combat.",
-    "apCost": 3,
+    "activationCost": 3,
     "range": "Close",
     "actionType": "Turn"
   },
@@ -680,7 +680,7 @@
     "level": 1,
     "description": "Ask questions of locals and gain assistance when required.",
     "effect": "You have an affinity with the people of the wastes.",
-    "apCost": 1,
+    "activationCost": 1,
     "actionType": "Turn"
   },
   {
@@ -689,7 +689,7 @@
     "level": 2,
     "description": "Find resources in the wastes and limit the effects of environmental conditions.",
     "effect": "You are hardened to surviving out in the wastelands.",
-    "apCost": 1,
+    "activationCost": 1,
     "actionType": "Short"
   },
   {
@@ -710,7 +710,7 @@
     "level": 1,
     "description": "Taunt a target in Range to focus its attacks on you.",
     "effect": "You provoke any target within Range to focus their attention on you.",
-    "apCost": 1,
+    "activationCost": 1,
     "range": "Close",
     "actionType": "Turn"
   },
@@ -720,7 +720,7 @@
     "level": 2,
     "description": "Allow you and your allies to retreat safely to an adjacent Area.",
     "effect": "You use your tactical knowledge to provide you and your Allies cover to safely retreat.",
-    "apCost": 2,
+    "activationCost": 2,
     "actionType": "Turn"
   },
   {
@@ -729,7 +729,7 @@
     "level": 3,
     "description": "Use as a reaction to make a single attack against the target that attacked you.",
     "effect": "When you are attacked you may activate this Ability to make a single attack of your choice against the target that attacked you.",
-    "apCost": 3,
+    "activationCost": 3,
     "actionType": "Reaction"
   },
   {
@@ -746,7 +746,7 @@
     "level": 2,
     "description": "When reduced to 0 SP activate as a Reaction to be reduced to 1 SP instead.",
     "effect": "You have the resilience and survival abilities to weather blows that would otherwise pulverise others into the dust.",
-    "apCost": 3,
+    "activationCost": 3,
     "actionType": "Reaction"
   },
   {
@@ -755,7 +755,7 @@
     "level": 3,
     "description": "Make an attack against all targets in Range with an equipped weapon.",
     "effect": "You have learned to deliver a flurry of attacks against your foes.",
-    "apCost": 3,
+    "activationCost": 3,
     "actionType": "Turn",
     "rollTable": {
       "19-20": "You strike all enemies within Range of the weapon, hitting them for double damage.",
@@ -771,7 +771,7 @@
     "level": 1,
     "description": "Coordinate an attack against a single target. You and each of your allies makes a free attack.",
     "effect": "You coordinate a team wide attack against a target, working perfectly in unison to destroy those standing against you and your allies.",
-    "apCost": "Variable",
+    "activationCost": "Variable",
     "actionType": "Turn"
   },
   {
@@ -788,7 +788,7 @@
     "level": 1,
     "description": "Gain additional actions on your turn, with the risk that you could cause yourself harm.",
     "effect": "Stim glands inserted into your adrenal veins allow you to push yourself beyond your normal means.",
-    "apCost": 3,
+    "activationCost": 3,
     "actionType": "Free",
     "rollTable": {
       "20": "For the next 10 minutes you can take up to three actions on your turn or Push an action for free.",
@@ -836,7 +836,7 @@
     "level": 1,
     "description": "Create Systems, Modules and Mech Chassis in the field.",
     "effect": "You are able to use your intimate knowledge of Mech fabrication techniques to craft Mech parts and even entire Chassis in the field.",
-    "apCost": 1,
+    "activationCost": 1,
     "actionType": "Short"
   },
   {
@@ -845,7 +845,7 @@
     "level": 2,
     "description": "Gain a mini-EMP that when activated shuts down all electronics in Close Range for 10 mins.",
     "effect": "You acquire and train in the use of a Miniaturised EMP that only you can use.",
-    "apCost": 4,
+    "activationCost": 4,
     "range": "Close",
     "actionType": "Turn",
     "traits": [
@@ -896,7 +896,7 @@
     "level": 2,
     "description": "Deal double damage on your next ranged weapon attack if it hits.",
     "effect": "You sharpen your senses, surpassing normal limits to pick off a target at Range.",
-    "apCost": 3,
+    "activationCost": 3,
     "actionType": "Free"
   },
   {
@@ -905,7 +905,7 @@
     "level": 3,
     "description": "Sneak into compounds, settlements and arcos to perform acts of espionage.",
     "effect": "You are unrivalled at being able to infiltrate the most dangerous and well-guarded areas of the wastelands, and carry out acts of assassination, sabotage, or theft, or simply cause chaos, before slipping away unseen.",
-    "apCost": 3,
+    "activationCost": 3,
     "actionType": "Long"
   },
   {
@@ -942,7 +942,7 @@
     "level": 2,
     "description": "Retroactively change the terms of a deal you’ve agreed.",
     "effect": "You may retroactively alter a deal to change one element of it that the other party has to reluctantly agree to.",
-    "apCost": 2,
+    "activationCost": 2,
     "actionType": "Turn"
   },
   {
@@ -951,7 +951,7 @@
     "level": 3,
     "description": "Smuggle contraband into even the most secure areas.",
     "effect": "You are an expert at smuggling contraband into any place you desire.",
-    "apCost": 3,
+    "activationCost": 3,
     "actionType": "Reaction"
   },
   {
@@ -960,7 +960,7 @@
     "level": 1,
     "description": "Gain a Knife Missile, a small floating assassination device you control.",
     "effect": "You acquire and train in the use of a Knife Missile that only you can use.",
-    "apCost": 3,
+    "activationCost": 3,
     "range": "Far",
     "actionType": "Turn",
     "traits": [
@@ -979,10 +979,10 @@
   {
     "name": "Stealth Field Generator",
     "tree": "Legendary Smuggler",
-    "level": 3,
+    "level": 1,
     "description": "This makes you and everything in Close range invisible indefinitely.",
     "effect": "You acquire and train in the use of a Stealth Field Generator that only you can use.",
-    "apCost": 4,
+    "activationCost": 4,
     "range": "Close",
     "actionType": "Turn",
     "traits": [
@@ -1020,7 +1020,7 @@
     "level": 3,
     "description": "Command an NPC follower who will assist you in your missions.",
     "effect": "You command an NPC who can understand and assist you.",
-    "apCost": 4,
+    "activationCost": 4,
     "actionType": "Turn"
   },
   {
@@ -1040,7 +1040,7 @@
   {
     "name": "Inspirational Union Leader",
     "tree": "Legendary Union Rep",
-    "level": 3,
+    "level": 1,
     "description": "Inspire your allies and refresh their HP, AP, and heal their minor injuries.",
     "effect": "You are a font of inspiration, courage, and stability for your Salvage Crew, in the face of the wasteland’s myriad dangers.",
     "actionType": "Turn",

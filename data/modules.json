@@ -26,7 +26,7 @@
     "traits": [{ "type": "hacking" }],
     "actionType": "Turn",
     "range": "Medium",
-    "apCost": 2,
+    "activationCost": 2,
     "description": "This hacking program allows you to tap into a Mech, database, or computer system to gather information about it. This can only be used to read data and not to write or manipulate it.",
     "rollTable": {
       "1": "The hack fails and the target is alerted to your hacking attempt. They can retaliate as appropriate.",
@@ -44,7 +44,7 @@
     "traits": [{ "type": "hacking" }],
     "actionType": "Reaction",
     "range": "Medium",
-    "apCost": 2,
+    "activationCost": 2,
     "description": "This Firewall is designed to block hacking attempts.",
     "rollTable": {
       "1": "You fail to block the hack, and your Firewall is breached, it becomes damaged and cannot be used until repaired to the Intact Condition.",
@@ -60,7 +60,7 @@
     "slotsRequired": 1,
     "salvageValue": 1,
     "actionType": "Short",
-    "apCost": 1,
+    "activationCost": 1,
     "description": "When activated, a single Pilot may use the Personal Recreation Device to relax and get themselves into a flow state. The next time they or a Mech they are controlling roll the die, they may re-roll it. They must accept the result of the second roll.",
     "notes": "*It is against Union Regulation to install a Mech with a Personal Recreation Device designed to do what you're thinking.*"
   },
@@ -71,7 +71,7 @@
     "salvageValue": 1,
     "actionType": "Turn",
     "range": "Long",
-    "apCost": 1,
+    "activationCost": 1,
     "description": "When activated, this Module fires a reactor-fuelled flare to any point within Range. The flare is clearly visible up to anywhere within Far Range as well as anyone in any adjacent area to you on the Region Map. The flare burns enough to provide illumination nearly equal to that of daylight. The flare lasts for an hour before dissipating."
   },
   {
@@ -90,7 +90,7 @@
     "traits": [{ "type": "scanner" }],
     "actionType": "Short",
     "range": "Long",
-    "apCost": 2,
+    "activationCost": 2,
     "description": "When activated, a Survey Scanner allows you to scan a specific point of interest within Range.",
     "rollTable": {
       "1": "Your scan returns inaccurate data. You may ask the Mediator 2 questions about the area and both answers will contain false information which you believe to be true.",
@@ -116,7 +116,7 @@
     "salvageValue": 2,
     "traits": [{ "type": "optics" }],
     "actionType": "Free",
-    "apCost": 1,
+    "activationCost": 1,
     "description": "When activated, this optical array extends the Range of any single Ranged Weapons System mounted on your Mech by one band, to a maximum of Long Range. It further allows you to zoom in and see one Range Band further than you currently are. This effect lasts for 1 hour."
   },
   {
@@ -136,7 +136,7 @@
     "traits": [{ "type": "scanner" }],
     "actionType": "Turn",
     "range": "Medium",
-    "apCost": 1,
+    "activationCost": 1,
     "description": "When activated, you scan a Mech or Vehicle in Range to get a full report on it. You learn its Chassis, Systems and Modules, its current and Max Structure Points, Heat, and Energy, and the Condition (Intact, Damaged, Destroyed) of its Chassis, Systems, and Modules."
   },
   {
@@ -155,7 +155,7 @@
     "traits": [{ "type": "scanner" }],
     "actionType": "Short",
     "range": "Long",
-    "apCost": 2,
+    "activationCost": 2,
     "description": "When activated, you scan a point within Range to detect the presence of any underground structures, cave networks, ruins, or bases."
   },
   {
@@ -174,7 +174,7 @@
     "salvageValue": 2,
     "actionType": "Turn",
     "range": "Medium",
-    "apCost": 2,
+    "activationCost": 2,
     "description": "When activated, the hull of your Mech becomes temporarily magnetised, drawing metallic objects towards it and allowing all manner of scrap and salvage to be easily carried.",
     "notes": "This increases your Mech's Cargo Capacity by its System Slot Value. This effect lasts for 1 hour and can be deactivated any time as a Free Action. The Union unofficially encourages creative and unorthodox uses of the Hull Magnetiser."
   },
@@ -186,7 +186,7 @@
     "traits": [{ "type": "optics" }],
     "actionType": "Free",
     "range": "Far",
-    "apCost": 1,
+    "activationCost": 1,
     "description": "When activated, this specialised, green tinted optical array allows you to see in darkness from your Mech up to Far Range. This effect lasts for 1 hour."
   },
   {
@@ -207,7 +207,7 @@
     "traits": [{ "type": "scanner" }],
     "actionType": "Turn",
     "range": "Medium",
-    "apCost": 1,
+    "activationCost": 1,
     "description": "When activated, you scan a point within the area map or a specific area of interest such as a ruined building, bunker, or dense area of foliage for any signs of movement. You detect if anything is moving in the area, the number of separate things that are moving, and whether they are People or Mech-sized."
   },
   {
@@ -218,7 +218,7 @@
     "traits": [{ "type": "scanner" }],
     "actionType": "Turn",
     "range": "Medium",
-    "apCost": 1,
+    "activationCost": 1,
     "description": "When you activate this Module you are able to plot a safe course for you and your Allies to either a known location within the Region Map you are in or one of the following locations in the wasteland."
   },
   {
@@ -228,7 +228,7 @@
     "salvageValue": 3,
     "traits": [{ "type": "targeter" }],
     "actionType": "Turn",
-    "apCost": 3,
+    "activationCost": 3,
     "description": "When activated, make an attack with a Weapons System of your choice against a target. If the attack hits choose a System, Module, or appendage on the target. You deal damage as normal, but the System, Module, or appendage is now damaged, or injured.",
     "rollTable": {
       "20": "The System, Module, or appendage is instead destroyed."
@@ -242,7 +242,7 @@
     "actionType": "Turn",
     "traits": [{ "type": "hacking" }],
     "range": "Medium",
-    "apCost": 2,
+    "activationCost": 2,
     "description": "When you activate this Module, a target Mech in Range must roll on the Reactor Overload Table."
   },
   {
@@ -252,7 +252,7 @@
     "salvageValue": 1,
     "actionType": "Turn",
     "range": "Long",
-    "apCost": 1,
+    "activationCost": 1,
     "description": "This Module projects a video or series of images of your choice onto a surface of your choice within Range."
   },
   {
@@ -261,7 +261,7 @@
     "slotsRequired": 1,
     "salvageValue": 2,
     "actionType": "Reaction",
-    "apCost": 2,
+    "activationCost": 2,
     "description": "When activated, you and all allied Mechs within Close Range go into a feigned reactor Shutdown. The Mechs are operational, but appear as though they are Shutdown to sensors. Anything with the Scanner, Targeter, or Hacking Trait cannot be used against them. The Mechs can move, but if they activate any Systems, Modules, Abilities, or attack, they become active again and this effect ceases."
   },
   {
@@ -286,7 +286,7 @@
     "salvageValue": 1,
     "actionType": "Turn",
     "range": "Far",
-    "apCost": 1,
+    "activationCost": 1,
     "description": "When activated, the video begins to record and automatically stops after one hour. The video is saved on a mini disc for watching later and can be kept as a Keepsake."
   },
   {
@@ -307,28 +307,28 @@
     "actions": [
       {
         "name": "Heal",
-        "apCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "actionType": "Short",
         "description": "The Auto-Doctor heals a creature within Range up to 10 HP. If they were on 0 HP this restores them to consciousness and heals them to 10 HP."
       },
       {
         "name": "Physio",
-        "apCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "actionType": "Short",
         "description": "The Auto-Doctor heals a creature within Range of a single Minor Injury."
       },
       {
         "name": "Therapy",
-        "apCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "actionType": "Short",
         "description": "The Auto-Doctor engages its therapeutic and drinks dispensation protocols. A single People who talks through things with the Auto-Doctor feels a lot better about themselves, their life, and the situation they are in."
       },
       {
         "name": "First Aid",
-        "apCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "actionType": "Free",
         "description": "The Auto-Doctor heals a creature within Range of up to 4 HP. If they were on 0 HP this restores them to consciousness and heals them 4 HP."
@@ -343,7 +343,7 @@
     "actionType": "Turn",
     "traits": [{ "type": "hacking" }],
     "range": "Long",
-    "apCost": 2,
+    "activationCost": 2,
     "description": "You may target anything with the Communicator Trait in Range and listen in on it for 10 minutes, hearing all inbound and outbound comms traffic."
   },
   {
@@ -363,13 +363,13 @@
     "actions": [
       {
         "name": "Coolant Flow",
-        "apCost": 2,
+        "activationCost": 2,
         "actionType": "Free",
         "description": "Adjusted valves provide coolant where required. Reduce the Heat of your Mech by 4."
       },
       {
         "name": "Coolant Flush",
-        "apCost": 1,
+        "activationCost": 1,
         "actionType": "Short",
         "description": "The coolant system runs through a flush cycle. Reduce the Heat of your Mech to 0."
       }
@@ -382,7 +382,7 @@
     "salvageValue": 3,
     "actionType": "Turn",
     "range": "Long",
-    "apCost": 3,
+    "activationCost": 3,
     "description": "When activated, all enemy Pilots, Mechs, and Vehicles within Range cannot activate or use any Pilot Equipment, Systems, Modules, or Abilities that have the Targeter, Hacking, Shield or Communicator Trait. This effect lasts for 10 minutes."
   },
   {
@@ -409,7 +409,7 @@
     "actionType": "Free",
     "traits": [{ "type": "hacking" }],
     "range": "Long",
-    "apCost": 1,
+    "activationCost": 1,
     "description": "When activated, your Mech acts as a range extender to various electronic devices. Any Ally within Long Range of you may use any System, Module, or Ability with the Communicator, Hacking, Scanner, or Optics Trait as though it originated from your Mech. This effect lasts for 1 hour."
   },
   {
@@ -438,7 +438,7 @@
     "actionType": "Turn",
     "traits": [{ "type": "hacking" }],
     "range": "Medium",
-    "apCost": 2,
+    "activationCost": 2,
     "description": "This Stefanus developed hacking program allows you to hack into a Mech, database, or computer system and manipulate data within it.",
     "rollTable": {
       "1": "The hack fails and the target is alerted of your hacking attempt. They can retaliate as appropriate.",
@@ -455,7 +455,7 @@
     "salvageValue": 2,
     "actionType": "Turn",
     "range": "Medium",
-    "apCost": 2,
+    "activationCost": 2,
     "description": "This Drontek-manufactured Module emits a piercing sound at an ultra high frequency that stuns anyone who hears it and causes them immense and sudden pain, with potential for cerebral haemorrhages and internal bleeding.",
     "rollTable": {
       "1": "The targets are entirely unharmed. The Module malfunctions causing the sound to reverberate through your Mech's Cockpit, your Pilot must roll on the Critical Injury Table.",
@@ -481,7 +481,7 @@
     "actionType": "Turn",
     "traits": [{ "type": "hacking" }],
     "range": "Close",
-    "apCost": 4,
+    "activationCost": 4,
     "description": "UNION DESIGNED HACKING MODULE THAT IMMOBILISES TARGET MECHS. IT THEN ATTEMPTS TO JUMP TO ANOTHER MECH IN RANGE.",
     "rollTable": {
       "1": "THE TONGUE REPLICATES IN YOUR SYSTEM. YOU GAIN THE IMMOBILE TRAIT FOR 10 MINUTES",
@@ -525,19 +525,19 @@
     "actions": [
       {
         "name": "Repair",
-        "apCost": 2,
+        "activationCost": 2,
         "actionType": "Free",
         "description": "You restore 6 SP to your Mech as long as it has at least 1 SP."
       },
       {
         "name": "System Repair",
-        "apCost": 2,
+        "activationCost": 2,
         "actionType": "Free",
         "description": "You repair a single, Tech 4 or lower, damaged System or Module mounted on your Mech to Intact Condition."
       },
       {
         "name": "Coolant Flush",
-        "apCost": 2,
+        "activationCost": 2,
         "actionType": "Free",
         "description": "You reduce the Heat of your Mech by 2."
       }
@@ -568,7 +568,7 @@
     "actionType": "Free",
     "traits": [{ "type": "targeter" }],
     "range": "Long",
-    "apCost": 3,
+    "activationCost": 3,
     "description": "When you activate this Module, pick a target within Range. The next attack you make against that target automatically hits counting as an (11-19) result."
   },
   {
@@ -596,7 +596,7 @@
     "actionType": "Turn",
     "traits": [{ "type": "targeter" }],
     "range": "Medium",
-    "apCost": 4,
+    "activationCost": 4,
     "description": "Multiple Rounds, Simultaneous Impact. When activated, choose a target within Range. You and up to 2 Allied Mechs in Range may attack the target immediately with a single Weapons System of their choice in Range of the target. Make each attack separately. These attacks count as having the Targeter Trait."
   },
   {
@@ -607,7 +607,7 @@
     "actionType": "Free",
     "traits": [{ "type": "optics" }],
     "range": "Long",
-    "apCost": 1,
+    "activationCost": 1,
     "description": "When activated, you are able to see the location of anything that generates heat within visual Range. You can see their location even if they are in an obscured area such as foggy conditions, in darkness, or behind solid objects such as buildings. This effect lasts for 1 hour."
   },
   {
@@ -628,21 +628,21 @@
     "actions": [
       {
         "name": "Pinpoint Targeter",
-        "apCost": 3,
+        "activationCost": 3,
         "actionType": "Turn",
         "traits": [{ "type": "targeter" }],
         "description": "Make an attack at a selected target. If it hits select a system or appendage to be damaged/injured. If you roll a 20 it is destroyed instead. You also deal damage as normal."
       },
       {
         "name": "Multi-Targeter",
-        "apCost": "Variable",
+        "activationCost": "Variable",
         "actionType": "Turn",
         "traits": [{ "type": "targeter" }],
         "description": "Make an attack with any number of weapons. Each weapon must select a different target. Costs 1 EP per weapon fired."
       },
       {
         "name": "Laser Guidance",
-        "apCost": 3,
+        "activationCost": 3,
         "actionType": "Free",
         "traits": [{ "type": "targeter" }, { "type": "guided" }],
         "range": "Long",
@@ -657,7 +657,7 @@
     "salvageValue": 2,
     "actionType": "Turn",
     "range": "Medium",
-    "apCost": 2,
+    "activationCost": 2,
     "description": "When activated, this Module projects a lifelike, three dimensional, hologram into an area within Range. The hologram appears to onlookers as though it was realistic and can be viewed from multiple angles. It can be spoken through or set to repeat a message, make animal calls, or mimic the sounds of explosions or weapons firing."
   },
   {
@@ -699,7 +699,7 @@
     "slotsRequired": 1,
     "salvageValue": 1,
     "actionType": "Turn",
-    "apCost": 1,
+    "activationCost": 1,
     "description": "This Module utilises Dynamic Diode Rotarisation technology allowing a Mech to perform a series of complex movements in time with music typically meant to impress others as well as for recreation."
   },
   {
@@ -708,7 +708,7 @@
     "slotsRequired": 2,
     "salvageValue": 3,
     "actionType": "Turn",
-    "apCost": 4,
+    "activationCost": 4,
     "description": "When activated, your Mech becomes phased. Whilst in a phased state your Mech can move through walls, objects, structures, and other Mechs. You cannot attack or otherwise interact with anything whilst phased. You can unphase as a Free Action at no cost."
   },
   {

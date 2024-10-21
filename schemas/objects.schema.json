@@ -12,8 +12,7 @@
         "effect": {
           "type": "string"
         },
-        "apCost": { "$ref": "common.schema.json#/definitions/apCost" },
-        "epCost": { "$ref": "common.schema.json#/definitions/apCost" },
+        "activationCost": { "$ref": "common.schema.json#/definitions/activationCost" },
         "range": { "$ref": "enums.schema.json#/definitions/range" },
         "actionType": { "$ref": "enums.schema.json#/definitions/actionType" },
         "traits": { "$ref": "common.schema.json#/definitions/traits" },
@@ -41,8 +40,7 @@
         "notes": {
           "type": "string"
         },
-        "apCost": { "$ref": "common.schema.json#/definitions/apCost" },
-        "epCost": { "$ref": "common.schema.json#/definitions/apCost" },
+        "activationCost": { "$ref": "common.schema.json#/definitions/activationCost" },
         "range": { "$ref": "enums.schema.json#/definitions/range" },
         "damage": { "$ref": "common.schema.json#/definitions/damage" },
         "rollTable": { "$ref": "common.schema.json#/definitions/rollTable" },

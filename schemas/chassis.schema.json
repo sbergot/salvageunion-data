@@ -10,6 +10,7 @@
       },
       "stats": {
         "type": "object",
+        "additionalProperties": false,
         "properties": {
           "structure_pts": { "type": "number" },
           "energy_pts": { "type": "number" },
@@ -31,6 +32,7 @@
         "type": "array",
         "items": {
           "type": "object",
+          "additionalProperties": false,
           "properties": {
             "name": {
               "type": "string"
@@ -45,6 +47,20 @@
             "modules": {
               "type": "array",
               "items": { "type": "string" }
+            },
+            "drone": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "systems": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "modules": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                }
+              }
             }
           }
         }

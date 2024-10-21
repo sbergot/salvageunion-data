@@ -27,3 +27,7 @@ export function list(filename, property) {
   });
   return Object.keys(result);
 }
+
+export function getAllDataFiles() {
+  return fs.readdirSync("data");
+}

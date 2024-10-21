@@ -14,7 +14,7 @@
       "notes": {
         "type": "string"
       },
-      "apCost": { "$ref": "common.schema.json#/definitions/apCost" },
+      "activationCost": { "$ref": "common.schema.json#/definitions/activationCost" },
       "range": { "$ref": "enums.schema.json#/definitions/range" },
       "damage": { "$ref": "common.schema.json#/definitions/damage" },
       "actionType": { "$ref": "enums.schema.json#/definitions/actionType" },

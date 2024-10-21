@@ -227,21 +227,21 @@
     "actions": [
       {
         "name": "Patch",
-        "epCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "actionType": "Turn",
         "description": "You restore up to 4 Structure Points to any Mech in Range that has at least 1 SP."
       },
       {
         "name": "System Repair",
-        "epCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "actionType": "Short",
         "description": "You repair a damaged Tech 1 System or Module in Range to Intact Condition. It is now usable."
       },
       {
         "name": "Chassis Repair",
-        "epCost": 4,
+        "activationCost": 4,
         "range": "Close",
         "actionType": "Long",
         "description": "You repair a damaged Tech 1 Mech Chassis or Vehicle in Range to Intact Condition. It is now usable with 1 SP."
@@ -320,7 +320,7 @@
     "actions": [
       {
         "name": "Pin",
-        "epCost": 2,
+        "activationCost": 2,
         "range": "Medium",
         "actionType": "Turn",
         "traits": [{ "type": "pinning" }],
@@ -328,7 +328,7 @@
       },
       {
         "name": "Swing",
-        "epCost": 2,
+        "activationCost": 2,
         "range": "Medium",
         "actionType": "Turn",
         "description": "You may swing or rappel up, down, or over any terrain or obstacle within Range such as a tall building, ravine, or stretch of Irradiated river as long as you have something sturdy to attach the grappling hook to."
@@ -388,7 +388,7 @@
     "actionType": "Turn",
     "description": "This System fires a large, strong nanofibre net at a target, making them easy pickings for salvage.",
     "range": "Close",
-    "epCost": 2
+    "activationCost": 2
   },
   {
     "name": "Module Switch",
@@ -423,7 +423,7 @@
     "salvageValue": 2,
     "actionType": "Turn",
     "description": "You pump a stream of smoke around you concealing your Mech from view. Any Systems, Modules, or Abilities with the Targeter Trait cannot be used against you.",
-    "epCost": 2
+    "activationCost": 2
   },
   {
     "name": "Refractive Shield Projector",
@@ -467,7 +467,7 @@
     "traits": [{ "type": "targeter" }],
     "description": "When activated, you fire a bead-sized tracking node from your Mech at any target within Long Range.",
     "range": "Long",
-    "epCost": 2,
+    "activationCost": 2,
     "notes": "*Union Code § 2211 prohibits the use of unsecured tracking systems on board Union Crawlers to prevent back hacking*"
   },
   {
@@ -480,21 +480,21 @@
     "actions": [
       {
         "name": "Patch",
-        "epCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "actionType": "Turn",
         "description": "You restore up to 5 Structure Points to any Mech in Range that has at least 1 SP."
       },
       {
         "name": "System Repair",
-        "epCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "actionType": "Short",
         "description": "You repair a damaged Tech 1 or Tech 2 System or Module in Range to Intact Condition. It is now usable."
       },
       {
         "name": "Chassis Repair",
-        "epCost": 4,
+        "activationCost": 4,
         "range": "Close",
         "actionType": "Long",
         "description": "You repair a damaged Tech 1 or Tech 2 Mech Chassis or Vehicle in Range to Intact Condition. It is now usable with 1 SP."
@@ -561,7 +561,7 @@
     "actionType": "Turn",
     "description": "Reduces the Heat of a target Mech in Range to 0.",
     "range": "Close",
-    "epCost": 1,
+    "activationCost": 1,
     "traits": [{ "type": "uses", "amount": 5 }]
   },
   {
@@ -591,21 +591,21 @@
     "actions": [
       {
         "name": "Patch",
-        "epCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "actionType": "Turn",
         "description": "You restore up to 6 Structure Points to any Mech in Range that has at least 1 SP."
       },
       {
         "name": "System Repair",
-        "epCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "actionType": "Short",
         "description": "You repair a damaged Tech 1, 2, or 3 System or Module in Range to Intact Condition. It is now usable."
       },
       {
         "name": "Chassis Repair",
-        "epCost": 4,
+        "activationCost": 4,
         "range": "Close",
         "actionType": "Long",
         "description": "You repair a damaged Tech 1, 2, or 3 Mech Chassis or Vehicle in Range to Intact Condition. It is now usable with 1 SP."
@@ -748,7 +748,7 @@
     "traits": [{ "type": "targeter" }],
     "description": "The Target Painter focusses a small beam on a target, tagging it so that missiles can automatically hit.",
     "range": "Close",
-    "epCost": 2
+    "activationCost": 2
   },
   {
     "name": "Vectored Thrust Unit",
@@ -769,21 +769,21 @@
     "actions": [
       {
         "name": "Patch",
-        "epCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "actionType": "Turn",
         "description": "You restore up to 7 Structure Points to any Mech in Range that has at least 1 SP."
       },
       {
         "name": "System Repair",
-        "epCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "actionType": "Short",
         "description": "You repair a damaged Tech 1, 2, 3, or 4 System or Module in Range to Intact Condition. It is now usable."
       },
       {
         "name": "Chassis Repair",
-        "epCost": 4,
+        "activationCost": 4,
         "range": "Close",
         "actionType": "Long",
         "description": "You repair a damaged Tech 1, 2, 3, or 4 Mech Chassis or Vehicle in Range to Intact Condition. It is now usable with 1 SP."
@@ -798,7 +798,7 @@
     "actionType": "Short",
     "description": "An effective area control tool, when triggered, Anti-Mech Mines attach to Mechs in their vicinity with spider-like clamps and detonate, dealing devastating damage.",
     "range": "Close",
-    "epCost": 1,
+    "activationCost": 1,
     "traits": [{ "type": "uses", "amount": 5 }],
     "rollTable": {
       "1": "The mines hit an unintended target such as an Ally or something innocent in the area.",
@@ -855,7 +855,7 @@
     "actionType": "Turn",
     "description": "EMITS A SPRAY OF CAUSTIC NERVE GAS THAT COATS AN AREA. CAUSES INTERNAL BLEEDING, VOMITING, MIGRAINES, SPASMS, LOSS OF BLADDER AND BOWEL CONTROL AND DEATH. ON A SUCCESSFUL HIT UNPROTECTED ORGANIC TARGETS MUST ROLL ON THE CRITICAL INJURY TABLE. PILOTS WITHOUT HAZARD PROTECTION, RADIATION SEALING OR EQUIVALENT ARE AFFECTED IN THEIR CHASSIS. THIS DOES NOT AFFECT BIO-TITANS.",
     "range": "Close",
-    "epCost": 3
+    "activationCost": 3
   },
   {
     "name": "CACB Laser",
@@ -972,7 +972,7 @@
     "actions": [
       {
         "name": "Stabilise",
-        "epCost": 3,
+        "activationCost": 3,
         "actionType": "Turn",
         "description": "You activate the deployment protocols and your mech digs itself into the ground. Whilst stabilised, your Mech gains the Immobile Trait. Your Mech further reduces all damage it takes by 2 SP, to a minimum of 1 whilst stabilised. In addition, the first attack you make on your Turn whilst stabilised deals an additional 2 SP damage."
       }
@@ -987,21 +987,21 @@
     "actions": [
       {
         "name": "Tesla Arc",
-        "epCost": 2,
+        "activationCost": 2,
         "range": "Medium",
         "actionType": "Turn",
         "description": "You may choose up to three different targets in Range. Roll to hit once as normal. On a successful hit, the first target takes 4 SP damage, the second target takes 3 SP damage, and the third target takes 2 SP damage."
       },
       {
         "name": "Tesla Charge",
-        "epCost": 3,
+        "activationCost": 3,
         "range": "Close",
         "actionType": "Turn",
         "description": "You may restore up to 2 EP to a target Mech in Range."
       },
       {
         "name": "Tesla Shield",
-        "epCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "actionType": "Turn",
         "traits": [{ "type": "shield" }],
@@ -1017,7 +1017,7 @@
     "actionType": "Short",
     "description": "Developed by Osiris Construction as a mobile field Repair Bay. This System mounts onto a Mech and allows other Mechs to repair and recharge within its restorative hull temporarily repairing damage to them through use of metal epoxy and hydrofluids.",
     "range": "Close",
-    "epCost": 3,
+    "activationCost": 3,
     "actions": [
       {
         "name": "Repair",
@@ -1063,7 +1063,7 @@
     "traits": [{ "type": "shield" }],
     "description": "This shielding array of Stefanus design is specifically designed to reflect attacks back at the target.",
     "range": "Close",
-    "epCost": 2,
+    "activationCost": 2,
     "rollTable": {
       "1": "The shield malfunctions. You take no damage from the attack, but it is deflected to a random target within Medium Range, which takes the full damage of the attack. In addition, your Reflective Shielding System becomes damaged.",
       "20": "The attack deals no damage and is reflected devastatingly back at the attacker, hitting them for 2× the damage of the weapon they attacked with.",
@@ -1111,7 +1111,7 @@
     "actionType": "Reaction",
     "traits": [{ "type": "shield" }],
     "description": "This multi-phase shield array was developed as a collaboration between Aeon and Stefanus and protects a Mech against a wide array of attacks.",
-    "epCost": 3,
+    "activationCost": 3,
     "rollTable": {
       "1": "The attack hits as normal and the shield overloads. Your Mech gains 2 Heat and must make a Heat Check.",
       "20": "The attack deals no damage and reflects back at the attacker, hitting them for the damage of the weapon they attacked with.",
@@ -1203,7 +1203,7 @@
     "salvageValue": 4,
     "actionType": "Turn",
     "description": "This allows you to teleport salvage directly from your Mech to the Crawler.",
-    "epCost": 3,
+    "activationCost": 3,
     "notes": "When you activate this ability, you teleport all Scrap, Chassis, Systems, Modules, and People your Mech is carrying to the Storage Bay in your Union Crawler.",
     "rollTable": {
       "1": "Everything you are attempting to teleport is destroyed or killed.",
@@ -1240,7 +1240,7 @@
     "actions": [
       {
         "name": "Disintegrate",
-        "epCost": "Variable",
+        "activationCost": "Variable",
         "range": "Close",
         "actionType": "Turn",
         "traits": [{ "type": "shield" }],
@@ -1248,7 +1248,7 @@
       },
       {
         "name": "Shield",
-        "epCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "actionType": "Reaction",
         "traits": [{ "type": "shield" }],
@@ -1273,21 +1273,21 @@
     "actions": [
       {
         "name": "Patch",
-        "epCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "actionType": "Turn",
         "description": "You restore up to 10 Structure Points to any Mech in Range that has at least 1 SP."
       },
       {
         "name": "System Repair",
-        "epCost": 2,
+        "activationCost": 2,
         "range": "Close",
         "actionType": "Short",
         "description": "You repair any damaged System or Module in Range to Intact Condition. It is now usable."
       },
       {
         "name": "Chassis Repair",
-        "epCost": 4,
+        "activationCost": 4,
         "range": "Close",
         "actionType": "Long",
         "description": "You repair any damaged Mech Chassis or Vehicle in Range to Intact Condition. It is now usable with 1 SP."
@@ -1302,7 +1302,7 @@
     "actionType": "Reaction",
     "traits": [{ "type": "escape" }],
     "description": "This teleportation pod deconstructs your atoms and reconstructs them in the safety of a Teleportation Bay.",
-    "epCost": 2,
+    "activationCost": 2,
     "rollTable": {
       "1": "The teleporter malfunctions. You instead teleport to a random Teleportation Bay somewhere on the Campaign Map you are currently in.",
       "20": "You teleport perfectly to your destination. In addition, you may bring an additional creature within Close Range with you as you teleport.",
