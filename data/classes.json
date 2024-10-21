@@ -3,28 +3,58 @@
     "name": "Engineer",
     "type": "core",
     "description": "Engineers form an integral component of the Union, the grease that keeps our Mechs and Crawlers trundling across the great wastelands.",
-    "coreAbilities": ["Mechanical Knowledge", "Forging", "Mech-Tech"],
-    "hybridClasses": ["Fabricator", "Union Rep"],
+    "coreAbilities": [
+      "Mechanical Knowledge",
+      "Forging",
+      "Mech-Tech"
+    ],
+    "hybridClasses": [
+      "Fabricator",
+      "Union Rep"
+    ],
     "advancedAbilities": "Advanced Engineer",
-    "legendaryAbilities": ["Tip Top Shape", "The Full Works"]
+    "legendaryAbilities": [
+      "Tip Top Shape",
+      "The Full Works"
+    ]
   },
   {
     "name": "Hacker",
     "type": "core",
     "description": "Electronic warfare is a reality of the world we live in, and Hackers are at the forefront, delving into the cybersphere to discover new and ingenious ways to hack into Mech infrastructure, tap into corpo networks, and use corpo tech against their owners.",
-    "coreAbilities": ["Hacking", "Electronics", "Augmentation"],
-    "hybridClasses": ["Fabricator", "Cyborg"],
+    "coreAbilities": [
+      "Hacking",
+      "Electronics",
+      "Augmentation"
+    ],
+    "hybridClasses": [
+      "Fabricator",
+      "Cyborg"
+    ],
     "advancedAbilities": "Advanced Hacking",
-    "legendaryAbilities": ["Network Takeover", "Spyware"]
+    "legendaryAbilities": [
+      "Network Takeover",
+      "Spyware"
+    ]
   },
   {
     "name": "Hauler",
     "type": "core",
     "description": "If you need a job done in the Union, no matter how dirty, you call a Hauler. There is never a job too big, or a deal too messy, that they won’t shake your hand with a smile to do.",
-    "coreAbilities": ["Salvaging", "Trading", "Leadership"],
-    "hybridClasses": ["Union Rep", "Smuggler"],
+    "coreAbilities": [
+      "Salvaging",
+      "Trading",
+      "Leadership"
+    ],
+    "hybridClasses": [
+      "Union Rep",
+      "Smuggler"
+    ],
     "advancedAbilities": "Advanced Hauler",
-    "legendaryAbilities": ["Hauling All Day", "Master Salvager"]
+    "legendaryAbilities": [
+      "Hauling All Day",
+      "Master Salvager"
+    ]
   },
   {
     "name": "Salvager",
@@ -51,63 +81,129 @@
     "name": "Scout",
     "type": "core",
     "description": "The wasteland is a vast, hostile, and unforgiving expanse; and the Scout knows that land from end to end.",
-    "coreAbilities": ["Recon", "Sleuth", "Sniper"],
-    "hybridClasses": ["Ranger", "Smuggler"],
+    "coreAbilities": [
+      "Recon",
+      "Sleuth",
+      "Sniper"
+    ],
+    "hybridClasses": [
+      "Ranger",
+      "Smuggler"
+    ],
     "advancedAbilities": "Advanced Scout",
-    "legendaryAbilities": ["Teleport Beacon", "Wasteland Celebrity"]
+    "legendaryAbilities": [
+      "Teleport Beacon",
+      "Wasteland Celebrity"
+    ]
   },
   {
     "name": "Soldier",
     "type": "core",
     "description": "War and conflict is an ever present factor in the wastelands and whether fighting with sharpened sticks or plasma cannons, soldiers have always been at the forefront of a conflict throughout human history.",
-    "coreAbilities": ["Survivalist", "Gladitorial Combat", "Tactical Warfare"],
-    "hybridClasses": ["Ranger", "Cyborg"],
+    "coreAbilities": [
+      "Survivalist",
+      "Gladitorial Combat",
+      "Tactical Warfare"
+    ],
+    "hybridClasses": [
+      "Ranger",
+      "Cyborg"
+    ],
     "advancedAbilities": "Advanced Soldier",
-    "legendaryAbilities": ["Steel Pact", "Omega Strike"]
+    "legendaryAbilities": [
+      "Steel Pact",
+      "Omega Strike"
+    ]
   },
   {
     "name": "Fabricator",
     "type": "hybrid",
     "description": "You have chosen the path of the Fabricator.",
-    "coreClasses": ["Engineer", "Hacker"],
-    "coreAbilities": ["Forging", "Electronics"],
+    "coreClasses": [
+      "Engineer",
+      "Hacker"
+    ],
+    "coreAbilities": [
+      "Forging",
+      "Electronics"
+    ],
     "advancedAbilities": "Fabricator",
-    "legendaryAbilities": ["Droned Mech Conversion", "System Miniaturisation"]
+    "legendaryAbilities": [
+      "Droned Mech Conversion",
+      "System Miniaturisation"
+    ]
   },
   {
     "name": "Cyborg",
     "type": "hybrid",
     "description": "You have chosen the path of the Cyborg.",
-    "coreClasses": ["Soldier", "Hacker"],
-    "coreAbilities": ["Gladitorial Combat", "Augmentation", "Cyborg"],
+    "coreClasses": [
+      "Soldier",
+      "Hacker"
+    ],
+    "coreAbilities": [
+      "Gladitorial Combat",
+      "Augmentation",
+      "Cyborg"
+    ],
     "advancedAbilities": "Cyborg",
-    "legendaryAbilities": ["Ascension", "Meld Form"]
+    "legendaryAbilities": [
+      "Ascension",
+      "Meld Form"
+    ]
   },
   {
     "name": "Union Rep",
     "type": "hybrid",
     "description": "You have chosen the path of the Union Rep.",
-    "coreClasses": ["Engineer", "Hauler"],
-    "coreAbilities": ["Mechanical Knowledge", "Leadership"],
+    "coreClasses": [
+      "Engineer",
+      "Hauler"
+    ],
+    "coreAbilities": [
+      "Mechanical Knowledge",
+      "Leadership"
+    ],
     "advancedAbilities": "Union Rep",
-    "legendaryAbilities": ["Inspirational Union Leader", "VIP Beacon"]
+    "legendaryAbilities": [
+      "Inspirational Union Leader",
+      "VIP Beacon"
+    ]
   },
   {
     "name": "Smuggler",
     "type": "hybrid",
     "description": "You have chosen the path of the Smuggler.",
-    "coreClasses": ["Hauler", "Scout"],
-    "coreAbilities": ["Salvaging", "Sleuth"],
+    "coreClasses": [
+      "Hauler",
+      "Scout"
+    ],
+    "coreAbilities": [
+      "Salvaging",
+      "Sleuth"
+    ],
     "advancedAbilities": "Smuggler",
-    "legendaryAbilities": ["Stealth Field Generator", "Knife Missile"]
+    "legendaryAbilities": [
+      "Stealth Field Generator",
+      "Knife Missile"
+    ]
   },
   {
     "name": "Ranger",
     "type": "hybrid",
     "description": "You have chosen the path of the Ranger.",
-    "coreClasses": ["Soldier", "Scout"],
-    "coreAbilities": ["Survivalist", "Sniper"],
+    "coreClasses": [
+      "Soldier",
+      "Scout"
+    ],
+    "coreAbilities": [
+      "Survivalist",
+      "Sniper"
+    ],
     "advancedAbilities": "Ranger",
-    "legendaryAbilities": ["One with the Wastelands", "Mecha Packmaster"]
+    "legendaryAbilities": [
+      "One with the Wastelands",
+      "Mecha Packmaster"
+    ]
   }
 ]

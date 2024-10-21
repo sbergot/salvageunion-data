@@ -5,10 +5,10 @@
     "type": "object",
     "additionalProperties": false,
     "properties": {
-      "tree": { "$ref": "enums.schema.json#/definitions/tree" },
+      "tree": { "$ref": "shared/enums.schema.json#/definitions/tree" },
       "requirement": {
         "type": "array",
-        "items": { "$ref": "enums.schema.json#/definitions/tree" }
+        "items": { "$ref": "shared/enums.schema.json#/definitions/tree" }
       }
     }
   }

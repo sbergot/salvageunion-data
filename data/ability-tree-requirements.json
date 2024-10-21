@@ -1,82 +1,127 @@
 [
   {
     "tree": "Advanced Engineer",
-    "requirement": ["Mech-Tech"]
+    "requirement": [
+      "Mech-Tech"
+    ]
   },
   {
     "tree": "Legendary Engineer",
-    "requirement": ["Advanced Engineer"]
+    "requirement": [
+      "Advanced Engineer"
+    ]
   },
   {
     "tree": "Fabricator",
-    "requirement": ["Forging", "Electronics"]
+    "requirement": [
+      "Forging",
+      "Electronics"
+    ]
   },
   {
     "tree": "Legendary Fabricator",
-    "requirement": ["Fabricator"]
+    "requirement": [
+      "Fabricator"
+    ]
   },
   {
     "tree": "Advanced Hacking",
-    "requirement": ["Hacking"]
+    "requirement": [
+      "Hacking"
+    ]
   },
   {
     "tree": "Legendary Hacker",
-    "requirement": ["Advanced Hacking"]
+    "requirement": [
+      "Advanced Hacking"
+    ]
   },
   {
     "tree": "Cyborg",
-    "requirement": ["Augmentation", "Gladitorial Combat"]
+    "requirement": [
+      "Augmentation",
+      "Gladitorial Combat"
+    ]
   },
   {
     "tree": "Legendary Cyborg",
-    "requirement": ["Cyborg"]
+    "requirement": [
+      "Cyborg"
+    ]
   },
   {
     "tree": "Advanced Soldier",
-    "requirement": ["Tactical Warfare"]
+    "requirement": [
+      "Tactical Warfare"
+    ]
   },
   {
     "tree": "Legendary Soldier",
-    "requirement": ["Advanced Soldier"]
+    "requirement": [
+      "Advanced Soldier"
+    ]
   },
   {
     "tree": "Ranger",
-    "requirement": ["Survivalist", "Sniper"]
+    "requirement": [
+      "Survivalist",
+      "Sniper"
+    ]
   },
   {
     "tree": "Legendary Ranger",
-    "requirement": ["Ranger"]
+    "requirement": [
+      "Ranger"
+    ]
   },
   {
     "tree": "Advanced Scout",
-    "requirement": ["Recon"]
+    "requirement": [
+      "Recon"
+    ]
   },
   {
     "tree": "Legendary Scout",
-    "requirement": ["Advanced Scout"]
+    "requirement": [
+      "Advanced Scout"
+    ]
   },
   {
     "tree": "Smuggler",
-    "requirement": ["Sleuth", "Salvaging"]
+    "requirement": [
+      "Sleuth",
+      "Salvaging"
+    ]
   },
   {
     "tree": "Legendary Smuggler",
-    "requirement": ["Smuggler"]
+    "requirement": [
+      "Smuggler"
+    ]
   },
   {
     "tree": "Advanced Hauler",
-    "requirement": ["Trading"]
+    "requirement": [
+      "Trading"
+    ]
   },
   {
     "tree": "Legendary Hauler",
-    "requirement": ["Advanced Hauler"]
+    "requirement": [
+      "Advanced Hauler"
+    ]
   },
   {
     "tree": "Union Rep",
-    "requirement": ["Leadership", "Mechanical Knowledge"]
+    "requirement": [
+      "Leadership",
+      "Mechanical Knowledge"
+    ]
   },
   {
     "tree": "Legendary Union Rep",
-    "requirement": ["Union Rep"]
+    "requirement": [
+      "Union Rep"
+    ]
   }
 ]

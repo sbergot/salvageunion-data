@@ -5,11 +5,20 @@
     "slotsRequired": 2,
     "salvageValue": 2,
     "range": "Close",
-    "damage": { "type": "SP", "amount": 2 },
+    "damage": {
+      "type": "SP",
+      "amount": 2
+    },
     "traits": [
-      { "type": "ballistic" },
-      { "type": "jamming" },
-      { "type": "pinning" }
+      {
+        "type": "ballistic"
+      },
+      {
+        "type": "jamming"
+      },
+      {
+        "type": "pinning"
+      }
     ],
     "description": "Fires solid, high calibre rounds that can puncture a Mech hull and shred through infantry."
   },
@@ -35,7 +44,11 @@
     "slotsRequired": 1,
     "salvageValue": 1,
     "actionType": "Reaction",
-    "traits": [{ "type": "escape" }],
+    "traits": [
+      {
+        "type": "escape"
+      }
+    ],
     "recommended": true,
     "description": "When activated, by pulling a lever, a bolted charge blows the Escape Hatch from the Mech Chassis, allowing for the Pilot to crawl through to safety.",
     "rollTable": {
@@ -52,8 +65,18 @@
     "slotsRequired": 3,
     "salvageValue": 3,
     "range": "Close",
-    "damage": { "type": "SP", "amount": 2 },
-    "traits": [{ "type": "melee" }, { "type": "salvaging" }],
+    "damage": {
+      "type": "SP",
+      "amount": 2
+    },
+    "traits": [
+      {
+        "type": "melee"
+      },
+      {
+        "type": "salvaging"
+      }
+    ],
     "description": "Originally developed as a tool for lumberjack Mechs, this saw arm has remained in use for its salvaging capabilities, utility, and stopping power."
   },
   {
@@ -71,11 +94,21 @@
     "slotsRequired": 3,
     "salvageValue": 3,
     "range": "Close",
-    "damage": { "type": "SP", "amount": 1 },
+    "damage": {
+      "type": "SP",
+      "amount": 1
+    },
     "traits": [
-      { "type": "anti-organic" },
-      { "type": "burn", "amount": 1 },
-      { "type": "overheat" }
+      {
+        "type": "anti-organic"
+      },
+      {
+        "type": "burn",
+        "amount": 1
+      },
+      {
+        "type": "overheat"
+      }
     ],
     "description": "The FM-3 shoots a superheated stream of fire at a target. Most Mechs are armoured enough that this only licks them, but it can mess up internals enough to stop them firing anything hot back at you."
   },
@@ -85,7 +118,15 @@
     "slotsRequired": 2,
     "salvageValue": 2,
     "actionType": "Turn",
-    "traits": [{ "type": "pinning" }, { "type": "uses", "amount": 5 }],
+    "traits": [
+      {
+        "type": "pinning"
+      },
+      {
+        "type": "uses",
+        "amount": 5
+      }
+    ],
     "description": "You fire a stream of highly pressurised water at any target or location in Range. This can douse fire and make ground boggy and wet.",
     "range": "Close"
   },
@@ -95,12 +136,23 @@
     "slotsRequired": 4,
     "salvageValue": 4,
     "range": "Close",
-    "damage": { "type": "SP", "amount": 3 },
+    "damage": {
+      "type": "SP",
+      "amount": 3
+    },
     "traits": [
-      { "type": "melee" },
-      { "type": "rigging" },
-      { "type": "salvaging" },
-      { "type": "unwieldy" }
+      {
+        "type": "melee"
+      },
+      {
+        "type": "rigging"
+      },
+      {
+        "type": "salvaging"
+      },
+      {
+        "type": "unwieldy"
+      }
     ],
     "description": "When you Area Salvage with this System you gain a single additional Scrap of the Tech Level of the area in addition to what you roll on the Area Salvaging Table."
   },
@@ -131,7 +183,6 @@
     "description": "A Mechapult must be loaded with one piece of Scrap to fire. The effect is randomly determined and differs based on the Tech Level of Scrap you choose.",
     "range": "Long",
     "rollTable": {
-      "type": "full",
       "1": "The Mechapult explodes and is destroyed. Deal SP damage equal to 2× the Tech Level of the Scrap to your Mech and everything within Close Range.",
       "2": "The Mechapult overloads collapsing in on itself. Your Mech takes damage equal to the Tech Level of the Scrap and the Mechapult is damaged.",
       "3": "The Mechapult backfires, hitting a random Ally in Range for SP damage equal to the Tech Level of the Scrap.",
@@ -151,7 +202,8 @@
       "17": "A bundle of carbon fibre rods fire at the target. It takes SP damage equal to 3× the Tech Level of the Scrap and is skewered to the ground. It cannot move and gains the Vulnerable Trait until it takes an action to free itself.",
       "18": "The scrap carves through the target flaying chunks off of it. A number of random Systems equal to the Tech Level of the Scrap on the target are damaged. In addition, it takes SP damage equal to the 2× Tech Level of the Scrap.",
       "19": "A heavy lump of scrap strikes the target with a devastating blow. The target is hit for SP damage equal to 4× the Tech Level of the Scrap",
-      "20": "A dense ball of concentrated scrap hits the target with catastrophic force dealing SP damage equal to 6× the Tech Level of the Scrap."
+      "20": "A dense ball of concentrated scrap hits the target with catastrophic force dealing SP damage equal to 6× the Tech Level of the Scrap.",
+      "type": "full"
     }
   },
   {
@@ -160,10 +212,19 @@
     "slotsRequired": 5,
     "salvageValue": 5,
     "range": "Medium",
-    "damage": { "type": "SP", "amount": 5 },
+    "damage": {
+      "type": "SP",
+      "amount": 5
+    },
     "traits": [
-      { "type": "explosive", "amount": 1 },
-      { "type": "uses", "amount": 5 }
+      {
+        "type": "explosive",
+        "amount": 1
+      },
+      {
+        "type": "uses",
+        "amount": 5
+      }
     ],
     "description": "The Herrsch Pattern Miniaturised Mortar lobs an explosive, high velocity round against a target, flaying everything around it with superheated shrapnel."
   },
@@ -173,11 +234,20 @@
     "slotsRequired": 5,
     "salvageValue": 5,
     "range": "Close",
-    "damage": { "type": "SP", "amount": 4 },
+    "damage": {
+      "type": "SP",
+      "amount": 4
+    },
     "traits": [
-      { "type": "melee" },
-      { "type": "salvaging" },
-      { "type": "unwieldy" }
+      {
+        "type": "melee"
+      },
+      {
+        "type": "salvaging"
+      },
+      {
+        "type": "unwieldy"
+      }
     ],
     "description": "Allows drilling, excavating, and salvaging of rock and other dense material."
   },
@@ -187,8 +257,19 @@
     "slotsRequired": 3,
     "salvageValue": 3,
     "range": "Close",
-    "damage": { "type": "SP", "amount": 3 },
-    "traits": [{ "type": "energy" }, { "type": "hot", "amount": 1 }],
+    "damage": {
+      "type": "SP",
+      "amount": 3
+    },
+    "traits": [
+      {
+        "type": "energy"
+      },
+      {
+        "type": "hot",
+        "amount": 1
+      }
+    ],
     "description": "Red lasers strike a target with a small, focussed beam of heat."
   },
   {
@@ -196,7 +277,11 @@
     "techLevel": 1,
     "slotsRequired": 2,
     "salvageValue": 2,
-    "traits": [{ "type": "rigging" }],
+    "traits": [
+      {
+        "type": "rigging"
+      }
+    ],
     "description": "This industrial rigging arm is designed to enable a Mech to pick up and manipulate objects in its external environment."
   },
   {
@@ -215,7 +300,10 @@
     "actionType": "Turn",
     "description": "A COMPRESSOR AND NOZZLE WHICH PROPELS AN ABRASIVE MATERIAL LIKE SAND TO SLOWLY ERODE, CLEAN, OR SHAPE A SURFACE.",
     "range": "Close",
-    "damage": { "type": "SP", "amount": 1 }
+    "damage": {
+      "type": "SP",
+      "amount": 1
+    }
   },
   {
     "name": "Riveting Gun",
@@ -254,7 +342,14 @@
     "slotsRequired": 2,
     "salvageValue": 2,
     "actionType": "Reaction",
-    "traits": [{ "type": "shield" }, { "type": "wield" }],
+    "traits": [
+      {
+        "type": "shield"
+      },
+      {
+        "type": "wield"
+      }
+    ],
     "description": "When your Mech or a target in Close Range is hit by a Melee Attack you may use your Armoured Shield to block the attack as a Reaction.",
     "rollTable": {
       "1": "The attack smashes through your Armoured Shield. The attack hits as normal and your Armoured Shield is destroyed.",
@@ -270,8 +365,18 @@
     "slotsRequired": 5,
     "salvageValue": 3,
     "range": "Medium",
-    "damage": { "type": "SP", "amount": 4 },
-    "traits": [{ "type": "ballistic" }, { "type": "jamming" }],
+    "damage": {
+      "type": "SP",
+      "amount": 4
+    },
+    "traits": [
+      {
+        "type": "ballistic"
+      },
+      {
+        "type": "jamming"
+      }
+    ],
     "description": "This automatic ballistic weapon fires high calibre slugs at a target."
   },
   {
@@ -280,8 +385,19 @@
     "slotsRequired": 7,
     "salvageValue": 5,
     "range": "Long",
-    "damage": { "type": "SP", "amount": 6 },
-    "traits": [{ "type": "energy" }, { "type": "hot", "amount": 3 }],
+    "damage": {
+      "type": "SP",
+      "amount": 6
+    },
+    "traits": [
+      {
+        "type": "energy"
+      },
+      {
+        "type": "hot",
+        "amount": 3
+      }
+    ],
     "description": "This heavy duty mining laser fires a concentrated blue beam originally designed to crack through deposits, but equally tears through a Mech.",
     "notes": "*Union safety regulation 956.326 (a) requires the use of Reactor Safety Protocols when using this system.*"
   },
@@ -298,7 +414,12 @@
     "techLevel": 2,
     "slotsRequired": 1,
     "salvageValue": 1,
-    "traits": [{ "type": "uses", "amount": 2 }],
+    "traits": [
+      {
+        "type": "uses",
+        "amount": 2
+      }
+    ],
     "actionType": "Reaction",
     "description": "This System fires a metallic cloud of chaff, made of strips of aluminium and zinc, from your Mech which can detonate missiles harmlessly in flight or scramble targeting systems."
   },
@@ -323,7 +444,11 @@
         "activationCost": 2,
         "range": "Medium",
         "actionType": "Turn",
-        "traits": [{ "type": "pinning" }],
+        "traits": [
+          {
+            "type": "pinning"
+          }
+        ],
         "description": "You deal 1 SP damage to the target and it cannot move beyond Medium Range of your Mech whilst the grappling harpoon is attached."
       },
       {
@@ -341,8 +466,19 @@
     "slotsRequired": 4,
     "salvageValue": 2,
     "range": "Medium",
-    "damage": { "type": "SP", "amount": 4 },
-    "traits": [{ "type": "energy" }, { "type": "hot", "amount": 2 }],
+    "damage": {
+      "type": "SP",
+      "amount": 4
+    },
+    "traits": [
+      {
+        "type": "energy"
+      },
+      {
+        "type": "hot",
+        "amount": 2
+      }
+    ],
     "description": "The Green Laser fires a solid beam of superheated energy at a target."
   },
   {
@@ -375,8 +511,15 @@
     "slotsRequired": 3,
     "salvageValue": 2,
     "range": "Close",
-    "damage": { "type": "SP", "amount": 3 },
-    "traits": [{ "type": "ballistic" }],
+    "damage": {
+      "type": "SP",
+      "amount": 3
+    },
+    "traits": [
+      {
+        "type": "ballistic"
+      }
+    ],
     "description": "Fires a blast of grapeshot which rips through multiple targets at close quarters.",
     "notes": "When you hit with this weapon one other target of your choice in Close Range takes 2 SP damage."
   },
@@ -405,7 +548,12 @@
     "salvageValue": 2,
     "actionType": "Passive",
     "description": "Grants the Mech a Personnel Capacity of 12, or 2 Squads per Personnel Transport Pod mounted.",
-    "traits": [{ "type": "personnel capacity", "amount": 12 }]
+    "traits": [
+      {
+        "type": "personnel capacity",
+        "amount": 12
+      }
+    ]
   },
   {
     "name": "Shotgun Pit",
@@ -431,7 +579,11 @@
     "slotsRequired": 2,
     "salvageValue": 2,
     "actionType": "Reaction",
-    "traits": [{ "type": "shield" }],
+    "traits": [
+      {
+        "type": "shield"
+      }
+    ],
     "description": "When you or a target in Close Range is hit by a weapon with the Energy Trait, you may attempt to use your Refractive Shield Projector to prevent the hit.",
     "range": "Close",
     "rollTable": {
@@ -448,12 +600,26 @@
     "slotsRequired": 6,
     "salvageValue": 5,
     "range": "Close/Long",
-    "damage": { "type": "SP", "amount": 6 },
+    "damage": {
+      "type": "SP",
+      "amount": 6
+    },
     "traits": [
-      { "type": "hot", "amount": 1 },
-      { "type": "explosive", "amount": 2 },
-      { "type": "missile" },
-      { "type": "uses", "amount": 6 }
+      {
+        "type": "hot",
+        "amount": 1
+      },
+      {
+        "type": "explosive",
+        "amount": 2
+      },
+      {
+        "type": "missile"
+      },
+      {
+        "type": "uses",
+        "amount": 6
+      }
     ],
     "description": "Developed as a highly destructive and versatile armament for underwater Mechs, it is not advisable to use these on land unless you have a good plan.",
     "notes": "When fired in water, Torpedo Tubes are Long Range weapons. When fired out of water they are Close Range weapons."
@@ -464,7 +630,11 @@
     "slotsRequired": 2,
     "salvageValue": 2,
     "actionType": "Turn",
-    "traits": [{ "type": "targeter" }],
+    "traits": [
+      {
+        "type": "targeter"
+      }
+    ],
     "description": "When activated, you fire a bead-sized tracking node from your Mech at any target within Long Range.",
     "range": "Long",
     "activationCost": 2,
@@ -507,8 +677,19 @@
     "slotsRequired": 7,
     "salvageValue": 4,
     "range": "Long",
-    "damage": { "type": "SP", "amount": 6 },
-    "traits": [{ "type": "ballistic" }, { "type": "explosive", "amount": 1 }],
+    "damage": {
+      "type": "SP",
+      "amount": 6
+    },
+    "traits": [
+      {
+        "type": "ballistic"
+      },
+      {
+        "type": "explosive",
+        "amount": 1
+      }
+    ],
     "description": "This chunky Weapons System fires a huge ballistic charge that explodes on impact."
   },
   {
@@ -516,7 +697,14 @@
     "techLevel": 3,
     "slotsRequired": 3,
     "salvageValue": 3,
-    "traits": [{ "type": "rigging" }, { "type": "salvaging" }],
+    "traits": [
+      {
+        "type": "rigging"
+      },
+      {
+        "type": "salvaging"
+      }
+    ],
     "description": "This advanced rigging arm has multiple interacting joints allowing for a much greater degree of movement and utility.",
     "notes": "If you have two or more Articulated Rigging Arms your Mech gains the Climbing Trait."
   },
@@ -543,7 +731,11 @@
     "slotsRequired": 2,
     "salvageValue": 2,
     "actionType": "Reaction",
-    "traits": [{ "type": "escape" }],
+    "traits": [
+      {
+        "type": "escape"
+      }
+    ],
     "description": "This allows you to escape your Mech in the event it suffers critical damage, is destroyed, or you find yourself in a tight spot.",
     "rollTable": {
       "1": "The Ejection System severely malfunctions, harming you inside your cockpit. The Ejection System is destroyed and your Pilot must roll on the Critical Injury Table.",
@@ -562,7 +754,12 @@
     "description": "Reduces the Heat of a target Mech in Range to 0.",
     "range": "Close",
     "activationCost": 1,
-    "traits": [{ "type": "uses", "amount": 5 }]
+    "traits": [
+      {
+        "type": "uses",
+        "amount": 5
+      }
+    ]
   },
   {
     "name": "Electro-Magnetic Shield Projector",
@@ -570,7 +767,11 @@
     "slotsRequired": 2,
     "salvageValue": 2,
     "actionType": "Reaction",
-    "traits": [{ "type": "shield" }],
+    "traits": [
+      {
+        "type": "shield"
+      }
+    ],
     "description": "When you or a target in Close Range is hit by a weapon with the Ballistic Trait, you may attempt to use your Electro-Magnetic Shield to prevent the hit.",
     "range": "Close",
     "rollTable": {
@@ -618,12 +819,23 @@
     "slotsRequired": 7,
     "salvageValue": 4,
     "range": "Close",
-    "damage": { "type": "SP", "amount": 6 },
+    "damage": {
+      "type": "SP",
+      "amount": 6
+    },
     "traits": [
-      { "type": "deadly" },
-      { "type": "melee" },
-      { "type": "salvaging" },
-      { "type": "unwieldy" }
+      {
+        "type": "deadly"
+      },
+      {
+        "type": "melee"
+      },
+      {
+        "type": "salvaging"
+      },
+      {
+        "type": "unwieldy"
+      }
     ],
     "description": "A heavy duty industrial mining rig that can be used to deal carnage in a pinch."
   },
@@ -633,8 +845,19 @@
     "slotsRequired": 5,
     "salvageValue": 2,
     "range": "Long",
-    "damage": { "type": "SP", "amount": 4 },
-    "traits": [{ "type": "energy" }, { "type": "hot", "amount": 1 }],
+    "damage": {
+      "type": "SP",
+      "amount": 4
+    },
+    "traits": [
+      {
+        "type": "energy"
+      },
+      {
+        "type": "hot",
+        "amount": 1
+      }
+    ],
     "description": "A Green Laser with an extended beam mount and heat sink allowing it to fire over a longer distance, whilst reducing its heat load."
   },
   {
@@ -643,8 +866,18 @@
     "slotsRequired": 2,
     "salvageValue": 2,
     "range": "Close",
-    "damage": { "type": "SP", "amount": 5 },
-    "traits": [{ "type": "melee" }, { "type": "wield" }],
+    "damage": {
+      "type": "SP",
+      "amount": 5
+    },
+    "traits": [
+      {
+        "type": "melee"
+      },
+      {
+        "type": "wield"
+      }
+    ],
     "description": "This System covers a wide array of close combat weapons designed for Mechs including swords, hatchets, and clubs.",
     "notes": "*Duelling is prohibited by Union Code § 914 - Art. 114. (b) unless under strict supervision by a chartered Union Rep.*"
   },
@@ -654,11 +887,22 @@
     "slotsRequired": 7,
     "salvageValue": 5,
     "range": "Long",
-    "damage": { "type": "SP", "amount": 8 },
+    "damage": {
+      "type": "SP",
+      "amount": 8
+    },
     "traits": [
-      { "type": "explosive", "amount": 2 },
-      { "type": "hot", "amount": 1 },
-      { "type": "missile" }
+      {
+        "type": "explosive",
+        "amount": 2
+      },
+      {
+        "type": "hot",
+        "amount": 1
+      },
+      {
+        "type": "missile"
+      }
     ],
     "description": "Missile Pods fire a heavy salvo of unguided, rocket propelled explosives over a wide area of terrain."
   },
@@ -667,7 +911,14 @@
     "techLevel": 3,
     "slotsRequired": 5,
     "salvageValue": 3,
-    "traits": [{ "type": "rigging" }, { "type": "salvaging" }],
+    "traits": [
+      {
+        "type": "rigging"
+      },
+      {
+        "type": "salvaging"
+      }
+    ],
     "description": "This complex prawn-like array of salvaging arms allows for the rapid and efficient Area Salvage, increasing your chances to find Mech Chassis, Systems, and Modules in an area.",
     "rollTable": {
       "1": "You find 1 Scrap of the Tech Level of the area.",
@@ -683,13 +934,28 @@
     "slotsRequired": 7,
     "salvageValue": 4,
     "range": "Medium",
-    "damage": { "type": "SP", "amount": 4 },
+    "damage": {
+      "type": "SP",
+      "amount": 4
+    },
     "traits": [
-      { "type": "ballistic" },
-      { "type": "hot", "amount": 1 },
-      { "type": "jamming" },
-      { "type": "multi-attack", "amount": 2 },
-      { "type": "pinning" }
+      {
+        "type": "ballistic"
+      },
+      {
+        "type": "hot",
+        "amount": 1
+      },
+      {
+        "type": "jamming"
+      },
+      {
+        "type": "multi-attack",
+        "amount": 2
+      },
+      {
+        "type": "pinning"
+      }
     ],
     "description": "This Evantis-developed Mech-mountable rotary ballistic weapon fires a horrifying hail of firepower at a target."
   },
@@ -708,8 +974,19 @@
     "slotsRequired": 7,
     "salvageValue": 4,
     "range": "Far",
-    "damage": { "type": "SP", "amount": 5 },
-    "traits": [{ "type": "ballistic" }, { "type": "hot", "amount": 1 }],
+    "damage": {
+      "type": "SP",
+      "amount": 5
+    },
+    "traits": [
+      {
+        "type": "ballistic"
+      },
+      {
+        "type": "hot",
+        "amount": 1
+      }
+    ],
     "description": "Developed by Sakura Futures for use in wetwork against heavily protected targets such as Consul Mechs, this lightweight railgun was reverse engineered from an original Evantis design."
   },
   {
@@ -718,8 +995,19 @@
     "slotsRequired": 5,
     "salvageValue": 3,
     "range": "Close",
-    "damage": { "type": "SP", "amount": 5 },
-    "traits": [{ "type": "energy" }, { "type": "hot", "amount": 1 }],
+    "damage": {
+      "type": "SP",
+      "amount": 5
+    },
+    "traits": [
+      {
+        "type": "energy"
+      },
+      {
+        "type": "hot",
+        "amount": 1
+      }
+    ],
     "description": "Shoots a hail of red lasers at a target sacrificing some range for increased firepower."
   },
   {
@@ -745,7 +1033,11 @@
     "slotsRequired": 2,
     "salvageValue": 3,
     "actionType": "Turn",
-    "traits": [{ "type": "targeter" }],
+    "traits": [
+      {
+        "type": "targeter"
+      }
+    ],
     "description": "The Target Painter focusses a small beam on a target, tagging it so that missiles can automatically hit.",
     "range": "Close",
     "activationCost": 2
@@ -799,7 +1091,12 @@
     "description": "An effective area control tool, when triggered, Anti-Mech Mines attach to Mechs in their vicinity with spider-like clamps and detonate, dealing devastating damage.",
     "range": "Close",
     "activationCost": 1,
-    "traits": [{ "type": "uses", "amount": 5 }],
+    "traits": [
+      {
+        "type": "uses",
+        "amount": 5
+      }
+    ],
     "rollTable": {
       "1": "The mines hit an unintended target such as an Ally or something innocent in the area.",
       "20": "Everything in the area is destroyed.",
@@ -824,8 +1121,18 @@
     "salvageValue": 2,
     "description": "A gimble mounted .50 Cal Machine gun with automated optical tracking.",
     "range": "Close",
-    "damage": { "type": "SP", "amount": 2 },
-    "traits": [{ "type": "ballistic" }, { "type": "pinning" }]
+    "damage": {
+      "type": "SP",
+      "amount": 2
+    },
+    "traits": [
+      {
+        "type": "ballistic"
+      },
+      {
+        "type": "pinning"
+      }
+    ]
   },
   {
     "name": "Automated Green Laser Turret",
@@ -834,8 +1141,19 @@
     "salvageValue": 4,
     "description": "A tri-axis gyroscope controlled Green Laser, with No-Scope LIDAR tracking.",
     "range": "Medium",
-    "damage": { "type": "SP", "amount": 4 },
-    "traits": [{ "type": "energy" }, { "type": "hot", "amount": 2 }]
+    "damage": {
+      "type": "SP",
+      "amount": 4
+    },
+    "traits": [
+      {
+        "type": "energy"
+      },
+      {
+        "type": "hot",
+        "amount": 2
+      }
+    ]
   },
   {
     "name": "Automated 120mm Cannon Turret",
@@ -844,8 +1162,19 @@
     "salvageValue": 3,
     "description": "A Herrsch 360° RealSteel Turret Enclosure, controls this 120mm Cannon.",
     "range": "Long",
-    "damage": { "type": "SP", "amount": 6 },
-    "traits": [{ "type": "ballistic" }, { "type": "explosive", "amount": 1 }]
+    "damage": {
+      "type": "SP",
+      "amount": 6
+    },
+    "traits": [
+      {
+        "type": "ballistic"
+      },
+      {
+        "type": "explosive",
+        "amount": 1
+      }
+    ]
   },
   {
     "name": "Aerosolised Nerve Gas Sprayer",
@@ -863,8 +1192,19 @@
     "slotsRequired": 7,
     "salvageValue": 5,
     "range": "Long",
-    "damage": { "type": "SP", "amount": 5 },
-    "traits": [{ "type": "energy" }, { "type": "hot", "amount": 2 }],
+    "damage": {
+      "type": "SP",
+      "amount": 5
+    },
+    "traits": [
+      {
+        "type": "energy"
+      },
+      {
+        "type": "hot",
+        "amount": 2
+      }
+    ],
     "description": "Standing for ‘Constant Amplitude, Constant Bearing Laser’, the longer this laser is focussed on a target, the more damage it deals.",
     "notes": "Each time you hit the same target with this Weapons System in consecutive turns you deal an additional 5 SP damage."
   },
@@ -916,8 +1256,18 @@
     "slotsRequired": 3,
     "salvageValue": 4,
     "range": "Long",
-    "damage": { "type": "SP", "amount": 1 },
-    "traits": [{ "type": "guided" }, { "type": "targeter" }],
+    "damage": {
+      "type": "SP",
+      "amount": 1
+    },
+    "traits": [
+      {
+        "type": "guided"
+      },
+      {
+        "type": "targeter"
+      }
+    ],
     "description": "Rumoured to have been developed using nanite tech from the vast Nanite Sea near the Stefanus home arco in the Forgotten Tundra, it fires a stream of nano-missiles at a target which hone in and overwhelm their defences.",
     "notes": "When activated as a Turn Action, you may fire up to 6 Needle Missiles at a target of your choice in Range. This attack does not require you to be able to see the target, and automatically hits. Each individual Needle Missile fired takes up one ‘Use’ and is counted as a separate attack. Any modifiers or effects apply to each Needle Missile individually."
   },
@@ -927,8 +1277,19 @@
     "slotsRequired": 9,
     "salvageValue": 8,
     "range": "Long",
-    "damage": { "type": "SP", "amount": 9 },
-    "traits": [{ "type": "ballistic" }, { "type": "hot", "amount": 2 }],
+    "damage": {
+      "type": "SP",
+      "amount": 9
+    },
+    "traits": [
+      {
+        "type": "ballistic"
+      },
+      {
+        "type": "hot",
+        "amount": 2
+      }
+    ],
     "description": "A magnetically propelled ballistic weapon that fires a large calibre, high velocity projectile that deals devastating damage on impact."
   },
   {
@@ -937,7 +1298,11 @@
     "slotsRequired": 4,
     "salvageValue": 4,
     "actionType": "Turn",
-    "traits": [{ "type": "shield" }],
+    "traits": [
+      {
+        "type": "shield"
+      }
+    ],
     "range": "Close",
     "description": "When activated, you project a Shield Dome around your Mech. Choose any amount of Energy Points when you activate this Ability. The Shield Dome has a number of Structure Points equal to 2× the Energy Points you spend on this Ability. You may only have one Shield Dome active at a time. You may deactivate the Shield Dome as a Free Action.",
     "notes": "When you or any target within Close Range of your Mech is dealt damage, the damage is instead dealt to the Shield Dome. Any excess damage that penetrates the shield is dealt to the target instead. If the damage is reduced to 0, the target suffers no additional effect from the attack."
@@ -957,8 +1322,19 @@
     "slotsRequired": 5,
     "salvageValue": 2,
     "range": "Medium",
-    "damage": { "type": "SP", "amount": 3 },
-    "traits": [{ "type": "energy" }, { "type": "hot", "amount": 3 }],
+    "damage": {
+      "type": "SP",
+      "amount": 3
+    },
+    "traits": [
+      {
+        "type": "energy"
+      },
+      {
+        "type": "hot",
+        "amount": 3
+      }
+    ],
     "description": "An adaption of the Blue Mining Laser which fragments the energy into a myriad of small but deadly particles, like buck shot, which blast apart a target.",
     "notes": "When this weapon hits a target in Close Range it deals 2× damage. Apply this after other modifiers."
   },
@@ -1004,7 +1380,11 @@
         "activationCost": 2,
         "range": "Close",
         "actionType": "Turn",
-        "traits": [{ "type": "shield" }],
+        "traits": [
+          {
+            "type": "shield"
+          }
+        ],
         "description": "You create an electrical field around your Mech for 10 minutes. Everything within Close Range of you, including Allies, takes 3 SP damage as you activate this Ability. If anything ends its turn in Close Range of you it takes 3 SP damage."
       }
     ]
@@ -1031,11 +1411,20 @@
     "slotsRequired": 5,
     "salvageValue": 4,
     "range": "Long",
-    "damage": { "type": "SP", "amount": 3 },
+    "damage": {
+      "type": "SP",
+      "amount": 3
+    },
     "traits": [
-      { "type": "anti-shielding" },
-      { "type": "energy" },
-      { "type": "ion" }
+      {
+        "type": "anti-shielding"
+      },
+      {
+        "type": "energy"
+      },
+      {
+        "type": "ion"
+      }
     ],
     "description": "This Weapons System fires a disabling bolt of ionised energy at the target. A target hit by this weapon cannot activate any Systems, Modules, or Abilities that have an Energy Cost on their next turn."
   },
@@ -1045,12 +1434,26 @@
     "slotsRequired": 6,
     "salvageValue": 5,
     "range": "Medium",
-    "damage": { "type": "SP", "amount": 5 },
+    "damage": {
+      "type": "SP",
+      "amount": 5
+    },
     "traits": [
-      { "type": "burn", "amount": 2 },
-      { "type": "explosive", "amount": 2 },
-      { "type": "hot", "amount": 2 },
-      { "type": "overheat" }
+      {
+        "type": "burn",
+        "amount": 2
+      },
+      {
+        "type": "explosive",
+        "amount": 2
+      },
+      {
+        "type": "hot",
+        "amount": 2
+      },
+      {
+        "type": "overheat"
+      }
     ],
     "description": "This Weapons System coats an area in superheated plasma which sticks to targets and burns through them. The effect is devastating against anyone in the open or unprotected terrain, burning them to a crisp in an instant. The weapon not only inflicts immediate damage against a Mech, it can also cause the Mech's reactor to overheat."
   },
@@ -1060,7 +1463,11 @@
     "slotsRequired": 4,
     "salvageValue": 3,
     "actionType": "Reaction",
-    "traits": [{ "type": "shield" }],
+    "traits": [
+      {
+        "type": "shield"
+      }
+    ],
     "description": "This shielding array of Stefanus design is specifically designed to reflect attacks back at the target.",
     "range": "Close",
     "activationCost": 2,
@@ -1078,13 +1485,27 @@
     "slotsRequired": 6,
     "salvageValue": 5,
     "range": "Long",
-    "damage": { "type": "SP", "amount": 7 },
+    "damage": {
+      "type": "SP",
+      "amount": 7
+    },
     "traits": [
-      { "type": "anti-shielding" },
-      { "type": "guided" },
-      { "type": "missile" },
-      { "type": "targeter" },
-      { "type": "uses", "amount": 6 }
+      {
+        "type": "anti-shielding"
+      },
+      {
+        "type": "guided"
+      },
+      {
+        "type": "missile"
+      },
+      {
+        "type": "targeter"
+      },
+      {
+        "type": "uses",
+        "amount": 6
+      }
     ],
     "description": "This Weapons System fires a bunker busting torpedo with an explosive charge that burrows into the earth and travels underneath a target, causing a controlled explosion beneath it making it effective against shields."
   },
@@ -1094,12 +1515,23 @@
     "slotsRequired": 3,
     "salvageValue": 3,
     "range": "Close",
-    "damage": { "type": "SP", "amount": 7 },
+    "damage": {
+      "type": "SP",
+      "amount": 7
+    },
     "traits": [
-      { "type": "deadly" },
-      { "type": "energy" },
-      { "type": "melee" },
-      { "type": "wield" }
+      {
+        "type": "deadly"
+      },
+      {
+        "type": "energy"
+      },
+      {
+        "type": "melee"
+      },
+      {
+        "type": "wield"
+      }
     ],
     "description": "A honed-carbon fibre blade with a monomolecular energy field that can slice through a Mech like butter."
   },
@@ -1109,7 +1541,11 @@
     "slotsRequired": 6,
     "salvageValue": 5,
     "actionType": "Reaction",
-    "traits": [{ "type": "shield" }],
+    "traits": [
+      {
+        "type": "shield"
+      }
+    ],
     "description": "This multi-phase shield array was developed as a collaboration between Aeon and Stefanus and protects a Mech against a wide array of attacks.",
     "activationCost": 3,
     "rollTable": {
@@ -1126,7 +1562,11 @@
     "slotsRequired": 3,
     "salvageValue": 3,
     "actionType": "Reaction",
-    "traits": [{ "type": "escape" }],
+    "traits": [
+      {
+        "type": "escape"
+      }
+    ],
     "description": "Developed by Sakura Futures as a means for their pilots to eject from their Mech in safety and comfort. This high-tech ejection System allows you to escape your Mech in the comfort of a well armoured Ejector Pod.",
     "rollTable": {
       "1": "The Ejector Pod fails to trigger and is damaged in the process, it cannot be used until repaired to the Intact Condition.",
@@ -1143,7 +1583,11 @@
     "salvageValue": 4,
     "range": "Long",
     "damage": "X SP",
-    "traits": [{ "type": "hot (x)" }],
+    "traits": [
+      {
+        "type": "hot (x)"
+      }
+    ],
     "description": "This laser is designed to be charged before fired, burning up a reactor, but potentially dealing horrendous damage to a target.",
     "notes": "Before you make an attack with this Weapons System, choose a number. Your Mech gains Heat equal to this number. If the attack hits the target it deals damage equal to this number. You cannot choose a number that would exceed your Mech's Heat Capacity."
   },
@@ -1153,7 +1597,11 @@
     "slotsRequired": 5,
     "salvageValue": 3,
     "actionType": "Passive",
-    "traits": [{ "type": "amphibious" }],
+    "traits": [
+      {
+        "type": "amphibious"
+      }
+    ],
     "description": "This System allows your Mech to move on land and underwater. You may move underwater with ease, suffering no restrictions or penalties, and can operate in underwater conditions indefinitely at significant depths."
   },
   {
@@ -1162,12 +1610,25 @@
     "slotsRequired": 14,
     "salvageValue": 7,
     "range": "Long",
-    "damage": { "type": "SP", "amount": 6 },
+    "damage": {
+      "type": "SP",
+      "amount": 6
+    },
     "traits": [
-      { "type": "ballistic" },
-      { "type": "explosive", "amount": 1 },
-      { "type": "jamming" },
-      { "type": "multi-attack", "amount": 3 }
+      {
+        "type": "ballistic"
+      },
+      {
+        "type": "explosive",
+        "amount": 1
+      },
+      {
+        "type": "jamming"
+      },
+      {
+        "type": "multi-attack",
+        "amount": 3
+      }
     ],
     "description": "This obscenely oversized weapon rapidly fires 120mm explosive rounds."
   },
@@ -1187,11 +1648,21 @@
     "range": "Long",
     "damage": "2d20",
     "traits": [
-      { "type": "energy" },
-      { "type": "explosive (1d20)" },
-      { "type": "heat hpike" },
-      { "type": "hot (1d20)" },
-      { "type": "unwieldy" }
+      {
+        "type": "energy"
+      },
+      {
+        "type": "explosive (1d20)"
+      },
+      {
+        "type": "heat hpike"
+      },
+      {
+        "type": "hot (1d20)"
+      },
+      {
+        "type": "unwieldy"
+      }
     ],
     "description": "This Weapons System is designed to fire a high energy beam of subatomic particles which when they impact a target scramble its molecular structure rendering them into their component atoms.",
     "notes": "*Please report any findings of field use of this weapon to the Salvage Union Council*"
@@ -1220,9 +1691,15 @@
     "salvageValue": 15,
     "actionType": "Turn",
     "traits": [
-      { "type": "guided" },
-      { "type": "missile" },
-      { "type": "targeter" }
+      {
+        "type": "guided"
+      },
+      {
+        "type": "missile"
+      },
+      {
+        "type": "targeter"
+      }
     ],
     "description": "This miniaturised nuclear weapon launches an atomic warhead at a target creating a small and localised thermonuclear explosion.",
     "range": "Far",
@@ -1243,7 +1720,11 @@
         "activationCost": "Variable",
         "range": "Close",
         "actionType": "Turn",
-        "traits": [{ "type": "shield" }],
+        "traits": [
+          {
+            "type": "shield"
+          }
+        ],
         "description": "You extend the Matter Phase Shield outward from you. Everything within Close Range of you except for your own Mech and Pilot takes an amount of SP damage equal to 3× the EP you spend on this Ability."
       },
       {
@@ -1251,7 +1732,11 @@
         "activationCost": 2,
         "range": "Close",
         "actionType": "Reaction",
-        "traits": [{ "type": "shield" }],
+        "traits": [
+          {
+            "type": "shield"
+          }
+        ],
         "description": "When you or a target in Close Range is hit by an attack with the Ballistic, Missile, or Melee Trait, you may activate the Matter Phase Shield to prevent the hit.",
         "rollTable": {
           "1": "The attack hits as normal and the shield temporarily breaks down. It cannot be used for 10 minutes.",
@@ -1300,7 +1785,11 @@
     "slotsRequired": 3,
     "salvageValue": 3,
     "actionType": "Reaction",
-    "traits": [{ "type": "escape" }],
+    "traits": [
+      {
+        "type": "escape"
+      }
+    ],
     "description": "This teleportation pod deconstructs your atoms and reconstructs them in the safety of a Teleportation Bay.",
     "activationCost": 2,
     "rollTable": {

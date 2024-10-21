@@ -7,20 +7,20 @@
     "properties": {
       "name": { "type": "string" },
       "techLevel": { "type": "number" },
-      "traits": { "$ref": "common.schema.json#/definitions/traits" },
+      "traits": { "$ref": "shared/common.schema.json#/definitions/traits" },
       "description": {
         "type": "string"
       },
       "notes": {
         "type": "string"
       },
-      "activationCost": { "$ref": "common.schema.json#/definitions/activationCost" },
-      "range": { "$ref": "enums.schema.json#/definitions/range" },
-      "damage": { "$ref": "common.schema.json#/definitions/damage" },
-      "actionType": { "$ref": "enums.schema.json#/definitions/actionType" },
+      "activationCost": { "$ref": "shared/common.schema.json#/definitions/activationCost" },
+      "range": { "$ref": "shared/enums.schema.json#/definitions/range" },
+      "damage": { "$ref": "shared/common.schema.json#/definitions/damage" },
+      "actionType": { "$ref": "shared/enums.schema.json#/definitions/actionType" },
       "actions": {
         "type": "array",
-        "items": { "$ref": "objects.schema.json#/definitions/action" }
+        "items": { "$ref": "shared/objects.schema.json#/definitions/action" }
       }
     }
   }

@@ -5,7 +5,7 @@ export function read(filename) {
 }
 
 export function write(filename, data) {
-  fs.writeFileSync(filename, JSON.stringify(data, null, 4));
+  fs.writeFileSync(filename, JSON.stringify(data, null, 2));
 }
 
 export function apply(filename, f, suffix = "") {

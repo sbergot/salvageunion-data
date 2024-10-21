@@ -4,7 +4,11 @@
     "techLevel": 1,
     "slotsRequired": 1,
     "salvageValue": 1,
-    "traits": [{ "type": "communicator" }],
+    "traits": [
+      {
+        "type": "communicator"
+      }
+    ],
     "recommended": true,
     "actionType": "Free",
     "range": "Long",
@@ -23,7 +27,11 @@
     "techLevel": 1,
     "slotsRequired": 1,
     "salvageValue": 3,
-    "traits": [{ "type": "hacking" }],
+    "traits": [
+      {
+        "type": "hacking"
+      }
+    ],
     "actionType": "Turn",
     "range": "Medium",
     "activationCost": 2,
@@ -41,7 +49,11 @@
     "techLevel": 1,
     "slotsRequired": 1,
     "salvageValue": 2,
-    "traits": [{ "type": "hacking" }],
+    "traits": [
+      {
+        "type": "hacking"
+      }
+    ],
     "actionType": "Reaction",
     "range": "Medium",
     "activationCost": 2,
@@ -87,7 +99,11 @@
     "techLevel": 1,
     "slotsRequired": 1,
     "salvageValue": 3,
-    "traits": [{ "type": "scanner" }],
+    "traits": [
+      {
+        "type": "scanner"
+      }
+    ],
     "actionType": "Short",
     "range": "Long",
     "activationCost": 2,
@@ -105,7 +121,11 @@
     "techLevel": 1,
     "slotsRequired": 1,
     "salvageValue": 3,
-    "traits": [{ "type": "heat spike" }],
+    "traits": [
+      {
+        "type": "heat spike"
+      }
+    ],
     "actionType": "Turn",
     "description": "A Weapons Link Module allows you to connect any number of identical Weapons Systems together. You make an attack with all weapons linked together with this Module against a single target in Range of your choice. Make and resolve each attack separately. You gain 1 Heat for each linked weapon you attack with and must make a Heat Check after the attacks have been resolved."
   },
@@ -114,7 +134,11 @@
     "techLevel": 1,
     "slotsRequired": 1,
     "salvageValue": 2,
-    "traits": [{ "type": "optics" }],
+    "traits": [
+      {
+        "type": "optics"
+      }
+    ],
     "actionType": "Free",
     "activationCost": 1,
     "description": "When activated, this optical array extends the Range of any single Ranged Weapons System mounted on your Mech by one band, to a maximum of Long Range. It further allows you to zoom in and see one Range Band further than you currently are. This effect lasts for 1 hour."
@@ -124,7 +148,11 @@
     "techLevel": 2,
     "slotsRequired": 1,
     "salvageValue": 1,
-    "traits": [{ "type": "scanner" }],
+    "traits": [
+      {
+        "type": "scanner"
+      }
+    ],
     "actionType": "Passive",
     "description": "This device constantly measures and analyses air pressure, wind speed, temperature, and humidity. When entering an area you are able to get an up to date report on the weather of that area and any potential hazardous environmental conditions."
   },
@@ -133,7 +161,11 @@
     "techLevel": 2,
     "slotsRequired": 1,
     "salvageValue": 1,
-    "traits": [{ "type": "scanner" }],
+    "traits": [
+      {
+        "type": "scanner"
+      }
+    ],
     "actionType": "Turn",
     "range": "Medium",
     "activationCost": 1,
@@ -152,7 +184,11 @@
     "techLevel": 2,
     "slotsRequired": 1,
     "salvageValue": 2,
-    "traits": [{ "type": "scanner" }],
+    "traits": [
+      {
+        "type": "scanner"
+      }
+    ],
     "actionType": "Short",
     "range": "Long",
     "activationCost": 2,
@@ -163,7 +199,11 @@
     "techLevel": 2,
     "slotsRequired": 1,
     "salvageValue": 1,
-    "traits": [{ "type": "heat spike" }],
+    "traits": [
+      {
+        "type": "heat spike"
+      }
+    ],
     "actionType": "Reaction",
     "description": "If an attack hits your Mech, you may activate the Evasion Protocols as a Reaction to force the attacker to re-roll the attack and choose the lower result."
   },
@@ -183,7 +223,11 @@
     "techLevel": 2,
     "slotsRequired": 1,
     "salvageValue": 2,
-    "traits": [{ "type": "optics" }],
+    "traits": [
+      {
+        "type": "optics"
+      }
+    ],
     "actionType": "Free",
     "range": "Far",
     "activationCost": 1,
@@ -194,7 +238,11 @@
     "techLevel": 2,
     "slotsRequired": 1,
     "salvageValue": 2,
-    "traits": [{ "type": "heat spike" }],
+    "traits": [
+      {
+        "type": "heat spike"
+      }
+    ],
     "actionType": "Reaction",
     "description": "This Mech-mountable scanner lets you know when any Scrap is nearby.",
     "notes": "This automated function passively alerts you when you move into an area that can be salvaged. In addition, whenever you move from one area of the map to an location you have not yet visited, roll the die, on the result of a 20 you gain once piece of scrap of the Tech Level of the area as decided by the Mediator. By default this is the Tech Level of your Union Crawler. In addition, when activated for its EP cost, this Module scans an area within Range. This reveals any Scrap, Systems, Chassis, or Modules, or Area Salvage points in the location as well as any buried or hidden metallic threats such as mines or Mechs waiting in ambush."
@@ -204,7 +252,11 @@
     "techLevel": 2,
     "slotsRequired": 1,
     "salvageValue": 2,
-    "traits": [{ "type": "scanner" }],
+    "traits": [
+      {
+        "type": "scanner"
+      }
+    ],
     "actionType": "Turn",
     "range": "Medium",
     "activationCost": 1,
@@ -215,7 +267,11 @@
     "techLevel": 2,
     "slotsRequired": 1,
     "salvageValue": 2,
-    "traits": [{ "type": "scanner" }],
+    "traits": [
+      {
+        "type": "scanner"
+      }
+    ],
     "actionType": "Turn",
     "range": "Medium",
     "activationCost": 1,
@@ -226,7 +282,11 @@
     "techLevel": 2,
     "slotsRequired": 1,
     "salvageValue": 3,
-    "traits": [{ "type": "targeter" }],
+    "traits": [
+      {
+        "type": "targeter"
+      }
+    ],
     "actionType": "Turn",
     "activationCost": 3,
     "description": "When activated, make an attack with a Weapons System of your choice against a target. If the attack hits choose a System, Module, or appendage on the target. You deal damage as normal, but the System, Module, or appendage is now damaged, or injured.",
@@ -240,7 +300,11 @@
     "slotsRequired": 1,
     "salvageValue": 3,
     "actionType": "Turn",
-    "traits": [{ "type": "hacking" }],
+    "traits": [
+      {
+        "type": "hacking"
+      }
+    ],
     "range": "Medium",
     "activationCost": 2,
     "description": "When you activate this Module, a target Mech in Range must roll on the Reactor Overload Table."
@@ -295,7 +359,11 @@
     "slotsRequired": 2,
     "salvageValue": 3,
     "actionType": "Turn",
-    "traits": [{ "type": "heat spike" }],
+    "traits": [
+      {
+        "type": "heat spike"
+      }
+    ],
     "description": "An Advanced Weapons Link Module allows you to connect any number of different Weapons Systems together. You make an attack with all weapons linked together with this Module against a single target in Range of all linked weapons. Make and resolve each attack separately. You gain 1 Heat for each linked weapon you attack with and must make a Heat Check after the attacks have been resolved."
   },
   {
@@ -341,7 +409,11 @@
     "slotsRequired": 1,
     "salvageValue": 2,
     "actionType": "Turn",
-    "traits": [{ "type": "hacking" }],
+    "traits": [
+      {
+        "type": "hacking"
+      }
+    ],
     "range": "Long",
     "activationCost": 2,
     "description": "You may target anything with the Communicator Trait in Range and listen in on it for 10 minutes, hearing all inbound and outbound comms traffic."
@@ -407,7 +479,11 @@
     "slotsRequired": 1,
     "salvageValue": 2,
     "actionType": "Free",
-    "traits": [{ "type": "hacking" }],
+    "traits": [
+      {
+        "type": "hacking"
+      }
+    ],
     "range": "Long",
     "activationCost": 1,
     "description": "When activated, your Mech acts as a range extender to various electronic devices. Any Ally within Long Range of you may use any System, Module, or Ability with the Communicator, Hacking, Scanner, or Optics Trait as though it originated from your Mech. This effect lasts for 1 hour."
@@ -418,7 +494,11 @@
     "slotsRequired": 1,
     "salvageValue": 3,
     "actionType": "Turn",
-    "traits": [{ "type": "targeter" }],
+    "traits": [
+      {
+        "type": "targeter"
+      }
+    ],
     "description": "When activated, you may attack with any number of Weapons Systems mounted on your Mech. Each attack must have a different target, which you must choose before you make any attacks. Make and resolve each attack separately. This Ability costs 1 EP per weapon you attack with."
   },
   {
@@ -427,7 +507,11 @@
     "slotsRequired": 1,
     "salvageValue": 2,
     "actionType": "Free",
-    "traits": [{ "type": "heat spike" }],
+    "traits": [
+      {
+        "type": "heat spike"
+      }
+    ],
     "description": "When you activate this Module, choose a Weapons System mounted on your Mech. The next time you make an attack with this Weapons System, it deals an additional amount of SP damage equal to its Tech Level. When activated, your Mech gains 2 Heat and must make a Heat Check. You may activate this Ability on multiple different Weapons Systems on the same turn, but cannot apply it to the same Weapons System more than once."
   },
   {
@@ -436,7 +520,11 @@
     "slotsRequired": 1,
     "salvageValue": 2,
     "actionType": "Turn",
-    "traits": [{ "type": "hacking" }],
+    "traits": [
+      {
+        "type": "hacking"
+      }
+    ],
     "range": "Medium",
     "activationCost": 2,
     "description": "This Stefanus developed hacking program allows you to hack into a Mech, database, or computer system and manipulate data within it.",
@@ -479,7 +567,11 @@
     "slotsRequired": 1,
     "salvageValue": 2,
     "actionType": "Turn",
-    "traits": [{ "type": "hacking" }],
+    "traits": [
+      {
+        "type": "hacking"
+      }
+    ],
     "range": "Close",
     "activationCost": 4,
     "description": "UNION DESIGNED HACKING MODULE THAT IMMOBILISES TARGET MECHS. IT THEN ATTEMPTS TO JUMP TO ANOTHER MECH IN RANGE.",
@@ -512,7 +604,14 @@
     "slotsRequired": 1,
     "salvageValue": 2,
     "actionType": "Turn",
-    "traits": [{ "type": "hot (x)" }, { "type": "targeter" }],
+    "traits": [
+      {
+        "type": "hot (x)"
+      },
+      {
+        "type": "targeter"
+      }
+    ],
     "description": "When activated, you must attack with all mounted Weapons Systems on your Mech against any number of targets of your choice within Range. Make and resolve each attack separately. Activating this Module costs an amount of EP equal to the number of Weapon Systems you attacked with and you gain an amount of Heat equal to the amount of Weapons Systems you attacked with."
   },
   {
@@ -549,7 +648,11 @@
     "slotsRequired": 1,
     "salvageValue": 1,
     "actionType": "Free",
-    "traits": [{ "type": "heat spike" }],
+    "traits": [
+      {
+        "type": "heat spike"
+      }
+    ],
     "description": "When activated, your Mech may move an additional Range Band this turn. Your Mech gains 2 Heat and must make a Heat Check. You may only activate this Module once per turn."
   },
   {
@@ -566,7 +669,11 @@
     "slotsRequired": 1,
     "salvageValue": 2,
     "actionType": "Free",
-    "traits": [{ "type": "targeter" }],
+    "traits": [
+      {
+        "type": "targeter"
+      }
+    ],
     "range": "Long",
     "activationCost": 3,
     "description": "When you activate this Module, pick a target within Range. The next attack you make against that target automatically hits counting as an (11-19) result."
@@ -577,7 +684,11 @@
     "slotsRequired": 1,
     "salvageValue": 2,
     "actionType": "Turn",
-    "traits": [{ "type": "hacking" }],
+    "traits": [
+      {
+        "type": "hacking"
+      }
+    ],
     "range": "Close",
     "description": "When activated, choose up to 4 target Mechs in Range. This Ability costs 2 EP for each Mech you target with this Ability.",
     "rollTable": {
@@ -594,7 +705,11 @@
     "slotsRequired": 1,
     "salvageValue": 2,
     "actionType": "Turn",
-    "traits": [{ "type": "targeter" }],
+    "traits": [
+      {
+        "type": "targeter"
+      }
+    ],
     "range": "Medium",
     "activationCost": 4,
     "description": "Multiple Rounds, Simultaneous Impact. When activated, choose a target within Range. You and up to 2 Allied Mechs in Range may attack the target immediately with a single Weapons System of their choice in Range of the target. Make each attack separately. These attacks count as having the Targeter Trait."
@@ -605,7 +720,11 @@
     "slotsRequired": 1,
     "salvageValue": 1,
     "actionType": "Free",
-    "traits": [{ "type": "optics" }],
+    "traits": [
+      {
+        "type": "optics"
+      }
+    ],
     "range": "Long",
     "activationCost": 1,
     "description": "When activated, you are able to see the location of anything that generates heat within visual Range. You can see their location even if they are in an obscured area such as foggy conditions, in darkness, or behind solid objects such as buildings. This effect lasts for 1 hour."
@@ -616,7 +735,14 @@
     "slotsRequired": 1,
     "salvageValue": 1,
     "actionType": "Free",
-    "traits": [{ "type": "targeter" }, { "type": "guided" }],
+    "traits": [
+      {
+        "type": "targeter"
+      },
+      {
+        "type": "guided"
+      }
+    ],
     "description": "When activated, a Weapons System of your choice mounted on your Mech gains the Guided Trait meaning it does not need line of sight to hit any target within its Range."
   },
   {
@@ -630,21 +756,36 @@
         "name": "Pinpoint Targeter",
         "activationCost": 3,
         "actionType": "Turn",
-        "traits": [{ "type": "targeter" }],
+        "traits": [
+          {
+            "type": "targeter"
+          }
+        ],
         "description": "Make an attack at a selected target. If it hits select a system or appendage to be damaged/injured. If you roll a 20 it is destroyed instead. You also deal damage as normal."
       },
       {
         "name": "Multi-Targeter",
         "activationCost": "Variable",
         "actionType": "Turn",
-        "traits": [{ "type": "targeter" }],
+        "traits": [
+          {
+            "type": "targeter"
+          }
+        ],
         "description": "Make an attack with any number of weapons. Each weapon must select a different target. Costs 1 EP per weapon fired."
       },
       {
         "name": "Laser Guidance",
         "activationCost": 3,
         "actionType": "Free",
-        "traits": [{ "type": "targeter" }, { "type": "guided" }],
+        "traits": [
+          {
+            "type": "targeter"
+          },
+          {
+            "type": "guided"
+          }
+        ],
         "range": "Long",
         "description": "The next attack you make against that target automatically hits counting as an (11-19) result."
       }
@@ -681,7 +822,11 @@
     "slotsRequired": 2,
     "salvageValue": 3,
     "actionType": "Free",
-    "traits": [{ "type": "communicator" }],
+    "traits": [
+      {
+        "type": "communicator"
+      }
+    ],
     "range": "Long",
     "description": "This Module connects directly to your Pilot's brain whilst in the Cockpit, and allows telepathic communication with anything that has the Communicator Trait within Range. In addition, you may choose what the output of your brain frequencies sounds like, altering the pitch and tone to your liking. These communications are also encrypted.",
     "notes": "The Neuralink Communicator may also be detached and used by your Pilot in the field as a Portable Communications Unit."
@@ -716,7 +861,11 @@
     "techLevel": 6,
     "slotsRequired": 1,
     "salvageValue": 2,
-    "traits": [{ "type": "heat spike" }],
+    "traits": [
+      {
+        "type": "heat spike"
+      }
+    ],
     "actionType": "Reaction",
     "description": "When activated, you may attack with any Weapons System or activate any System, Module, or Ability your Mech has access to as a Reaction. This Reaction always resolves first. After this has resolved, increase your Mech's Heat by 2 and make a Heat Check."
   },

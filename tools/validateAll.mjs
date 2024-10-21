@@ -1,10 +1,14 @@
+import * as fs from "fs"
 import { Validator } from "jsonschema"
 import { getAllDataFiles, read } from "./lib/io.mjs"
 
 const validator = new Validator();
-validator.addSchema(read("schemas/enums.schema.json"), '/enums.schema.json');
-validator.addSchema(read("schemas/common.schema.json"), '/common.schema.json');
-validator.addSchema(read("schemas/objects.schema.json"), '/objects.schema.json');
+const sharedSchemas = fs.readdirSync("schemas/shared")
+
+sharedSchemas.forEach(filename => {
+  validator.addSchema(read(`schemas/shared/${filename}`), `/shared/${filename}`);
+  validator.addSchema(read(`schemas/shared/${filename}`), `/${filename}`);
+})
 
 getAllDataFiles().forEach(filename => {
   const name = filename.replace(".json", "");

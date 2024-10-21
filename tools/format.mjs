@@ -1,15 +1,6 @@
-import { apply } from "./lib/io.mjs"
+import { apply, getAllDataFiles } from "./lib/io.mjs"
 
-[
-  "abilities",
-  "ability-trees",
-  "chassisData",
-  "classes",
-  "equipment",
-  "modules",
-  "otherEntities",
-  "systems"
-].forEach(name => {
-  const filename = `data/${name}.json`;
+getAllDataFiles().forEach(name => {
+  const filename = `data/${name}`;
   apply(filename, d => d);
 })

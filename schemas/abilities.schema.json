@@ -5,8 +5,8 @@
     "type": "object",
     "additionalProperties": false,
     "properties": {
-      "name": { "$ref": "enums.schema.json#/definitions/ability" },
-      "tree": { "$ref": "enums.schema.json#/definitions/tree" },
+      "name": { "$ref": "shared/enums.schema.json#/definitions/ability" },
+      "tree": { "$ref": "shared/enums.schema.json#/definitions/tree" },
       "level": {
         "type": "number"
       },
@@ -16,11 +16,11 @@
       "effect": {
         "type": "string"
       },
-      "activationCost": { "$ref": "common.schema.json#/definitions/activationCost" },
-      "range": { "$ref": "enums.schema.json#/definitions/range" },
-      "actionType": { "$ref": "enums.schema.json#/definitions/actionType" },
-      "rollTable": { "$ref": "common.schema.json#/definitions/rollTable" },
-      "traits": { "$ref": "common.schema.json#/definitions/traits" }
+      "activationCost": { "$ref": "shared/common.schema.json#/definitions/activationCost" },
+      "range": { "$ref": "shared/enums.schema.json#/definitions/range" },
+      "actionType": { "$ref": "shared/enums.schema.json#/definitions/actionType" },
+      "rollTable": { "$ref": "shared/common.schema.json#/definitions/rollTable" },
+      "traits": { "$ref": "shared/common.schema.json#/definitions/traits" }
     }
   }
 }

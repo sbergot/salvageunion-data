@@ -1,5 +1,5 @@
 {
   "$schema": "https://json-schema.org/draft-07/schema",
   "type": "array",
-  "items": { "$ref": "objects.schema.json#/definitions/system" }
+  "items": { "$ref": "shared/objects.schema.json#/definitions/system" }
 }

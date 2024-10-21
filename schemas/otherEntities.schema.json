@@ -12,14 +12,14 @@
       "hp": { "type": "number" },
       "tech_level": { "type": "number" },
       "salvage_value": { "type": "number" },
-      "traits": { "$ref": "common.schema.json#/definitions/traits" },
+      "traits": { "$ref": "shared/common.schema.json#/definitions/traits" },
       "abilities": {
         "type": "array",
-        "items": { "$ref": "objects.schema.json#/definitions/action" }
+        "items": { "$ref": "shared/objects.schema.json#/definitions/action" }
       },
       "systems": {
         "type": "array",
-        "items": { "$ref": "objects.schema.json#/definitions/system" }
+        "items": { "$ref": "shared/objects.schema.json#/definitions/system" }
       }
     }
   }

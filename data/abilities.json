@@ -165,11 +165,11 @@
       }
     ],
     "rollTable": {
+      "1": "The hacking attempt fails and the target cannot be targeted by any Abilities with the Hacking Trait for the next 10 minutes.",
       "20": "The System or Module is destroyed.",
       "11-19": "The System or Module is damaged.",
       "6-10": "The System or Module is inoperable and cannot be used until the end of the next turn.",
-      "2-5": "The hacking attempt fails.",
-      "1": "The hacking attempt fails and the target cannot be targeted by any Abilities with the Hacking Trait for the next 10 minutes."
+      "2-5": "The hacking attempt fails."
     }
   },
   {
@@ -187,11 +187,11 @@
       }
     ],
     "rollTable": {
+      "1": "All Mechs within Close Range of your Mech Shutdown for 10 minutes. This includes your Mech and those of any allies.",
       "20": "All targets Shutdown for 10 minutes.",
       "11-19": "All targets Shutdown for one round. They are active again at the end of their next turn.",
       "6-10": "All targets must choose to either move or take an action during its next turn.",
-      "2-5": "The hacking attempt fails.",
-      "1": "All Mechs within Close Range of your Mech Shutdown for 10 minutes. This includes your Mech and those of any allies."
+      "2-5": "The hacking attempt fails."
     }
   },
   {
@@ -203,11 +203,11 @@
     "activationCost": 1,
     "actionType": "Turn",
     "rollTable": {
+      "1": "You do not know the answer, and everyone realises this.",
       "20": "You can ask the Mediator five questions about it and they must give you true answers.",
       "11-19": "You can ask the Mediator three questions about it and they must give you true answers.",
       "6-10": "You can ask the Mediator two questions about it. One of these answers must be true, but the other can be false.",
-      "2-5": "You do not actually know, and must make up a convincing answer to save your pride.",
-      "1": "You do not know the answer, and everyone realises this."
+      "2-5": "You do not actually know, and must make up a convincing answer to save your pride."
     }
   },
   {
@@ -285,11 +285,11 @@
       }
     ],
     "rollTable": {
+      "1": "Your counter hacking attempt fails, and the opposing hacker can activate any Ability with the Hacking Trait in response to your attempt.",
       "20": "You stop the hacking attempt. In addition, you can activate any of your Abilities with the Hacking Trait in response as a Reaction, without paying their EP or AP cost.",
       "11-19": "You stop the hacking attempt. In addition, you can activate any of your Abilities with the Hacking Trait in response as a Reaction.",
       "6-10": "You can choose to stop the hacking attempt, or activate one of your Abilities with the Hacking Trait in response.",
-      "2-5": "Your counter hacking attempt fails",
-      "1": "Your counter hacking attempt fails, and the opposing hacker can activate any Ability with the Hacking Trait in response to your attempt."
+      "2-5": "Your counter hacking attempt fails"
     }
   },
   {
@@ -307,11 +307,11 @@
       }
     ],
     "rollTable": {
+      "1": "The Worm fails to upload to the targets and has no effect.",
       "20": "The Chassis of all targeted Mechs is damaged and inoperable until repaired.",
       "11-19": "A System and Module of your choice on each Mech is damaged.",
       "6-10": "A System or Module of your choice on each Mech is damaged.",
-      "2-5": "A System or Module on one targeted Mech of your choice is damaged.",
-      "1": "The Worm fails to upload to the targets and has no effect."
+      "2-5": "A System or Module on one targeted Mech of your choice is damaged."
     }
   },
   {
@@ -389,11 +389,11 @@
     "activationCost": 1,
     "actionType": "Turn",
     "rollTable": {
+      "1": "The deal is rejected and the people you are making a deal with become hostile to you and cannot be negotiated with further.",
       "20": "The deal is accepted and you may ask for an additional request.",
       "11-19": "The deal is accepted based on your leverage.",
       "6-10": "The deal is accepted, but you must offer your leverage now. If it was scrap they want the payment in advance, if it was a threat you have to follow through on the threat immediately, if it was your reputation you must find a way to flex it now.",
-      "2-5": "The deal is rejected.",
-      "1": "The deal is rejected and the people you are making a deal with become hostile to you and cannot be negotiated with further."
+      "2-5": "The deal is rejected."
     }
   },
   {
@@ -424,11 +424,11 @@
     "range": "Medium",
     "actionType": "Turn",
     "rollTable": {
+      "1": "They stand strong in the face of you, and are much stronger than you thought. The Mediator may add reinforcements to their numbers, or improve their strength or capabilities in some other way.",
       "20": "They flee from you or acquiesce to your demands. You may choose which and may demand something in addition to what you originally requested.",
       "11-19": "They flee from you or acquiesce to your demands.",
       "6-10": "They flee from you, but barricade themselves in or alert something stronger to your presence.",
-      "2-5": "They stand strong in the face of you, ready to fight, and do not retreat or acquiesce.",
-      "1": "They stand strong in the face of you, and are much stronger than you thought. The Mediator may add reinforcements to their numbers, or improve their strength or capabilities in some other way."
+      "2-5": "They stand strong in the face of you, ready to fight, and do not retreat or acquiesce."
     }
   },
   {
@@ -758,11 +758,11 @@
     "activationCost": 3,
     "actionType": "Turn",
     "rollTable": {
+      "1": "Your attacks miss. You spin wildly and then collapse, falling Prone.",
       "19-20": "You strike all enemies within Range of the weapon, hitting them for double damage.",
       "11-18": "You hit all enemies within Range of the weapon.",
       "6-10": "You hit all enemies within Range of the weapon. Choose one: you deal half damage to all targets or you deal full damage, but your weapon is damaged after finishing the attack.",
-      "2-5": "You hit one enemy in Range of the weapon, then your weapon is damaged.",
-      "1": "Your attacks miss. You spin wildly and then collapse, falling Prone."
+      "2-5": "You hit one enemy in Range of the weapon, then your weapon is damaged."
     }
   },
   {
@@ -791,11 +791,11 @@
     "activationCost": 3,
     "actionType": "Free",
     "rollTable": {
+      "1": "You overdose on stims, your HP is reduced to 0 and you must roll on the Critical Injury Table.",
       "20": "For the next 10 minutes you can take up to three actions on your turn or Push an action for free.",
       "11-19": "For the next 10 minutes you can take up to two actions on your turn or Push an action for free.",
       "6-10": "You can act twice this turn or Push an action for free.",
-      "2-5": "Everything slows to a crawl. For the next 10 minutes you must choose between moving or taking an action on your turn. You also cannot Push rolls.",
-      "1": "You overdose on stims, your HP is reduced to 0 and you must roll on the Critical Injury Table."
+      "2-5": "Everything slows to a crawl. For the next 10 minutes you must choose between moving or taking an action on your turn. You also cannot Push rolls."
     }
   },
   {
@@ -969,11 +969,11 @@
       }
     ],
     "rollTable": {
+      "1": "The target avoids harm, your location is compromised, and you are detected and pursued.",
       "20": "The target creature is killed, and any number of other target creatures within Close Range of the original target can also be killed if you desire.",
       "11-19": "The target creature is killed.",
       "6-10": "You can choose to kill the target creature, but if you do you are detected and your location is compromised.",
-      "2-5": "The target narrowly avoids being killed, but is reduced to 0 HP and must roll on the Critical Injury Table.",
-      "1": "The target avoids harm, your location is compromised, and you are detected and pursued."
+      "2-5": "The target narrowly avoids being killed, but is reduced to 0 HP and must roll on the Critical Injury Table."
     }
   },
   {
@@ -1007,11 +1007,11 @@
     "effect": "As a Union Rep you can call upon the aid of other Pilots to support you in a variety of missions.",
     "actionType": "DownTime",
     "rollTable": {
+      "1": "The mission fails, and cannot be completed as something has gone badly wrong, for example, the target of an assassination attempt escapes and places a bounty on you instead, the trade caravan is destroyed, or the salvage is taken by a corpo or raider band instead.",
       "20": "The mission is completed within a week. You pay the reward during Downtime.",
       "11-19": "The mission is completed within two weeks. You pay the reward during Downtime.",
       "6-10": "The mission will be completed within two weeks, but only if you pay twice the agreed reward during Downtime.",
-      "2-5": "You wait two weeks and realise the mission is not completed. You may post the mission offer again or choose a different one.",
-      "1": "The mission fails, and cannot be completed as something has gone badly wrong, for example, the target of an assassination attempt escapes and places a bounty on you instead, the trade caravan is destroyed, or the salvage is taken by a corpo or raider band instead."
+      "2-5": "You wait two weeks and realise the mission is not completed. You may post the mission offer again or choose a different one."
     }
   },
   {

@@ -9,14 +9,29 @@
         "name": "Scythe Attack",
         "description": "Scylla stabs with its forearms attempting to pierce it's prey.",
         "range": "Close",
-        "damage": { "amount": 4, "type": "SP" },
-        "traits": [{ "type": "melee" }, { "type": "multi-attack", "amount": 2 }]
+        "damage": {
+          "amount": 4,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          }
+        ]
       },
       {
         "name": "Tail Sweep",
         "description": "Scylla makes one giant sweeping attack with their tail. This hits every target within Medium Range, dealing 3 SP damage on a hit. Targets hit are knocked Prone and gain the Vulnerable Trait.",
         "actionType": "Turn",
-        "traits": [{ "type": "melee" }]
+        "traits": [
+          {
+            "type": "melee"
+          }
+        ]
       },
       {
         "name": "Climb",
@@ -27,7 +42,12 @@
         "name": "Armour Plating",
         "description": "When Scylla takes damage, instead destroy a layer of Armour Plating and negate all of the damage and any effects.",
         "actionType": "Passive",
-        "traits": [{ "type": "uses", "amount": 3 }]
+        "traits": [
+          {
+            "type": "uses",
+            "amount": 3
+          }
+        ]
       },
       {
         "name": "Ambush Predator",
@@ -60,14 +80,23 @@
         "name": "Armour Plating",
         "description": "When Typhon takes damage, instead destroy a layer of Armour Plating and negate all of the damage and any effects.",
         "actionType": "Passive",
-        "traits": [{ "type": "uses", "amount": 2 }]
+        "traits": [
+          {
+            "type": "uses",
+            "amount": 2
+          }
+        ]
       },
       {
         "name": "Swallow Whole",
         "description": "Typhon attempts to swallow a target into its humongous maw. Typhon may have multiple targets swallowed at once.",
         "actionType": "Turn",
         "range": "Close",
-        "traits": [{ "type": "melee" }]
+        "traits": [
+          {
+            "type": "melee"
+          }
+        ]
       },
       {
         "name": "Spiked Carapace",
@@ -101,18 +130,34 @@
         "description": "Chrysalis scatters a series of glowing cluster bombs upon its foes.",
         "actionType": "Turn",
         "range": "Long",
-        "damage": { "amount": 5, "type": "SP" },
+        "damage": {
+          "amount": 5,
+          "type": "SP"
+        },
         "traits": [
-          { "type": "energy" },
-          { "type": "explosive", "amount": 5 },
-          { "type": "multi-attack", "amount": 3 }
+          {
+            "type": "energy"
+          },
+          {
+            "type": "explosive",
+            "amount": 5
+          },
+          {
+            "type": "multi-attack",
+            "amount": 3
+          }
         ]
       },
       {
         "name": "Entrancing Song",
         "description": "Chrysalis emits an entrancing song by vibrating its wings at a series of different frequencies. This Ability affects all targets that can hear Chrysalis within Medium Range including those in a Mech unless it is somehow sound sealed.",
         "actionType": "Turn",
-        "traits": [{ "type": "uses", "amount": 1 }]
+        "traits": [
+          {
+            "type": "uses",
+            "amount": 1
+          }
+        ]
       },
       {
         "name": "Cocoon",
@@ -123,7 +168,12 @@
         "name": "Birth Pods",
         "description": "Chrysalis Lays d20 Egg Sacs in an area within Close Range. At the start of its next turn they are born as a Child of Chrysalis and join the combat. Egg Sacs have 1 SP before they hatch.",
         "actionType": "Turn",
-        "traits": [{ "type": "uses", "amount": 1 }]
+        "traits": [
+          {
+            "type": "uses",
+            "amount": 1
+          }
+        ]
       },
       {
         "name": "Titanic Actions",
@@ -158,8 +208,19 @@
         "description": "The molecular structure of a target hit by Phantom's Morph Scythes begins to unravel with bizarre results.",
         "actionType": "Turn",
         "range": "Close",
-        "damage": { "amount": 5, "type": "SP" },
-        "traits": [{ "type": "melee" }, { "type": "multi-attack", "amount": 3 }]
+        "damage": {
+          "amount": 5,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 3
+          }
+        ]
       },
       {
         "name": "Titanic Actions",
@@ -183,8 +244,18 @@
         "description": "Electrophorus gouges a target with its spines.",
         "actionType": "Turn",
         "range": "Close",
-        "damage": { "amount": 8, "type": "SP" },
-        "traits": [{ "type": "melee" }, { "type": "ion" }]
+        "damage": {
+          "amount": 8,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          },
+          {
+            "type": "ion"
+          }
+        ]
       },
       {
         "name": "Static Field",
@@ -201,13 +272,21 @@
         "description": "Electrophorus fires an arc of bioelectricity. Choose up to three targets in Medium Range and make a single attack roll. On a successful hit the first target takes 10 SP damage, the second target takes 5 SP damage, and the third target takes 3 SP damage.",
         "actionType": "Turn",
         "range": "Medium",
-        "traits": [{ "type": "energy" }]
+        "traits": [
+          {
+            "type": "energy"
+          }
+        ]
       },
       {
         "name": "Bio-Electric Shield",
         "description": "As a Reaction may when hit by an attack, Electrophorus may trigger its Bio-Electric Shield to deflect the blow.",
         "actionType": "Reaction",
-        "traits": [{ "type": "shield" }]
+        "traits": [
+          {
+            "type": "shield"
+          }
+        ]
       },
       {
         "name": "Titanic Actions",
@@ -231,8 +310,19 @@
         "description": "The Tyrant makes a frenetic series of claw swipes.",
         "actionType": "Turn",
         "range": "Close",
-        "damage": { "amount": 10, "type": "SP" },
-        "traits": [{ "type": "melee" }, { "type": "multi-attack", "amount": 2 }]
+        "damage": {
+          "amount": 10,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          }
+        ]
       },
       {
         "name": "Amphibious",
@@ -254,28 +344,58 @@
         "description": "The Tyrant swipes with its tail, casually knocking over skyscrapers and swatting away projectiles.",
         "actionType": "Reaction",
         "range": "Medium",
-        "damage": { "amount": 15, "type": "SP" },
-        "traits": [{ "type": "melee" }]
+        "damage": {
+          "amount": 15,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          }
+        ]
       },
       {
         "name": "Rending Bite",
         "description": "The Tyrant rips apart a target with a mammoth bite.",
         "actionType": "Turn",
         "range": "Close",
-        "damage": { "amount": 20, "type": "SP" },
-        "traits": [{ "type": "deadly" }, { "type": "melee" }]
+        "damage": {
+          "amount": 20,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "deadly"
+          },
+          {
+            "type": "melee"
+          }
+        ]
       },
       {
         "name": "Irradiated Beam",
         "description": "The Tyrant produces a humongous beam of Irradiated energy from its maw. This must recharge after being fired, and can only be made every other turn. Any target hit by the Irradiated Beam as well as the entire area within Close Range becomes Irradiated.",
         "actionType": "Turn",
         "range": "Long",
-        "damage": { "amount": 40, "type": "SP" },
+        "damage": {
+          "amount": 40,
+          "type": "SP"
+        },
         "traits": [
-          { "type": "burn", "amount": 5 },
-          { "type": "energy" },
-          { "type": "explosive", "amount": 5 },
-          { "type": "irradiated" }
+          {
+            "type": "burn",
+            "amount": 5
+          },
+          {
+            "type": "energy"
+          },
+          {
+            "type": "explosive",
+            "amount": 5
+          },
+          {
+            "type": "irradiated"
+          }
         ]
       },
       {
@@ -300,8 +420,18 @@
         "name": "Bite",
         "description": "The Meld Drone mindlessly attacks the target with teeth and claw.",
         "range": "Close",
-        "damage": { "amount": 2, "type": "HP" },
-        "traits": [{ "type": "melee" }, { "type": "meld infection" }]
+        "damage": {
+          "amount": 2,
+          "type": "HP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          },
+          {
+            "type": "meld infection"
+          }
+        ]
       }
     ]
   },
@@ -316,11 +446,21 @@
         "name": "Devour",
         "description": "The Meld Drones bite and claw at a target with all their multitude limbs and maws.",
         "range": "Close",
-        "damage": { "amount": 3, "type": "HP" },
+        "damage": {
+          "amount": 3,
+          "type": "HP"
+        },
         "traits": [
-          { "type": "melee" },
-          { "type": "meld infection" },
-          { "type": "multi-attack", "amount": 3 }
+          {
+            "type": "melee"
+          },
+          {
+            "type": "meld infection"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 3
+          }
         ]
       }
     ]
@@ -331,14 +471,28 @@
     "description": "Meld in a small, swift form, about the size of a large wolf with lashing tendrils.",
     "structure_pts": 5,
     "salvage_value": 5,
-    "traits": [{ "type": "fast" }],
+    "traits": [
+      {
+        "type": "fast"
+      }
+    ],
     "abilities": [
       {
         "name": "Nanoid Tendrils",
         "description": "The nanoid lashes out with it's tendrils",
         "range": "Close",
-        "damage": { "amount": 3, "type": "SP" },
-        "traits": [{ "type": "melee" }, { "type": "meld infection" }]
+        "damage": {
+          "amount": 3,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          },
+          {
+            "type": "meld infection"
+          }
+        ]
       }
     ]
   },
@@ -353,11 +507,21 @@
         "name": "Splitter Tendrils",
         "description": "Huge tendrils lash out at anything nearby.",
         "range": "Medium",
-        "damage": { "amount": 4, "type": "SP" },
+        "damage": {
+          "amount": 4,
+          "type": "SP"
+        },
         "traits": [
-          { "type": "melee" },
-          { "type": "meld infection" },
-          { "type": "multi-attack", "amount": 2 }
+          {
+            "type": "melee"
+          },
+          {
+            "type": "meld infection"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          }
         ]
       },
       {
@@ -377,8 +541,19 @@
         "description": "Long reaching tendrils whip around to grab all within reach, either crushing them or drawing them nearer to be assimilated.",
         "actionType": "Turn",
         "range": "Medium",
-        "damage": { "amount": 6, "type": "SP" },
-        "traits": [{ "type": "melee" }, { "type": "multi-attack", "amount": 2 }]
+        "damage": {
+          "amount": 6,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          }
+        ]
       },
       {
         "name": "Assimilation",
@@ -404,13 +579,25 @@
     "tech_level": 1,
     "salvage_value": 1,
     "systems": [
-      { "name": "Locomotion System" },
+      {
+        "name": "Locomotion System"
+      },
       {
         "name": "Rigging Arm",
         "count": 2,
         "range": "Close",
-        "damage": { "amount": 1, "type": "SP" },
-        "traits": [{ "type": "melee" }, { "type": "load" }]
+        "damage": {
+          "amount": 1,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          },
+          {
+            "type": "load"
+          }
+        ]
       }
     ]
   },
@@ -421,10 +608,19 @@
     "structure_pts": 1,
     "tech_level": 1,
     "salvage_value": 1,
-    "systems": [{ "name": "Locomotion System Box Wheel" }],
+    "systems": [
+      {
+        "name": "Locomotion System Box Wheel"
+      }
+    ],
     "traits": [
-      { "type": "personnel capacity", "amount": 4 },
-      { "type": "wheeled" }
+      {
+        "type": "personnel capacity",
+        "amount": 4
+      },
+      {
+        "type": "wheeled"
+      }
     ]
   },
   {
@@ -435,21 +631,37 @@
     "tech_level": 1,
     "salvage_value": 2,
     "systems": [
-      { "name": "Locomotion System" },
+      {
+        "name": "Locomotion System"
+      },
       {
         "name": ".50 Cal Machine Gun",
         "range": "Close",
-        "damage": { "amount": 2, "type": "SP" },
+        "damage": {
+          "amount": 2,
+          "type": "SP"
+        },
         "traits": [
-          { "type": "ballistic" },
-          { "type": "jamming" },
-          { "type": "pinning" }
+          {
+            "type": "ballistic"
+          },
+          {
+            "type": "jamming"
+          },
+          {
+            "type": "pinning"
+          }
         ]
       }
     ],
     "traits": [
-      { "type": "personnel capacity", "amount": 6 },
-      { "type": "wheeled" }
+      {
+        "type": "personnel capacity",
+        "amount": 6
+      },
+      {
+        "type": "wheeled"
+      }
     ]
   },
   {
@@ -460,17 +672,34 @@
     "tech_level": 2,
     "salvage_value": 3,
     "systems": [
-      { "name": "Locomotion System" },
+      {
+        "name": "Locomotion System"
+      },
       {
         "name": "30mm Autocannon",
         "range": "Medium",
-        "damage": { "amount": 4, "type": "SP" },
-        "traits": [{ "type": "ballistic" }, { "type": "jamming" }]
+        "damage": {
+          "amount": 4,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "ballistic"
+          },
+          {
+            "type": "jamming"
+          }
+        ]
       }
     ],
     "traits": [
-      { "type": "personnel capacity", "amount": 18 },
-      { "type": "wheeled" }
+      {
+        "type": "personnel capacity",
+        "amount": 18
+      },
+      {
+        "type": "wheeled"
+      }
     ]
   },
   {
@@ -481,14 +710,24 @@
     "tech_level": 3,
     "salvage_value": 4,
     "systems": [
-      { "name": "Locomotion System" },
+      {
+        "name": "Locomotion System"
+      },
       {
         "name": "120mm Cannon",
         "range": "Long",
-        "damage": { "amount": 6, "type": "SP" },
+        "damage": {
+          "amount": 6,
+          "type": "SP"
+        },
         "traits": [
-          { "type": "ballistic" },
-          { "type": "explosive", "amount": 1 }
+          {
+            "type": "ballistic"
+          },
+          {
+            "type": "explosive",
+            "amount": 1
+          }
         ]
       }
     ]
@@ -501,23 +740,45 @@
     "tech_level": 4,
     "salvage_value": 3,
     "systems": [
-      { "name": "Hover Locomotion System" },
+      {
+        "name": "Hover Locomotion System"
+      },
       {
         "name": "Rotary Mini Gun",
         "range": "Medium",
-        "damage": { "amount": 4, "type": "SP" },
+        "damage": {
+          "amount": 4,
+          "type": "SP"
+        },
         "traits": [
-          { "type": "ballistic" },
-          { "type": "hot", "amount": 1 },
-          { "type": "jamming" },
-          { "type": "multi-attack", "amount": 2 },
-          { "type": "pinning" }
+          {
+            "type": "ballistic"
+          },
+          {
+            "type": "hot",
+            "amount": 1
+          },
+          {
+            "type": "jamming"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          },
+          {
+            "type": "pinning"
+          }
         ]
       }
     ],
     "traits": [
-      { "type": "personnel capacity", "amount": 6 },
-      { "type": "hover" }
+      {
+        "type": "personnel capacity",
+        "amount": 6
+      },
+      {
+        "type": "hover"
+      }
     ]
   },
   {
@@ -531,15 +792,28 @@
       {
         "name": ".50 Cal Machine Gun",
         "range": "Close",
-        "damage": { "amount": 2, "type": "SP" },
+        "damage": {
+          "amount": 2,
+          "type": "SP"
+        },
         "traits": [
-          { "type": "ballistic" },
-          { "type": "jamming" },
-          { "type": "pinning" }
+          {
+            "type": "ballistic"
+          },
+          {
+            "type": "jamming"
+          },
+          {
+            "type": "pinning"
+          }
         ]
       }
     ],
-    "traits": [{ "type": "immobile" }]
+    "traits": [
+      {
+        "type": "immobile"
+      }
+    ]
   },
   {
     "category": "Drones",
@@ -549,12 +823,24 @@
     "tech_level": 1,
     "salvage_value": 1,
     "systems": [
-      { "name": "Hover Locomotion System" },
+      {
+        "name": "Hover Locomotion System"
+      },
       {
         "name": "Chainsaw Arm",
         "range": "Close",
-        "damage": { "amount": 2, "type": "SP" },
-        "traits": [{ "type": "melee" }, { "type": "salvaging" }]
+        "damage": {
+          "amount": 2,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          },
+          {
+            "type": "salvaging"
+          }
+        ]
       }
     ]
   },
@@ -566,15 +852,26 @@
     "tech_level": 1,
     "salvage_value": 2,
     "systems": [
-      { "name": "Hover Locomotion System" },
+      {
+        "name": "Hover Locomotion System"
+      },
       {
         "name": ".50 Cal Machine Gun",
         "range": "Close",
-        "damage": { "amount": 2, "type": "SP" },
+        "damage": {
+          "amount": 2,
+          "type": "SP"
+        },
         "traits": [
-          { "type": "ballistic" },
-          { "type": "jamming" },
-          { "type": "pinning" }
+          {
+            "type": "ballistic"
+          },
+          {
+            "type": "jamming"
+          },
+          {
+            "type": "pinning"
+          }
         ]
       }
     ]
@@ -587,8 +884,12 @@
     "tech_level": 1,
     "salvage_value": 1,
     "systems": [
-      { "name": "Hover Locomotion System" },
-      { "name": "Survey Scanner" }
+      {
+        "name": "Hover Locomotion System"
+      },
+      {
+        "name": "Survey Scanner"
+      }
     ]
   },
   {
@@ -599,12 +900,25 @@
     "tech_level": 2,
     "salvage_value": 2,
     "systems": [
-      { "name": "Hover Locomotion System" },
+      {
+        "name": "Hover Locomotion System"
+      },
       {
         "name": "Red Laser",
         "range": "Medium",
-        "damage": { "amount": 3, "type": "SP" },
-        "traits": [{ "type": "energy" }, { "type": "hot", "amount": 1 }]
+        "damage": {
+          "amount": 3,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "energy"
+          },
+          {
+            "type": "hot",
+            "amount": 1
+          }
+        ]
       }
     ]
   },
@@ -616,12 +930,24 @@
     "tech_level": 3,
     "salvage_value": 2,
     "systems": [
-      { "name": "Hover Locomotion System" },
+      {
+        "name": "Hover Locomotion System"
+      },
       {
         "name": "30mm Autocannon",
         "range": "Medium",
-        "damage": { "amount": 4, "type": "SP" },
-        "traits": [{ "type": "ballistic" }, { "type": "jamming" }]
+        "damage": {
+          "amount": 4,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "ballistic"
+          },
+          {
+            "type": "jamming"
+          }
+        ]
       }
     ]
   },
@@ -633,13 +959,28 @@
     "tech_level": 2,
     "salvage_value": 3,
     "systems": [
-      { "name": "Locomotion System" },
-      { "name": "Articulated Rigging Arm" },
+      {
+        "name": "Locomotion System"
+      },
+      {
+        "name": "Articulated Rigging Arm"
+      },
       {
         "name": "Green Laser",
         "range": "Medium",
-        "damage": { "amount": 4, "type": "SP" },
-        "traits": [{ "type": "energy" }, { "type": "hot", "amount": 2 }]
+        "damage": {
+          "amount": 4,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "energy"
+          },
+          {
+            "type": "hot",
+            "amount": 2
+          }
+        ]
       }
     ]
   },
@@ -651,17 +992,32 @@
     "tech_level": 3,
     "salvage_value": 3,
     "systems": [
-      { "name": "Spider Locomotion System" },
+      {
+        "name": "Spider Locomotion System"
+      },
       {
         "name": "FM-3 Flamethrower",
         "count": 2,
         "range": "Close",
-        "damage": { "amount": 1, "type": "SP" },
+        "damage": {
+          "amount": 1,
+          "type": "SP"
+        },
         "traits": [
-          { "type": "anti-organic" },
-          { "type": "burn", "amount": 1 },
-          { "type": "multi-attack", "amount": 2 },
-          { "type": "overheat" }
+          {
+            "type": "anti-organic"
+          },
+          {
+            "type": "burn",
+            "amount": 1
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          },
+          {
+            "type": "overheat"
+          }
         ]
       }
     ]
@@ -674,16 +1030,32 @@
     "tech_level": 4,
     "salvage_value": 3,
     "systems": [
-      { "name": "Hover Locomotion System" },
+      {
+        "name": "Hover Locomotion System"
+      },
       {
         "name": "Missile Pod",
         "range": "Long",
-        "damage": { "amount": 8, "type": "SP" },
+        "damage": {
+          "amount": 8,
+          "type": "SP"
+        },
         "traits": [
-          { "type": "missile" },
-          { "type": "explosive", "amount": 2 },
-          { "type": "hot", "amount": 1 },
-          { "type": "uses", "amount": 6 }
+          {
+            "type": "missile"
+          },
+          {
+            "type": "explosive",
+            "amount": 2
+          },
+          {
+            "type": "hot",
+            "amount": 1
+          },
+          {
+            "type": "uses",
+            "amount": 6
+          }
         ]
       }
     ]
@@ -696,12 +1068,24 @@
     "tech_level": 4,
     "salvage_value": 3,
     "systems": [
-      { "name": "Hover Locomotion System" },
+      {
+        "name": "Hover Locomotion System"
+      },
       {
         "name": "Needler",
         "range": "Close",
-        "damage": { "amount": 1, "type": "SP" },
-        "traits": [{ "type": "poison" }, { "type": "deadly (creatures only)" }]
+        "damage": {
+          "amount": 1,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "poison"
+          },
+          {
+            "type": "deadly (creatures only)"
+          }
+        ]
       },
       {
         "name": "Polycarbonate Stealth Chassis",
@@ -718,11 +1102,20 @@
       {
         "name": "Stinger",
         "range": "Close",
-        "damage": { "amount": 2, "type": "HP" },
+        "damage": {
+          "amount": 2,
+          "type": "HP"
+        },
         "traits": [
-          { "type": "melee" },
-          { "type": "poison" },
-          { "type": "deadly (creatures only)" }
+          {
+            "type": "melee"
+          },
+          {
+            "type": "poison"
+          },
+          {
+            "type": "deadly (creatures only)"
+          }
         ]
       }
     ]
@@ -732,13 +1125,25 @@
     "name": "Artl",
     "description": "Burrowing, ambush predators that liquify their prey for easier digestion.",
     "hp": 2,
-    "traits": [{ "type": "burrower" }],
+    "traits": [
+      {
+        "type": "burrower"
+      }
+    ],
     "abilities": [
       {
         "name": "Acid Spit",
         "range": "Medium",
-        "damage": { "amount": 2, "type": "HP" },
-        "traits": [{ "type": "burn", "amount": 2 }]
+        "damage": {
+          "amount": 2,
+          "type": "HP"
+        },
+        "traits": [
+          {
+            "type": "burn",
+            "amount": 2
+          }
+        ]
       },
       {
         "name": "Corrosive Skin Glands",
@@ -755,12 +1160,24 @@
       {
         "name": "Barbed Tentacles",
         "range": "Close",
-        "damage": { "amount": 3, "type": "HP" },
+        "damage": {
+          "amount": 3,
+          "type": "HP"
+        },
         "traits": [
-          { "type": "melee" },
-          { "type": "pinning" },
-          { "type": "poison" },
-          { "type": "multi-attack", "amount": 3 }
+          {
+            "type": "melee"
+          },
+          {
+            "type": "pinning"
+          },
+          {
+            "type": "poison"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 3
+          }
         ]
       }
     ]
@@ -774,8 +1191,15 @@
       {
         "name": "Bear Carnage",
         "range": "Close",
-        "damage": { "amount": 4, "type": "HP" },
-        "traits": [{ "type": "melee" }]
+        "damage": {
+          "amount": 4,
+          "type": "HP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          }
+        ]
       }
     ]
   },
@@ -784,13 +1208,24 @@
     "name": "Molebear",
     "description": "Terrifying, huge burrowing predators known to rend through metal.",
     "hp": 12,
-    "traits": [{ "type": "burrower" }],
+    "traits": [
+      {
+        "type": "burrower"
+      }
+    ],
     "abilities": [
       {
         "name": "Iron Claw",
         "range": "Close",
-        "damage": { "amount": 4, "type": "SP" },
-        "traits": [{ "type": "melee" }]
+        "damage": {
+          "amount": 4,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          }
+        ]
       }
     ]
   },
@@ -799,12 +1234,19 @@
     "name": "Carrion Bird",
     "description": "Large flying scavengers that feast on flesh and bone.",
     "hp": 3,
-    "traits": [{ "type": "fly" }],
+    "traits": [
+      {
+        "type": "fly"
+      }
+    ],
     "abilities": [
       {
         "name": "Talons",
         "range": "Close",
-        "damage": { "amount": 3, "type": "HP" }
+        "damage": {
+          "amount": 3,
+          "type": "HP"
+        }
       }
     ]
   },
@@ -817,8 +1259,15 @@
       {
         "name": "Improvised Melee Weapon",
         "range": "Close",
-        "damage": { "amount": 2, "type": "HP" },
-        "traits": [{ "type": "melee" }]
+        "damage": {
+          "amount": 2,
+          "type": "HP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          }
+        ]
       },
       {
         "name": "Salvaging Tools"
@@ -834,8 +1283,18 @@
       {
         "name": "Improvised Firearm",
         "range": "Close",
-        "damage": { "amount": 3, "type": "HP" },
-        "traits": [{ "type": "ballistic" }, { "type": "unwieldy" }]
+        "damage": {
+          "amount": 3,
+          "type": "HP"
+        },
+        "traits": [
+          {
+            "type": "ballistic"
+          },
+          {
+            "type": "unwieldy"
+          }
+        ]
       }
     ]
   },
@@ -848,8 +1307,15 @@
       {
         "name": "Rifle",
         "range": "Medium",
-        "damage": { "amount": 5, "type": "HP" },
-        "traits": [{ "type": "ballistic" }]
+        "damage": {
+          "amount": 5,
+          "type": "HP"
+        },
+        "traits": [
+          {
+            "type": "ballistic"
+          }
+        ]
       },
       {
         "name": "Portable Comms Unit"
@@ -865,8 +1331,15 @@
       {
         "name": "Green Laser Rifle",
         "range": "Medium",
-        "damage": { "amount": 5, "type": "HP" },
-        "traits": [{ "type": "energy" }]
+        "damage": {
+          "amount": 5,
+          "type": "HP"
+        },
+        "traits": [
+          {
+            "type": "energy"
+          }
+        ]
       },
       {
         "name": "Portable Comms Unit"
@@ -882,8 +1355,15 @@
       {
         "name": "Pistol",
         "range": "Close",
-        "damage": { "amount": 3, "type": "HP" },
-        "traits": [{ "type": "ballistic" }]
+        "damage": {
+          "amount": 3,
+          "type": "HP"
+        },
+        "traits": [
+          {
+            "type": "ballistic"
+          }
+        ]
       },
       {
         "name": "Portable Comms Unit"
@@ -899,8 +1379,15 @@
       {
         "name": "Sniper Rifle",
         "range": "Long",
-        "damage": { "amount": 6, "type": "HP" },
-        "traits": [{ "type": "ballistic" }]
+        "damage": {
+          "amount": 6,
+          "type": "HP"
+        },
+        "traits": [
+          {
+            "type": "ballistic"
+          }
+        ]
       },
       {
         "name": "Portable Comms Unit"
@@ -916,8 +1403,19 @@
       {
         "name": "Improvised Weapons",
         "range": "Close",
-        "damage": { "amount": 4, "type": "HP" },
-        "traits": [{ "type": "melee" }, { "type": "multi-attack", "amount": 2 }]
+        "damage": {
+          "amount": 4,
+          "type": "HP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          }
+        ]
       },
       {
         "name": "Salvaging Tools"
@@ -933,10 +1431,18 @@
       {
         "name": "Improvised Firearms",
         "range": "Close",
-        "damage": { "amount": 4, "type": "HP" },
+        "damage": {
+          "amount": 4,
+          "type": "HP"
+        },
         "traits": [
-          { "type": "ballistic" },
-          { "type": "multi-attack", "amount": 2 }
+          {
+            "type": "ballistic"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          }
         ]
       },
       {
@@ -953,11 +1459,21 @@
       {
         "name": "Rifles",
         "range": "Medium",
-        "damage": { "amount": 6, "type": "HP" },
+        "damage": {
+          "amount": 6,
+          "type": "HP"
+        },
         "traits": [
-          { "type": "ballistic" },
-          { "type": "jamming" },
-          { "type": "multi-attack", "amount": 2 }
+          {
+            "type": "ballistic"
+          },
+          {
+            "type": "jamming"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          }
         ]
       },
       {
@@ -974,12 +1490,24 @@
       {
         "name": ".50 Cal Machine Gun",
         "range": "Close",
-        "damage": { "amount": 3, "type": "SP" },
+        "damage": {
+          "amount": 3,
+          "type": "SP"
+        },
         "traits": [
-          { "type": "ballistic" },
-          { "type": "jamming" },
-          { "type": "pinning" },
-          { "type": "multi-attack", "amount": 2 }
+          {
+            "type": "ballistic"
+          },
+          {
+            "type": "jamming"
+          },
+          {
+            "type": "pinning"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          }
         ]
       },
       {
@@ -999,12 +1527,26 @@
       {
         "name": "Rocket Launcher",
         "range": "Long",
-        "damage": { "amount": 6, "type": "SP" },
+        "damage": {
+          "amount": 6,
+          "type": "SP"
+        },
         "traits": [
-          { "type": "missile" },
-          { "type": "explosive", "amount": 1 },
-          { "type": "multi-attack", "amount": 2 },
-          { "type": "uses", "amount": 3 }
+          {
+            "type": "missile"
+          },
+          {
+            "type": "explosive",
+            "amount": 1
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          },
+          {
+            "type": "uses",
+            "amount": 3
+          }
         ]
       },
       {
@@ -1024,11 +1566,21 @@
       {
         "name": "Monomolecular Sword",
         "range": "Close",
-        "damage": { "amount": 6, "type": "SP" },
+        "damage": {
+          "amount": 6,
+          "type": "SP"
+        },
         "traits": [
-          { "type": "melee" },
-          { "type": "deadly" },
-          { "type": "multi-attack", "amount": 2 }
+          {
+            "type": "melee"
+          },
+          {
+            "type": "deadly"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          }
         ]
       },
       {
@@ -1048,12 +1600,26 @@
       {
         "name": "Beta Fission Gun",
         "range": "Long",
-        "damage": { "amount": 9, "type": "SP" },
+        "damage": {
+          "amount": 9,
+          "type": "SP"
+        },
         "traits": [
-          { "type": "burn", "amount": 2 },
-          { "type": "energy" },
-          { "type": "explosive", "amount": 1 },
-          { "type": "multi-attack", "amount": 2 }
+          {
+            "type": "burn",
+            "amount": 2
+          },
+          {
+            "type": "energy"
+          },
+          {
+            "type": "explosive",
+            "amount": 1
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          }
         ]
       },
       {
@@ -1073,10 +1639,18 @@
       {
         "name": "Stampede",
         "range": "Close",
-        "damage": { "amount": 3, "type": "HP" },
+        "damage": {
+          "amount": 3,
+          "type": "HP"
+        },
         "traits": [
-          { "type": "melee" },
-          { "type": "multi-attack", "amount": 2 }
+          {
+            "type": "melee"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          }
         ],
         "description": "Creatures hit by this attack are knocked prone."
       }
@@ -1091,11 +1665,22 @@
       {
         "name": "Red Laser",
         "range": "Medium",
-        "damage": { "amount": 4, "type": "SP" },
+        "damage": {
+          "amount": 4,
+          "type": "SP"
+        },
         "traits": [
-          { "type": "energy" },
-          { "type": "hot", "amount": 1 },
-          { "type": "multi-attack", "amount": 2 }
+          {
+            "type": "energy"
+          },
+          {
+            "type": "hot",
+            "amount": 1
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          }
         ]
       },
       {

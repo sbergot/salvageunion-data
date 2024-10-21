@@ -7,7 +7,7 @@
     "properties": {
       "name": { "type": "string" },
       "section": { "type": "string" },
-      "rollTable": { "$ref": "common.schema.json#/definitions/rollTable" }
+      "rollTable": { "$ref": "shared/common.schema.json#/definitions/rollTable" }
     }
   }
 }

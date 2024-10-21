@@ -26,7 +26,10 @@
           "Rigging Arm",
           "Transport Hold"
         ],
-        "modules": ["Comms Module", "Reactor Flare"]
+        "modules": [
+          "Comms Module",
+          "Reactor Flare"
+        ]
       },
       {
         "name": "Crusher Pattern",
@@ -40,7 +43,10 @@
           "Loudspeakers",
           "Rigging Arm"
         ],
-        "modules": ["Comms Module", "Survey Scanner"]
+        "modules": [
+          "Comms Module",
+          "Survey Scanner"
+        ]
       },
       {
         "name": "Evantis Pattern",
@@ -52,7 +58,10 @@
           "Ejection System",
           "Locomotion System"
         ],
-        "modules": ["Comms Module", "Laser Guidance"]
+        "modules": [
+          "Comms Module",
+          "Laser Guidance"
+        ]
       }
     ]
   },
@@ -74,20 +83,43 @@
       {
         "name": "Buzzard Pattern",
         "description": "Buzzards of the wastes, raiders relish these builds as it lets them overheat larger Mechs whilst stripping the flesh off of anything else.",
-        "systems": ["FM-3 Flamethrower", "FM-3 Flamethrower", "Loudspeakers"],
-        "modules": ["Comms Module", "Self-Destruct", "Weapon Link"]
+        "systems": [
+          "FM-3 Flamethrower",
+          "FM-3 Flamethrower",
+          "Loudspeakers"
+        ],
+        "modules": [
+          "Comms Module",
+          "Self-Destruct",
+          "Weapon Link"
+        ]
       },
       {
         "name": "Scrap Flinger Pattern",
         "description": "This is not the most orthodox platform for a Mechapult, but who am I to stop you?",
-        "systems": ["Mechapult", "Escape Hatch", "Loudspeakers"],
-        "modules": ["Comms Module", "Metal Detector", "Pinpoint Targeter"]
+        "systems": [
+          "Mechapult",
+          "Escape Hatch",
+          "Loudspeakers"
+        ],
+        "modules": [
+          "Comms Module",
+          "Metal Detector",
+          "Pinpoint Targeter"
+        ]
       },
       {
         "name": "Stefanus Pattern",
         "description": "Designed for smuggling and covert reconnaissance, being disguised as a delivery drone allows it to blend into the background within most arcos and settlements undetected.",
-        "systems": ["Rigging Arm", "Smuggling Hold"],
-        "modules": ["Comms Tapper", "Eggs Mayhem", "Reactor Overload"]
+        "systems": [
+          "Rigging Arm",
+          "Smuggling Hold"
+        ],
+        "modules": [
+          "Comms Tapper",
+          "Eggs Mayhem",
+          "Reactor Overload"
+        ]
       }
     ]
   },
@@ -116,7 +148,10 @@
           "Riveting Gun",
           "Rigging Arm"
         ],
-        "modules": ["Comms Module", "Personal Recreation Device"]
+        "modules": [
+          "Comms Module",
+          "Personal Recreation Device"
+        ]
       },
       {
         "name": "Rigger Pattern",
@@ -128,7 +163,10 @@
           "Transport Hold",
           "Welding Laser"
         ],
-        "modules": ["Comms Module", "Survey Scanner"]
+        "modules": [
+          "Comms Module",
+          "Survey Scanner"
+        ]
       },
       {
         "name": "Sakura Pattern",
@@ -142,7 +180,10 @@
           "Loudspeakers",
           "Personnel Transport Pod"
         ],
-        "modules": ["Comms Module", "M315 Motion Scanner"]
+        "modules": [
+          "Comms Module",
+          "M315 Motion Scanner"
+        ]
       }
     ]
   },
@@ -164,7 +205,11 @@
       {
         "name": "Settler Pattern",
         "description": "Wastelanders who get hold of one of these can far more easily relocate their settlements and glean crucial information about potential settlement sites.",
-        "systems": [".50 Cal Machine Gun", "Escape Hatch", "Locomotion System"],
+        "systems": [
+          ".50 Cal Machine Gun",
+          "Escape Hatch",
+          "Locomotion System"
+        ],
         "modules": [
           "Comms Module",
           "Reactor Flare",
@@ -231,7 +276,10 @@
           "Floodlights",
           "Locomotion System"
         ],
-        "modules": ["Comms Module", "Zoom Optics"]
+        "modules": [
+          "Comms Module",
+          "Zoom Optics"
+        ]
       },
       {
         "name": "Butcher Pattern",
@@ -242,7 +290,10 @@
           "Escape Hatch",
           "Locomotion System"
         ],
-        "modules": ["Comms Module", "Advanced Weapon Link"]
+        "modules": [
+          "Comms Module",
+          "Advanced Weapon Link"
+        ]
       },
       {
         "name": "H&V Pattern",
@@ -253,7 +304,10 @@
           "Escape Hatch",
           "Locomotion System"
         ],
-        "modules": ["Comms Module", "Weapon Link"]
+        "modules": [
+          "Comms Module",
+          "Weapon Link"
+        ]
       }
     ]
   },
@@ -352,7 +406,11 @@
           "Nanofibre Net Launcher",
           "Tracking Node"
         ],
-        "modules": ["Comms Module", "Evasion Protocol", "M315 Motion Scanner"]
+        "modules": [
+          "Comms Module",
+          "Evasion Protocol",
+          "M315 Motion Scanner"
+        ]
       },
       {
         "name": "Longsaddle Pattern",
@@ -364,7 +422,11 @@
           "Smoke Machine",
           "Locomotion System"
         ],
-        "modules": ["Comms Module", "Evasion Protocols", "Laser Guidance"]
+        "modules": [
+          "Comms Module",
+          "Evasion Protocols",
+          "Laser Guidance"
+        ]
       },
       {
         "name": "Opus Pattern",
@@ -376,7 +438,11 @@
           "Locomotion System",
           "Transport Hold"
         ],
-        "modules": ["Comms Module", "Evasion Protocols", "ECM Transmitter"]
+        "modules": [
+          "Comms Module",
+          "Evasion Protocols",
+          "ECM Transmitter"
+        ]
       }
     ]
   },
@@ -407,7 +473,11 @@
           "Loudspeakers",
           "Nanofibre Net Launcher"
         ],
-        "modules": ["Comms Module", "Sleeping Beauty", "Offensive Protocols"]
+        "modules": [
+          "Comms Module",
+          "Sleeping Beauty",
+          "Offensive Protocols"
+        ]
       },
       {
         "name": "Piggyback Pattern",
@@ -419,7 +489,11 @@
           "Shotgun Pit",
           "Tracking Node"
         ],
-        "modules": ["Comms Module", "Evasion Protocols", "Survey Scanner"]
+        "modules": [
+          "Comms Module",
+          "Evasion Protocols",
+          "Survey Scanner"
+        ]
       },
       {
         "name": "Contour Pattern",
@@ -431,7 +505,11 @@
           "Locomotion System",
           "Target Painter"
         ],
-        "modules": ["Comms Module", "Dash Protocols", "Pinpoint Targeter"]
+        "modules": [
+          "Comms Module",
+          "Dash Protocols",
+          "Pinpoint Targeter"
+        ]
       }
     ]
   },
@@ -462,7 +540,11 @@
           "Rigging Arm",
           "Welding Laser"
         ],
-        "modules": ["Comms Module", "Damage Assessor", "Reactor Flare"]
+        "modules": [
+          "Comms Module",
+          "Damage Assessor",
+          "Reactor Flare"
+        ]
       },
       {
         "name": "Maggie Pattern",
@@ -475,7 +557,11 @@
           "Locomotion System",
           "Welding Laser"
         ],
-        "modules": ["Barometric Sensor", "Comms Module", "Eggs Mayhem"]
+        "modules": [
+          "Barometric Sensor",
+          "Comms Module",
+          "Eggs Mayhem"
+        ]
       },
       {
         "name": "Stefanus Pattern",
@@ -525,7 +611,11 @@
           "Personnel Transport Pod",
           "Transport Hold"
         ],
-        "modules": ["Comms Module", "Navigation Module", "Reactor Flare"]
+        "modules": [
+          "Comms Module",
+          "Navigation Module",
+          "Reactor Flare"
+        ]
       },
       {
         "name": "Saboteur Pattern",
@@ -540,7 +630,11 @@
           "Personnel Transport Pod",
           "Rigging Arm"
         ],
-        "modules": ["ECM Transmitter", "Firewall", "Comms Module"]
+        "modules": [
+          "ECM Transmitter",
+          "Firewall",
+          "Comms Module"
+        ]
       },
       {
         "name": "Aegean Pattern",
@@ -554,7 +648,11 @@
           "Escape Hatch",
           "Personnel Transport Pod"
         ],
-        "modules": ["Comms Module", "Multi-Targeter", "Thermal Optics"]
+        "modules": [
+          "Comms Module",
+          "Multi-Targeter",
+          "Thermal Optics"
+        ]
       }
     ]
   },
@@ -585,7 +683,11 @@
           "Rigging Arm",
           "Welding Laser"
         ],
-        "modules": ["Comms Module", "Damage Assessor", "Reactor Flare"]
+        "modules": [
+          "Comms Module",
+          "Damage Assessor",
+          "Reactor Flare"
+        ]
       },
       {
         "name": "Maggie Pattern",
@@ -598,7 +700,11 @@
           "Locomotion System",
           "Welding Laser"
         ],
-        "modules": ["Barometric Sensor", "Comms Module", "Eggs Mayhem"]
+        "modules": [
+          "Barometric Sensor",
+          "Comms Module",
+          "Eggs Mayhem"
+        ]
       },
       {
         "name": "Stefanus Pattern",
@@ -645,7 +751,11 @@
           "Personnel Transport Pod",
           "Welding Laser"
         ],
-        "modules": ["Comms Module", "Navigation Module", "Reactor Flare"]
+        "modules": [
+          "Comms Module",
+          "Navigation Module",
+          "Reactor Flare"
+        ]
       },
       {
         "name": "Reclaimer Pattern",
@@ -657,13 +767,25 @@
           "Rigging Arm",
           "Radiation Sealing"
         ],
-        "modules": ["Comms Module", "Survey Scanner", "Video Projection Array"]
+        "modules": [
+          "Comms Module",
+          "Survey Scanner",
+          "Video Projection Array"
+        ]
       },
       {
         "name": "Sentinel Pattern",
         "description": "Evantis converted many of these Mechs into mobile, shielded missile platforms as a last gasp in the Colonial Wars.",
-        "systems": ["Missile Pod", "Ejector Pod", "Locomotion System"],
-        "modules": ["Comms Module", "IR Night Vision Optics", "Laser Guidance"]
+        "systems": [
+          "Missile Pod",
+          "Ejector Pod",
+          "Locomotion System"
+        ],
+        "modules": [
+          "Comms Module",
+          "IR Night Vision Optics",
+          "Laser Guidance"
+        ]
       }
     ]
   },
@@ -698,7 +820,10 @@
           "Personnel Transport Pod",
           "Shotgun Pit"
         ],
-        "modules": ["Comms Module", "Weapon Link"]
+        "modules": [
+          "Comms Module",
+          "Weapon Link"
+        ]
       },
       {
         "name": "Bastion Pattern",
@@ -710,7 +835,10 @@
           "Ejection System",
           "Prawn Sifter"
         ],
-        "modules": ["Comms Module", "Metal Detector"]
+        "modules": [
+          "Comms Module",
+          "Metal Detector"
+        ]
       },
       {
         "name": "Evantis Pattern",
@@ -755,7 +883,11 @@
           "Electro-Magnetic Shield Projector",
           "Locomotion System"
         ],
-        "modules": ["Comms Module", "Reactor Safety Protocols", "Weapon Link"]
+        "modules": [
+          "Comms Module",
+          "Reactor Safety Protocols",
+          "Weapon Link"
+        ]
       },
       {
         "name": "Ironmask Pattern",
@@ -784,7 +916,11 @@
           "Ejection System",
           "Locomotion System"
         ],
-        "modules": ["Comms Module", "Laser Guidance", "Offensive Protocols"]
+        "modules": [
+          "Comms Module",
+          "Laser Guidance",
+          "Offensive Protocols"
+        ]
       }
     ]
   },
@@ -812,14 +948,20 @@
           "Locomotion System",
           "Tracking Node"
         ],
-        "modules": ["Comms Module", "Reactor Flare"],
+        "modules": [
+          "Comms Module",
+          "Reactor Flare"
+        ],
         "drone": {
           "systems": [
             "Long Barrelled Green Laser",
             "High Gain Antenna",
             "Cargo Pod"
           ],
-          "modules": ["Survey Scanner", "M315 Motion Scanner"]
+          "modules": [
+            "Survey Scanner",
+            "M315 Motion Scanner"
+          ]
         }
       },
       {
@@ -831,10 +973,20 @@
           "Fabrication Arm",
           "Locomotion System"
         ],
-        "modules": ["Comms Module", "Metal Detector"],
+        "modules": [
+          "Comms Module",
+          "Metal Detector"
+        ],
         "drone": {
-          "systems": ["Red Laser", "Fabrication Arm", "High Gain Antenna"],
-          "modules": ["Survey Scanner", "Damage Assessor"]
+          "systems": [
+            "Red Laser",
+            "Fabrication Arm",
+            "High Gain Antenna"
+          ],
+          "modules": [
+            "Survey Scanner",
+            "Damage Assessor"
+          ]
         }
       },
       {
@@ -846,10 +998,18 @@
           "High Gain Antenna",
           "Locomotion System"
         ],
-        "modules": ["Comms Module", "Zoom Optics"],
+        "modules": [
+          "Comms Module",
+          "Zoom Optics"
+        ],
         "drone": {
-          "systems": ["Rail Rifle"],
-          "modules": ["Reactor Overload", "Laser Guidance"]
+          "systems": [
+            "Rail Rifle"
+          ],
+          "modules": [
+            "Reactor Overload",
+            "Laser Guidance"
+          ]
         }
       }
     ]
@@ -950,7 +1110,11 @@
           "Escape Hatch",
           "Spider Locomotion System"
         ],
-        "modules": ["Auto-Doctor", "Comms Module", "Energy Cell"]
+        "modules": [
+          "Auto-Doctor",
+          "Comms Module",
+          "Energy Cell"
+        ]
       },
       {
         "name": "Needler Pattern",
@@ -1082,7 +1246,11 @@
           "Locomotion System",
           "Prawn Sifter"
         ],
-        "modules": ["Comms Module", "Energy Cell", "Metal Detector"]
+        "modules": [
+          "Comms Module",
+          "Energy Cell",
+          "Metal Detector"
+        ]
       },
       {
         "name": "Deployer Pattern",
@@ -1111,7 +1279,11 @@
           "Transport Hold",
           "Fabrication Arm"
         ],
-        "modules": ["Comms Module", "Deep Survey Scanner", "Energy Cell"]
+        "modules": [
+          "Comms Module",
+          "Deep Survey Scanner",
+          "Energy Cell"
+        ]
       }
     ]
   },
@@ -1141,7 +1313,11 @@
           "Ejection System",
           "Locomotion System"
         ],
-        "modules": ["Auto-Doctor", "Auto-Repair Droid", "Comms Module"]
+        "modules": [
+          "Auto-Doctor",
+          "Auto-Repair Droid",
+          "Comms Module"
+        ]
       },
       {
         "name": "Escort Pattern",
@@ -1204,7 +1380,11 @@
           "Multi-Phase Shield",
           "Locomotion System"
         ],
-        "modules": ["Auto-Repair Droid", "Alpha Strike Module", "Comms Module"]
+        "modules": [
+          "Auto-Repair Droid",
+          "Alpha Strike Module",
+          "Comms Module"
+        ]
       },
       {
         "name": "Alien Hunter Pattern",
@@ -1277,7 +1457,11 @@
       {
         "name": "VIP Pattern",
         "description": "Sometimes a VIP, usually a corpo exec, will insist on travelling in one of these as part of a convoy to show that they are not 'afraid' of any would-be assassin. Since the VIP Pattern Consul stands out from the rest of Mechs in the convoy, its presence actually makes the task of the assassin a lot easier and the job of the escorts, usually salvagers, a lot harder, but who are we to argue with someone paying in scrap?",
-        "systems": ["Green Laser", "Ejector Pod", "Hover Locomotion System"],
+        "systems": [
+          "Green Laser",
+          "Ejector Pod",
+          "Hover Locomotion System"
+        ],
         "modules": [
           "Auto-Repair Droid",
           "Comms Module",
@@ -1418,7 +1602,11 @@
           "Ejection System",
           "Aeon Shield Dome"
         ],
-        "modules": ["Comms Module", "MRSI Co-Ordinator", "Multi-Optics"]
+        "modules": [
+          "Comms Module",
+          "MRSI Co-Ordinator",
+          "Multi-Optics"
+        ]
       },
       {
         "name": "Laser Boat Pattern",
@@ -1499,7 +1687,11 @@
           "Locomotion System",
           "Multi-Phase Shield"
         ],
-        "modules": ["Mech Scrambler", "Multi-Optics", "Neuralink Communicator"]
+        "modules": [
+          "Mech Scrambler",
+          "Multi-Optics",
+          "Neuralink Communicator"
+        ]
       }
     ]
   },
@@ -1684,7 +1876,11 @@
           "Ejection System",
           "Multi-Phase Shield"
         ],
-        "modules": ["Advanced Targeting", "Comms Module", "Multi-Optics"]
+        "modules": [
+          "Advanced Targeting",
+          "Comms Module",
+          "Multi-Optics"
+        ]
       },
       {
         "name": "M.A.D. Pattern",
