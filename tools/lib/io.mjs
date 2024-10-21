@@ -17,7 +17,7 @@ export function map(filename, f, suffix = "") {
   apply(filename, d => d.map(f), suffix);
 }
 
-export function list(filename, property) {
+export function listEntriesWithProperty(filename, property) {
   const data = read(filename);
   const result = {};
   data.forEach(element => {

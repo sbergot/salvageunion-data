@@ -1,4 +1,4 @@
-import { apply } from "./io.mjs"
+import { apply } from "../lib/io.mjs"
 
 apply("data/otherEntities.json", d => {
   return d.flatMap(r => {

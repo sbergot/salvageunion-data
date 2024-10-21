@@ -1,5 +1,5 @@
 import { Validator } from "jsonschema"
-import { getAllDataFiles, read } from "./io.mjs"
+import { getAllDataFiles, read } from "./lib/io.mjs"
 
 const validator = new Validator();
 validator.addSchema(read("schemas/enums.schema.json"), '/enums.schema.json');
