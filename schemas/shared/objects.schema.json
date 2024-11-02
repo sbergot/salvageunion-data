@@ -49,6 +49,14 @@
           "type": "array",
           "items": { "$ref": "objects.schema.json#/definitions/action" }
         },
+        "statBonus": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "stat": { "type": "string" },
+            "bonus": { "type": "number" }
+          }
+        },
         "count": { "type": "number" }
       }
     }

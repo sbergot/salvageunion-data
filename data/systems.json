@@ -36,7 +36,8 @@
     "slotsRequired": 1,
     "salvageValue": 1,
     "actionType": "Passive",
-    "description": "A Cargo Pod increases the Cargo Capacity of a Mech by 1."
+    "description": "A Cargo Pod increases the Cargo Capacity of a Mech by 1.",
+    "statBonus": { "stat": "cargo_cap", "bonus": 1 }
   },
   {
     "name": "Escape Hatch",
@@ -290,7 +291,8 @@
     "slotsRequired": 2,
     "salvageValue": 2,
     "actionType": "Passive",
-    "description": "A Transport Hold increases the Cargo Capacity of a Mech by 4."
+    "description": "A Transport Hold increases the Cargo Capacity of a Mech by 4.",
+    "statBonus": { "stat": "cargo_cap", "bonus": 4 }
   },
   {
     "name": "Sandblaster",
@@ -407,7 +409,8 @@
     "slotsRequired": 4,
     "salvageValue": 2,
     "actionType": "Passive",
-    "description": "A Cargo Bay increases a Mech’s Cargo Capacity by 10."
+    "description": "A Cargo Bay increases a Mech’s Cargo Capacity by 10.",
+    "statBonus": { "stat": "cargo_cap", "bonus": 10 }
   },
   {
     "name": "Chaff Launcher",
@@ -487,7 +490,8 @@
     "slotsRequired": 2,
     "salvageValue": 1,
     "actionType": "Passive",
-    "description": "A Heat Sink increases the Maximum Heat Capacity of a Mech by 1 for each Heat Sink installed."
+    "description": "A Heat Sink increases the Maximum Heat Capacity of a Mech by 1 for each Heat Sink installed.",
+    "statBonus": { "stat": "heat_cap", "bonus": 1 }
   },
   {
     "name": "High Gain Antenna",
@@ -539,7 +543,8 @@
     "slotsRequired": 4,
     "salvageValue": 1,
     "actionType": "Passive",
-    "description": "This System increases your Mech’s Module Capacity by 1."
+    "description": "This System increases your Mech’s Module Capacity by 1.",
+    "statBonus": { "stat": "module_slots", "bonus": 1 }
   },
   {
     "name": "Personnel Transport Pod",
@@ -714,7 +719,8 @@
     "slotsRequired": 4,
     "salvageValue": 2,
     "actionType": "Passive",
-    "description": "This System increases your Mech’s Maximum EP by 2 for each bank installed."
+    "description": "This System increases your Mech’s Maximum EP by 2 for each bank installed.",
+    "statBonus": { "stat": "energy_pts", "bonus": 2 }
   },
   {
     "name": "Composite Armour",
@@ -723,7 +729,8 @@
     "salvageValue": 1,
     "actionType": "Passive",
     "description": "This System increases your Mech’s Max SP by 5 for each Composite Armour System you have installed.",
-    "notes": "If this System is Damaged or Destroyed reduce your Max SP by 5 and reduce your current SP to match your new Max SP."
+    "notes": "If this System is Damaged or Destroyed reduce your Max SP by 5 and reduce your current SP to match your new Max SP.",
+    "statBonus": { "stat": "structure_pts", "bonus": 5 }
   },
   {
     "name": "Ejection System",
@@ -1016,7 +1023,8 @@
     "slotsRequired": 5,
     "salvageValue": 2,
     "actionType": "Passive",
-    "description": "This hold increases your Cargo Capacity by 8. In addition, all cargo you store in this hold and the hold itself cannot be found by any inspections or be seen or targeted by anything with the Scanning, Hacking, Optics, or Targeter Trait."
+    "description": "This hold increases your Cargo Capacity by 8. In addition, all cargo you store in this hold and the hold itself cannot be found by any inspections or be seen or targeted by anything with the Scanning, Hacking, Optics, or Targeter Trait.",
+    "statBonus": { "stat": "cargo_cap", "bonus": 8 }
   },
   {
     "name": "Spider Locomotion System",
@@ -1231,7 +1239,8 @@
     "salvageValue": 4,
     "actionType": "Passive",
     "description": "A Cargo Bay with an integrated anti-gravity System allowing a Mech to carry a vast amount of salvage.",
-    "notes": "A Grav Assisted Cargo Bay increases your Cargo Capacity by 20."
+    "notes": "A Grav Assisted Cargo Bay increases your Cargo Capacity by 20.",
+    "statBonus": { "stat": "cargo_cap", "bonus": 20 }
   },
   {
     "name": "Hover Locomotion System",
