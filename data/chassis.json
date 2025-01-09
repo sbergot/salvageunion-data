@@ -408,7 +408,7 @@
         ],
         "modules": [
           "Comms Module",
-          "Evasion Protocol",
+          "Evasion Protocols",
           "M315 Motion Scanner"
         ]
       },
