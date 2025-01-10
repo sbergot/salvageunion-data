@@ -755,7 +755,7 @@
             "type": "ballistic"
           },
           {
-            "type": "hot",
+            "type": "hot (x)",
             "amount": 1
           },
           {
@@ -915,7 +915,7 @@
             "type": "energy"
           },
           {
-            "type": "hot",
+            "type": "hot (x)",
             "amount": 1
           }
         ]
@@ -977,7 +977,7 @@
             "type": "energy"
           },
           {
-            "type": "hot",
+            "type": "hot (x)",
             "amount": 2
           }
         ]
@@ -1049,7 +1049,7 @@
             "amount": 2
           },
           {
-            "type": "hot",
+            "type": "hot (x)",
             "amount": 1
           },
           {
@@ -1674,7 +1674,7 @@
             "type": "energy"
           },
           {
-            "type": "hot",
+            "type": "hot (x)",
             "amount": 1
           },
           {
