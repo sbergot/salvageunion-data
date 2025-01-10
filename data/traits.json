@@ -80,7 +80,7 @@
     "description": "Pilot Equipment with the Heavy Trait is particularly large and cumbersome and takes up 2 Inventory Slots instead of 1."
   },
   {
-    "name": "hot",
+    "name": "hot (x)",
     "description": "If a System, Module, or Ability has the Hot Trait, when it is activated or attacked with, the Mech doing so gains a number of Heat equal to the number in brackets. In addition, the Mediator can apply Heat when using the weapon as a consequence or Tough Choice."
   },
   {
