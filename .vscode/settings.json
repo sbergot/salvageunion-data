@@ -53,6 +53,18 @@
         "data/tables.json"
       ],
       "url": "./schemas/tables.schema.json"
+    },
+    {
+      "fileMatch": [
+        "data/traits.json"
+      ],
+      "url": "./schemas/traits.schema.json"
+    },
+    {
+      "fileMatch": [
+        "data/keywords.json"
+      ],
+      "url": "./schemas/keywords.schema.json"
     }
   ]
 }
