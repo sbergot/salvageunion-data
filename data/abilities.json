@@ -398,7 +398,7 @@
   },
   {
     "name": "No Job Too Big",
-    "tree": "Leadership",
+    "tree": "Trading",
     "level": 3,
     "description": "When reduced to 0 HP or your Mech is reduced to 0 SP, take a Turn Action or Reaction.",
     "effect": "You summon all your reserves in the face of death to finish what you started.",

@@ -408,7 +408,7 @@
         ],
         "modules": [
           "Comms Module",
-          "Evasion Protocol",
+          "Evasion Protocols",
           "M315 Motion Scanner"
         ]
       },
@@ -536,7 +536,7 @@
           "Escape Hatch",
           "Floodlights",
           "Locomotion System",
-          "Loudspeaker",
+          "Loudspeakers",
           "Rigging Arm",
           "Welding Laser"
         ],
@@ -558,7 +558,7 @@
           "Welding Laser"
         ],
         "modules": [
-          "Barometric Sensor",
+          "Barometric Weather Sensor",
           "Comms Module",
           "Eggs Mayhem"
         ]
@@ -679,7 +679,7 @@
           "Escape Hatch",
           "Floodlights",
           "Locomotion System",
-          "Loudspeaker",
+          "Loudspeakers",
           "Rigging Arm",
           "Welding Laser"
         ],
@@ -701,7 +701,7 @@
           "Welding Laser"
         ],
         "modules": [
-          "Barometric Sensor",
+          "Barometric Weather Sensor",
           "Comms Module",
           "Eggs Mayhem"
         ]
