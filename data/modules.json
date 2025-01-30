@@ -238,14 +238,27 @@
     "techLevel": 2,
     "slotsRequired": 1,
     "salvageValue": 2,
-    "traits": [
-      {
-        "type": "heat spike"
-      }
-    ],
     "actionType": "Reaction",
     "description": "This Mech-mountable scanner lets you know when any Scrap is nearby.",
-    "notes": "This automated function passively alerts you when you move into an area that can be salvaged. In addition, whenever you move from one area of the map to an location you have not yet visited, roll the die, on the result of a 20 you gain once piece of scrap of the Tech Level of the area as decided by the Mediator. By default this is the Tech Level of your Union Crawler. In addition, when activated for its EP cost, this Module scans an area within Range. This reveals any Scrap, Systems, Chassis, or Modules, or Area Salvage points in the location as well as any buried or hidden metallic threats such as mines or Mechs waiting in ambush."
+    "actions": [
+      {
+        "name": "Auto-Scan",
+        "actionType": "Passive",
+        "description": "This automated function passively alerts you when you move into an area that can be salvaged.\nIn addition, whenever you move from one area of the map to an location you have not yet visited, roll the die, on the result of a 20 you gain once piece of scrap of the Tech Level of the area as decided by the Mediator. By default this is the Tech Level of your Union Crawler."
+      },
+      {
+        "name": "Coolant Flush",
+        "activationCost": 2,
+        "actionType": "Short",
+        "range": "Medium",
+        "traits": [
+          {
+            "type": "scanner"
+          }
+        ],
+        "description": "In addition, when activated for its EP cost, this Module scans an area within Range. This reveals any Scrap, Systems, Chassis, or Modules, or Area Salvage points in the location as well as any buried or hidden metallic threats such as mines or Mechs waiting in ambush."
+      }
+    ]
   },
   {
     "name": "M315 Motion Scanner",
