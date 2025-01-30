@@ -614,6 +614,9 @@
     "techLevel": 5,
     "traits": [
       {
+        "type": "energy"
+      },
+      {
         "type": "burn",
         "amount": 2
       },
