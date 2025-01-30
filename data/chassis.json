@@ -1778,7 +1778,7 @@
       "system_slots": 18,
       "module_slots": 6,
       "cargo_cap": 6,
-      "tech_level": 15,
+      "tech_level": 5,
       "salvage_value": 9
     },
     "chassis_ability": "Cybernetic Neuralink: The Neura-Phage connects directly to the Pilot with an advanced neuralink mesh that allows their thoughts to be directly translated to the actions of the Mech, merging them into one entity. They may spend their Pilot Ability Points on any Energy Point Abilities the Neura-Phage has access to. They may spend their Energy Points on any Pilot Abilities their Pilot has access to that the Neura-Phage would reasonably be able to perform. In addition, they always count as having a Neuralink Communicator installed in their Mech.",
