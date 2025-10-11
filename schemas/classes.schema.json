@@ -1,53 +1,132 @@
 {
-  "$schema": "https://json-schema.org/draft-07/schema",
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "https://salvageunion.com/schemas/classes.schema.json",
+  "title": "Salvage Union Classes",
+  "description": "Character classes in Salvage Union",
   "type": "array",
   "items": {
-    "anyOf": [
+    "oneOf": [
       {
         "type": "object",
+        "description": "A core character class",
         "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "source",
+          "type",
+          "page"
+        ],
         "properties": {
-          "name": { "$ref": "shared/enums.schema.json#/definitions/class" },
-          "type": { "enum": ["core"] },
-          "description": { "type": "string" },
+          "id": {
+            "$ref": "shared/common.schema.json#/definitions/id"
+          },
+          "name": {
+            "$ref": "shared/enums.schema.json#/definitions/class"
+          },
+          "source": {
+            "$ref": "shared/enums.schema.json#/definitions/source"
+          },
+          "type": {
+            "type": "string",
+            "const": "core",
+            "description": "Indicates this is a core class"
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of the class"
+          },
           "coreAbilities": {
             "type": "array",
-            "items": { "$ref": "shared/enums.schema.json#/definitions/tree" }
+            "description": "Core ability trees for this class",
+            "items": {
+              "$ref": "shared/enums.schema.json#/definitions/tree"
+            }
           },
           "hybridClasses": {
             "type": "array",
-            "items": { "$ref": "shared/enums.schema.json#/definitions/class" }
+            "description": "Hybrid classes that can be formed with this class",
+            "items": {
+              "$ref": "shared/enums.schema.json#/definitions/class"
+            }
           },
           "advancedAbilities": {
+            "description": "Advanced ability tree for this class",
             "$ref": "shared/enums.schema.json#/definitions/tree"
           },
           "legendaryAbilities": {
             "type": "array",
-            "items": { "$ref": "shared/enums.schema.json#/definitions/ability" }
+            "description": "Legendary abilities for this class",
+            "items": {
+              "$ref": "shared/enums.schema.json#/definitions/ability"
+            }
+          },
+          "page": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Page number in the source book"
           }
         }
       },
       {
         "type": "object",
+        "description": "A hybrid character class",
         "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "source",
+          "type",
+          "page"
+        ],
         "properties": {
-          "name": { "$ref": "shared/enums.schema.json#/definitions/class" },
-          "type": { "enum": ["hybrid"] },
-          "description": { "type": "string" },
+          "id": {
+            "$ref": "shared/common.schema.json#/definitions/id"
+          },
+          "name": {
+            "$ref": "shared/enums.schema.json#/definitions/class"
+          },
+          "type": {
+            "type": "string",
+            "const": "hybrid",
+            "description": "Indicates this is a hybrid class"
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of the class"
+          },
+          "source": {
+            "$ref": "shared/enums.schema.json#/definitions/source"
+          },
           "coreClasses": {
             "type": "array",
-            "items": { "$ref": "shared/enums.schema.json#/definitions/class" }
+            "description": "Core classes that form this hybrid",
+            "items": {
+              "$ref": "shared/enums.schema.json#/definitions/class"
+            }
           },
           "coreAbilities": {
             "type": "array",
-            "items": { "$ref": "shared/enums.schema.json#/definitions/tree" }
+            "description": "Core ability trees for this hybrid class",
+            "items": {
+              "$ref": "shared/enums.schema.json#/definitions/tree"
+            }
           },
           "advancedAbilities": {
+            "description": "Advanced ability tree for this hybrid class",
             "$ref": "shared/enums.schema.json#/definitions/tree"
           },
           "legendaryAbilities": {
             "type": "array",
-            "items": { "$ref": "shared/enums.schema.json#/definitions/ability" }
+            "description": "Legendary abilities for this hybrid class",
+            "items": {
+              "$ref": "shared/enums.schema.json#/definitions/ability"
+            }
+          },
+          "page": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Page number in the source book"
           }
         }
       }

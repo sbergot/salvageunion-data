@@ -1,13 +1,43 @@
 {
-  "$schema": "https://json-schema.org/draft-07/schema",
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "https://salvageunion.com/schemas/tables.schema.json",
+  "title": "Salvage Union Tables",
+  "description": "Random tables and roll tables in Salvage Union",
   "type": "array",
   "items": {
     "type": "object",
+    "description": "A random table",
     "additionalProperties": false,
+    "required": [
+      "id",
+      "name",
+      "source",
+      "page"
+    ],
     "properties": {
-      "name": { "type": "string" },
-      "section": { "type": "string" },
-      "rollTable": { "$ref": "shared/common.schema.json#/definitions/rollTable" }
+      "id": {
+        "$ref": "shared/common.schema.json#/definitions/id"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Name of the table"
+      },
+      "section": {
+        "type": "string",
+        "description": "Section or category of the table"
+      },
+      "source": {
+        "$ref": "shared/enums.schema.json#/definitions/source"
+      },
+      "rollTable": {
+        "$ref": "shared/common.schema.json#/definitions/rollTable"
+      },
+      "page": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "Page number in the source book"
+      }
     }
   }
 }

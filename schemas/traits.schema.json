@@ -1,5 +1,10 @@
 {
-  "$schema": "https://json-schema.org/draft-07/schema",
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "https://salvageunion.com/schemas/traits.schema.json",
+  "title": "Salvage Union Traits",
+  "description": "Traits and special properties in Salvage Union",
   "type": "array",
-  "items": { "$ref": "shared/common.schema.json#/definitions/entry" }
+  "items": {
+    "$ref": "shared/common.schema.json#/definitions/entry"
+  }
 }

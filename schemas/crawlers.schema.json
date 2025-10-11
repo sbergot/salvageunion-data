@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "https://salvageunion.com/schemas/crawlers.schema.json",
+  "title": "Salvage Union Crawlers",
+  "description": "Crawler vehicles in Salvage Union",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "description": "A crawler vehicle",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "name",
+      "source",
+      "page"
+    ],
+    "properties": {
+      "id": {
+        "$ref": "shared/common.schema.json#/definitions/id"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Name of the crawler"
+      },
+      "source": {
+        "$ref": "shared/enums.schema.json#/definitions/source"
+      },
+      "description": {
+        "type": "string",
+        "description": "Description of the crawler"
+      },
+      "abilities": {
+        "type": "array",
+        "description": "Special abilities of this crawler",
+        "items": {
+          "$ref": "shared/objects.schema.json#/definitions/action"
+        }
+      },
+      "page": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "Page number in the source book"
+      }
+    }
+  }
+}

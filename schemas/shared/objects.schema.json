@@ -1,63 +1,339 @@
 {
-  "$schema": "https://json-schema.org/draft-07/schema",
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "https://salvageunion.com/schemas/shared/objects.schema.json",
+  "title": "Salvage Union Object Definitions",
+  "description": "Shared complex object definitions for Salvage Union game data",
   "definitions": {
-    "action": {
+    "stats": {
       "type": "object",
+      "description": "Statistics for mechs, chassis, and vehicles",
       "additionalProperties": false,
       "properties": {
-        "name": { "type": "string" },
+        "structure_pts": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Structure points (durability)"
+        },
+        "energy_pts": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Energy points (power capacity)"
+        },
+        "heat_cap": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Heat capacity"
+        },
+        "system_slots": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of system slots"
+        },
+        "module_slots": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of module slots"
+        },
+        "cargo_cap": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Cargo capacity"
+        },
+        "tech_level": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Technology level"
+        },
+        "salvage_value": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Salvage value in scrap"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Additional notes"
+        }
+      }
+    },
+    "action": {
+      "type": "object",
+      "description": "An action, ability, or attack that can be performed",
+      "additionalProperties": false,
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Name of the action"
+        },
+        "source": {
+          "$ref": "enums.schema.json#/definitions/source"
+        },
         "description": {
-          "type": "string"
+          "type": "string",
+          "description": "Description of what the action does"
         },
         "effect": {
-          "type": "string"
+          "type": "string",
+          "description": "Mechanical effect of the action"
         },
-        "activationCost": { "$ref": "common.schema.json#/definitions/activationCost" },
-        "range": { "$ref": "enums.schema.json#/definitions/range" },
-        "actionType": { "$ref": "enums.schema.json#/definitions/actionType" },
-        "traits": { "$ref": "common.schema.json#/definitions/traits" },
-        "damage": { "$ref": "common.schema.json#/definitions/damage" },
+        "activationCost": {
+          "$ref": "common.schema.json#/definitions/activationCost"
+        },
+        "range": {
+          "$ref": "enums.schema.json#/definitions/range"
+        },
+        "actionType": {
+          "$ref": "enums.schema.json#/definitions/actionType"
+        },
+        "traits": {
+          "$ref": "common.schema.json#/definitions/traits"
+        },
+        "damage": {
+          "$ref": "common.schema.json#/definitions/damage"
+        },
+        "stats": {
+          "$ref": "objects.schema.json#/definitions/stats"
+        },
         "options": {
           "type": "array",
-          "items": { "type": "string" }
+          "description": "List of options or choices for this action",
+          "items": {
+            "oneOf": [
+              {
+                "type": "string",
+                "description": "Simple text option"
+              },
+              {
+                "type": "object",
+                "description": "Structured option with label and value",
+                "additionalProperties": false,
+                "required": [
+                  "label",
+                  "value"
+                ],
+                "properties": {
+                  "label": {
+                    "type": "string",
+                    "description": "Display label for the option"
+                  },
+                  "value": {
+                    "type": "string",
+                    "description": "Value or effect of the option"
+                  }
+                }
+              }
+            ]
+          }
         },
-        "rollTable": { "$ref": "common.schema.json#/definitions/rollTable" }
+        "rollTable": {
+          "$ref": "common.schema.json#/definitions/rollTable"
+        },
+        "page": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Page number in the source book"
+        }
       }
     },
     "system": {
       "type": "object",
+      "description": "A system or module that can be installed on a mech",
       "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "page"
+      ],
       "properties": {
-        "name": { "type": "string" },
-        "techLevel": { "type": "number" },
-        "slotsRequired": { "type": "number" },
-        "salvageValue": { "type": "number" },
-        "recommended": { "type": "boolean" },
-        "traits": { "$ref": "common.schema.json#/definitions/traits" },
+        "id": {
+          "$ref": "common.schema.json#/definitions/id"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Name of the system or module"
+        },
+        "source": {
+          "$ref": "enums.schema.json#/definitions/source"
+        },
+        "techLevel": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Technology level required"
+        },
+        "slotsRequired": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of slots required to install"
+        },
+        "salvageValue": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Salvage value in scrap"
+        },
+        "recommended": {
+          "type": "boolean",
+          "description": "Whether this is a recommended starting system"
+        },
+        "traits": {
+          "$ref": "common.schema.json#/definitions/traits"
+        },
         "description": {
-          "type": "string"
+          "type": "string",
+          "description": "Description of the system or module"
         },
         "notes": {
-          "type": "string"
+          "type": "string",
+          "description": "Additional notes"
         },
-        "activationCost": { "$ref": "common.schema.json#/definitions/activationCost" },
-        "range": { "$ref": "enums.schema.json#/definitions/range" },
-        "damage": { "$ref": "common.schema.json#/definitions/damage" },
-        "rollTable": { "$ref": "common.schema.json#/definitions/rollTable" },
-        "actionType": { "$ref": "enums.schema.json#/definitions/actionType" },
+        "activationCost": {
+          "$ref": "common.schema.json#/definitions/activationCost"
+        },
+        "range": {
+          "$ref": "enums.schema.json#/definitions/range"
+        },
+        "damage": {
+          "$ref": "common.schema.json#/definitions/damage"
+        },
+        "rollTable": {
+          "$ref": "common.schema.json#/definitions/rollTable"
+        },
+        "actionType": {
+          "$ref": "enums.schema.json#/definitions/actionType"
+        },
         "actions": {
           "type": "array",
-          "items": { "$ref": "objects.schema.json#/definitions/action" }
+          "description": "Actions that can be performed with this system",
+          "items": {
+            "$ref": "objects.schema.json#/definitions/action"
+          }
         },
         "statBonus": {
           "type": "object",
+          "description": "Bonus to a specific stat",
           "additionalProperties": false,
+          "required": [
+            "stat",
+            "bonus"
+          ],
           "properties": {
-            "stat": { "type": "string" },
-            "bonus": { "type": "number" }
+            "stat": {
+              "type": "string",
+              "description": "Name of the stat to bonus"
+            },
+            "bonus": {
+              "type": "integer",
+              "description": "Amount of bonus to apply"
+            }
           }
         },
-        "count": { "type": "number" }
+        "count": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of this system included"
+        },
+        "page": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Page number in the source book"
+        }
+      }
+    },
+    "embeddedSystem": {
+      "type": "object",
+      "description": "A system or module embedded within another entity (drone, vehicle, etc.) that doesn't have its own page reference",
+      "additionalProperties": false,
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Name of the system or module"
+        },
+        "source": {
+          "$ref": "enums.schema.json#/definitions/source"
+        },
+        "techLevel": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Technology level required"
+        },
+        "slotsRequired": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of slots required to install"
+        },
+        "salvageValue": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Salvage value in scrap"
+        },
+        "recommended": {
+          "type": "boolean",
+          "description": "Whether this is a recommended starting system"
+        },
+        "traits": {
+          "$ref": "common.schema.json#/definitions/traits"
+        },
+        "description": {
+          "type": "string",
+          "description": "Description of the system or module"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Additional notes"
+        },
+        "activationCost": {
+          "$ref": "common.schema.json#/definitions/activationCost"
+        },
+        "range": {
+          "$ref": "enums.schema.json#/definitions/range"
+        },
+        "damage": {
+          "$ref": "common.schema.json#/definitions/damage"
+        },
+        "rollTable": {
+          "$ref": "common.schema.json#/definitions/rollTable"
+        },
+        "actionType": {
+          "$ref": "enums.schema.json#/definitions/actionType"
+        },
+        "actions": {
+          "type": "array",
+          "description": "Actions that can be performed with this system",
+          "items": {
+            "$ref": "objects.schema.json#/definitions/action"
+          }
+        },
+        "statBonus": {
+          "type": "object",
+          "description": "Bonus to a specific stat",
+          "additionalProperties": false,
+          "required": [
+            "stat",
+            "bonus"
+          ],
+          "properties": {
+            "stat": {
+              "type": "string",
+              "description": "Name of the stat to bonus"
+            },
+            "bonus": {
+              "type": "integer",
+              "description": "Amount of bonus to apply"
+            }
+          }
+        },
+        "count": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of this system included"
+        }
       }
     }
   }

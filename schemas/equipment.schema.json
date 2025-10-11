@@ -1,26 +1,71 @@
 {
-  "$schema": "https://json-schema.org/draft-07/schema",
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "https://salvageunion.com/schemas/equipment.schema.json",
+  "title": "Salvage Union Equipment",
+  "description": "Pilot equipment and gear in Salvage Union",
   "type": "array",
   "items": {
     "type": "object",
+    "description": "A piece of pilot equipment",
     "additionalProperties": false,
+    "required": [
+      "id",
+      "name",
+      "source",
+      "page"
+    ],
     "properties": {
-      "name": { "type": "string" },
-      "techLevel": { "type": "number" },
-      "traits": { "$ref": "shared/common.schema.json#/definitions/traits" },
+      "id": {
+        "$ref": "shared/common.schema.json#/definitions/id"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Name of the equipment"
+      },
+      "source": {
+        "$ref": "shared/enums.schema.json#/definitions/source"
+      },
+      "techLevel": {
+        "$ref": "shared/common.schema.json#/definitions/techLevel"
+      },
+      "traits": {
+        "$ref": "shared/common.schema.json#/definitions/traits"
+      },
       "description": {
-        "type": "string"
+        "type": "string",
+        "description": "Description of the equipment"
       },
       "notes": {
-        "type": "string"
+        "type": "string",
+        "description": "Additional notes"
       },
-      "activationCost": { "$ref": "shared/common.schema.json#/definitions/activationCost" },
-      "range": { "$ref": "shared/enums.schema.json#/definitions/range" },
-      "damage": { "$ref": "shared/common.schema.json#/definitions/damage" },
-      "actionType": { "$ref": "shared/enums.schema.json#/definitions/actionType" },
+      "activationCost": {
+        "$ref": "shared/common.schema.json#/definitions/activationCost"
+      },
+      "range": {
+        "$ref": "shared/enums.schema.json#/definitions/range"
+      },
+      "damage": {
+        "$ref": "shared/common.schema.json#/definitions/damage"
+      },
+      "actionType": {
+        "$ref": "shared/enums.schema.json#/definitions/actionType"
+      },
+      "rollTable": {
+        "$ref": "shared/common.schema.json#/definitions/rollTable"
+      },
       "actions": {
         "type": "array",
-        "items": { "$ref": "shared/objects.schema.json#/definitions/action" }
+        "description": "Actions that can be performed with this equipment",
+        "items": {
+          "$ref": "shared/objects.schema.json#/definitions/action"
+        }
+      },
+      "page": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "Page number in the source book"
       }
     }
   }

@@ -1,0 +1,314 @@
+[
+  {
+    "id": "fa6feaf4-1202-4263-9e1a-a71a6f43a661",
+    "source": "core",
+    "name": "Waster Mob",
+    "description": "A mob of wastelanders with improvised weapons.",
+    "abilities": [
+      {
+        "name": "Improvised Weapons",
+        "range": "Close",
+        "damage": {
+          "amount": 4,
+          "type": "HP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Salvaging Tools"
+      }
+    ],
+    "hitPoints": 4,
+    "page": 300
+  },
+  {
+    "id": "75f5e27f-64d7-4bd1-8f5b-46d38646e092",
+    "source": "core",
+    "name": "Raider Band",
+    "description": "A band of raiders hungry for scrap.",
+    "abilities": [
+      {
+        "name": "Improvised Firearms",
+        "range": "Close",
+        "damage": {
+          "amount": 4,
+          "type": "HP"
+        },
+        "traits": [
+          {
+            "type": "ballistic"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "High Tensile Wire"
+      }
+    ],
+    "hitPoints": 6,
+    "page": 300
+  },
+  {
+    "id": "dea7128f-1361-43b5-b4d1-9273a38c606b",
+    "source": "core",
+    "name": "Rifle Squad",
+    "description": "A group of grunts armed with rifles.",
+    "abilities": [
+      {
+        "name": "Rifles",
+        "range": "Medium",
+        "damage": {
+          "amount": 6,
+          "type": "HP"
+        },
+        "traits": [
+          {
+            "type": "ballistic"
+          },
+          {
+            "type": "jamming"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Portable Comms Unit"
+      }
+    ],
+    "hitPoints": 10,
+    "page": 300
+  },
+  {
+    "id": "139b0d61-9739-4c20-8fc3-6bd12ab6c360",
+    "source": "core",
+    "name": "Machine Gun Squad",
+    "description": "Combat trained troops armed with a mobile heavy machine gun.",
+    "abilities": [
+      {
+        "name": ".50 Cal Machine Gun",
+        "range": "Close",
+        "damage": {
+          "amount": 3,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "ballistic"
+          },
+          {
+            "type": "jamming"
+          },
+          {
+            "type": "pinning"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Portable Comms Unit"
+      },
+      {
+        "name": "First Aid Kit"
+      }
+    ],
+    "hitPoints": 10,
+    "page": 300
+  },
+  {
+    "id": "f2542b86-1982-49da-8906-e5f672511161",
+    "source": "core",
+    "name": "Missile Squad",
+    "description": "Combat trained troops armed with a mobile missile launcher.",
+    "abilities": [
+      {
+        "name": "Rocket Launcher",
+        "range": "Long",
+        "damage": {
+          "amount": 6,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "missile"
+          },
+          {
+            "type": "explosive",
+            "amount": 1
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          },
+          {
+            "type": "uses",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "name": "Portable Comms Unit"
+      },
+      {
+        "name": "First Aid Kit"
+      }
+    ],
+    "hitPoints": 10,
+    "page": 300
+  },
+  {
+    "id": "9a88af6a-b207-443b-a45f-c7cb34262ed7",
+    "source": "core",
+    "name": "Elite Blade Squad",
+    "description": "Heavy assault troops armed with energised blades.",
+    "abilities": [
+      {
+        "name": "Monomolecular Sword",
+        "range": "Close",
+        "damage": {
+          "amount": 6,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          },
+          {
+            "type": "deadly"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Portable Comms Unit"
+      },
+      {
+        "name": "Electro Grappling Hook"
+      }
+    ],
+    "hitPoints": 20,
+    "page": 301
+  },
+  {
+    "id": "6fefee71-cbf6-4ce8-ba49-e8dd41c65f8b",
+    "source": "core",
+    "name": "Elite Beam Squad",
+    "description": "Apex troops in heavy armour armed with a big ol' gun.",
+    "abilities": [
+      {
+        "name": "Beta Fission Gun",
+        "range": "Long",
+        "damage": {
+          "amount": 9,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "burn",
+            "amount": 2
+          },
+          {
+            "type": "energy"
+          },
+          {
+            "type": "explosive",
+            "amount": 1
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Portable Comms Unit"
+      },
+      {
+        "name": "Night Vision Optics"
+      }
+    ],
+    "hitPoints": 20,
+    "page": 301
+  },
+  {
+    "id": "3263b60d-d599-45f8-b2e7-0d5382531bc1",
+    "source": "core",
+    "name": "Wasteland Herd",
+    "description": "A herd of wasteland creatures.",
+    "abilities": [
+      {
+        "name": "Stampede",
+        "range": "Close",
+        "damage": {
+          "amount": 3,
+          "type": "HP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          }
+        ],
+        "description": "Creatures hit by this attack are knocked prone."
+      }
+    ],
+    "hitPoints": 4,
+    "page": 301
+  },
+  {
+    "id": "99a017d5-5e92-4f3b-8696-7f1f806a0dbc",
+    "source": "core",
+    "name": "Drone Squadron",
+    "description": "A swarm of Combat Drones flying in sync.",
+    "abilities": [
+      {
+        "name": "Red Laser",
+        "range": "Medium",
+        "damage": {
+          "amount": 4,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "energy"
+          },
+          {
+            "type": "hot",
+            "amount": 1
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Hover Locomotion System"
+      }
+    ],
+    "structurePoints": 8,
+    "page": 301
+  }
+]

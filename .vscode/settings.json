@@ -8,33 +8,15 @@
     },
     {
       "fileMatch": [
-        "data/equipment.json"
-      ],
-      "url": "./schemas/equipment.schema.json"
-    },
-    {
-      "fileMatch": [
-        "data/otherEntities.json"
-      ],
-      "url": "./schemas/otherEntities.schema.json"
-    },
-    {
-      "fileMatch": [
-        "data/modules.json"
-      ],
-      "url": "./schemas/modules.schema.json"
-    },
-    {
-      "fileMatch": [
-        "data/systems.json"
-      ],
-      "url": "./schemas/systems.schema.json"
-    },
-    {
-      "fileMatch": [
         "data/ability-tree-requirements.json"
       ],
       "url": "./schemas/ability-tree-requirements.schema.json"
+    },
+    {
+      "fileMatch": [
+        "data/bio-titans.json"
+      ],
+      "url": "./schemas/bio-titans.schema.json"
     },
     {
       "fileMatch": [
@@ -50,6 +32,66 @@
     },
     {
       "fileMatch": [
+        "data/crawlers.json"
+      ],
+      "url": "./schemas/crawlers.schema.json"
+    },
+    {
+      "fileMatch": [
+        "data/creatures.json"
+      ],
+      "url": "./schemas/creatures.schema.json"
+    },
+    {
+      "fileMatch": [
+        "data/drones.json"
+      ],
+      "url": "./schemas/drones.schema.json"
+    },
+    {
+      "fileMatch": [
+        "data/equipment.json"
+      ],
+      "url": "./schemas/equipment.schema.json"
+    },
+    {
+      "fileMatch": [
+        "data/keywords.json"
+      ],
+      "url": "./schemas/keywords.schema.json"
+    },
+    {
+      "fileMatch": [
+        "data/meld.json"
+      ],
+      "url": "./schemas/meld.schema.json"
+    },
+    {
+      "fileMatch": [
+        "data/modules.json"
+      ],
+      "url": "./schemas/modules.schema.json"
+    },
+    {
+      "fileMatch": [
+        "data/npcs.json"
+      ],
+      "url": "./schemas/npcs.schema.json"
+    },
+    {
+      "fileMatch": [
+        "data/squads.json"
+      ],
+      "url": "./schemas/squads.schema.json"
+    },
+    {
+      "fileMatch": [
+        "data/systems.json"
+      ],
+      "url": "./schemas/systems.schema.json"
+    },
+    {
+      "fileMatch": [
         "data/tables.json"
       ],
       "url": "./schemas/tables.schema.json"
@@ -62,9 +104,15 @@
     },
     {
       "fileMatch": [
-        "data/keywords.json"
+        "data/vehicles.json"
       ],
-      "url": "./schemas/keywords.schema.json"
+      "url": "./schemas/vehicles.schema.json"
     }
-  ]
+  ],
+  "json.format.enable": true,
+  "editor.formatOnSave": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.tabSize": 2
+  }
 }

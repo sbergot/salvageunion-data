@@ -1,14 +1,48 @@
 {
   "name": "salvageunion-data",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Comprehensive, schema-validated JSON dataset for the Salvage Union tabletop RPG",
+  "type": "module",
+  "main": "schemas/index.json",
   "scripts": {
-    "formatRolltable": "node ./tools/formatRollTable.mjs"
+    "validate": "tsx tools/validateAll.ts",
+    "parse": "tsx tools/parsePdf.ts",
+    "docs": "tsx tools/generateDocs.ts",
+    "generate:types": "tsx tools/generateTypes.ts",
+    "example": "tsx examples/orm-usage.ts",
+    "test": "npm run validate",
+    "typecheck": "tsc --noEmit"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alxjrvs/salvageunion-data.git"
+  },
+  "keywords": [
+    "salvage-union",
+    "tabletop-rpg",
+    "ttrpg",
+    "game-data",
+    "json-schema",
+    "leyline-press"
+  ],
+  "author": "Alex Jarvis",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/alxjrvs/salvageunion-data/issues"
+  },
+  "homepage": "https://github.com/alxjrvs/salvageunion-data#readme",
   "devDependencies": {
-    "jsonschema": "^1.4.1"
+    "@types/node": "^20.10.0",
+    "json-schema-to-typescript": "^15.0.4",
+    "jsonschema": "^1.4.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "pdf.js-extract": "^0.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
   }
 }

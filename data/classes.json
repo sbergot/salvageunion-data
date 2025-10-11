@@ -1,8 +1,10 @@
 [
   {
+    "id": "2b3699e5-399b-4085-ad24-c497c94aa4db",
     "name": "Engineer",
+    "source": "core",
     "type": "core",
-    "description": "Engineers form an integral component of the Union, the grease that keeps our Mechs and Crawlers trundling across the great wastelands.",
+    "description": "Engineers form an integral component of the Union, the grease that keeps our Mechs and Crawlers trundling across the great wastelands. They can take apart and put back together a Mech Chassis in the blink of an eye, and keep their salvage crew operational out in the wastes. Choose an Engineer if you want a character with a breadth of engineering and mechanical knowledge; who can repair and support you and your allies' Mechs, mount Mech parts significantly faster, and allow you to craft Mech parts in the field. Engineers can advance into the Fabricator p. 62 or Union Rep Class p. 74, or focus their talents and take Abilities from the Advanced Engineer Tree p. 30.",
     "coreAbilities": [
       "Mechanical Knowledge",
       "Forging",
@@ -16,12 +18,15 @@
     "legendaryAbilities": [
       "Tip Top Shape",
       "The Full Works"
-    ]
+    ],
+    "page": 26
   },
   {
+    "id": "83ba8f4f-4412-4a4f-93bb-1d67082efda3",
     "name": "Hacker",
+    "source": "core",
     "type": "core",
-    "description": "Electronic warfare is a reality of the world we live in, and Hackers are at the forefront, delving into the cybersphere to discover new and ingenious ways to hack into Mech infrastructure, tap into corpo networks, and use corpo tech against their owners.",
+    "description": "Electronic warfare is a reality of the world we live in, and Hackers are at the forefront, delving into the cybersphere to discover new and ingenious ways to hack into Mech infrastructure, tap into corpo networks, and use corpo tech against their owners. Hackers are constantly experimenting with new ways to craft Mech components, and many augment their bodies with a range of modifications, finding their flesh as dull as a long system update. Choose a Hacker if you want access to specialised hacking Abilities, to play a character with a wide range of knowledge about technology, or are interested in augmenting your character beyond the flesh. Hackers can advance into the Cyborg p. 58 or Fabricator p. 62 Classes, or focus their talents and take Abilities from the Advanced Hacker Tree p. 36.",
     "coreAbilities": [
       "Hacking",
       "Electronics",
@@ -35,12 +40,15 @@
     "legendaryAbilities": [
       "Network Takeover",
       "Spyware"
-    ]
+    ],
+    "page": 32
   },
   {
+    "id": "5379550f-6183-4eb2-a2bc-237108688055",
     "name": "Hauler",
+    "source": "core",
     "type": "core",
-    "description": "If you need a job done in the Union, no matter how dirty, you call a Hauler. There is never a job too big, or a deal too messy, that they won’t shake your hand with a smile to do.",
+    "description": "If you need a job done in the Union, no matter how dirty, you call a Hauler. There is never a job too big, or a deal too messy, that they won’t shake your hand with a smile to do. Whether it is hauling a leaky reactor through a hot zone or salvaging from a buried arco in a toxic waste dump. This can-do attitude makes them a shoo-in for leadership roles, as other salvagers look up to them for their sheer tenacity. Play a Hauler if you want to play a hardy character who can haul large amounts of cargo, make tough deals, and protect and inspire their allies. The Hauler can advance into the Union Rep p. 74 or Smuggler p. 70 Classes or focus their skills and take Abilities from the Advanced Hauler Tree p. 42.",
     "coreAbilities": [
       "Salvaging",
       "Trading",
@@ -54,12 +62,15 @@
     "legendaryAbilities": [
       "Hauling All Day",
       "Master Salvager"
-    ]
+    ],
+    "page": 38
   },
   {
+    "id": "6bf071e2-c1b1-4ea2-a831-354c75dd1ba2",
     "name": "Salvager",
+    "source": "core",
     "type": "core",
-    "description": "The Union runs on the backbone of Salvagers who come from all walks of life. This gives them a wide breadth of knowledge which they use to support the Salvage Union.",
+    "description": "The Union runs on the backbone of Salvagers who come from all walks of life. This gives them a wide breadth of knowledge which they use to support the Salvage Union. An average day for a Salvager may see them out in the wastes, salvaging scrap in the morning, welding together broken Mechs in the afternoon, and hacking into the corpo-net in the evening. Play a Salvager if you want to be a jack of all trades who can draw from multiple different Abilities as suits your play style. Salvagers can take a maximum of 12 Pilot Abilities, and can choose Abilities from any of the Core Ability trees from any Class. However they cannot advance into any of the Hybrid Classes, nor do they have any Advanced or Legendary Abilities.",
     "coreAbilities": [
       "Leadership",
       "Trading",
@@ -75,12 +86,15 @@
       "Salvaging"
     ],
     "hybridClasses": [],
-    "legendaryAbilities": []
+    "legendaryAbilities": [],
+    "page": 44
   },
   {
+    "id": "97c293dd-62ed-4b3d-95cd-78eb408c0ba2",
     "name": "Scout",
+    "source": "core",
     "type": "core",
-    "description": "The wasteland is a vast, hostile, and unforgiving expanse; and the Scout knows that land from end to end.",
+    "description": "The wasteland is a vast, hostile, and unforgiving expanse; and the Scout knows that land from end to end. Without their guidance, our Mechs and Crawlers would be lost in the wastes, prey to raider ambushes, rad storms, and mutated beast attacks. A Scout's knowledge of the wastes extends beyond the natural, allowing them to infiltrate wasteland sites and corpo settlements and bases. Play a Scout if you want Abilities that allow you to snipe at your enemies, perform tracking and reconnaissance in the wastes, and infiltrate protected areas. Scouts can advance into the Ranger p. 66 or Smuggler p. 70 Classes or specialise and take Abilities from the Advanced Scout Tree p. 50.",
     "coreAbilities": [
       "Recon",
       "Sleuth",
@@ -94,12 +108,15 @@
     "legendaryAbilities": [
       "Teleport Beacon",
       "Wasteland Celebrity"
-    ]
+    ],
+    "page": 46
   },
   {
+    "id": "444760a5-e8fd-47d4-ad5a-b7b5b383e3f0",
     "name": "Soldier",
+    "source": "core",
     "type": "core",
-    "description": "War and conflict is an ever present factor in the wastelands and whether fighting with sharpened sticks or plasma cannons, soldiers have always been at the forefront of a conflict throughout human history.",
+    "description": "War and conflict is an ever present factor in the wastelands and whether fighting with sharpened sticks or plasma cannons, soldiers have always been at the forefront of a conflict throughout human history. Union Soldiers join from many avenues of life. Some are veterans of past wars, some are wastelanders who have earned their stripes by simply surviving out there, others defect from corpo merc life to the better one the Unions can provide. What they all have in common is a desire to fight for the Salvage Union which has provided them and their community with so much. Play a Soldier if you want to play a combat focused character who can blow things up, engage in brutal melee combat, and survive out in the hostile wastes. A Soldier can advance into the Ranger p. 66 or Cyborg p. 58 Classes, or specialise and take Abilities from the Advanced Soldier Tree p. 56.",
     "coreAbilities": [
       "Survivalist",
       "Gladitorial Combat",
@@ -113,12 +130,15 @@
     "legendaryAbilities": [
       "Steel Pact",
       "Omega Strike"
-    ]
+    ],
+    "page": 52
   },
   {
+    "id": "5fb0f656-b454-45ea-8367-b529e68c9b9e",
     "name": "Fabricator",
+    "source": "core",
     "type": "hybrid",
-    "description": "You have chosen the path of the Fabricator.",
+    "description": "You have chosen the path of the Fabricator. Technology is an extension of yourself which you can toy and tinker with to your steel heart's content. What beautiful creations will you form? The Fabricator has access to the Fabricator Tree, Forging Tree p. 29, and Electronics Tree p. 34. You can take Abilities from any of these trees. You can also choose one Ability from the Legendary Fabricator Tree once you have learned all Fabricator Tree Abilities.",
     "coreClasses": [
       "Engineer",
       "Hacker"
@@ -131,12 +151,15 @@
     "legendaryAbilities": [
       "Droned Mech Conversion",
       "System Miniaturisation"
-    ]
+    ],
+    "page": 62
   },
   {
+    "id": "44dad652-e1d3-4687-b088-1f104bfbe1ab",
     "name": "Cyborg",
+    "source": "core",
     "type": "hybrid",
-    "description": "You have chosen the path of the Cyborg.",
+    "description": "You have chosen the path of the Cyborg. Augmenting your body with mechanical and electronic parts to give you powers beyond the frailty of flesh. Some Cyborgs find themselves losing grip of their humanity, others find a duality between their flesh and mechanical forms. All are welcomed by the Salvage Unions who find Cyborgs an invaluable part of the crew. How will you adapt to your cybernetic form? The Cyborg has access to the Cyborg Tree, Gladiatorial Combat Tree p. 54, and Augmentation Tree p. 35. You can take Abilities from any of these trees. You can also choose one Ability from the Legendary Cyborg Tree once you have learned all Cyborg Tree Abilities.",
     "coreClasses": [
       "Soldier",
       "Hacker"
@@ -149,12 +172,15 @@
     "legendaryAbilities": [
       "Ascension",
       "Meld Form"
-    ]
+    ],
+    "page": 58
   },
   {
+    "id": "6ec4d177-fed2-4fed-8f2f-74ee74fdf48b",
     "name": "Union Rep",
+    "source": "core",
     "type": "hybrid",
-    "description": "You have chosen the path of the Union Rep.",
+    "description": "You have chosen the path of the Union Rep. You are the prime representative of your Union Crawler on any diplomatic mission, able to rub shoulders with corpos or share drinks with Union Reps from other Union Crawlers as you negotiate for the best terms possible for you and your crew. What will your leadership bring to the table? The Union Rep has access to the Union Rep Tree, Leadership Tree p. 41, and Mechanical Knowledge Tree p. 28. You can take Abilities from any of these trees. You can also choose one Ability from the Legendary Union Rep Tree once you have learned all Union Rep Tree Abilities.",
     "coreClasses": [
       "Engineer",
       "Hauler"
@@ -167,12 +193,15 @@
     "legendaryAbilities": [
       "Inspirational Union Leader",
       "VIP Beacon"
-    ]
+    ],
+    "page": 74
   },
   {
+    "id": "35b915bb-bb7b-418b-8f66-ca5908ee4a6c",
     "name": "Smuggler",
+    "source": "core",
     "type": "hybrid",
-    "description": "You have chosen the path of the Smuggler.",
+    "description": "You have chosen the path of the Smuggler. Your cargo hides contraband goods, your comms unit whispers dark deals, and nothing is beyond your reach. What escapades will you find yourself in? The Smuggler has access to the Smuggler Tree, Sleuth Tree p. 48, and Salvaging Tree p. 40. You can take Abilities from any of these trees. You can also choose one Ability from the Legendary Smuggler Tree once you have learned all Smuggler Tree Abilities.",
     "coreClasses": [
       "Hauler",
       "Scout"
@@ -185,12 +214,15 @@
     "legendaryAbilities": [
       "Stealth Field Generator",
       "Knife Missile"
-    ]
+    ],
+    "page": 70
   },
   {
+    "id": "4570fb02-10c4-4f53-8575-e54bd08d47d3",
     "name": "Ranger",
+    "source": "core",
     "type": "hybrid",
-    "description": "You have chosen the path of the Ranger.",
+    "description": "You have chosen the path of the Ranger. You have become one with the wastes, able to survive on vast treks, shrugging off danger, and picking off targets with ease. What challenges will you overcome? The Ranger has access to the Ranger Tree, Survivalist Tree p. 54, and Sniper Tree p. 50. They can take Abilities from any of these trees. You can also choose one Ability from the Legendary Ranger Tree once you have learned all Ranger Tree Abilities.",
     "coreClasses": [
       "Soldier",
       "Scout"
@@ -203,6 +235,7 @@
     "legendaryAbilities": [
       "One with the Wastelands",
       "Mecha Packmaster"
-    ]
+    ],
+    "page": 66
   }
 ]

@@ -1,0 +1,171 @@
+[
+  {
+    "id": "ba8b32f2-3916-43d0-937d-74168b846114",
+    "source": "core",
+    "name": "Irradiated Scorpion",
+    "description": "Mutated beyond their usual size, they have been known to kill entire camps of wasters.",
+    "abilities": [
+      {
+        "name": "Stinger",
+        "range": "Close",
+        "damage": {
+          "amount": 2,
+          "type": "HP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          },
+          {
+            "type": "poison"
+          },
+          {
+            "type": "deadly (creatures only)"
+          }
+        ]
+      }
+    ],
+    "hitPoints": 4,
+    "page": 296
+  },
+  {
+    "id": "204c855b-e13b-4326-9355-24be3a38ae34",
+    "source": "core",
+    "name": "Artl",
+    "description": "Burrowing, ambush predators that liquify their prey for easier digestion.",
+    "traits": [
+      {
+        "type": "burrower"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Acid Spit",
+        "range": "Medium",
+        "damage": {
+          "amount": 2,
+          "type": "HP"
+        },
+        "traits": [
+          {
+            "type": "burn",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Corrosive Skin Glands",
+        "description": "When hit by a melee attack, the attacker takes 2 HP damage."
+      }
+    ],
+    "hitPoints": 2,
+    "page": 296
+  },
+  {
+    "id": "6718545a-0261-4e4c-874c-079f1a9fcd80",
+    "source": "core",
+    "name": "Chimeripede",
+    "description": "A mutated, radiation scarred amalgamation of flesh.",
+    "abilities": [
+      {
+        "name": "Barbed Tentacles",
+        "range": "Close",
+        "damage": {
+          "amount": 3,
+          "type": "HP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          },
+          {
+            "type": "pinning"
+          },
+          {
+            "type": "poison"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 3
+          }
+        ]
+      }
+    ],
+    "hitPoints": 10,
+    "page": 296
+  },
+  {
+    "id": "bfbf2664-6139-4727-8ad1-26ec1c01ae12",
+    "source": "core",
+    "name": "Wasteland Bear",
+    "description": "Large, hungry, and ferocious, these bears are not just after your picnic basket.",
+    "abilities": [
+      {
+        "name": "Bear Carnage",
+        "range": "Close",
+        "damage": {
+          "amount": 4,
+          "type": "HP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          }
+        ]
+      }
+    ],
+    "hitPoints": 5,
+    "page": 297
+  },
+  {
+    "id": "f32c1706-6bc0-476b-af22-01f0e4339034",
+    "source": "core",
+    "name": "Molebear",
+    "description": "Terrifying, huge burrowing predators known to rend through metal.",
+    "traits": [
+      {
+        "type": "burrower"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Iron Claw",
+        "range": "Close",
+        "damage": {
+          "amount": 4,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          }
+        ]
+      }
+    ],
+    "hitPoints": 12,
+    "page": 297
+  },
+  {
+    "id": "9303ec5f-5cda-4edc-8ebf-265850bcdfcd",
+    "source": "core",
+    "name": "Carrion Bird",
+    "description": "Large flying scavengers that feast on flesh and bone.",
+    "traits": [
+      {
+        "type": "fly"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Talons",
+        "range": "Close",
+        "damage": {
+          "amount": 3,
+          "type": "HP"
+        }
+      }
+    ],
+    "hitPoints": 3,
+    "page": 297
+  }
+]

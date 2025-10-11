@@ -1,0 +1,174 @@
+[
+  {
+    "id": "f04d6f2a-723a-45ec-91be-23be3b8275fa",
+    "source": "core",
+    "name": "Meld Drone",
+    "description": "Meld when they take over a biological organism, around the size of a human. The brain is sludged, only the stem remains, they become a peon of the swarm.",
+    "abilities": [
+      {
+        "name": "Bite",
+        "description": "The Meld Drone mindlessly attacks the target with teeth and claw.",
+        "range": "Close",
+        "damage": {
+          "amount": 2,
+          "type": "HP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          },
+          {
+            "type": "meld infection"
+          }
+        ]
+      }
+    ],
+    "salvageValue": 1,
+    "hitPoints": 3,
+    "page": 289
+  },
+  {
+    "id": "7b76574d-3eb3-4ed0-b658-b1a356fd4c7f",
+    "source": "core",
+    "name": "Meld Drone Swarm",
+    "description": "A swarm of multiple zombie-like Meld Drones",
+    "abilities": [
+      {
+        "name": "Devour",
+        "description": "The Meld Drones bite and claw at a target with all their multitude limbs and maws.",
+        "range": "Close",
+        "damage": {
+          "amount": 3,
+          "type": "HP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          },
+          {
+            "type": "meld infection"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 3
+          }
+        ]
+      }
+    ],
+    "salvageValue": 3,
+    "hitPoints": 6,
+    "page": 289
+  },
+  {
+    "id": "f561bfeb-a9d5-4a9e-bc50-ddad52513684",
+    "source": "core",
+    "name": "Meld Nanoid",
+    "description": "Meld in a small, swift form, about the size of a large wolf with lashing tendrils.",
+    "traits": [
+      {
+        "type": "fast"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Nanoid Tendrils",
+        "description": "The nanoid lashes out with it's tendrils",
+        "range": "Close",
+        "damage": {
+          "amount": 3,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          },
+          {
+            "type": "meld infection"
+          }
+        ]
+      }
+    ],
+    "structurePoints": 5,
+    "salvageValue": 5,
+    "page": 289
+  },
+  {
+    "id": "e1286046-f761-4c74-ab76-2afb8da1aab7",
+    "source": "core",
+    "name": "Meld Splitter",
+    "description": "Formless inky darkness, Meld Splitters are around the height of a Mech and made of boundless swarms of coagulated meld.",
+    "abilities": [
+      {
+        "name": "Splitter Tendrils",
+        "description": "Huge tendrils lash out at anything nearby.",
+        "range": "Medium",
+        "damage": {
+          "amount": 4,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          },
+          {
+            "type": "meld infection"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Split",
+        "description": "When a Meld Splitter is reduced to 0 SP it turns into 2 Meld Nanoids. These act at the start of the next round."
+      }
+    ],
+    "structurePoints": 10,
+    "salvageValue": 10,
+    "page": 289
+  },
+  {
+    "id": "e13f967e-a2af-4c30-a3c0-153a14ec9fdf",
+    "source": "core",
+    "name": "Meld Behemoth",
+    "description": "The apex Meld, the size of a high rise building. Having assimilated vast quantities of mechanical and biological entities, it becomes a force even the toughest of Mechs struggle to reckon with.",
+    "abilities": [
+      {
+        "name": "Behemoth Tendrils",
+        "description": "Long reaching tendrils whip around to grab all within reach, either crushing them or drawing them nearer to be assimilated.",
+        "actionType": "Turn",
+        "range": "Medium",
+        "damage": {
+          "amount": 6,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Assimilation",
+        "description": "A Meld Behemoth does not infect, instead it absorbs everything it destroys into its mammoth, ever expanding form.",
+        "actionType": "Turn"
+      },
+      {
+        "name": "Titanic Actions",
+        "description": "The Meld Behemoth can take three Titanic Actions, choosing from the options below. Only one Titanic Action may be chosen at a time and only at the end of another Pilot's or NPC's turn. Meld Behemoth regains spent Titanic Actions at the start of their turn.",
+        "options": [
+          "The Meld Behemoth moves one Range Band.",
+          "The Meld Behemoth makes a single Behemoth Tendrils Attack. This does not have the Multi-Attack Trait.",
+          "The Meld Behemoth uses the Behemoth Assimilation Ability."
+        ]
+      }
+    ],
+    "structurePoints": 60,
+    "page": 290
+  }
+]

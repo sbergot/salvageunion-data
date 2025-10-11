@@ -1,5 +1,10 @@
 {
-  "$schema": "https://json-schema.org/draft-07/schema",
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "https://salvageunion.com/schemas/modules.schema.json",
+  "title": "Salvage Union Modules",
+  "description": "Mech modules in Salvage Union",
   "type": "array",
-  "items": { "$ref": "shared/objects.schema.json#/definitions/system" }
+  "items": {
+    "$ref": "shared/objects.schema.json#/definitions/system"
+  }
 }

@@ -1,174 +1,303 @@
 [
   {
+    "id": "ceda0aba-bd8e-4123-ad96-83f68acdac48",
+    "source": "core",
     "name": "amphibious",
-    "description": "Anything with this Trait can move, function and survive underwater and on land."
+    "description": "Anything with this Trait can move, function and survive underwater and on land.",
+    "page": 318
   },
   {
+    "id": "3a6786eb-4b7c-4fb9-92e6-545db7d057dc",
+    "source": "core",
     "name": "anti-organic",
-    "description": "An anti-organic weapon deals 2× damage to People, creatures, and Bio-Titans."
+    "description": "An anti-organic weapon deals 2× damage to People, creatures, and Bio-Titans.",
+    "page": 318
   },
   {
+    "id": "2d354aff-cd3e-4d97-9d74-7ad653181ec0",
+    "source": "core",
     "name": "anti-shielding",
-    "description": "A System, Module, or Ability with this Trait ignores the effects of anything with the Shield Trait."
+    "description": "A System, Module, or Ability with this Trait ignores the effects of anything with the Shield Trait.",
+    "page": 318
   },
   {
+    "id": "71cbd2ee-97aa-450c-95e4-25df9fecf30d",
+    "source": "core",
     "name": "armour",
-    "description": "Pilot Equipment designed to protect its wearer from harm. A Pilot may only wear and benefit from one piece of Armour."
+    "description": "Pilot Equipment designed to protect its wearer from harm. A Pilot may only wear and benefit from one piece of Armour.",
+    "page": 318
   },
   {
+    "id": "9865c68d-54df-4da5-8331-11771e732cd3",
+    "source": "core",
     "name": "ballistic",
-    "description": "A weapon that fires tangible projectiles such as bullets that are typically unpowered and unguided."
+    "description": "A weapon that fires tangible projectiles such as bullets that are typically unpowered and unguided.",
+    "page": 318
   },
   {
+    "id": "5d7649ac-29a2-423e-8669-9a545f01390f",
+    "source": "core",
     "name": "burn",
-    "description": "A weapon or attack with the Burn Trait deals the value in brackets to a target hit by the attack at the end of their turn. This damage is of the same type as the weapon that made the attack. For example, a Burn (2) weapon deals 2 damage to the target at the end of their turn."
+    "description": "A weapon or attack with the Burn Trait deals the value in brackets to a target hit by the attack at the end of their turn. This damage is of the same type as the weapon that made the attack. For example, a Burn (2) weapon deals 2 damage to the target at the end of their turn.",
+    "page": 318
   },
   {
+    "id": "7e436f25-4790-466c-8ed5-bd1fe4af92ec",
+    "source": "core",
     "name": "burrower",
-    "description": "This Trait allows for movement underneath the ground. Something with this Trait can burrow into the ground as a Turn Action and unburrow as a Free Action. Whilst burrowed, it cannot be directly seen or targeted by anything on the ground, but may be spotted by other signs such as mounds of earth."
+    "description": "This Trait allows for movement underneath the ground. Something with this Trait can burrow into the ground as a Turn Action and unburrow as a Free Action. Whilst burrowed, it cannot be directly seen or targeted by anything on the ground, but may be spotted by other signs such as mounds of earth.",
+    "page": 318
   },
   {
+    "id": "71cc1219-2b34-41e8-a554-17be32e40cd5",
+    "source": "core",
     "name": "climbing",
-    "description": "If something has the Climbing Trait they can effortlessly climb sheer and vertical surfaces such as buildings, cliff faces, and walls."
+    "description": "If something has the Climbing Trait they can effortlessly climb sheer and vertical surfaces such as buildings, cliff faces, and walls.",
+    "page": 318
   },
   {
+    "id": "0d628fd3-9a72-408c-b25d-46943cadfdd2",
+    "source": "core",
     "name": "communicator",
-    "description": "The Communicator Trait allows you to communicate with anyone or anything else that also has the Communicator Trait. This is typically given to the likes of Comms Modules and such."
+    "description": "The Communicator Trait allows you to communicate with anyone or anything else that also has the Communicator Trait. This is typically given to the likes of Comms Modules and such.",
+    "page": 318
   },
   {
+    "id": "c638ecbe-974a-4812-912c-150c572a6d7a",
+    "source": "core",
     "name": "deadly",
-    "description": "A weapon with the Deadly Trait destroys or kills its target on the roll of a ‘Nailed It’ (20) result to hit."
+    "description": "A weapon with the Deadly Trait destroys or kills its target on the roll of a ‘Nailed It’ (20) result to hit.",
+    "page": 318
   },
   {
+    "id": "bfc6dad6-c865-42bb-8023-7b59e2d53d1e",
+    "source": "core",
     "name": "energy",
-    "description": "An energy weapon is one that fires a directed beam of superheated light at the target in order to cause damage. This includes a wide range of laser, beam, and plasma-based weapons such as the Red Laser, Experimental Particle Beam Cannon, and Plasma Cannon."
+    "description": "An energy weapon is one that fires a directed beam of superheated light at the target in order to cause damage. This includes a wide range of laser, beam, and plasma-based weapons such as the Red Laser, Experimental Particle Beam Cannon, and Plasma Cannon.",
+    "page": 318
   },
   {
+    "id": "ae973176-f8eb-4478-81af-72c0491004c8",
+    "source": "core",
     "name": "escape",
-    "description": "If System, Module, or Ability has the Escape Trait, it can be used by a Pilot to attempt to escape from their Mech or Vehicle in the event it is destroyed or put in significant danger."
+    "description": "If System, Module, or Ability has the Escape Trait, it can be used by a Pilot to attempt to escape from their Mech or Vehicle in the event it is destroyed or put in significant danger.",
+    "page": 318
   },
   {
+    "id": "b8a8d099-a944-449f-9d2f-cb53774d9003",
+    "source": "core",
     "name": "explosive",
-    "description": "When something with the Explosive Trait hits a target it deals damage equal to the value in brackets to all other targets within Close Range of the main target. This damage is of the same type as the main attack."
+    "description": "When something with the Explosive Trait hits a target it deals damage equal to the value in brackets to all other targets within Close Range of the main target. This damage is of the same type as the main attack.",
+    "page": 318
   },
   {
+    "id": "af11316a-93b7-48a6-aa8f-4c5989793ffc",
+    "source": "core",
     "name": "fast",
-    "description": "If something has the Fast Trait it can move an additional Range band on its turn as a Free Action. In addition, it moves twice as fast across the Campaign, Area, and Region Maps."
+    "description": "If something has the Fast Trait it can move an additional Range band on its turn as a Free Action. In addition, it moves twice as fast across the Campaign, Area, and Region Maps.",
+    "page": 319
   },
   {
+    "id": "8644a0fd-becd-4535-90d6-0cd7a5464df6",
+    "source": "core",
     "name": "flashy",
-    "description": "If something has the Flashy Trait, it is particularly fancy, beautiful, stunning, or intricately designed and evokes awe, jealousy, and gasps of astonishment in equal measure."
+    "description": "If something has the Flashy Trait, it is particularly fancy, beautiful, stunning, or intricately designed and evokes awe, jealousy, and gasps of astonishment in equal measure.",
+    "page": 319
   },
   {
+    "id": "734e3d6b-439a-4c77-8b40-68cf22c9a816",
+    "source": "core",
     "name": "fly",
-    "description": "Anything with this Trait can fly, allowing them to move in the air over obstacles and terrain. Anything attacking a target with this Trait treats it as though it is in Long Range unless it also has the Fly or Hover Trait."
+    "description": "Anything with this Trait can fly, allowing them to move in the air over obstacles and terrain. Anything attacking a target with this Trait treats it as though it is in Long Range unless it also has the Fly or Hover Trait.",
+    "page": 319
   },
   {
+    "id": "e0901d04-2d45-4e51-89fe-cc10f73f2bb3",
+    "source": "core",
     "name": "guided",
-    "description": "Weapons with this trait hone in on the target, careening around terrain and other obstacles. You do not need to see the target to be able to make an attack against them with a weapon that has the Guided Trait."
+    "description": "Weapons with this trait hone in on the target, careening around terrain and other obstacles. You do not need to see the target to be able to make an attack against them with a weapon that has the Guided Trait.",
+    "page": 319
   },
   {
+    "id": "df0e3e29-7657-4d7b-8e33-95640f747f17",
+    "source": "core",
     "name": "hacking",
-    "description": "A System, Module, or Ability with this Trait is designed to take control or hack into a Mech, electronics, or computer systems in order to damage it, extract information, or have some other malicious effect. This includes the likes of Eggs Mayhem, Reactor Overload, and many of the Hacker Class Abilities."
+    "description": "A System, Module, or Ability with this Trait is designed to take control or hack into a Mech, electronics, or computer systems in order to damage it, extract information, or have some other malicious effect. This includes the likes of Eggs Mayhem, Reactor Overload, and many of the Hacker Class Abilities.",
+    "page": 319
   },
   {
+    "id": "74615835-b334-4537-a305-26456f312656",
+    "source": "core",
     "name": "heat spike",
-    "description": "If a Mech attacks with or activates a System, Module, or Ability with this Trait it must make a Heat Check. For example, when making an attack with the Experimental Particle Beam Cannon the attacker must make a Heat Check. Make this check after the attack or Ability itself has been resolved."
+    "description": "If a Mech attacks with or activates a System, Module, or Ability with this Trait it must make a Heat Check. For example, when making an attack with the Experimental Particle Beam Cannon the attacker must make a Heat Check. Make this check after the attack or Ability itself has been resolved.",
+    "page": 319
   },
   {
+    "id": "82aa71fd-17c6-4c68-844f-d6393b2f6800",
+    "source": "core",
     "name": "heavy",
-    "description": "Pilot Equipment with the Heavy Trait is particularly large and cumbersome and takes up 2 Inventory Slots instead of 1."
+    "description": "Pilot Equipment with the Heavy Trait is particularly large and cumbersome and takes up 2 Inventory Slots instead of 1.",
+    "page": 319
   },
   {
+    "id": "6bb3c201-c568-4a5d-8756-ca1e4cf2bad5",
+    "source": "core",
     "name": "hot",
-    "description": "If a System, Module, or Ability has the Hot Trait, when it is activated or attacked with, the Mech doing so gains a number of Heat equal to the number in brackets. In addition, the Mediator can apply Heat when using the weapon as a consequence or Tough Choice."
+    "description": "If a System, Module, or Ability has the Hot Trait, when it is activated or attacked with, the Mech doing so gains a number of Heat equal to the number in brackets. In addition, the Mediator can apply Heat when using the weapon as a consequence or Tough Choice.",
+    "page": 319
   },
   {
+    "id": "5a406632-9db7-46ee-8cbc-961f67e96d72",
+    "source": "core",
     "name": "hover",
-    "description": "If something has the Hover Trait it can move effortlessly over difficult and dangerous terrain as well as over obstacles such as walls or Mechs and is never slowed down by any of this. The likes of Hover Drones have this Trait."
+    "description": "If something has the Hover Trait it can move effortlessly over difficult and dangerous terrain as well as over obstacles such as walls or Mechs and is never slowed down by any of this. The likes of Hover Drones have this Trait.",
+    "page": 319
   },
   {
+    "id": "ec4467e2-9547-4ade-85bf-274620dc3f4b",
+    "source": "core",
     "name": "immobile",
-    "description": "If something is Immobile, it cannot move in any way. A Mech without any Locomotion System is Immobile and things like static gun turrets are also Immobile."
+    "description": "If something is Immobile, it cannot move in any way. A Mech without any Locomotion System is Immobile and things like static gun turrets are also Immobile.",
+    "page": 319
   },
   {
+    "id": "88f6c323-7eb7-4528-92fa-8b9f3115e4a2",
+    "source": "core",
     "name": "ion",
-    "description": "If a weapon with this Trait hits a target, even if it does not deal damage, the target cannot use any Systems, Modules, or Abilities that have an EP cost on their next turn."
+    "description": "If a weapon with this Trait hits a target, even if it does not deal damage, the target cannot use any Systems, Modules, or Abilities that have an EP cost on their next turn.",
+    "page": 319
   },
   {
+    "id": "a9ddd682-e6a8-4cde-8c99-759ac643536d",
+    "source": "core",
     "name": "jamming",
-    "description": "Weapons with this Trait have a tendency to jam. The Mediator can apply this as a Setback, Tough Choice, or as appropriate when someone uses a weapon with this Trait. A weapon that is jammed cannot be used until a Turn Action (1 minute) is taken to unjam it."
+    "description": "Weapons with this Trait have a tendency to jam. The Mediator can apply this as a Setback, Tough Choice, or as appropriate when someone uses a weapon with this Trait. A weapon that is jammed cannot be used until a Turn Action (1 minute) is taken to unjam it.",
+    "page": 319
   },
   {
+    "id": "9fe62537-f7d5-40bc-b38a-49b61226c739",
+    "source": "core",
     "name": "melee",
-    "description": "A weapon with the Melee Trait is used in hand-to-hand combat such as Monomolecular Swords, Mech Close Combat Armaments, and Heavy Duty Mining Rigs. If something specifies Ranged Weapons then weapons with this Trait are not counted."
+    "description": "A weapon with the Melee Trait is used in hand-to-hand combat such as Monomolecular Swords, Mech Close Combat Armaments, and Heavy Duty Mining Rigs. If something specifies Ranged Weapons then weapons with this Trait are not counted.",
+    "page": 320
   },
   {
+    "id": "d9cb544c-85ce-46a0-a213-8390116fdbb9",
+    "source": "core",
     "name": "missile",
-    "description": "A weapon with this Trait typically attacks with some kind of self propelled ordnance or explosive projectile that it launches at a target."
+    "description": "A weapon with this Trait typically attacks with some kind of self propelled ordnance or explosive projectile that it launches at a target.",
+    "page": 320
   },
   {
+    "id": "e40d514e-a737-4e1f-93e7-6b52d6e2b83e",
+    "source": "core",
     "name": "multi-attack",
-    "description": "A weapon or NPC with this Trait can attack a number of times equal to the Multi-Attack value as a single Turn Action. For example, the 120mm Heavy Auto-cannon is Multi-Attack (3) so can make 3 attacks in a turn as a Turn Action. Resolve each attack separately."
+    "description": "A weapon or NPC with this Trait can attack a number of times equal to the Multi-Attack value as a single Turn Action. For example, the 120mm Heavy Auto-cannon is Multi-Attack (3) so can make 3 attacks in a turn as a Turn Action. Resolve each attack separately.",
+    "page": 320
   },
   {
+    "id": "7323dcff-687b-49ae-a81a-b8a7f0786147",
+    "source": "core",
     "name": "optics",
-    "description": "If something has the Optics Trait it is used to enhance vision in some way via technological means."
+    "description": "If something has the Optics Trait it is used to enhance vision in some way via technological means.",
+    "page": 320
   },
   {
+    "id": "8f8ba32b-6cb6-452a-b884-c07f1bc3bbe5",
+    "source": "core",
     "name": "overheat",
-    "description": "If a target is hit by a weapon with the Overheat Trait it cannot use any Systems, Modules, or Abilities that would generate Heat on its next turn. For example, it cannot attack with any weapons that have the Hot Trait nor can it Push."
+    "description": "If a target is hit by a weapon with the Overheat Trait it cannot use any Systems, Modules, or Abilities that would generate Heat on its next turn. For example, it cannot attack with any weapons that have the Hot Trait nor can it Push.",
+    "page": 320
   },
   {
+    "id": "8cfa3588-b2a8-4fe1-8f0a-4d47ed7f7f02",
+    "source": "core",
     "name": "personnel capacity",
-    "description": "Denotes how many individual People a Mech or Vehicle can safely transport. A Squad takes up 6 Personnel Capacity."
+    "description": "Denotes how many individual People a Mech or Vehicle can safely transport. A Squad takes up 6 Personnel Capacity.",
+    "page": 320
   },
   {
+    "id": "c6ba1dd7-7ab4-4500-9f9e-a12e5bc2d7b3",
+    "source": "core",
     "name": "pinning",
-    "description": "If a weapon with the Pinning Trait hits a creature it cannot move on its next turn. This represents it hitting the dirt to avoid the incoming fire. This does not affect Bio-Titans, Mechs, Vehicles or Meld."
+    "description": "If a weapon with the Pinning Trait hits a creature it cannot move on its next turn. This represents it hitting the dirt to avoid the incoming fire. This does not affect Bio-Titans, Mechs, Vehicles or Meld.",
+    "page": 320
   },
   {
+    "id": "a5f76ad6-13da-4ddb-9beb-1d70bda36832",
+    "source": "core",
     "name": "poison",
-    "description": "A creature hit by a poison weapon suffers a Major Injury."
+    "description": "A creature hit by a poison weapon suffers a Major Injury.",
+    "page": 320
   },
   {
+    "id": "7ac7e22a-1c17-4c7a-ab33-76df7cd9bdde",
+    "source": "core",
     "name": "rigging",
-    "description": "If a System, Module, Ability, or Pilot Equipment has the Rigging Trait, this allows it to perform the ‘Load’ Action letting it pick up and carry Scrap and salvage. It also allows use of the ‘Mount/Dismount’ Action allowing you to attach a System or Module onto a Mech."
+    "description": "If a System, Module, Ability, or Pilot Equipment has the Rigging Trait, this allows it to perform the ‘Load’ Action letting it pick up and carry Scrap and salvage. It also allows use of the ‘Mount/Dismount’ Action allowing you to attach a System or Module onto a Mech.",
+    "page": 320
   },
   {
+    "id": "04c1c5f7-df56-41ea-a2de-c390309250eb",
+    "source": "core",
     "name": "salvaging",
-    "description": "This Trait allows you to perform a wide range of Salvaging Abilities including Area Salvage, Mech Salvage, and Scrap."
+    "description": "This Trait allows you to perform a wide range of Salvaging Abilities including Area Salvage, Mech Salvage, and Scrap.",
+    "page": 320
   },
   {
+    "id": "275d62e5-370c-4938-8fbf-e7ecf30b03db",
+    "source": "core",
     "name": "scanner",
-    "description": "If something has the Scanner Trait, it is used to scan, detect, or electronically probe an area or object in some way."
+    "description": "If something has the Scanner Trait, it is used to scan, detect, or electronically probe an area or object in some way.",
+    "page": 320
   },
   {
+    "id": "c62a9197-5b56-4828-8900-d3eda9a97c49",
+    "source": "core",
     "name": "shield",
-    "description": "If a System, Module, Chassis, or Ability has the Shield Trait, it typically produces some kind of protective field or barrier when activated that protects the user from harm."
+    "description": "If a System, Module, Chassis, or Ability has the Shield Trait, it typically produces some kind of protective field or barrier when activated that protects the user from harm.",
+    "page": 320
   },
   {
+    "id": "ce30ec24-4cb3-42d7-8900-752f727e99b1",
+    "source": "core",
     "name": "silent",
-    "description": "If a System, Module, or Pilot Equipment has the Silent Trait, it makes no noise when it is used or when an attack is made with it."
+    "description": "If a System, Module, or Pilot Equipment has the Silent Trait, it makes no noise when it is used or when an attack is made with it.",
+    "page": 320
   },
   {
+    "id": "bf223567-5d86-4771-bd4a-8b31b882e353",
+    "source": "core",
     "name": "targeter",
-    "description": "Systems, Modules, and Abilities with the Targeter Trait have some means to automatically, electronically track targets enabling a range of effects from automatically hitting to being able to fire at multiple different targets."
+    "description": "Systems, Modules, and Abilities with the Targeter Trait have some means to automatically, electronically track targets enabling a range of effects from automatically hitting to being able to fire at multiple different targets.",
+    "page": 320
   },
   {
+    "id": "a94d606e-d2f1-4df5-8b30-06c2fcc852ff",
+    "source": "core",
     "name": "uses",
-    "description": "If something has the Uses Trait, it can be used a number of times as indicated by the number in brackets. For example, uses (3) would indicate it can be used 3 times. Once this amount is reduced to 0 it can no longer be used. Things with Uses recharge all of their uses following a week of Downtime."
+    "description": "If something has the Uses Trait, it can be used a number of times as indicated by the number in brackets. For example, uses (3) would indicate it can be used 3 times. Once this amount is reduced to 0 it can no longer be used. Things with Uses recharge all of their uses following a week of Downtime.",
+    "page": 320
   },
   {
+    "id": "8163a225-0b5a-4759-a853-4e30edcdeb8d",
+    "source": "core",
     "name": "unwieldy",
-    "description": "Systems and Modules with the Unwieldy Trait will sometimes get stuck, malfunction, become damaged during use, or leave the attacker exposed. The Mediator may impose these as a Setback when rolling Tough Choices or failures with the weapon."
+    "description": "Systems and Modules with the Unwieldy Trait will sometimes get stuck, malfunction, become damaged during use, or leave the attacker exposed. The Mediator may impose these as a Setback when rolling Tough Choices or failures with the weapon.",
+    "page": 321
   },
   {
+    "id": "a032ceef-d399-4b5a-a95b-39987cea61db",
+    "source": "core",
     "name": "vulnerable",
-    "description": "If a Mech, Creature, or Vehicle gains the Vulnerable Trait, it takes 2× damage from attacks that hit it."
+    "description": "If a Mech, Creature, or Vehicle gains the Vulnerable Trait, it takes 2× damage from attacks that hit it.",
+    "page": 321
   },
   {
+    "id": "40cb28ae-6474-4657-b443-e568bec769bd",
+    "source": "core",
     "name": "wield",
-    "description": "A System with the Wield Trait requires your Mech to have a System with the Rigging Trait to use it; as it must be held. This applies for each System with this Trait, for example to use an Armoured Shield and a Mech Melee Armament you need two Systems with the Rigging Trait."
+    "description": "A System with the Wield Trait requires your Mech to have a System with the Rigging Trait to use it; as it must be held. This applies for each System with this Trait, for example to use an Armoured Shield and a Mech Melee Armament you need two Systems with the Rigging Trait.",
+    "page": 321
   }
 ]

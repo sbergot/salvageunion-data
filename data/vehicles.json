@@ -1,0 +1,260 @@
+[
+  {
+    "id": "c1d53d2d-9abd-4a72-8e78-2674eb7d7329",
+    "source": "core",
+    "name": "Power Loader",
+    "description": "A pneumatically powered heavy loader for moving cargo.",
+    "systems": [
+      {
+        "name": "Locomotion System"
+      },
+      {
+        "name": "Rigging Arm",
+        "count": 2,
+        "range": "Close",
+        "damage": {
+          "amount": 1,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "melee"
+          },
+          {
+            "type": "load"
+          }
+        ]
+      }
+    ],
+    "techLevel": 1,
+    "salvageValue": 1,
+    "structurePoints": 1,
+    "page": 292
+  },
+  {
+    "id": "cc95bd31-30c2-4f47-b1b3-a881eb228c0d",
+    "source": "core",
+    "name": "Box Wheel",
+    "description": "A four seater box wheel vehicle designed for recreational driving. Not a lot of these nowadays.",
+    "systems": [
+      {
+        "name": "Locomotion System Box Wheel"
+      }
+    ],
+    "traits": [
+      {
+        "type": "personnel capacity",
+        "amount": 4
+      },
+      {
+        "type": "wheeled"
+      }
+    ],
+    "techLevel": 1,
+    "salvageValue": 1,
+    "structurePoints": 1,
+    "page": 292
+  },
+  {
+    "id": "b31e45ef-412a-46ae-bf21-83ef01477199",
+    "source": "core",
+    "name": "Fighting Box Wheel",
+    "description": "An improvised fighting vehicle, modified to carry heavy weaponry.",
+    "systems": [
+      {
+        "name": "Locomotion System"
+      },
+      {
+        "name": ".50 Cal Machine Gun",
+        "range": "Close",
+        "damage": {
+          "amount": 2,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "ballistic"
+          },
+          {
+            "type": "jamming"
+          },
+          {
+            "type": "pinning"
+          }
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "type": "personnel capacity",
+        "amount": 6
+      },
+      {
+        "type": "wheeled"
+      }
+    ],
+    "techLevel": 1,
+    "salvageValue": 2,
+    "structurePoints": 2,
+    "page": 293
+  },
+  {
+    "id": "92f28dba-4b4b-4e4d-81f8-bc9e279d92f5",
+    "source": "core",
+    "name": "Armoured Box Wheel",
+    "description": "An armoured, wheeled vehicle that carries personnel and provides fire support",
+    "systems": [
+      {
+        "name": "Locomotion System"
+      },
+      {
+        "name": "30mm Autocannon",
+        "range": "Medium",
+        "damage": {
+          "amount": 4,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "ballistic"
+          },
+          {
+            "type": "jamming"
+          }
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "type": "personnel capacity",
+        "amount": 18
+      },
+      {
+        "type": "wheeled"
+      }
+    ],
+    "techLevel": 2,
+    "salvageValue": 3,
+    "structurePoints": 4,
+    "page": 293
+  },
+  {
+    "id": "2ee55c7e-c8fb-406f-93f9-93a5b2a9ba37",
+    "source": "core",
+    "name": "Tank",
+    "description": "A conventional tracked, armoured battle vehicle.",
+    "systems": [
+      {
+        "name": "Locomotion System"
+      },
+      {
+        "name": "120mm Cannon",
+        "range": "Long",
+        "damage": {
+          "amount": 6,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "ballistic"
+          },
+          {
+            "type": "explosive",
+            "amount": 1
+          }
+        ]
+      }
+    ],
+    "techLevel": 3,
+    "salvageValue": 4,
+    "structurePoints": 6,
+    "page": 293
+  },
+  {
+    "id": "1e582dbd-3d2c-4408-a43c-d961ba63fb37",
+    "source": "core",
+    "name": "Rotorcraft",
+    "description": "A flying vehicle that can hover over terrain.",
+    "systems": [
+      {
+        "name": "Hover Locomotion System"
+      },
+      {
+        "name": "Rotary Mini Gun",
+        "range": "Medium",
+        "damage": {
+          "amount": 4,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "ballistic"
+          },
+          {
+            "type": "hot",
+            "amount": 1
+          },
+          {
+            "type": "jamming"
+          },
+          {
+            "type": "multi-attack",
+            "amount": 2
+          },
+          {
+            "type": "pinning"
+          }
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "type": "personnel capacity",
+        "amount": 6
+      },
+      {
+        "type": "hover"
+      }
+    ],
+    "techLevel": 4,
+    "salvageValue": 3,
+    "structurePoints": 3,
+    "page": 293
+  },
+  {
+    "id": "79640c87-2166-44fa-a9e5-396de3fe865a",
+    "source": "core",
+    "name": "Machine Gun Turret",
+    "description": "A static gun emplacement.",
+    "systems": [
+      {
+        "name": ".50 Cal Machine Gun",
+        "range": "Close",
+        "damage": {
+          "amount": 2,
+          "type": "SP"
+        },
+        "traits": [
+          {
+            "type": "ballistic"
+          },
+          {
+            "type": "jamming"
+          },
+          {
+            "type": "pinning"
+          }
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "type": "immobile"
+      }
+    ],
+    "techLevel": 1,
+    "salvageValue": 1,
+    "structurePoints": 2,
+    "page": 293
+  }
+]

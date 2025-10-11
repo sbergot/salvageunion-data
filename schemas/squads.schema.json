@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "https://salvageunion.com/schemas/squads.schema.json",
+  "title": "Salvage Union Squads",
+  "description": "NPC squads and groups in Salvage Union",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "description": "An NPC squad",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "name",
+      "source",
+      "page"
+    ],
+    "oneOf": [
+      {
+        "required": [
+          "hitPoints"
+        ]
+      },
+      {
+        "required": [
+          "structurePoints"
+        ]
+      }
+    ],
+    "properties": {
+      "id": {
+        "$ref": "shared/common.schema.json#/definitions/id"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Name of the squad"
+      },
+      "source": {
+        "$ref": "shared/enums.schema.json#/definitions/source"
+      },
+      "description": {
+        "type": "string",
+        "description": "Description of the squad"
+      },
+      "hitPoints": {
+        "$ref": "shared/common.schema.json#/definitions/hitPoints"
+      },
+      "structurePoints": {
+        "$ref": "shared/common.schema.json#/definitions/structurePoints"
+      },
+      "abilities": {
+        "type": "array",
+        "description": "Special abilities of this squad",
+        "items": {
+          "$ref": "shared/objects.schema.json#/definitions/action"
+        }
+      },
+      "page": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "Page number in the source book"
+      }
+    }
+  }
+}

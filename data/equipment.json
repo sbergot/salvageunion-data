@@ -1,5 +1,7 @@
 [
   {
+    "id": "2ad40fb2-ab1f-4a0e-b974-1abef4f5fbee",
+    "source": "core",
     "name": "First Aid Kit",
     "techLevel": 1,
     "traits": [
@@ -10,15 +12,19 @@
     ],
     "range": "Close",
     "description": "This set of bandages, plasters, gauze, painkillers, and antiseptics allows you to patch up wounds in the field. A target creature of your choice in Range regains 3 Hit Points. If they were on 0 Hit Points this restores them to consciousness with 3 HP.",
-    "notes": "*Union Safety Guideline 305.15 recommends each Union Crawler salvage crew equip a First Aid Kit for all active field work.*"
+    "notes": "*Union Safety Guideline 305.15 recommends each Union Crawler salvage crew equip a First Aid Kit for all active field work.*",
+    "page": 80
   },
   {
+    "id": "d985144a-8452-4f8c-a9f3-8d2eec5f8adf",
+    "source": "core",
     "name": "Handheld Riveting Gun",
     "techLevel": 1,
     "range": "Close",
     "description": "This pocket-sized riveting gun can make basic repairs in the field.",
     "actions": [
       {
+        "source": "core",
         "name": "Patch",
         "actionType": "Turn",
         "activationCost": 2,
@@ -26,6 +32,7 @@
         "description": "When activated, a target Mech or Vehicle of your choice in Range with at least 1 SP regains 2 SP."
       },
       {
+        "source": "core",
         "name": "System Repair",
         "actionType": "Short",
         "activationCost": 2,
@@ -33,22 +40,29 @@
         "description": "You repair a damaged Tech 1 System or Module in Range to Intact Condition. It is now usable."
       },
       {
+        "source": "core",
         "name": "Chassis Repair",
         "actionType": "Long",
         "activationCost": 4,
         "range": "Close",
         "description": "You repair a damaged Tech 1 Mech Chassis or Vehicle in Range to Intact Condition. It is now usable with 1 SP."
       }
-    ]
+    ],
+    "page": 80
   },
   {
+    "id": "9434d2e3-b9d3-4eb3-aef1-98d475f9106f",
+    "source": "core",
     "name": "Heavy Duty Torch",
     "techLevel": 1,
     "actionType": "Free",
     "range": "Close",
-    "description": "A handheld worker’s torch that runs on a rechargeable lithium-ion battery. This lights up an area in Close Range of the Pilot, allowing them to see more clearly in dark or foggy conditions."
+    "description": "A handheld worker’s torch that runs on a rechargeable lithium-ion battery. This lights up an area in Close Range of the Pilot, allowing them to see more clearly in dark or foggy conditions.",
+    "page": 80
   },
   {
+    "id": "da17db82-043d-4b00-91b4-308c1ac15753",
+    "source": "core",
     "name": "High Tensile Wire",
     "techLevel": 1,
     "traits": [
@@ -58,9 +72,12 @@
     ],
     "actionType": "Turn",
     "range": "Close",
-    "description": "Strong and durable wire, with multiple potential creative applications.This can be attached to anything within Range, allowing you to climb the wire. It can also be used to aid in the dragging of heavy objects."
+    "description": "Strong and durable wire, with multiple potential creative applications.This can be attached to anything within Range, allowing you to climb the wire. It can also be used to aid in the dragging of heavy objects.",
+    "page": 80
   },
   {
+    "id": "500de29e-3278-436a-aff5-841464a9fc82",
+    "source": "core",
     "name": "Improvised Explosive Device",
     "techLevel": 1,
     "traits": [
@@ -78,9 +95,12 @@
     "damage": {
       "type": "SP",
       "amount": 3
-    }
+    },
+    "page": 80
   },
   {
+    "id": "eab089ff-2a22-4343-9885-c5e97f795ae8",
+    "source": "core",
     "name": "Improvised Firearm",
     "techLevel": 1,
     "traits": [
@@ -96,9 +116,12 @@
     "damage": {
       "type": "HP",
       "amount": 3
-    }
+    },
+    "page": 80
   },
   {
+    "id": "bbeb531b-d0a6-437a-b5eb-6a98bb7cd93c",
+    "source": "core",
     "name": "Improvised Melee Weapon",
     "techLevel": 1,
     "traits": [
@@ -114,9 +137,12 @@
     "damage": {
       "type": "HP",
       "amount": 2
-    }
+    },
+    "page": 81
   },
   {
+    "id": "6492f3c1-656d-4efe-84f6-9fdb7492f6e0",
+    "source": "core",
     "name": "Portable Comms Unit",
     "techLevel": 1,
     "traits": [
@@ -126,9 +152,12 @@
     ],
     "actionType": "Free",
     "range": "Medium",
-    "description": "A handheld communications device that uses a radio frequency. This allows you to communicate with anything that has the Communicator Trait within Range."
+    "description": "A handheld communications device that uses a radio frequency. This allows you to communicate with anything that has the Communicator Trait within Range.",
+    "page": 81
   },
   {
+    "id": "a4ee8227-41c0-40b1-a825-2bca61256359",
+    "source": "core",
     "name": "Salvaging Tools",
     "techLevel": 1,
     "traits": [
@@ -136,9 +165,12 @@
         "type": "salvaging"
       }
     ],
-    "description": "This covers a wide array of tools, from jacks to hammers to angle grinders, that are used in salvaging. This allows your Pilot to salvage in the field, because sometimes you need to get your hands dirty."
+    "description": "This covers a wide array of tools, from jacks to hammers to angle grinders, that are used in salvaging. This allows your Pilot to salvage in the field, because sometimes you need to get your hands dirty.",
+    "page": 81
   },
   {
+    "id": "2a753c6a-d879-4508-9d0f-1f65b2a679ee",
+    "source": "core",
     "name": "Flare Gun",
     "techLevel": 2,
     "traits": [
@@ -149,15 +181,21 @@
     ],
     "actionType": "Turn",
     "range": "Far",
-    "description": "A launcher for a flare intended to be used as a distress signal, beacon, or in a pinch, to light up an area. When fired, the flare can be seen from anywhere up to Far Range. It lights up an area within Close Range of its target for 1 hour."
+    "description": "A launcher for a flare intended to be used as a distress signal, beacon, or in a pinch, to light up an area. When fired, the flare can be seen from anywhere up to Far Range. It lights up an area within Close Range of its target for 1 hour.",
+    "page": 81
   },
   {
+    "id": "689f8d83-f497-46eb-9b80-0df6d2ef35e5",
+    "source": "core",
     "name": "Holofoil Tent",
     "techLevel": 2,
     "actionType": "Short",
-    "description": "A large, sturdy but light tent made out of a strong, waterproof, and insulating material. The tent can comfortably fit up to five people. Everyone inside the tent suffers no damage or effect from dangerous environmental effects such as radiation storms, cold snaps, or acid rain, and half damage from severe environmental effects such as tornadoes and firestorms."
+    "description": "A large, sturdy but light tent made out of a strong, waterproof, and insulating material. The tent can comfortably fit up to five people. Everyone inside the tent suffers no damage or effect from dangerous environmental effects such as radiation storms, cold snaps, or acid rain, and half damage from severe environmental effects such as tornadoes and firestorms.",
+    "page": 81
   },
   {
+    "id": "404a6715-3998-4c03-bb40-bfec070fa3c5",
+    "source": "core",
     "name": "Pistol",
     "techLevel": 2,
     "traits": [
@@ -170,9 +208,12 @@
     "damage": {
       "type": "HP",
       "amount": 3
-    }
+    },
+    "page": 81
   },
   {
+    "id": "cb39be32-b1a9-4edc-a742-bd69edea77df",
+    "source": "core",
     "name": "Disposable Camera",
     "techLevel": 2,
     "traits": [
@@ -183,14 +224,18 @@
     ],
     "actionType": "Turn",
     "range": "Far",
-    "description": "A disposable camera that can take up to 30 pictures of anything within Range. These pictures can be developed during Downtime on your Union Crawler and used as a Keepsake."
+    "description": "A disposable camera that can take up to 30 pictures of anything within Range. These pictures can be developed during Downtime on your Union Crawler and used as a Keepsake.",
+    "page": 81
   },
   {
+    "id": "8a5d78d5-080f-4c60-a968-8ada9dab6643",
+    "source": "core",
     "name": "Portable Arc Welder",
     "techLevel": 2,
     "description": "This miniaturised Arc Welder allows you to make improved field repairs to a wide variety of Mechs and parts.",
     "actions": [
       {
+        "source": "core",
         "name": "Patch",
         "actionType": "Turn",
         "activationCost": 2,
@@ -198,6 +243,7 @@
         "description": "When activated, a target Mech or Vehicle of your choice in Range with at least 1 SP regains 3 SP."
       },
       {
+        "source": "core",
         "name": "System Repair",
         "actionType": "Short",
         "activationCost": 2,
@@ -205,15 +251,19 @@
         "description": "You repair a damaged Tech 1 or 2 System or Module in Range to Intact Condition. It is now usable."
       },
       {
+        "source": "core",
         "name": "Chassis Repair",
         "actionType": "Long",
         "activationCost": 4,
         "range": "Close",
         "description": "You repair a damaged Tech 1 or 2 Mech Chassis or Vehicle in Range to Intact Condition. It is now usable with 1 SP."
       }
-    ]
+    ],
+    "page": 82
   },
   {
+    "id": "712dbf42-141a-40b2-ac90-62a031937b87",
+    "source": "core",
     "name": "Red Laser Pistol",
     "techLevel": 2,
     "traits": [
@@ -226,9 +276,12 @@
     "damage": {
       "type": "HP",
       "amount": 3
-    }
+    },
+    "page": 82
   },
   {
+    "id": "0f88f194-8d10-4111-9004-bbad27252fdb",
+    "source": "core",
     "name": "Rigging Jack",
     "techLevel": 2,
     "traits": [
@@ -236,9 +289,12 @@
         "type": "rigging"
       }
     ],
-    "description": "This hydraulic jack can aid in the heavy lifting of salvage. The Rigging Jack can carry 1 Scrap upon it."
+    "description": "This hydraulic jack can aid in the heavy lifting of salvage. The Rigging Jack can carry 1 Scrap upon it.",
+    "page": 82
   },
   {
+    "id": "e68df609-a15c-46fe-9fb8-e5ce8832e2db",
+    "source": "core",
     "name": "Reinforced Polycarbonate Shield",
     "techLevel": 2,
     "traits": [
@@ -250,9 +306,12 @@
       }
     ],
     "actionType": "Reaction",
-    "description": "Typically used in breaching and boarding actions, as well as for riot control, this large shield protects its wearer from harm. When your Pilot is hit by an attack you may destroy the Reinforced Polycarbonate Shield to take half damage from the attack and suffer none of its effects."
+    "description": "Typically used in breaching and boarding actions, as well as for riot control, this large shield protects its wearer from harm. When your Pilot is hit by an attack you may destroy the Reinforced Polycarbonate Shield to take half damage from the attack and suffer none of its effects.",
+    "page": 81
   },
   {
+    "id": "db612219-9037-4f9a-8082-45cbdbe94a53",
+    "source": "core",
     "name": "Green Laser Rifle",
     "techLevel": 3,
     "traits": [
@@ -265,9 +324,12 @@
     "damage": {
       "type": "HP",
       "amount": 5
-    }
+    },
+    "page": 82
   },
   {
+    "id": "64b71a0e-6d75-40e4-8c64-f21e8e5eb7c2",
+    "source": "core",
     "name": "Grenade",
     "techLevel": 3,
     "traits": [
@@ -285,9 +347,12 @@
     "damage": {
       "type": "SP",
       "amount": 4
-    }
+    },
+    "page": 82
   },
   {
+    "id": "f9bc4550-dc66-4c4b-bbee-66aebdf464e6",
+    "source": "core",
     "name": "Hazard Protection Suit",
     "techLevel": 3,
     "traits": [
@@ -298,9 +363,12 @@
         "type": "heavy"
       }
     ],
-    "description": "This all-purpose bio-hazard suit can protect you from the ravages of the wastes once you are zipped up all comfy inside. The suit protects you from dangerous environmental hazards such as radiation storms, cold snaps, or acid rain. In addition, you take half damage from any severe environmental hazards such as tornadoes, firestorms, or bubbling pools of toxic waste."
+    "description": "This all-purpose bio-hazard suit can protect you from the ravages of the wastes once you are zipped up all comfy inside. The suit protects you from dangerous environmental hazards such as radiation storms, cold snaps, or acid rain. In addition, you take half damage from any severe environmental hazards such as tornadoes, firestorms, or bubbling pools of toxic waste.",
+    "page": 82
   },
   {
+    "id": "d09ee515-68fe-4b07-9154-327d1973e4e6",
+    "source": "core",
     "name": "Healing Bio-Foam",
     "techLevel": 3,
     "traits": [
@@ -312,25 +380,31 @@
     "description": "This canister contains an advanced form of bio-foam that when sprayed on a wound forms a rigid layer of biocomposite polymer, sealing the injury.",
     "actions": [
       {
+        "source": "core",
         "name": "Healing Spray",
         "actionType": "Turn",
         "range": "Close",
         "description": "A target creature of your choice in Range regains 5 Hit Points. If they were on 0 Hit Points this restores them to consciousness with 5 HP."
       },
       {
+        "source": "core",
         "name": "Suturing Spray",
         "actionType": "Short",
         "range": "Close",
         "description": "A target creature of your choice in Range heals a Minor Injury."
       }
-    ]
+    ],
+    "page": 83
   },
   {
+    "id": "e429e978-189f-47ef-be9c-a12d288f56b6",
+    "source": "core",
     "name": "Handheld Epoxy Canister",
     "techLevel": 3,
     "description": "This handy piece of equipment applies layers of metallic oxide which can repair and restore a diverse range of broken Mechs and parts.",
     "actions": [
       {
+        "source": "core",
         "name": "Patch",
         "actionType": "Turn",
         "activationCost": 2,
@@ -338,6 +412,7 @@
         "description": "You restore up to 4 SP to a target Mech in Range with at least 1 SP."
       },
       {
+        "source": "core",
         "name": "System Repair",
         "actionType": "Short",
         "activationCost": 2,
@@ -345,15 +420,19 @@
         "description": "You repair a damaged Tech 1, 2, or 3 System or Module in Range to Intact Condition."
       },
       {
+        "source": "core",
         "name": "Chassis Repair",
         "actionType": "Long",
         "activationCost": 4,
         "range": "Close",
         "description": "You repair a damaged Tech 1, 2, or 3 Mech Chassis or Vehicle in Range to Intact Condition. It is now usable with 1 SP."
       }
-    ]
+    ],
+    "page": 83
   },
   {
+    "id": "56db3ab2-9772-4948-8ec2-73e1e89493c3",
+    "source": "core",
     "name": "Hover Sled",
     "techLevel": 3,
     "traits": [
@@ -364,9 +443,12 @@
         "type": "hover"
       }
     ],
-    "description": "This floating sled allows you to store cargo on it that your Pilot would not otherwise be able to carry. It ignores any Difficult Terrain or obstacles as it moves, and has a Cargo Capacity of 4 and 3 SP."
+    "description": "This floating sled allows you to store cargo on it that your Pilot would not otherwise be able to carry. It ignores any Difficult Terrain or obstacles as it moves, and has a Cargo Capacity of 4 and 3 SP.",
+    "page": 83
   },
   {
+    "id": "ff1a6156-4348-4d87-bb3a-4cae7d846016",
+    "source": "core",
     "name": "Melee Armament",
     "techLevel": 3,
     "traits": [
@@ -382,9 +464,12 @@
     "damage": {
       "type": "HP",
       "amount": 4
-    }
+    },
+    "page": 83
   },
   {
+    "id": "53e84ba2-c94b-4fa3-8716-d2af1c90940d",
+    "source": "core",
     "name": "Portable Flamethrower",
     "techLevel": 3,
     "traits": [
@@ -407,9 +492,12 @@
     "damage": {
       "type": "HP",
       "amount": 2
-    }
+    },
+    "page": 83
   },
   {
+    "id": "74fa7e04-67d2-4b6b-8361-c66e6f8262f1",
+    "source": "core",
     "name": "Reactive Armour",
     "techLevel": 3,
     "traits": [
@@ -420,9 +508,12 @@
         "type": "heavy"
       }
     ],
-    "description": "Layers of reactive heavy carbonate protect a Pilot against various types of damage, from ballistic and laser damage to explosive and shrapnel damage. Reduce all damage your Pilot takes by 1 to a minimum of 1 when this Armour is equipped. Apply this after other modifiers."
+    "description": "Layers of reactive heavy carbonate protect a Pilot against various types of damage, from ballistic and laser damage to explosive and shrapnel damage. Reduce all damage your Pilot takes by 1 to a minimum of 1 when this Armour is equipped. Apply this after other modifiers.",
+    "page": 83
   },
   {
+    "id": "31d70046-b05b-4ca8-b9ad-20f717e144e2",
+    "source": "core",
     "name": "Rifle",
     "techLevel": 3,
     "traits": [
@@ -435,9 +526,12 @@
     "damage": {
       "type": "HP",
       "amount": 5
-    }
+    },
+    "page": 83
   },
   {
+    "id": "78ad938a-a674-40dd-ae0a-3e2887d3cd5c",
+    "source": "core",
     "name": "Shotgun",
     "techLevel": 3,
     "traits": [
@@ -450,9 +544,12 @@
     "damage": {
       "type": "HP",
       "amount": 4
-    }
+    },
+    "page": 84
   },
   {
+    "id": "6df32208-63b2-4777-9df5-9493ea3aa487",
+    "source": "core",
     "name": "Tranquiliser Rifle",
     "techLevel": 3,
     "traits": [
@@ -465,14 +562,18 @@
       }
     ],
     "range": "Medium",
-    "description": "This weapon fires a dart loaded with a strong anaesthetic that knocks out the target. If a creature is hit with the tranquiliser rifle they fall unconscious for 10 minutes. Making any attack with this weapon reduces its Uses by 1. This does not affect Bio-Titans or Meld."
+    "description": "This weapon fires a dart loaded with a strong anaesthetic that knocks out the target. If a creature is hit with the tranquiliser rifle they fall unconscious for 10 minutes. Making any attack with this weapon reduces its Uses by 1. This does not affect Bio-Titans or Meld.",
+    "page": 84
   },
   {
+    "id": "dc41d5e6-03d5-456c-b7c2-51cdc162112d",
+    "source": "core",
     "name": "Advanced Epoxy Applicator",
     "techLevel": 4,
     "description": "This specialised device scans and automatically applies layers of metallic oxide that fill and repair damaged Mechs based on their blueprints. This allows repair of some of the most advanced Mechs in production.",
     "actions": [
       {
+        "source": "core",
         "name": "Patch",
         "actionType": "Turn",
         "activationCost": 2,
@@ -480,6 +581,7 @@
         "description": "You restore up to 5 SP to a target Mech in Range with at least 1 SP."
       },
       {
+        "source": "core",
         "name": "System Repair",
         "actionType": "Short",
         "activationCost": 2,
@@ -487,15 +589,19 @@
         "description": "You repair a damaged Tech 1, 2, 3, or 4 System or Module in Range to Intact Condition. It is now usable."
       },
       {
+        "source": "core",
         "name": "Chassis Repair",
         "actionType": "Long",
         "activationCost": 4,
         "range": "Close",
         "description": "You repair a damaged Tech 1, 2, 3, or 4 Mech Chassis or Vehicle in Range to Intact Condition. It is now usable with 1 SP."
       }
-    ]
+    ],
+    "page": 84
   },
   {
+    "id": "c81e950b-e92c-4021-94af-b636fa86ca84",
+    "source": "core",
     "name": "Electro Grappling Hook",
     "techLevel": 4,
     "traits": [
@@ -504,16 +610,22 @@
       }
     ],
     "range": "Medium",
-    "description": "This gravitonic beam allows the user to attach themselves to surfaces at Range, allowing them to swing or pull themselves towards it. You may use it to attach to any surface within Range."
+    "description": "This gravitonic beam allows the user to attach themselves to surfaces at Range, allowing them to swing or pull themselves towards it. You may use it to attach to any surface within Range.",
+    "page": 84
   },
   {
+    "id": "471a3d90-c6eb-49f5-ba89-57b33c0c94fe",
+    "source": "core",
     "name": "Night Vision Goggles",
     "techLevel": 4,
     "actionType": "Free",
     "range": "Long",
-    "description": "An array of infravision optical mounts worn via a specialised helmet. When activated, your Pilot can see in darkness via a green tinted visor, in any area within Range. This effect lasts for 1 hour."
+    "description": "An array of infravision optical mounts worn via a specialised helmet. When activated, your Pilot can see in darkness via a green tinted visor, in any area within Range. This effect lasts for 1 hour.",
+    "page": 84
   },
   {
+    "id": "cf0a9d7c-d042-4556-9880-54e8adaa855e",
+    "source": "core",
     "name": "Portable Multi-Phase Shield",
     "techLevel": 4,
     "traits": [
@@ -524,9 +636,20 @@
     "actionType": "Reaction",
     "description": "Favoured by Sakura Wetwork teams, this miniature, wrist-mounted shield can protect you from harm by projecting a forcefield around your Pilot which will absorb some of the incoming attack.",
     "activationCost": 2,
-    "notes": "When you are hit by an attack you may activate your Portable Multi-Phase Shield to prevent the hit. \n\nROLL THE DIE:\n\n20: The attack deals no damage.\n\n11 - 19: The forcefield partially absorbs some of the hit, you take half damage from the attack.\n\n6 - 10: The forcefield absorbs the blow, but is destroyed. You take no damage from the attack and your Portable Multi-Phase Shield is destroyed.\n\n2 - 5: The force field fails and the attack hits as normal.\n\n1: The attack hits as normal and the shield overloads. Your Portable Multi-Phase Shield is destroyed."
+    "notes": "When you are hit by an attack you may activate your Portable Multi-Phase Shield to prevent the hit.",
+    "rollTable": {
+      "1": "The attack hits as normal and the shield overloads. Your Portable Multi-Phase Shield is destroyed.",
+      "20": "The attack deals no damage.",
+      "11-19": "The forcefield partially absorbs some of the hit, you take half damage from the attack.",
+      "6-10": "The forcefield absorbs the blow, but is destroyed. You take no damage from the attack and your Portable Multi-Phase Shield is destroyed.",
+      "2-5": "The force field fails and the attack hits as normal.",
+      "type": "standard"
+    },
+    "page": 85
   },
   {
+    "id": "b58ee707-f7f6-400c-8222-a056f4053d74",
+    "source": "core",
     "name": "Remote Mine",
     "techLevel": 4,
     "traits": [
@@ -545,9 +668,12 @@
       "type": "SP",
       "amount": 4
     },
-    "notes": "*Whist use of Remote Mines is allowed under Corporate Council policy; Union Safety Regulation 402.36 bans their use in civilian occupied territory.*"
+    "notes": "*Whist use of Remote Mines is allowed under Corporate Council policy; Union Safety Regulation 402.36 bans their use in civilian occupied territory.*",
+    "page": 85
   },
   {
+    "id": "31b5ecd6-582b-4841-ae67-13cee7cd8f5c",
+    "source": "core",
     "name": "Rocket Launcher",
     "techLevel": 4,
     "traits": [
@@ -571,9 +697,12 @@
     "damage": {
       "type": "SP",
       "amount": 5
-    }
+    },
+    "page": 85
   },
   {
+    "id": "6c01bc01-d9fa-4964-ab7f-ecadbdf5ee1f",
+    "source": "core",
     "name": "Sniper Rifle",
     "techLevel": 4,
     "traits": [
@@ -586,9 +715,12 @@
     "damage": {
       "type": "HP",
       "amount": 6
-    }
+    },
+    "page": 85
   },
   {
+    "id": "3952334c-fd0f-4a6d-bc2f-5dd66d4f3b56",
+    "source": "core",
     "name": "Monomolecular Sword",
     "techLevel": 5,
     "traits": [
@@ -607,12 +739,18 @@
     "damage": {
       "type": "SP",
       "amount": 4
-    }
+    },
+    "page": 85
   },
   {
+    "id": "ce8a3645-78f1-4e19-87e4-9a856d56e8d2",
+    "source": "core",
     "name": "Beta Fission Gun",
     "techLevel": 5,
     "traits": [
+      {
+        "type": "energy"
+      },
       {
         "type": "burn",
         "amount": 2
@@ -634,9 +772,12 @@
     "damage": {
       "type": "SP",
       "amount": 7
-    }
+    },
+    "page": 85
   },
   {
+    "id": "c45dd199-191f-46fe-a879-619c9a417383",
+    "source": "core",
     "name": "Polycarbonate Carapace Armour",
     "techLevel": 5,
     "traits": [
@@ -647,14 +788,18 @@
         "type": "heavy"
       }
     ],
-    "description": "Heavy layers of reinforced carbonate provide excellent protection in the field against all manner of harm one could find in the wastelands. Reduce all damage your Pilot takes by 2 to a minimum of 1 when this Armour is equipped. Apply this after other modifiers."
+    "description": "Heavy layers of reinforced carbonate provide excellent protection in the field against all manner of harm one could find in the wastelands. Reduce all damage your Pilot takes by 2 to a minimum of 1 when this Armour is equipped. Apply this after other modifiers.",
+    "page": 86
   },
   {
+    "id": "1d49194b-f2c9-4010-ab5f-346a7d4fa1ac",
+    "source": "core",
     "name": "Miniaturised Repair Arm",
     "techLevel": 5,
     "description": "This repair arm was developed by Stefanus to allow their field techs to make advanced repairs whilst in combat zones.",
     "actions": [
       {
+        "source": "core",
         "name": "Patch",
         "actionType": "Turn",
         "activationCost": 2,
@@ -662,6 +807,7 @@
         "description": "You restore up to 6 SP to a target Mech in Range with at least 1 SP."
       },
       {
+        "source": "core",
         "name": "System Repair",
         "actionType": "Short",
         "activationCost": 2,
@@ -669,15 +815,19 @@
         "description": "You repair a damaged Tech 1, 2, 3, 4, or 5 System or Module in Range to Intact Condition. It is now usable."
       },
       {
+        "source": "core",
         "name": "Chassis Repair",
         "actionType": "Long",
         "activationCost": 4,
         "range": "Close",
         "description": "You repair a damaged Tech 1, 2, 3, 4, or 5 Mech Chassis or Vehicle in Range to Intact Condition. It is now usable with 1 SP."
       }
-    ]
+    ],
+    "page": 86
   },
   {
+    "id": "fa8ed929-5a1f-4f39-8867-f6d38853e6ce",
+    "source": "core",
     "name": "Anti-Gravity Belt",
     "techLevel": 6,
     "traits": [
@@ -685,9 +835,12 @@
         "type": "hover"
       }
     ],
-    "description": "This belt straps onto your Pilot and allows them to defy the laws of physics. Whilst equipped, this allows your Pilot to levitate, moving over obstacles and terrain, and float onto buildings and other tall structures, gaining the Hover Trait for all of their movement."
+    "description": "This belt straps onto your Pilot and allows them to defy the laws of physics. Whilst equipped, this allows your Pilot to levitate, moving over obstacles and terrain, and float onto buildings and other tall structures, gaining the Hover Trait for all of their movement.",
+    "page": 86
   },
   {
+    "id": "53aa23f5-bfba-429b-9913-ffb90e498d1b",
+    "source": "core",
     "name": "Executive Corpo Suit",
     "techLevel": 6,
     "traits": [
@@ -698,9 +851,12 @@
         "type": "flashy"
       }
     ],
-    "description": "This pristine suit allows you to dress as a corpo executive from an arco of your choice. You cannot imagine how hard it is to find one of these in good condition within the wastelands."
+    "description": "This pristine suit allows you to dress as a corpo executive from an arco of your choice. You cannot imagine how hard it is to find one of these in good condition within the wastelands.",
+    "page": 86
   },
   {
+    "id": "a329b0e4-eb10-4c29-945a-59858399817d",
+    "source": "core",
     "name": "Orbital Lance Controller",
     "techLevel": 6,
     "traits": [
@@ -711,14 +867,18 @@
     "actionType": "Turn",
     "range": "Far",
     "description": "This specialised controller allows you to tap into one of the many defunct orbital satellites floating around the globe and call down a one-off laser strike against a target of your choice within Range. You must be able to identify the target, but you do not need to be able to directly see them.",
-    "notes": "There are a limited number of operational satellites in orbit, placed there by different corpos and other factions. None of them use compatible systems or codes. An Orbital Lance Controller has links to one operational satellite which has sufficient energy in its banks to fire three strikes. This means that an Orbital Lance Controller can only ever be used three times and does not regain it’s uses. \n\nThe laser strike that the Orbital Lance fires can be either focussed or wide. This allows you to specify any target of your choice from the huge to the small. You can choose a wide blast to destroy a settlement, or Mech convoy, or a pinpoint strike to kill a single person. The Orbital Lance only deals as much collateral damage as you want it to. The target you choose is killed or destroyed entirely.\n\nYou may only claim one Orbital Lance Controller per Union Crawler, others must be found in the wastelands. There are few of these just lying around!"
+    "notes": "There are a limited number of operational satellites in orbit, placed there by different corpos and other factions. None of them use compatible systems or codes. An Orbital Lance Controller has links to one operational satellite which has sufficient energy in its banks to fire three strikes. This means that an Orbital Lance Controller can only ever be used three times and does not regain it’s uses. \n\nThe laser strike that the Orbital Lance fires can be either focussed or wide. This allows you to specify any target of your choice from the huge to the small. You can choose a wide blast to destroy a settlement, or Mech convoy, or a pinpoint strike to kill a single person. The Orbital Lance only deals as much collateral damage as you want it to. The target you choose is killed or destroyed entirely.\n\nYou may only claim one Orbital Lance Controller per Union Crawler, others must be found in the wastelands. There are few of these just lying around!",
+    "page": 87
   },
   {
+    "id": "91bf46d8-fca2-4143-b136-667c40457594",
+    "source": "core",
     "name": "Nanite Repair Injector",
     "techLevel": 6,
     "description": "This portable gun injects the surface area of a damaged Mech part with nanobots which rapidly replicate and restore the damaged structure.",
     "actions": [
       {
+        "source": "core",
         "name": "Patch",
         "actionType": "Turn",
         "activationCost": 2,
@@ -726,6 +886,7 @@
         "description": "You restore up to 8 SP to a target Mech in Range with at least 1 SP."
       },
       {
+        "source": "core",
         "name": "System Repair",
         "actionType": "Short",
         "activationCost": 2,
@@ -733,12 +894,14 @@
         "description": "You repair any damaged System or Module in Range to Intact Condition. It is now usable."
       },
       {
+        "source": "core",
         "name": "Chassis Repair",
         "actionType": "Long",
         "activationCost": 4,
         "range": "Close",
         "description": "You repair any damaged Mech Chassis in Range to Intact Condition. It is now usable with 1 SP."
       }
-    ]
+    ],
+    "page": 87
   }
 ]

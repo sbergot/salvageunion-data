@@ -1,14 +1,37 @@
 {
-  "$schema": "https://json-schema.org/draft-07/schema",
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "https://salvageunion.com/schemas/ability-tree-requirements.schema.json",
+  "title": "Salvage Union Ability Tree Requirements",
+  "description": "Requirements for ability trees in Salvage Union",
   "type": "array",
   "items": {
     "type": "object",
+    "description": "Requirements for an ability tree",
     "additionalProperties": false,
+    "required": [
+      "id",
+      "tree",
+      "requirement",
+      "page"
+    ],
     "properties": {
-      "tree": { "$ref": "shared/enums.schema.json#/definitions/tree" },
+      "id": {
+        "$ref": "shared/common.schema.json#/definitions/id"
+      },
+      "tree": {
+        "$ref": "shared/enums.schema.json#/definitions/tree"
+      },
       "requirement": {
         "type": "array",
-        "items": { "$ref": "shared/enums.schema.json#/definitions/tree" }
+        "description": "List of ability tree names required to access this tree",
+        "items": {
+          "$ref": "shared/enums.schema.json#/definitions/tree"
+        }
+      },
+      "page": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "Page number in the source book"
       }
     }
   }

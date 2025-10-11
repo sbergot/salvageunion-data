@@ -1,0 +1,95 @@
+[
+  {
+    "id": "8bffb508-8c8f-418d-b6ce-f24f7266e41b",
+    "name": "Augmented",
+    "source": "core",
+    "description": "Nearly everyone on your Union Crawler is augmented in some way and your medical technicians are able to implement a variety of body modifications with ease.",
+    "abilities": [
+      {
+        "name": "Crawler Wide Augments",
+        "description": "Every Pilot on the Union Crawler may train any Pilot Ability from the Augment Ability Tree in addition to their other abilities. When you choose this Crawler Type during character creation all Pilots gain an additional Training Point which they may only spend on the Augment Ability Tree."
+      },
+      {
+        "name": "Union Crawler A.I. ",
+        "description": "Your Union Crawler has an advanced, intelligent A.I. on board which controls its core functions. The A.I. is jacked into the Corpo Net, once per Downtime you can ask them two questions about any topic and they will answer you truthfully. Name your A.I. and roll on the A.I. Personality Table for their personality"
+      }
+    ],
+    "page": 216
+  },
+  {
+    "id": "3d1d9f79-9c56-43fa-a4c9-6dfe10b9aac9",
+    "name": "Battle",
+    "source": "core",
+    "description": "Your Crawler is equipped to better defend itself in the wastelands. It bristles with armour and armaments and many on board are highly trained and effective fighters",
+    "abilities": [
+      {
+        "name": "Improved Armour and Armaments",
+        "description": "Your Union Crawler may mount two Weapons Systems in its Armament Bay instead of the usual one and make two attacks on its turn. In addition, the Crawler increases its Max SP by 5."
+      },
+      {
+        "name": "Grizzled Veteran",
+        "description": "A Grizzled Veteran is part of your Union Crawler. Name them and give them a Keepsake and Motto. They have 10 HP.\n The Grizzled Veteran helps to keep the Union Crawler Armoury well stocked. Pilots may take two pieces of Pilot Equipment from the Armoury instead of one per Downtime. In addition, once per Downtime they may answer a question relating to combat, military, strategy, and tactics.  They must provide a true answer to the question.\n When defending the Union Crawler, the Grizzled Veteran will fight alongside a Rifle Squad they have trained. They may also pilot a Mech in the defence of the Crawler, though they will not venture out into the wastes for those days are behind them."
+      }
+    ],
+    "page": 216
+  },
+  {
+    "id": "4e317382-046b-4a35-bce8-065c6d659a7b",
+    "name": "Engineering",
+    "source": "core",
+    "description": "Your Crawler is designed for maximum efficiency, functioning with the bare minimum of scrap expenditure thanks to the efforts of your well-oiled engineering team. ",
+    "abilities": [
+      {
+        "name": "Exceptional Engineering",
+        "description": "Your Union Crawler reduces its upkeep cost by 2 Scrap of its Tech Level. In addition add 2 free Scrap of it’s Tech Level to its Upgrade Pool at the start of each Downtime."
+      },
+      {
+        "name": "Research Engineer",
+        "description": "An engineer who is one step ahead of their peers has joined your Union Crawler. Name them and give them a Keepsake and Motto. They have 4 HP.\n Once per Downtime, the Research Engineer can be asked to craft a single Mech Chassis, System, or Module. This can be of a Tech Level one higher than the current Tech Level of your Union Crawler. For example, the Research Engineer could craft you a Tech 3 System if you were in a Tech 2 Union Crawler. You must provide them the correct amount of Scrap to do this and it follows all the normal crafting rules."
+      }
+    ],
+    "page": 216
+  },
+  {
+    "id": "d850cd93-f1cc-462b-bfa4-babfb0b2812e",
+    "name": "Exploratory",
+    "source": "core",
+    "description": "Exploratory Crawlers are designed to get to the hardest to reach places in the wasteland. They have unique and even bizarre locomotion systems that let them travel over terrain that range from spider-like legs and multiple articulated tracks to tunnelling maws and complex hover systems.",
+    "abilities": [
+      {
+        "name": "All Terrain Locomotion",
+        "description": "Your Union Crawler has the ability to easily traverse over a vast range of terrain types from mountain ranges and ash-filled plains to dense forests and muddy swamplands. It is never slowed down by Difficult Terrain. It can also safely cross bodies of water amphibiously."
+      },
+      {
+        "name": "Wasteland Explorer",
+        "description": "A Wasteland Explorer is part of your Union Crawler. Name them and if you wish, give them a Keepsake and Motto. They have 4 HP.\n Once per Downtime you may ask them two questions about an area of the map and they will provide true answers to both questions about the area. "
+      }
+    ],
+    "page": 217
+  },
+  {
+    "id": "46e44f56-be78-49d8-bfe4-32628ad4b8ef",
+    "name": "Trade Caravan",
+    "source": "core",
+    "description": "Your Crawler is geared towards trade in the wastelands, giving you better deals and attracting more folk willing to trade better quality goods",
+    "abilities": [
+      {
+        "name": "Imrpoved Trading Bay",
+        "description": "When you roll to see what is available in the Trading Bay use this table instead. Trade available is always one Tech Level higher than your Union Crawler and can be purchased for its Salvage Value as per the normal trading rules. Chassis, Systems, and Modules available for trade are determined randomly or by the Mediator.",
+        "rollTable": {
+          "1": "Re-roll on this table. If a 1 is rolled again nothing is available for trade this Downtime.",
+          "20": " An Intact Mech Chassis, System, and Module are all available for trade.",
+          "11-19": " An Intact Mech Chassis and an Intact System are available for trade.",
+          "6-10": " An Intact Mech Chassis and an Intact Module are available for trade. ",
+          "2-5": "An Intact System and an Intact Module are available for trade. ",
+          "type": "standard"
+        }
+      },
+      {
+        "name": "Savvy Trader",
+        "description": "A Savvy Trader is part of your Union Crawler.  Name them and give them a Keepsake and Motto. They have 4 HP.\n The Savvy Trader reduces the cost of any Mech Chassis, System, or Module available in the Improved Trading Bay by 1 Scrap to a minimum of one. "
+      }
+    ],
+    "page": 217
+  }
+]

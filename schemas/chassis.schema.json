@@ -1,69 +1,111 @@
 {
-  "$schema": "https://json-schema.org/draft-07/schema",
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "https://salvageunion.com/schemas/chassis.schema.json",
+  "title": "Salvage Union Mech Chassis",
+  "description": "Mech chassis definitions in Salvage Union",
   "type": "array",
   "items": {
     "type": "object",
+    "description": "A mech chassis",
     "additionalProperties": false,
+    "required": [
+      "id",
+      "name",
+      "source",
+      "page"
+    ],
     "properties": {
+      "id": {
+        "$ref": "shared/common.schema.json#/definitions/id"
+      },
       "name": {
-        "type": "string"
+        "type": "string",
+        "minLength": 1,
+        "description": "Name of the chassis"
+      },
+      "source": {
+        "$ref": "shared/enums.schema.json#/definitions/source"
       },
       "stats": {
-        "type": "object",
-        "additionalProperties": false,
-        "properties": {
-          "structure_pts": { "type": "number" },
-          "energy_pts": { "type": "number" },
-          "heat_cap": { "type": "number" },
-          "system_slots": { "type": "number" },
-          "module_slots": { "type": "number" },
-          "cargo_cap": { "type": "number" },
-          "tech_level": { "type": "number" },
-          "salvage_value": { "type": "number" }
+        "$ref": "shared/objects.schema.json#/definitions/stats"
+      },
+      "chassis_abilities": {
+        "type": "array",
+        "description": "Special abilities built into this chassis",
+        "items": {
+          "$ref": "shared/objects.schema.json#/definitions/action"
         }
       },
-      "chassis_ability": {
-        "type": "string"
-      },
       "description": {
-        "type": "string"
+        "type": "string",
+        "description": "Description of the chassis"
       },
       "patterns": {
         "type": "array",
+        "description": "Loadout patterns for this chassis",
         "items": {
           "type": "object",
+          "description": "A specific loadout pattern",
           "additionalProperties": false,
+          "required": [
+            "name"
+          ],
           "properties": {
             "name": {
-              "type": "string"
+              "type": "string",
+              "minLength": 1,
+              "description": "Name of the pattern"
             },
             "description": {
-              "type": "string"
+              "type": "string",
+              "description": "Description of the pattern"
+            },
+            "legalStarting": {
+              "type": "boolean",
+              "description": "Whether this pattern is legal for starting characters"
             },
             "systems": {
               "type": "array",
-              "items": { "type": "string" }
+              "description": "Systems included in this pattern",
+              "items": {
+                "type": "string"
+              }
             },
             "modules": {
               "type": "array",
-              "items": { "type": "string" }
+              "description": "Modules included in this pattern",
+              "items": {
+                "type": "string"
+              }
             },
             "drone": {
               "type": "object",
+              "description": "Drone loadout for patterns that include drones",
               "additionalProperties": false,
               "properties": {
                 "systems": {
                   "type": "array",
-                  "items": { "type": "string" }
+                  "description": "Systems for the drone",
+                  "items": {
+                    "type": "string"
+                  }
                 },
                 "modules": {
                   "type": "array",
-                  "items": { "type": "string" }
+                  "description": "Modules for the drone",
+                  "items": {
+                    "type": "string"
+                  }
                 }
               }
             }
           }
         }
+      },
+      "page": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "Page number in the source book"
       }
     }
   }

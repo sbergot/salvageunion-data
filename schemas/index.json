@@ -1,0 +1,249 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Salvage Union Data Schema Catalog",
+  "description": "Catalog of all available schemas in the salvageunion-data repository",
+  "version": "1.0.0",
+  "generated": "2025-10-09T19:45:14.554Z",
+  "schemas": [
+    {
+      "id": "abilities",
+      "title": "Salvage Union Abilities",
+      "description": "Pilot abilities and skills in Salvage Union",
+      "dataFile": "data/abilities.json",
+      "schemaFile": "schemas/abilities.schema.json",
+      "itemCount": 95,
+      "requiredFields": [
+        "name",
+        "tree",
+        "source",
+        "level",
+        "page"
+      ]
+    },
+    {
+      "id": "ability-tree-requirements",
+      "title": "Salvage Union Ability Tree Requirements",
+      "description": "Requirements for ability trees in Salvage Union",
+      "dataFile": "data/ability-tree-requirements.json",
+      "schemaFile": "schemas/ability-tree-requirements.schema.json",
+      "itemCount": 20,
+      "requiredFields": [
+        "tree",
+        "requirement",
+        "page"
+      ]
+    },
+    {
+      "id": "bio-titans",
+      "title": "Salvage Union Bio-Titans",
+      "description": "Massive bio-engineered titan creatures in Salvage Union",
+      "dataFile": "data/bio-titans.json",
+      "schemaFile": "schemas/bio-titans.schema.json",
+      "itemCount": 6,
+      "requiredFields": [
+        "name",
+        "source",
+        "structurePoints",
+        "page"
+      ]
+    },
+    {
+      "id": "chassis",
+      "title": "Salvage Union Mech Chassis",
+      "description": "Mech chassis definitions in Salvage Union",
+      "dataFile": "data/chassis.json",
+      "schemaFile": "schemas/chassis.schema.json",
+      "itemCount": 30,
+      "requiredFields": [
+        "name",
+        "source",
+        "page"
+      ]
+    },
+    {
+      "id": "classes",
+      "title": "Salvage Union Classes",
+      "description": "Character classes in Salvage Union",
+      "dataFile": "data/classes.json",
+      "schemaFile": "schemas/classes.schema.json",
+      "itemCount": 11,
+      "requiredFields": [
+        "name",
+        "source",
+        "type",
+        "page"
+      ]
+    },
+    {
+      "id": "crawlers",
+      "title": "Salvage Union Crawlers",
+      "description": "Crawler vehicles in Salvage Union",
+      "dataFile": "data/crawlers.json",
+      "schemaFile": "schemas/crawlers.schema.json",
+      "itemCount": 5,
+      "requiredFields": [
+        "name",
+        "source",
+        "page"
+      ]
+    },
+    {
+      "id": "creatures",
+      "title": "Salvage Union Creatures",
+      "description": "Creatures and wildlife in Salvage Union",
+      "dataFile": "data/creatures.json",
+      "schemaFile": "schemas/creatures.schema.json",
+      "itemCount": 6,
+      "requiredFields": [
+        "name",
+        "source",
+        "hitPoints",
+        "page"
+      ]
+    },
+    {
+      "id": "drones",
+      "title": "Salvage Union Drones",
+      "description": "Autonomous drones in Salvage Union",
+      "dataFile": "data/drones.json",
+      "schemaFile": "schemas/drones.schema.json",
+      "itemCount": 9,
+      "requiredFields": [
+        "name",
+        "source",
+        "structurePoints",
+        "page"
+      ]
+    },
+    {
+      "id": "equipment",
+      "title": "Salvage Union Equipment",
+      "description": "Pilot equipment and gear in Salvage Union",
+      "dataFile": "data/equipment.json",
+      "schemaFile": "schemas/equipment.schema.json",
+      "itemCount": 44,
+      "requiredFields": [
+        "name",
+        "source",
+        "page"
+      ]
+    },
+    {
+      "id": "keywords",
+      "title": "Salvage Union Keywords",
+      "description": "Game keywords and terminology in Salvage Union",
+      "dataFile": "data/keywords.json",
+      "schemaFile": "schemas/keywords.schema.json",
+      "itemCount": 73,
+      "requiredFields": [
+        "name",
+        "source",
+        "page"
+      ]
+    },
+    {
+      "id": "meld",
+      "title": "Salvage Union Meld",
+      "description": "Meld-infected creatures in Salvage Union",
+      "dataFile": "data/meld.json",
+      "schemaFile": "schemas/meld.schema.json",
+      "itemCount": 5,
+      "requiredFields": [
+        "name",
+        "source",
+        "page"
+      ]
+    },
+    {
+      "id": "modules",
+      "title": "Salvage Union Modules",
+      "description": "Mech modules in Salvage Union",
+      "dataFile": "data/modules.json",
+      "schemaFile": "schemas/modules.schema.json",
+      "itemCount": 61,
+      "requiredFields": [
+        "name",
+        "page"
+      ]
+    },
+    {
+      "id": "npcs",
+      "title": "Salvage Union NPCs",
+      "description": "Non-player characters and people in Salvage Union",
+      "dataFile": "data/npcs.json",
+      "schemaFile": "schemas/npcs.schema.json",
+      "itemCount": 6,
+      "requiredFields": [
+        "name",
+        "source",
+        "hitPoints",
+        "page"
+      ]
+    },
+    {
+      "id": "squads",
+      "title": "Salvage Union Squads",
+      "description": "NPC squads and groups in Salvage Union",
+      "dataFile": "data/squads.json",
+      "schemaFile": "schemas/squads.schema.json",
+      "itemCount": 9,
+      "requiredFields": [
+        "name",
+        "source",
+        "page"
+      ]
+    },
+    {
+      "id": "systems",
+      "title": "Salvage Union Systems",
+      "description": "Mech systems in Salvage Union",
+      "dataFile": "data/systems.json",
+      "schemaFile": "schemas/systems.schema.json",
+      "itemCount": 99,
+      "requiredFields": [
+        "name",
+        "page"
+      ]
+    },
+    {
+      "id": "tables",
+      "title": "Salvage Union Tables",
+      "description": "Random tables and roll tables in Salvage Union",
+      "dataFile": "data/tables.json",
+      "schemaFile": "schemas/tables.schema.json",
+      "itemCount": 14,
+      "requiredFields": [
+        "name",
+        "source",
+        "page"
+      ]
+    },
+    {
+      "id": "traits",
+      "title": "Salvage Union Traits",
+      "description": "Traits and special properties in Salvage Union",
+      "dataFile": "data/traits.json",
+      "schemaFile": "schemas/traits.schema.json",
+      "itemCount": 43,
+      "requiredFields": [
+        "name",
+        "source",
+        "page"
+      ]
+    },
+    {
+      "id": "vehicles",
+      "title": "Salvage Union Vehicles",
+      "description": "Conventional vehicles in Salvage Union",
+      "dataFile": "data/vehicles.json",
+      "schemaFile": "schemas/vehicles.schema.json",
+      "itemCount": 7,
+      "requiredFields": [
+        "name",
+        "source",
+        "structurePoints",
+        "page"
+      ]
+    }
+  ]
+}

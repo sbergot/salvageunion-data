@@ -1,10 +1,21 @@
 {
-  "$schema": "https://json-schema.org/draft-07/schema",
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "https://salvageunion.com/schemas/shared/enums.schema.json",
+  "title": "Salvage Union Enumerations",
+  "description": "Shared enumeration definitions for Salvage Union game data",
   "definitions": {
+    "source": {
+      "type": "string",
+      "enum": ["core"],
+      "description": "The source book or expansion for this content"
+    },
     "range": {
-      "enum": ["Close", "Medium", "Long", "Far", "Close/Long"]
+      "type": "string",
+      "enum": ["Close", "Medium", "Long", "Far", "Close/Long"],
+      "description": "Range bands for abilities and weapons"
     },
     "actionType": {
+      "type": "string",
       "enum": [
         "Passive",
         "Free",
@@ -13,9 +24,12 @@
         "Short",
         "Long",
         "DownTime"
-      ]
+      ],
+      "description": "Type of action required to use an ability"
     },
     "tree": {
+      "type": "string",
+      "description": "Ability tree name",
       "enum": [
         "Mechanical Knowledge",
         "Mech-Tech",
@@ -55,6 +69,8 @@
       ]
     },
     "class": {
+      "type": "string",
+      "description": "Character class name",
       "enum": [
         "Engineer",
         "Hacker",
@@ -70,6 +86,8 @@
       ]
     },
     "ability": {
+      "type": "string",
+      "description": "Ability name",
       "enum": [
         "Engineering Expertise",
         "Talk Shop",

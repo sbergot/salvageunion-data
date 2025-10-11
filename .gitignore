@@ -6,15 +6,22 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+.agent
+.rules
+.legacy
 
 node_modules
 dist
 dist-ssr
 *.local
 
+# Generated documentation snippets
+.docs-snippets
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
+!.vscode/settings.json
 .idea
 .DS_Store
 *.suo
